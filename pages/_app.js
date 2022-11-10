@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
-          <Script type="application/ld+json" strategy="afterInteractive" id="schema">
+          <script type="application/ld+json" id="schema">
         {
           JSON.stringify({
             "@context": "https://schema.org",
@@ -74,7 +74,7 @@ function MyApp({ Component, pageProps }) {
             ]
           })
         }
-      </Script>
+      </script>
     </Head>
           
     <Script id="google-tag-manager" strategy="afterInteractive">
