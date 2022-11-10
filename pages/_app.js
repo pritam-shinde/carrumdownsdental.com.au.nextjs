@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
-    </Head>
           <Script type="application/ld+json" strategy="afterInteractive" id="schema">
         {
           JSON.stringify({
@@ -76,6 +75,8 @@ function MyApp({ Component, pageProps }) {
           })
         }
       </Script>
+    </Head>
+          
     <Script id="google-tag-manager" strategy="afterInteractive">
       {
         `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
