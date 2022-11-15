@@ -89,7 +89,7 @@ const TermsNConditions = () => {
                     </Box>
                   </Box>
                   <Box className="mt-4">
-                    <SectionalHeading variant="h2" align="left" title="*New Patient Offer – Scale & Clean with Full Check-up – Terms and Conditions" color="var(--dark-blue)" />
+                    <SectionalHeading variant="h2" align="left" title="*New Patient 199 Offer – Scale & Clean with Full Check-up – Terms and Conditions" color="var(--dark-blue)" />
                     <Box>
                       <List>
                         {
