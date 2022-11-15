@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" /
+      <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
     </Head>
         
           <script type="application/ld+json">{`
