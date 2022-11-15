@@ -89,11 +89,11 @@ const TermsNConditions = () => {
                     </Box>
                   </Box>
                   <Box className="mt-4">
-                    <SectionalHeading variant="h2" align="left" title="*New Patient 199 Offer – Scale & Clean with Full Check-up – Terms and Conditions" color="var(--dark-blue)" />
+                    <SectionalHeading variant="h2" align="left" title="*New Patient Offer – Scale & Clean with Full Check-up – Terms and Conditions" color="var(--dark-blue)" />
                     <Box>
                       <List>
                         {
-                          ["This offer applies to New Patient dental appointments only and valid until Dec 2022", "The offer is only available on the condition of the availability of appointments with participating practitioners.", "Service is dependent on necessity. This service will only be given to patients who clinically need it.", "Independent practitioners will provide the dental services and procedures at our dental clinics.", "Xray or other Dental procedures are not included in this offer.", "Patients eligible for this offer are those who practice good oral hygiene, such as brushing twice a day, flossing, and regular dental checkups. If you require several sittings to get your teeth thoroughly cleaned, this offer will not be available for you.", "This offer cannot be redeemed or substituted for cash. In addition, it cannot be used together with other offers or Government schemes."].map(item => <ListItem key={item}>
+                          ["Please mention NEW-PATIENT-199-OFFER to avail this offer","This offer applies to New Patient dental appointments only and valid until Dec 2022", "The offer is only available on the condition of the availability of appointments with participating practitioners.", "Service is dependent on necessity. This service will only be given to patients who clinically need it.", "Independent practitioners will provide the dental services and procedures at our dental clinics.", "Xray or other Dental procedures are not included in this offer.", "Patients eligible for this offer are those who practice good oral hygiene, such as brushing twice a day, flossing, and regular dental checkups. If you require several sittings to get your teeth thoroughly cleaned, this offer will not be available for you.", "This offer cannot be redeemed or substituted for cash. In addition, it cannot be used together with other offers or Government schemes."].map(item => <ListItem key={item}>
                             <ListItemIcon>
                               <CheckCircleOutline style={{ color: 'var(--dark-blue)' }} />
                             </ListItemIcon>
