@@ -80,12 +80,12 @@ const InvisalignOpenDay = ({data}) => {
                           <Container maxWidth="xxl" className="p-0">
                             <SectionalHeading variant="h2" title="Invisalign Open Day .. Register your interest" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                             <Typography className='para'>Book your consultation for FREE at our Invisalign open day.</Typography>
-                            <Typography className='para'>We're so excited about our next Open Day! We want you to join us.</Typography>
+                            <Typography className='para'>We&apos;re so excited about our next Open Day! We want you to join us.</Typography>
                             <Typography className='para'>Invisalign is a clear, comfortable alternative to braces. Along with aligning your teeth, it also makes them straighter and more beautiful.</Typography>
                             <Typography className='para'>Would you like to learn more about Invisalign? Well, we are inviting you to our Invisalign Open Day.</Typography>
                             <Typography className='para'>At the Open Day, our dentist will make a complete smile assessment to create an individualised and tailored treatment plan that is uniquely for you. </Typography>
                             <Typography className='para'>Free Invisalign Open Day coming soon….</Typography>
-                            <Typography className='para'>We only have a few appointments available, which means that we're prioritising existing patients, their friends and family. </Typography>
+                            <Typography className='para'>We only have a few appointments available, which means that we&apos;re prioritising existing patients, their friends and family. </Typography>
                             
                           </Container>
                         </section>
@@ -95,7 +95,7 @@ const InvisalignOpenDay = ({data}) => {
                               <Box>
                                 <SectionalHeading variant="h2" title="Why choose us for Invisalign?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                                 <Typography className='para'>Our dentists have done the special training with Invisalign and have the experience and skills in providing Invisalign to many of our happy patients.</Typography>
-                                <Typography className='para'>If you're a patient looking for Invisalign treatment, you have the assurance of our professional knowledge and skills. We'll help transform your smile.</Typography>
+                                <Typography className='para'>If you&apos;re a patient looking for Invisalign treatment, you have the assurance of our professional knowledge and skills. We&apos;ll help transform your smile.</Typography>
                               </Box>
                               <Box mt={3}>
                                 <SectionalHeading variant="h2" title="Why attend an Invisalign Open Day?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
@@ -132,9 +132,9 @@ const InvisalignOpenDay = ({data}) => {
                             <Box mt={3}>
                               <Grid container spacing={5}>                     
                                 <Grid item xs={12}>
-                                  <Typography className='para'>The 30 minutes’ free appointment includes the following:</Typography>
+                                  <Typography className='para'>The 30 minutes&apos; free appointment includes the following:</Typography>
                                   <SectionalHeading variant="h3" title="Bubbles and nibbles on arrival" color="var(--dark-blue)" />
-                                  <Typography className='para'>When you come in for your consultation, we'll make you feel right at home by offering a glass of sparkling and some delicious snacks. We hope this will help you feel relaxed, unwind, and celebrate the potential of a new smile</Typography>
+                                  <Typography className='para'>When you come in for your consultation, we&apos;ll make you feel right at home by offering a glass of sparkling and some delicious snacks. We hope this will help you feel relaxed, unwind, and celebrate the potential of a new smile</Typography>
                                   <SectionalHeading variant="h3" title="Free initial consultation with an expert" color="var(--dark-blue)" />
                                   <Box mt={3}>                               
                                     <Box>
