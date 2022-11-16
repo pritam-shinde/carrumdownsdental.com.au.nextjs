@@ -117,10 +117,17 @@ const Navbar = () => {
                       <a className='nav-link dropdown-item'>VENEERS</a>
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item dropdown dropdown3">
                     <Link href="/service/teeth-aligners/">
-                      <a className='nav-link dropdown-item'>INVISALIGN</a>
+                      <a className='nav-link dropdown-toggle text-dark" aria-labelledby="navbarDropdown" aria-haspopup="true" role="button" aria-pressed="true" style={{ color: "#000 !important" }}'>INVISALIGN</a>
                     </Link>
+                           <ul className="dropdown-menu dropdown-menu-3 p-2 border-0">
+                              <li className="nav-item">
+                                <Link className='nav-link' href="/service/invisalign-open-day/">
+                                  <a className="nav-link dropdown-item">INVISALIGN OPEN DAY</a>
+                                </Link>
+                              </li>                           
+                            </ul>                    
                   </li>
                   <li className="nav-item">
                     <Link href="/service/root-canal/">
