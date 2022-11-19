@@ -4,7 +4,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                  <script type="application/ld+json">
+                        <script type="application/ld+json">
                     {`{
                             "@context": "https://schema.org",
                             "@type": "Dentist",
@@ -13,7 +13,7 @@ export default function Document() {
                             "@id": "",
                             "url": "https://carrumdownsdental.com.au/",
                             "telephone": "0397821200",
-                            "priceRange": "$$",
+                            "priceRange": "$$"
                             "address": {
                                 "@type": "PostalAddress",
                                 "streetAddress": "Shop, T5/100 Hall Rd",
@@ -21,18 +21,18 @@ export default function Document() {
                                 "addressRegion": "VIC",
                                 "postalCode": "3201",
                                 "addressCountry": "AU"
-                            },
+                            }
                         "aggregateRating":
                         {
                                 "@type": "AggregateRating",
                                 "ratingValue": "4.9",
                                 "reviewCount": "91"
-                        },
+                        }
                             "geo": {
                                 "@type": "GeoCoordinates",
                                 "latitude": -38.0886367,
                                 "longitude": 145.1825171
-                            },
+                            }
                             "openingHoursSpecification": [{
                                 "@type": "OpeningHoursSpecification",
                                 "dayOfWeek": [
@@ -56,7 +56,9 @@ export default function Document() {
                                 "https://www.youtube.com/channel/UCqG1nDBsBULhWGi00Twe7rg",
                                 "https://www.pinterest.com.au/CarrumDownsGrp/"
                             ] 
-                        }`}
+                        }`
+
+                    }
                 </script>
             </Head>
             <body>
