@@ -6,7 +6,7 @@ export default function Document() {
             <Head>
                         <script type="application/ld+json">
                     {`{
-                            "@context": "https://schema.org",
+                            "@context": "https://schema.org"
                             "@type": "Dentist",
                             "name": "Carrum Downs Dental Group",
                             "image": "https://d3kk1vdl9fuovr.cloudfront.net/wp-content/uploads/2016/06/CD_logo_lanscape.png",
