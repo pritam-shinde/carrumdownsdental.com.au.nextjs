@@ -223,7 +223,7 @@ const WisdomTeeth = ({ data }) => {
                               <SectionalHeading variant="h5" color="var(--dark-blue)" title="Contact Us" align="center" />
                             </Box>
                             <Box p={3}>
-                              <form method='post' action='https://formsubmit.co/d53a69bc539b96c63b2afdcb0767af8d' encType="multipart/form-data">
+                              <form method='post' action='https://formsubmit.co/team@carrumdownsdental.com.au' encType="multipart/form-data">
                                 <div className='row'>
                                   <div className='col-12'>
                                     <div className='form-group'>
