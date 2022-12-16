@@ -34,7 +34,24 @@ const Header = () => {
 
   return (
     <>
+      
       <header className={Styles.header}>
+      <Container className='p-0' maxWidth="xxl" style={{position: 'relative', zIndex:10000}}>
+        <Marquee speed={50} className='bg-white'>
+          <span className='ms-5 me-5 text-danger'>
+            <b>We are OPEN throughout the holiday season for your family Emergencies. <a href="tel:03-9782 1200">Call us</a> or Click on <Link href="/book-now/">BOOK NOW</Link></b>
+          </span>
+          <span className='ms-5 me-5 text-danger'>
+            <b>We are OPEN throughout the holiday season for your family Emergencies. <a href="tel:03-9782 1200">Call us</a> or Click on <Link href="/book-now/">BOOK NOW</Link></b>
+          </span>
+          <span className='ms-5 me-5 text-danger'>
+            <b>We are OPEN throughout the holiday season for your family Emergencies. <a href="tel:03-9782 1200">Call us</a> or Click on <Link href="/book-now/">BOOK NOW</Link></b>
+          </span>
+          <span className='ms-5 me-5 text-danger'>
+            <b>We are OPEN throughout the holiday season for your family Emergencies. <a href="tel:03-9782 1200">Call us</a> or Click on <Link href="/book-now/">BOOK NOW</Link></b>
+          </span>
+        </Marquee>
+      </Container>
         <Container maxWidth="xxl" className='px-0 px-lg-2'>
           <Grid container>
             <Grid item xs={12} md={10} className="mx-auto">
