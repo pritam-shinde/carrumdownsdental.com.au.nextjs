@@ -13,21 +13,6 @@ function MyApp({ Component, pageProps }) {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);
   
-  window.myInfo=()=>{
-const developer = [
-  {Developer:"Aditya Nitin Burse (Jain)",
-  Designation:"Front-End Developer",
-  Employer:"Nonstop Corporation"},
-  {
-     Developer:"Ankit Shahu",
-  Designation:"Full Stack Developer",
-  Employer:"Nonstop Corporation"
-  }
-  
-] 
-console.log(developer)
-}
-  
   return (<>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
