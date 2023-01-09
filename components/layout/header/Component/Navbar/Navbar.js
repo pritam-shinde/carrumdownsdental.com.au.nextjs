@@ -10,14 +10,17 @@ import { BlueFilledBtn, BlueOulinedBtn, IconBtn } from '../../../../components';
 import DropdownMenu from './Components/DropdownMenu';
 
 const Navbar = () => {
-  const [width, setWidth] = useState();
+  const [width, setWidth] = useState(1200);
   const [clicked, setClicked] = useState(false);
   const [aboutDropdown, setAboutDropdown] = useState(false);
   const [servicesDropdown, setServiceDropdown] = useState(false);
   const router = useRouter()
 
   useEffect(() => {
-    setWidth(window.innerWidth)
+    setWidth(window.innerWidth);
+    window.addEventListener('resize',()=>{
+      setWidth(window.innerWidth);
+    })
   }, [width])
 
   const closeMobileMenu = () => {
