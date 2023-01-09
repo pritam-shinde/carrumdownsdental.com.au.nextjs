@@ -9,24 +9,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
-   useEffect(() => {
-    window.myInfo = () => {
-      const developer = [
-        {
-          Developer: "Aditya Nitin Burse (Jain)",
-          Designation: "Front-End Developer",
-          Employer: "Nonstop Corporation"
-        },
-        {
-          Developer: "Ankit Shahu",
-          Designation: "Full Stack Developer",
-          Employer: "Nonstop Corporation"
-        }
-
-      ]
-      console.log(developer)
-    }
-  })
+  
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);
