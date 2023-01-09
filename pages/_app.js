@@ -10,6 +10,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
+ 
   useEffect(() => {
     window.myInfo = () => {
       const developer = [
@@ -39,18 +40,69 @@ function MyApp({ Component, pageProps }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
     </Head>
-    
-    
-
     <Script id="google-tag-manager" strategy="afterInteractive">
+    {
+      `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5CWG7SV');`
+    }
+  </Script>
+    
+    <script type="application/ld+json">
       {
-        `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5CWG7SV');`
+        `{
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Carrum Downs Dental Group",
+      "image": "https://d3kk1vdl9fuovr.cloudfront.net/wp-content/uploads/2016/06/CD_logo_lanscape.png",
+      "@id": "",
+      "url": "https://carrumdownsdental.com.au${router.pathname}/",
+      "telephone": "0397821200",
+      "priceRange": "$$",
+      "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Shop, T5/100 Hall Rd",
+            "addressLocality": "Carrum Downs",
+            "addressRegion": "VIC",
+            "postalCode": "3201",
+            "addressCountry": "AU"
+      },
+      "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -38.0886367,
+            "longitude": 145.1825171
+      },
+      "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+"Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+
+     
       }
-    </Script>
+],
+      "sameAs": [
+            "https://www.facebook.com/CarrumDownsDental/",
+            "https://twitter.com/CarrumDownsGrp",
+            "https://www.instagram.com/cddentalgroup/",
+            "https://www.youtube.com/channel/UCqG1nDBsBULhWGi00Twe7rg",
+            "https://www.pinterest.com.au/CarrumDownsGrp/"
+      ] 
+     }`
+
+      }
+    </script>
+
+   
 
     <noscript dangerouslySetInnerHTML={{
       __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CWG7SV"
