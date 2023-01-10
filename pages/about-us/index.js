@@ -29,7 +29,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Carrum Downs Dental | About Us | Carrum Downs Dentist</title>
+        <title>Carrum Downs Family Dental | About Us | Carrum Downs Dentist</title>
         <meta name="description" content="Dentists in Carrum Downs Dental Group treat their patients with warm & friendly manner. We provide a treatment plan & cost to our patients before the treatment." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/about-us/" />

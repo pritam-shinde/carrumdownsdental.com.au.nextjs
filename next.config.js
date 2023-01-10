@@ -7,11 +7,6 @@ const nextConfig = {
       "https://pritams3.sg-host.com/"
     ]
   },
-  experimental:{
-    images:{
-      unoptimized: true
-    },
-  },
   trailingSlash: true,
 }
 

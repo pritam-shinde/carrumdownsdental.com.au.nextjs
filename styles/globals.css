@@ -408,13 +408,3 @@ footer a:hover {
 .MuiBox-root.css-178yklu li {
     list-style: disc !important;
 }
-
-.dropdown3:hover .dropdown-menu-3 {
-    display: block !important;
-    left: 13.5rem;
-    top: 0 !important
-}
-
-.dropdown-menu-3 {
-    display: none !important;
-}

@@ -12,7 +12,7 @@ const SocialIcons = ({ sec, FontSize, spacingRight, isavatar }) => {
                             { id: `${sec}-social-icon-1`, link: "https://www.facebook.com/CarrumDownsDental", icon: <SiFacebook style={{ fontSize: FontSize }} /> },
                             { id: `${sec}-social-icon-2`, link: "https://twitter.com/CarrumDownsGrp/", icon: <SiTwitter style={{ fontSize: FontSize }} /> },
                             { id: `${sec}-social-icon-3`, link: "https://www.instagram.com/cddentalgroup/", icon: <SiInstagram style={{ fontSize: FontSize }} /> },
-                            { id: `${sec}-social-icon-4`, link: "https://www.pinterest.com.au/CarrumDownsGrp/", icon: <SiPinterest style={{ fontSize: FontSize }} /> },
+                            { id: `${sec}-social-icon-4`, link: "https://in.pinterest.com/CarrumDownsGrp/_created/", icon: <SiPinterest style={{ fontSize: FontSize }} /> },
                             { id: `${sec}-social-icon-5`, link: "https://www.youtube.com/channel/UCqG1nDBsBULhWGi00Twe7rg/", icon: <SiYoutube style={{ fontSize: FontSize }} /> }
                         ].map(item => <Box key={item.id} mr={spacingRight}>
                             {
