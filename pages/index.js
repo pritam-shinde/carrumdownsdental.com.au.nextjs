@@ -42,9 +42,7 @@ const Home = ({ data }) => {
         <section className='mt-md-5 mt-4'>
           <AdvantageSec />
         </section>
-        <section className='mt-md-5 mt-4'>
-          <Blogs data={data} />
-        </section>
+        
         <section className='mt-md-5 mt-4'>
           <Offer />
         </section>
