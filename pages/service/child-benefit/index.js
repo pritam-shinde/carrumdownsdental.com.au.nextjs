@@ -270,7 +270,7 @@ const ChildBenefit = ({ data }) => {
                           </Box>
                         </Container>
                       </section>
- <section className="mt-md-5 mt-4">
+                      <section className="mt-md-5 mt-4">
                         <Container maxWidth="xxl" className="p-0">
                           <Box>
                             <SectionalHeading variant="h2" color="var(--dark-blue)" title="Recent Posts" align="center" />
@@ -285,7 +285,7 @@ const ChildBenefit = ({ data }) => {
                             </Grid>
                           </Box>
                         </Container>
-                      </section> 
+                      </section>
                     </Grid>
                     <Grid item xs={12} lg={4}>
                       <CommonSidebar isContactAvailable={true} isServicesAvailable={true} />
