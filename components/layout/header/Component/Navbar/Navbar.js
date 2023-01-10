@@ -10,17 +10,14 @@ import { BlueFilledBtn, BlueOulinedBtn, IconBtn } from '../../../../components';
 import DropdownMenu from './Components/DropdownMenu';
 
 const Navbar = () => {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState();
   const [clicked, setClicked] = useState(false);
   const [aboutDropdown, setAboutDropdown] = useState(false);
   const [servicesDropdown, setServiceDropdown] = useState(false);
   const router = useRouter()
 
   useEffect(() => {
-    setWidth(window.innerWidth);
-    window.addEventListener('resize',()=>{
-      setWidth(window.innerWidth);
-    })
+    setWidth(window.innerWidth)
   }, [width])
 
   const closeMobileMenu = () => {
@@ -73,11 +70,6 @@ const Navbar = () => {
                       <a className="nav-link dropdown-item">OFFER</a>
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link href="/late-cancellation-policy/">
-                      <a className="nav-link dropdown-item">LATE CANCELLATION POLICY</a>
-                    </Link>
-                  </li>
                 </ul>
               </li>
               <li className='nav-item dropdown'>
@@ -120,17 +112,10 @@ const Navbar = () => {
                       <a className='nav-link dropdown-item'>VENEERS</a>
                     </Link>
                   </li>
-                  <li className="nav-item dropdown dropdown3">
+                  <li className="nav-item">
                     <Link href="/service/teeth-aligners/">
-                      <a className='nav-link dropdown-toggle text-dark" aria-labelledby="navbarDropdown" aria-haspopup="true" role="button" aria-pressed="true" style={{ color: "#000 !important" }}'>INVISALIGN</a>
+                      <a className='nav-link dropdown-item'>INVISALIGN</a>
                     </Link>
-                           <ul className="dropdown-menu dropdown-menu-3 p-2 border-0">
-                              <li className="nav-item">
-                                <Link className='nav-link' href="/service/invisalign-open-day/">
-                                  <a className="nav-link dropdown-item">INVISALIGN OPEN DAY</a>
-                                </Link>
-                              </li>                           
-                            </ul>                    
                   </li>
                   <li className="nav-item">
                     <Link href="/service/root-canal/">
