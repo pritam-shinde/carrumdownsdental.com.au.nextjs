@@ -2,15 +2,15 @@ import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import { About, Address, AdvantageSec, Blogs, Hero, Offer, PaymentPlan, ServiceSec } from '../sections/sections'
 
-export const getServerSideProps = async () => {
-  const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&per_page=4&page=1`);
-  const data = await res.json()
-  return {
-    props: {
-      data
-    }
-  }
-}
+// export const getServerSideProps = async () => {
+//   const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&per_page=4&page=1`);
+//   const data = await res.json()
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
 const Home = ({ data }) => {
   const [show, setShow] = useState(false);
@@ -49,9 +49,9 @@ const Home = ({ data }) => {
         <section className='mt-md-5 mt-4'>
           <PaymentPlan />
         </section>
-        <section className='mt-md-5 mt-4'>
+        {/* <section className='mt-md-5 mt-4'>
           <Blogs data={data} />
-        </section>
+        </section> */}
         <section className='my-md-5 my-4'>
           <Address />
         </section>

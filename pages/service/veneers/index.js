@@ -7,25 +7,25 @@ import Banner from '../../../public/Veneers/venners.jpg'
 import PorcelainVeneers from '../../../public/Veneers/porcelain-Veneers.jpg'
 import { Box, Container, Grid, Typography } from '@mui/material'
 
-export const getServerSideProps = async () => {
-  const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=veneers`)
-  const data = await res.json()
-  return {
-    props: {
-      data
-    }
-  }
-}
+// export const getServerSideProps = async () => {
+//   const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=veneers`)
+//   const data = await res.json()
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
 const Veneers = ({ data }) => {
   const [show, setShow] = useState(false)
   const [width, setWidth] = useState()
   const [blogs, setBlogs] = useState([])
-  const [category] = data
+  // const [category] = data
 
-  const wp = new WPAPI({
-    endpoint: "https://pritams3.sg-host.com/wp-json/"
-  })
+  // const wp = new WPAPI({
+  //   endpoint: "https://pritams3.sg-host.com/wp-json/"
+  // })
 
 
   useEffect(() => {
@@ -40,16 +40,16 @@ const Veneers = ({ data }) => {
     setWidth(window.innerWidth)
   }, [width])
 
-  const fetchBlog = async () => {
-    const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
-    setBlogs(posts)
-  }
+  // const fetchBlog = async () => {
+  //   const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
+  //   setBlogs(posts)
+  // }
 
-  useEffect(() => {
-    if (category) {
-      fetchBlog()
-    }
-  })
+  // useEffect(() => {
+  //   if (category) {
+  //     fetchBlog()
+  //   }
+  // })
 
   const breadcrumb = [
     { id: "Veneers_breadcrumb_1", link: "/service/", title: "Service" },

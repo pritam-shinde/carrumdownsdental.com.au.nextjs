@@ -8,22 +8,22 @@ import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typog
 import { CheckCircleOutline } from '@mui/icons-material'
 
 
-export const getServerSideProps = async () => {
-  const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=tooth-filling`)
-  const data = await res.json()
+// export const getServerSideProps = async () => {
+//   const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=tooth-filling`)
+//   const data = await res.json()
 
-  return {
-    props: {
-      data
-    }
-  }
-}
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
 const ToothFillings = ({ data }) => {
   const [show, setShow] = useState(false)
   const [width, setWidth] = useState()
   const [blogs, setBlogs] = useState([])
-  const [category] = data
+  // const [category] = data
 
   useEffect(() => {
     if (typeof window !== undefined) {
@@ -37,20 +37,20 @@ const ToothFillings = ({ data }) => {
     setWidth(window.innerWidth)
   }, [width])
 
-  const wp = new WPAPI({
-    endpoint: "https://pritams3.sg-host.com/wp-json/"
-  })
+  // const wp = new WPAPI({
+  //   endpoint: "https://pritams3.sg-host.com/wp-json/"
+  // })
 
-  const fetchBlog = async () => {
-    const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
-    setBlogs(posts)
-  }
+  // const fetchBlog = async () => {
+  //   const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
+  //   setBlogs(posts)
+  // }
 
-  useEffect(() => {
-    if (category) {
-      fetchBlog()
-    }
-  })
+  // useEffect(() => {
+  //   if (category) {
+  //     fetchBlog()
+  //   }
+  // })
 
   const breadcrumb = [
     { id: "DentalFillings_breadcrumb_1", link: "/service/", title: "Service" },

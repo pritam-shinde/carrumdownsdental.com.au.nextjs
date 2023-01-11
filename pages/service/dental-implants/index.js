@@ -11,21 +11,21 @@ import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typog
 import { CheckCircleOutline } from '@mui/icons-material'
 
 
-export const getServerSideProps = async () => {
-  const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=dental-implant`)
-  const data = await res.json()
-  return {
-    props: {
-      data
-    }
-  }
-}
+// export const getServerSideProps = async () => {
+//   const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=dental-implant`)
+//   const data = await res.json()
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
 const DentalImplants = ({ data }) => {
   const [show, setShow] = useState(false)
   const [width, setWidth] = useState()
   const [blogs, setBlogs] = useState([])
-  const [category] = data
+  // const [category] = data
 
   useEffect(() => {
     if (typeof window !== undefined) {
@@ -39,20 +39,20 @@ const DentalImplants = ({ data }) => {
     setWidth(window.innerWidth)
   }, [width])
 
-  const wp = new WPAPI({
-    endpoint: "https://pritams3.sg-host.com/wp-json/"
-  })
+  // const wp = new WPAPI({
+  //   endpoint: "https://pritams3.sg-host.com/wp-json/"
+  // })
 
-  const fetchBlog = async () => {
-    const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
-    setBlogs(posts)
-  }
+  // const fetchBlog = async () => {
+  //   const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
+  //   setBlogs(posts)
+  // }
 
-  useEffect(() => {
-    if (category) {
-      fetchBlog()
-    }
-  })
+  // useEffect(() => {
+  //   if (category) {
+  //     fetchBlog()
+  //   }
+  // })
 
   const breadcrumb = [
     { id: "DentalImplants_breadcrumb_1", link: "/service/", title: "Service" },
@@ -293,7 +293,7 @@ const DentalImplants = ({ data }) => {
                         </Box>
                       </Container>
                     </section>
-                    <section className="mt-md-5 mt-4">
+                    {/* <section className="mt-md-5 mt-4">
                       <Container maxWidth="xxl" className="p-0">
                         <Box>
                           <SectionalHeading variant="h2" color="var(--dark-blue)" title="Recent Posts" align="center" />
@@ -308,7 +308,7 @@ const DentalImplants = ({ data }) => {
                           </Grid>
                         </Box>
                       </Container>
-                    </section>
+                          </section> */}
                   </Grid>
                   <Grid item xs={12} lg={4}>
                     <CommonSidebar isContactAvailable={true} isServicesAvailable={true} />
