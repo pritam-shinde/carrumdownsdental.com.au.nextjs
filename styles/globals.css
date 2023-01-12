@@ -408,3 +408,23 @@ footer a:hover {
 .MuiBox-root.css-178yklu li {
     list-style: disc !important;
 }
+
+.tWCard{
+    height: 41.2rem;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+.bg--blue, .bg--blue:hover{
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 600px){
+    .tWCard{
+        height: auto;
+    }
+}
