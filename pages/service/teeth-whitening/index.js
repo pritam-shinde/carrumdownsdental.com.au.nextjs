@@ -48,7 +48,7 @@ const TW = () => {
                                                         <Grid item xs={12} sm={6}>
                                                             <Card className='tWCard shadow'>
                                                                 <CardMedia component="img" image={ZoomCard.src} src="Zoom teeth whitening" />
-                                                                <CardContent>
+                                                                <CardContent className='cardContentTW' style={{position:"relative"}}>
                                                                     <Typography variant='h5' color="var(--dark-blue)">Zoom In Chair Whitening</Typography>
                                                                     <List>
                                                                         <ListItem>
@@ -76,14 +76,17 @@ const TW = () => {
                                                                             <ListItemText primary="Use the latest dentistry equipment " />
                                                                         </ListItem>
                                                                     </List>
+                                                                    <Box mt={2}>
+                                                                        <Button className='blueFilledBtn cardBtn' onClick={() => setSelectedTab('zoom')}><a href="#tab" className='text-white'>Read More</a></Button>
+                                                                    </Box>
                                                                 </CardContent>
                                                             </Card>
                                                         </Grid>
                                                         <Grid item xs={12} sm={6}>
                                                             <Card className='tWCard shadow'>
                                                                 <CardMedia component="img" image={TakeHomeCard.src} src="Take Home teeth whitening" />
-                                                                <CardContent>
-                                                                    <Typography variant='h5' color="var(--dark-blue)">Take-Home Whitening Kit</Typography>
+                                                                <CardContent className='cardContentTW'>
+                                                                    <Typography variant='h5' color="var(--dark-blue)">Take Home Whitening Kit</Typography>
                                                                     <List>
                                                                         <ListItem>
                                                                             <ListItemIcon>
@@ -122,6 +125,9 @@ const TW = () => {
                                                                             <ListItemText primary="You can always top later if you are not satisfied with the results" />
                                                                         </ListItem>
                                                                     </List>
+                                                                    <Box mt={2}>
+                                                                        <Button className='blueFilledBtn cardBtn' onClick={() => setSelectedTab('boutique')}><a href="#tab" className='text-white'>Read More</a></Button>
+                                                                    </Box>
                                                                 </CardContent>
                                                             </Card>
                                                         </Grid>
@@ -154,7 +160,7 @@ const TW = () => {
                                                 </Box>
                                             </Container>
                                         </section>
-                                        <section className='mt-md-5 mt-4'>
+                                        <section className='mt-md-5 mt-4' id="tab">
                                             <Container maxWidth="xxl">
                                                 <Box className='border'>
                                                     <Grid container>
@@ -165,13 +171,13 @@ const TW = () => {
                                                                 selectedTab == 'zoom' ? <>
                                                                     <Box p={3}>
                                                                         <Box>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Zoom Teeth Whitening</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Zoom Teeth Whitening</Typography>
                                                                             <Typography className='para'>Zoom whitening is a type of laser therapy that has grown in popularity due to its ability to deliver long-lasting benefits in the shortest time.</Typography>
                                                                             <Typography className='para'>It is a method that dentists employ to whiten teeth using cutting-edge therapy. The method combines a unique lamp known as a Zoom light with a whitening cream that contains hydrogen peroxide. It works better than other tooth whitening solutions that may take weeks or even months to provide noticeable results and lessens the stains or discolouration of tooth enamel.
                                                                                 Additionally, Zoom whitening requires much less dedication and gives you a brilliant smile in just 90 minutes.
                                                                             </Typography>
                                                                             <Box mt={3}>
-                                                                                <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>How does it work</Typography>
+                                                                                <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>How does it work</Typography>
                                                                                 <Typography className='para'>Zoom Whitening is similar to a chemical bath that has no impact on the physical makeup of your teeth. It is a low-risk teeth whitening procedure.</Typography>
                                                                                 <Typography className='para'>The dentist begins by protecting your lips and gums from bleaching during the procedure. A hydrogen peroxide-based whitening gel will then be administered three to four times at intervals of 15 minutes.</Typography>
                                                                                 <Typography className='para'>The peroxide decomposes when it comes into contact with the intense light that the lamp emits. After then, it breaks down a thin layer of the enamel&apos;s top layer and allows oxygen to enter the teeth. The oxygen then aids in flushing out and eliminating any tooth discolouration that has occurred.</Typography>
@@ -180,14 +186,14 @@ const TW = () => {
                                                                                 <Typography className='para'>To decrease sensitivity after the whitening is finished, a separate gel is placed on your teeth. Your dentist will give you a touch-up kit and instructions on what foods and liquids you can eat and drink before you leave. </Typography>
                                                                             </Box>
                                                                             <Box mt={3}>
-                                                                                <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>What to Expect During the Procedure?</Typography>
+                                                                                <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>What to Expect During the Procedure?</Typography>
                                                                                 <Typography className='para'>Zoom whitening is a simple process that will take less than an hour. You will be comfortable with the entire process, and no pain is involved. The first thing that our dentist will do during the procedure evaluates the condition of your teeth to ascertain if you are a good candidate. </Typography>
                                                                                 <Typography className='para'>Once that is done, your lips and gums will be covered by protective gear to prevent them from coming in contact with the whitening gel. </Typography>
                                                                                 <Typography className='para'>A special gel containing whitening peroxide will then be applied to your teeth. This process will be repeated at least 3 to 4 times to achieve optimal results. </Typography>
                                                                                 <Typography className='para'>The dentist will then apply some fluoride to your teeth once the process is done. This will help in reducing sensitivity. In addition, you will be given some custom-made trays and some whitening gel that you can use at home. </Typography>
                                                                             </Box>
                                                                             <Box mt={3}>
-                                                                                <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Contact Carrum Downs Dental Group for Zoom Whitening</Typography>
+                                                                                <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Contact Carrum Downs Dental Group for Zoom Whitening</Typography>
                                                                                 <Typography className='para'>Once you&apos;ve made up your mind that zoom whitening is the way to go, contact us at Carrum Downs Dental Group. We offer affordable services and never sacrifice quality. The results will also be long-lasting. Call us today to schedule an appointment. </Typography>
                                                                             </Box>
                                                                         </Box>
@@ -196,14 +202,14 @@ const TW = () => {
                                                                 </> : selectedTab == 'boutique' ? <>
                                                                     <Box p={3}>
                                                                         <Box>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Boutique Teeth Whitening</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Teeth Whitening</Typography>
                                                                             <Typography className='para'>Founded in 2015, Boutique Whitening created its whitening solution to bridge the gap between in-office and at-home treatments, enabling everyone to achieve a dazzling smile safely and effectively without having to pay the exorbitant costs associated with professional teeth whitening procedures.</Typography>
                                                                             <Typography className='para'>Boutique teeth whitening is a practical method of teeth whitening that gives the patient control of what they are looking forward to achieving.</Typography>
                                                                             <Typography className='para'>The two primary alternatives for the whitening regimen are Boutique Whitening by Day and Boutique Whitening by Night. To assist you in choosing the best course of action for you, our dentists will go over both the benefits and limitations of each.</Typography>
                                                                             <Typography className='para'>With this type of treatment, you should start seeing results from the whitening procedure in less than a week!</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>How Does It Work?</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>How Does It Work?</Typography>
                                                                             <Typography className='para'>Your dentist will examine your teeth after you&apos;ve made up your mind to have Boutique teeth whitening to ensure that your mouth and teeth are healthy enough for the operation.</Typography>
                                                                             <Typography className='para'>Afterwards, your dentist will mould your teeth and bite to make your personalised whitening trays. Advanced teeth-whitening gel, user-friendly syringes, and teeth-whitening trays will all be included in the kit.  The whitening gel is injected into the personalised mouth trays using syringes.</Typography>
                                                                             <Typography className='para'>You can begin gently applying a little amount of whitening gel to each tooth in your customised trays once the syringes have been filled with the gel. After completing this process, place the trays in your mouth, making sure they fit tightly and safely. </Typography>
@@ -214,11 +220,11 @@ const TW = () => {
                                                                             <Typography className='para'>While you wait, prepare your teeth for the whitening procedure at home using specialised extra-sensitive whitening toothpaste.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Boutique by Day and Boutique by Night</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Day and Boutique by Night</Typography>
                                                                             <Typography className='para'>These two procedures are designed to fit different tastes and preferences. </Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
                                                                             <Typography className='para'>Boutique by day is a whitening method that uses hydrogen peroxide as the main ingredient. You will apply your whitening gel to each tooth on your custom-made trays and then bite on them firmly. </Typography>
                                                                             <Typography className='para'>Though most of the gel is used up in the first 20 minutes, you are advised to leave your custom trays in place for at least an hour, depending on the specific type of gel you are given.</Typography>
                                                                             <Typography className='para'>The goal is to offer a teeth-whitening procedure that is quick, simple, and effective while also fitting into your schedule and eating routine.</Typography>
@@ -226,17 +232,17 @@ const TW = () => {
                                                                             <Typography className='para'>When not in use, kindly store your kit in the refrigerator or a cool, dark cabinet. Syringes should be kept in their box as the gel will activate when they are exposed to light. Only use the syringes to inject gel into the trays; otherwise, keep them away from heat and light.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Boutique by Night</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Night</Typography>
                                                                             <Typography className='para'>Boutique by night is a whitening method that uses potassium nitrate and carbamide peroxide as the main ingredients. These compounds have lower whitening gel concertation compared to the one used on boutique by night. </Typography>
                                                                             <Typography className='para'>The trays should be worn for roughly 4 hours at night, although it is advisable that you wear your trays for at least 6 hours to obtain the maximum benefit. This method is best for people who run a busy schedule and would like to have the treatment done at night. </Typography>
                                                                             <Typography className='para'>If you are not sure which of the two is good for you, get in touch with us at Carrum Downs Dental Group for professional assistance.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Choosing Boutique by Day or Boutique by Night</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Choosing Boutique by Day or Boutique by Night</Typography>
                                                                             <Typography className='para'>It can be an uphill task to decide which method is best for you, especially since both methods are equally effective. However, our dentist at Carrum Downs Dental Group is here for you. We will walk you through the benefits of each method and settle on one that best suits your needs. Therefore, don&apos;t hesitate to schedule an appointment with us. </Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{color:"var(--dark-blue)" }}>Why Choose Professional Boutique Teeth Whitening over at home Whitening Kit</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Why Choose Professional Boutique Teeth Whitening over at home Whitening Kit</Typography>
                                                                             <Typography className='para'>Like professional whitening technology, at-home whitening kits use bleaching agents that can remove both surface and deeper stains. While at-home kits employ more concentrated chemicals over a longer length of time, the dentist utilises a greater concentration over a shorter period. At-home whitening aims can take weeks or even months to complete, and the effects only last one to two weeks.</Typography>
                                                                             <Typography className='para'>It is challenging to utilise hydrogen peroxide at home since heat, light, and saliva quickly degrade it before it has a chance to be useful. This whitening agent doesn&apos;t work as well and lasts less than other ones.</Typography>
                                                                             <Typography className='para'>Professional boutique treatment, on the other hand, employ specific light and hydrogen peroxide concentrations. All the whitening agents used in this method are certified by the dentist. This means that you are assured of positive results. Also, the dentist will have a chance to examine your teeth before recommending the treatment. </Typography>
@@ -369,19 +375,19 @@ const TW = () => {
                                             </Container>
                                         </section>
                                         <section className='mt-md-5 mt-4'>
-                      <InterestFree />
-                      <TermsNCondition />
-                    </section>
-                    <section className='mt-md-5 mt-4 bg-grey'>
-                      <Container maxWidth="xxl" className="p-0">
-                        <Box p={2}>
-                          <SectionalHeading variant="h5" color="var(--dark-blue)" title="Book an appointment with Carrum Downs Dental (100 Hall Road) on 03-9782 1200 for your wisdom tooth extraction." align="center" />
-                          <Box mt={2} className="d-flex justify-content-center">
-                            <BookAndCall appointment={true} call={true} />
-                          </Box>
-                        </Box>
-                      </Container>
-                    </section>
+                                            <InterestFree />
+                                            <TermsNCondition />
+                                        </section>
+                                        <section className='mt-md-5 mt-4 bg-grey'>
+                                            <Container maxWidth="xxl" className="p-0">
+                                                <Box p={2}>
+                                                    <SectionalHeading variant="h5" color="var(--dark-blue)" title="Book an appointment with Carrum Downs Dental (100 Hall Road) on 03-9782 1200 for your wisdom tooth extraction." align="center" />
+                                                    <Box mt={2} className="d-flex justify-content-center">
+                                                        <BookAndCall appointment={true} call={true} />
+                                                    </Box>
+                                                </Box>
+                                            </Container>
+                                        </section>
                                     </Grid>
                                     <Grid item xs={12} lg={4}>
                                         {
