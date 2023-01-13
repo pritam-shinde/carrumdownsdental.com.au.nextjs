@@ -428,18 +428,18 @@ footer a:hover {
 }
 
 .cardContentTW{
-    position: relative;
-    height: 31.7rem;
+    position: relative !important;
+    height: 31.7rem !important;
 }
 
 .cardBtn{
-    position: absolute;
-    bottom: 5%;
+    position: absolute !important;
+    bottom: 5% !important;
 }
 
 @media only screen and (max-width: 600px){
     .tWCard{
-        height: auto;
+        height: auto !important;
     }
 
     .tabHead{
@@ -447,24 +447,40 @@ footer a:hover {
     }
 
     .cardContentTW{
-        position: relative;
-        height: auto;
+        position: relative !important;
+        height: auto !important;
     }
 
     .cardBtn{
-        position: relative;
+        position: relative !important;
     }
 }
 
 
 @media only screen and (min-width: 601px) and (max-width: 992px){
     .cardContentTW{
-        position: relative;
-        height: 33rem;
+        position: relative !important;
+        height: 33rem !important;
     }
 
     .cardBtn{
-        position: absolute;
-        bottom: 5%;
+        position: absolute !important;
+        bottom: 5% !important;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1280px){
+    .tWCard{
+        height: 48rem;
+    }
+
+    .cardContentTW{
+        position: relative !important;
+        height: 35rem !important;
+    }
+
+    .cardBtn{
+        position: absolute !important;
+        bottom: 5% !important;
     }
 }
