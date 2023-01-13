@@ -53,7 +53,7 @@ const Offer = () => {
 
                                                         { id: "offer-2", image: Offer2, alt: "kids offer", title: "Kids Dental Offer", list: ["Comprehensive Dental Examination", "Scale & Clean", "Fluoride"], price: "$179*", small: "or 4 equal payments of $44.75*" },
 
-                                                        { id: "offer-2", image: Offer3, alt: "teeth whitening offer", title: "TakeHome Teeth Whitening Offer", list: ["Whitening Consultation with Dentist", "Whitening trays made to fit you", "Whitening Gel and Demonstration of how to use it"], price: "$299*", small: "or 4 equal payments of $74.75*" }
+                                                        { id: "offer-2", image: Offer3, alt: "teeth whitening offer", title: "TakeHome Teeth Whitening Offer", list: ["Whitening Consultation with Dentist", "Whitening trays made to fit you", "Whitening Gel and Demonstration of how to use it"], price: "$399*", small: "or $99.75 per fortnight on Afterpay*" }
                                                     ].map(item => <Grid item key={item.id} xs={12} sm={6} lg={4}>
                                                         <Card className='shadow offerPageOfferCard'>
                                                             <CardMedia component="img" image={item.image.src} alt={item.alt} />
