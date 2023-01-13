@@ -457,3 +457,14 @@ footer a:hover {
 }
 
 
+@media only screen and (min-width: 601px) and (max-width: 992px){
+    .cardContentTW{
+        position: relative;
+        height: 33rem;
+    }
+
+    .cardBtn{
+        position: absolute;
+        bottom: 5%;
+    }
+}
