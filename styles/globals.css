@@ -434,7 +434,7 @@ footer a:hover {
 
 .cardBtn{
     position: absolute !important;
-    bottom: 0% !important;
+    bottom: 1.5% !important;
 }
 
 @media only screen and (max-width: 600px){
