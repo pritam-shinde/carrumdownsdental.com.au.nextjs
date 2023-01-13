@@ -158,7 +158,7 @@ const TW = () => {
                                             <Container maxWidth="xxl">
                                                 <Box className='border'>
                                                     <Grid container>
-                                                        <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('zoom')} component={Button} py={2} className={`tab ${selectedTab == "zoom" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center'>Zoom In Teeth Whitening</Typography></Box></Grid>
+                                                        <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('zoom')} component={Button} py={2} className={`tab ${selectedTab == "zoom" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center'>Zoom In-Chair teeth whitening</Typography></Box></Grid>
                                                         <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('boutique')} component={Button} py={2} className={`tab ${selectedTab == "boutique" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center'>Boutique Teeth Whitening</Typography></Box></Grid>
                                                         <Grid item xs={12}>
                                                             {
