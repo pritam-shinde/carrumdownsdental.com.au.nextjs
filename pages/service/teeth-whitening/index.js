@@ -49,7 +49,7 @@ const TW = () => {
                                                             <Card className='tWCard shadow'>
                                                                 <CardMedia component="img" image={ZoomCard.src} src="Zoom teeth whitening" />
                                                                 <CardContent className='cardContentTW' style={{position:"relative"}}>
-                                                                    <Typography variant='h5' color="var(--dark-blue)">Zoom In Chair Whitening</Typography>
+                                                                    <Typography variant='h5' color="var(--dark-blue)">Zoom In Chair Teeth Whitening</Typography>
                                                                     <List>
                                                                         <ListItem>
                                                                             <ListItemIcon>
@@ -86,7 +86,7 @@ const TW = () => {
                                                             <Card className='tWCard shadow'>
                                                                 <CardMedia component="img" image={TakeHomeCard.src} src="Take Home teeth whitening" />
                                                                 <CardContent className='cardContentTW'>
-                                                                    <Typography variant='h5' color="var(--dark-blue)">Take Home Whitening Kit</Typography>
+                                                                    <Typography variant='h5' color="var(--dark-blue)">Take Home Teeth Whitening Kit</Typography>
                                                                     <List>
                                                                         <ListItem>
                                                                             <ListItemIcon>
