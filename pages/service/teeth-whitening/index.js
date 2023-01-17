@@ -400,7 +400,7 @@ const TW = () => {
                                                                 </h3>
                                                                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                                     <div className="accordion-body">
-                                                                        <p className='para'>The price of professional teeth whitening might vary; bleaching trays can cost as little as $299, and in-chair whitening treatments can cost as much as $499. However, the best course of action for a particular price is to consult your dentist and acquire a price estimate from them. Costs for professional teeth whitening treatments vary depending on the dental location, your dentist, and the shade you want to achieve.</p>
+                                                                        <p className='para'>The price of professional teeth whitening might vary; bleaching trays can cost as little as $399, and in-chair whitening treatments can cost as much as $499. However, the best course of action for a particular price is to consult your dentist and acquire a price estimate from them. Costs for professional teeth whitening treatments vary depending on the dental location, your dentist, and the shade you want to achieve.</p>
                                                                     </div>
                                                                 </div>
                                                             </div>
