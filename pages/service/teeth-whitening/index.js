@@ -7,13 +7,6 @@ import Banner from '../../../public/TeethWhitening/Banner.jpg'
 import ZoomCard from '../../../public/TeethWhitening/zoom-teeth-whitening-philips.webp'
 import TakeHomeCard from '../../../public/TeethWhitening/take-home-philips.webp'
 import { CheckCircleOutline } from '@mui/icons-material'
-import BDAY from '../../../public/TeethWhitening/day-B.jpg'
-import NightB from '../../../public/TeethWhitening/b-night.jpg'
-import Smoking from '../../../public/TeethWhitening/smoke.jpg'
-import Gen from '../../../public/TeethWhitening/gen.jpg'
-import Age from '../../../public/TeethWhitening/age.jpg'
-import Apply from '../../../public/TeethWhitening/apply.webp'
-import Exam from '../../../public/TeethWhitening/exam.jpg'
 
 const TW = () => {
     const [hydarate, setHydrate] = useState(false);
@@ -144,30 +137,29 @@ const TW = () => {
                                                 <Box mt={2}>
                                                     <SectionalHeading variant="h3" title="Causes of Teeth Discoloration" align='left' color="var(--dark-blue)" />
                                                     <Typography className='para'>Your teeth could discolour for several reasons, but the main ones are;</Typography>
-                                                    <Box my={3}>
-                                                        <Grid container spacing={3}>
-                                                            <Grid item xs={12} sm={6} md={4} >
-                                                                <Typography variant='h5' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Ageing</Typography>
-                                                                <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
-                                                                    <Image src={Age} alt="age" className='rounded' />
-                                                                </Box>
-                                                            </Grid>
-                                                            <Grid item xs={12} sm={6} md={4} >
-                                                                <Typography variant='h5' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Genetic</Typography>
-                                                                <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
-                                                                    <Image src={Gen} alt="gen" className='rounded' />
-                                                                </Box>
-                                                            </Grid>
-                                                            <Grid item xs={12} sm={6} md={4} >
-                                                                <Typography variant='h5' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Smoking</Typography>
-                                                                <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
-                                                                    <Image src={Smoking} alt="smoking" className='rounded' />
-                                                                </Box>
-                                                            </Grid>
-                                                        </Grid>
-                                                    </Box>
+                                                    <List>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText primary="Ageing" />
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText primary="Genetics" />
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText primary="Lifestyle habits such as smoking" />
+                                                        </ListItem>
+                                                    </List>
                                                     <Typography className='para'>Luckily, our team of professional dentists at Carrum Downs Dental Group will conduct any of the two whitening procedures and restore your caramel white teeth.</Typography>
                                                 </Box>
+                                                <Box><Typography className='para'>Luckily, our team of professional dentists at Carrum Downs Dental Group will conduct any of the two whitening procedures and restore your caramel white teeth.</Typography></Box>
                                             </Container>
                                         </section>
                                         <section className='mt-md-5 mt-4' id="tab">
@@ -220,102 +212,87 @@ const TW = () => {
 
                                                                     </Box>
                                                                 </> : selectedTab == 'boutique' ? <>
-                                                                    <Box p={3} style={{ backgroundColor: "#11527826" }}>
+                                                                    <Box p={3}>
                                                                         <Box>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Teeth Whitening</Typography>
-                                                                            <Typography className='para'>Founded in 2015, Boutique Whitening created its whitening solution to bridge the gap between in-office and at-home treatments, enabling everyone to achieve a dazzling smile safely and effectively without having to pay the exorbitant costs associated with professional teeth whitening procedures.</Typography>
-                                                                            <Typography className='para'>Boutique teeth whitening is a practical method of teeth whitening that gives the patient control of what they are looking forward to achieving.</Typography>
-                                                                            <Typography className='para'>The two primary alternatives for the whitening regimen are Boutique Whitening by Day and Boutique Whitening by Night. To assist you in choosing the best course of action for you, our dentists will go over both the benefits and limitations of each.</Typography>
-                                                                            <Typography className='para'>With this type of treatment, you should start seeing results from the whitening procedure in less than a week!</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0 text-white" style={{ color: "var(--dark-blue)" }}>Boutique Teeth Whitening</Typography>
+                                                                            <Typography className='para text-white'>Founded in 2015, Boutique Whitening created its whitening solution to bridge the gap between in-office and at-home treatments, enabling everyone to achieve a dazzling smile safely and effectively without having to pay the exorbitant costs associated with professional teeth whitening procedures.</Typography>
+                                                                            <Typography className='para text-white'>Boutique teeth whitening is a practical method of teeth whitening that gives the patient control of what they are looking forward to achieving.</Typography>
+                                                                            <Typography className='para text-white'>The two primary alternatives for the whitening regimen are Boutique Whitening by Day and Boutique Whitening by Night. To assist you in choosing the best course of action for you, our dentists will go over both the benefits and limitations of each.</Typography>
+                                                                            <Typography className='para text-white'>With this type of treatment, you should start seeing results from the whitening procedure in less than a week!</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>How Does It Work?</Typography>
-                                                                            <Typography className='para'>Your dentist will examine your teeth after you&apos;ve made up your mind to have Boutique teeth whitening to ensure that your mouth and teeth are healthy enough for the operation.</Typography>
-                                                                            <Typography className='para'>Afterwards, your dentist will mould your teeth and bite to make your personalised whitening trays. Advanced teeth-whitening gel, user-friendly syringes, and teeth-whitening trays will all be included in the kit.  The whitening gel is injected into the personalised mouth trays using syringes.</Typography>
-                                                                            <Typography className='para'>You can begin gently applying a little amount of whitening gel to each tooth in your customised trays once the syringes have been filled with the gel. After completing this process, place the trays in your mouth, making sure they fit tightly and safely. </Typography>
-                                                                            <Typography className='para'>There&apos;s a chance that some gel will leak over the tray&apos;s edges. Do not swallow; simply wipe away the gel with a toothbrush or piece of tissue before rinsing your mouth with water. </Typography>
-                                                                            <Typography className='para'>The hydrogen peroxide or carbamide peroxide-based gel will begin to function as you wear the trays; it triggers the release of oxygen into the teeth&apos;s enamel, which causes any stains to gradually go away.</Typography>
-                                                                            <Typography className='para'>After removing your whitening trays, give your teeth a light brushing, and then rinse them in cold water. Do this after each procedure.</Typography>
-                                                                            <Typography className='para'>This method is extremely comparable to every other expert tooth-whitening treatment. The main distinction is that this treatment can be administered at home and doesn&apos;t call for any annoying follow-up treatments.</Typography>
-                                                                            <Typography className='para'>While you wait, prepare your teeth for the whitening procedure at home using specialised extra-sensitive whitening toothpaste.</Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0 text-white" style={{ color: "var(--dark-blue)" }}>How Does It Work?</Typography>
+                                                                            <Typography className='para text-white'>Your dentist will examine your teeth after you&apos;ve made up your mind to have Boutique teeth whitening to ensure that your mouth and teeth are healthy enough for the operation.</Typography>
+                                                                            <Typography className='para text-white'>Afterwards, your dentist will mould your teeth and bite to make your personalised whitening trays. Advanced teeth-whitening gel, user-friendly syringes, and teeth-whitening trays will all be included in the kit.  The whitening gel is injected into the personalised mouth trays using syringes.</Typography>
+                                                                            <Typography className='para text-white'>You can begin gently applying a little amount of whitening gel to each tooth in your customised trays once the syringes have been filled with the gel. After completing this process, place the trays in your mouth, making sure they fit tightly and safely. </Typography>
+                                                                            <Typography className='para text-white'>There&apos;s a chance that some gel will leak over the tray&apos;s edges. Do not swallow; simply wipe away the gel with a toothbrush or piece of tissue before rinsing your mouth with water. </Typography>
+                                                                            <Typography className='para text-white'>The hydrogen peroxide or carbamide peroxide-based gel will begin to function as you wear the trays; it triggers the release of oxygen into the teeth&apos;s enamel, which causes any stains to gradually go away.</Typography>
+                                                                            <Typography className='para text-white'>After removing your whitening trays, give your teeth a light brushing, and then rinse them in cold water. Do this after each procedure.</Typography>
+                                                                            <Typography className='para text-white'>This method is extremely comparable to every other expert tooth-whitening treatment. The main distinction is that this treatment can be administered at home and doesn&apos;t call for any annoying follow-up treatments.</Typography>
+                                                                            <Typography className='para text-white'>While you wait, prepare your teeth for the whitening procedure at home using specialised extra-sensitive whitening toothpaste.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Day and Boutique by Night</Typography>
-                                                                            <Typography className='para'>These two procedures are designed to fit different tastes and preferences. </Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0 text-white" style={{ color: "var(--dark-blue)" }}>Boutique by Day and Boutique by Night</Typography>
+                                                                            <Typography className='para text-white'>These two procedures are designed to fit different tastes and preferences. </Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Grid container>
-                                                                                <Grid xs={12} sm={6} className="pe-2">
-                                                                                    <Image src={BDAY} alt="day" className='rounded' />
-                                                                                </Grid>
-                                                                                <Grid xs={12} sm={6} className="ps-2">
-                                                                                    <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
-                                                                                    <Typography className='para'>Boutique by day is a whitening method that uses hydrogen peroxide as the main ingredient. You will apply your whitening gel to each tooth on your custom-made trays and then bite on them firmly. </Typography>
-                                                                                </Grid>
-                                                                            </Grid>
-
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
+                                                                            <Typography className='para'>Boutique by day is a whitening method that uses hydrogen peroxide as the main ingredient. You will apply your whitening gel to each tooth on your custom-made trays and then bite on them firmly. </Typography>
                                                                             <Typography className='para'>Though most of the gel is used up in the first 20 minutes, you are advised to leave your custom trays in place for at least an hour, depending on the specific type of gel you are given.</Typography>
                                                                             <Typography className='para'>The goal is to offer a teeth-whitening procedure that is quick, simple, and effective while also fitting into your schedule and eating routine.</Typography>
                                                                             <Typography className='para'>The gel discharges significant amounts of oxygen free radicals to dissolve stains and ultimately lighten teeth in a quick, safe manner.</Typography>
                                                                             <Typography className='para'>When not in use, kindly store your kit in the refrigerator or a cool, dark cabinet. Syringes should be kept in their box as the gel will activate when they are exposed to light. Only use the syringes to inject gel into the trays; otherwise, keep them away from heat and light.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Grid container>
-                                                                                <Grid xs={12} sm={6} className="pe-2">
-                                                                                    <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Night</Typography>
-                                                                                    <Typography className='para'>Boutique by night is a whitening method that uses potassium nitrate and carbamide peroxide as the main ingredients. These compounds have lower whitening gel concertation compared to the one used on boutique by night. </Typography>
-                                                                                </Grid>
-                                                                                <Grid xs={12} sm={6} className="ps-2">
-                                                                                    <Image src={NightB} alt="night" className='rounded' />
-                                                                                </Grid>
-                                                                            </Grid>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Night</Typography>
+                                                                            <Typography className='para'>Boutique by night is a whitening method that uses potassium nitrate and carbamide peroxide as the main ingredients. These compounds have lower whitening gel concertation compared to the one used on boutique by night. </Typography>
                                                                             <Typography className='para'>The trays should be worn for roughly 4 hours at night, although it is advisable that you wear your trays for at least 6 hours to obtain the maximum benefit. This method is best for people who run a busy schedule and would like to have the treatment done at night. </Typography>
                                                                             <Typography className='para'>If you are not sure which of the two is good for you, get in touch with us at Carrum Downs Dental Group for professional assistance.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Choosing Boutique by Day or Boutique by Night</Typography>
-                                                                            <Typography className='para'>It can be an uphill task to decide which method is best for you, especially since both methods are equally effective. However, our dentist at Carrum Downs Dental Group is here for you. We will walk you through the benefits of each method and settle on one that best suits your needs. Therefore, don&apos;t hesitate to schedule an appointment with us. </Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0 text-white" style={{ color: "var(--dark-blue)" }}>Choosing Boutique by Day or Boutique by Night</Typography>
+                                                                            <Typography className='para text-white'>It can be an uphill task to decide which method is best for you, especially since both methods are equally effective. However, our dentist at Carrum Downs Dental Group is here for you. We will walk you through the benefits of each method and settle on one that best suits your needs. Therefore, don&apos;t hesitate to schedule an appointment with us. </Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Why Choose Professional Boutique Teeth Whitening over at home Whitening Kit</Typography>
-                                                                            <Typography className='para'>Like professional whitening technology, at-home whitening kits use bleaching agents that can remove both surface and deeper stains. While at-home kits employ more concentrated chemicals over a longer length of time, the dentist utilises a greater concentration over a shorter period. At-home whitening aims can take weeks or even months to complete, and the effects only last one to two weeks.</Typography>
-                                                                            <Typography className='para'>It is challenging to utilise hydrogen peroxide at home since heat, light, and saliva quickly degrade it before it has a chance to be useful. This whitening agent doesn&apos;t work as well and lasts less than other ones.</Typography>
-                                                                            <Typography className='para'>Professional boutique treatment, on the other hand, employ specific light and hydrogen peroxide concentrations. All the whitening agents used in this method are certified by the dentist. This means that you are assured of positive results. Also, the dentist will have a chance to examine your teeth before recommending the treatment. </Typography>
-                                                                            <Typography className='para'>Here are the main benefits of using Carrum Downs Dental Group for Boutique Whitening </Typography>
+                                                                            <Typography variant='h2' className="tabHead fw-bold m-0 text-white" style={{ color: "var(--dark-blue)" }}>Why Choose Professional Boutique Teeth Whitening over at home Whitening Kit</Typography>
+                                                                            <Typography className='para text-white'>Like professional whitening technology, at-home whitening kits use bleaching agents that can remove both surface and deeper stains. While at-home kits employ more concentrated chemicals over a longer length of time, the dentist utilises a greater concentration over a shorter period. At-home whitening aims can take weeks or even months to complete, and the effects only last one to two weeks.</Typography>
+                                                                            <Typography className='para text-white'>It is challenging to utilise hydrogen peroxide at home since heat, light, and saliva quickly degrade it before it has a chance to be useful. This whitening agent doesn&apos;t work as well and lasts less than other ones.</Typography>
+                                                                            <Typography className='para text-white'>Professional boutique treatment, on the other hand, employ specific light and hydrogen peroxide concentrations. All the whitening agents used in this method are certified by the dentist. This means that you are assured of positive results. Also, the dentist will have a chance to examine your teeth before recommending the treatment. </Typography>
+                                                                            <Typography className='para text-white'>Here are the main benefits of using Carrum Downs Dental Group for Boutique Whitening </Typography>
                                                                             <List>
-                                                                                <ListItem>
+                                                                                <ListItem className='text-white'>
                                                                                     <ListItemIcon>
-                                                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                                                        <CheckCircleOutline style={{color: "#fff"}} />
                                                                                     </ListItemIcon>
                                                                                     <ListItemText primary="You will have a chance for a pre-consultation as well as guidance from the dentist" />
                                                                                 </ListItem>
-                                                                                <ListItem>
+                                                                                <ListItem className='text-white'>
                                                                                     <ListItemIcon>
-                                                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                                                        <CheckCircleOutline style={{color: "#fff"}} />
                                                                                     </ListItemIcon>
                                                                                     <ListItemText primary="The trays will be custom-made specifically for your mouth" />
                                                                                 </ListItem>
-                                                                                <ListItem>
+                                                                                <ListItem className='text-white'>
                                                                                     <ListItemIcon>
-                                                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                                                        <CheckCircleOutline style={{color: "#fff"}} />
                                                                                     </ListItemIcon>
                                                                                     <ListItemText primary="Your dentist will give you a personalised treatment plan" />
                                                                                 </ListItem>
-                                                                                <ListItem>
+                                                                                <ListItem className='text-white'>
                                                                                     <ListItemIcon>
-                                                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                                                        <CheckCircleOutline style={{color: "#fff"}} />
                                                                                     </ListItemIcon>
                                                                                     <ListItemText primary="You will be assured of quality products that will guarantee results" />
                                                                                 </ListItem>
-                                                                                <ListItem>
+                                                                                <ListItem className='text-white'>
                                                                                     <ListItemIcon>
-                                                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                                                        <CheckCircleOutline style={{color: "#fff"}} />
                                                                                     </ListItemIcon>
                                                                                     <ListItemText primary="The dentist will offer aftercare and support throughout the treatment" />
                                                                                 </ListItem>
-                                                                                <ListItem>
+                                                                                <ListItem className='text-white'>
                                                                                     <ListItemIcon>
-                                                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                                                        <CheckCircleOutline style={{color: "#fff"}} />
                                                                                     </ListItemIcon>
                                                                                     <ListItemText primary="You will also get a 20th Day free appointment to review your progress" />
                                                                                 </ListItem>
