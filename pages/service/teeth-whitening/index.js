@@ -57,7 +57,7 @@ const TW = () => {
                                                             <Card className='tWCard shadow'>
                                                                 <CardMedia component="img" image={ZoomCard.src} src="Zoom teeth whitening" />
                                                                 <CardContent className='cardContentTW' style={{ position: "relative" }}>
-                                                                    <Typography variant='h5' color="var(--dark-blue)">Zoom In Chair Teeth Whitening</Typography>
+                                                                    <Typography variant='h5' color="var(--dark-blue)">Zoom Teeth Whitening</Typography>
                                                                     <List>
                                                                         <ListItem>
                                                                             <ListItemIcon>
