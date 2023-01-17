@@ -8,7 +8,7 @@ import image3 from '../../public/ppcteeth-whitening/teeth-whitening-3.jpg'
 import image4 from '../../public/ppcteeth-whitening/poladay.jpg'
 import image5 from '../../public/ppcteeth-whitening/polanight.jpg'
 import { SectionalHeading, BookAndCall, TermsNCondition, InterestFree } from '../../components/components'
-import {PaymentPlan} from '../../sections/sections'
+import { PaymentPlan } from '../../sections/sections'
 import { CheckCircleOutline } from '@mui/icons-material'
 
 
@@ -119,18 +119,18 @@ const TeethWhitening = () => {
                     </Container>
                 </section>
                 <section className='mt-md-5 mt-3'>
-          <PaymentPlan />
-        </section>
-        <section className='mt-md-5 mt-4'>
-          <Container maxWidth="xxl">
-            <Grid container>
-              <Grid item xs={12} md={6} className="mx-auto">
-                <InterestFree />
-                <TermsNCondition />
-              </Grid>
-            </Grid>
-          </Container>
-        </section>
+                    <PaymentPlan />
+                </section>
+                <section className='mt-md-5 mt-4'>
+                    <Container maxWidth="xxl">
+                        <Grid container>
+                            <Grid item xs={12} md={6} className="mx-auto">
+                                <InterestFree />
+                                <TermsNCondition />
+                            </Grid>
+                        </Grid>
+                    </Container>
+                </section>
             </main>
 
         </>

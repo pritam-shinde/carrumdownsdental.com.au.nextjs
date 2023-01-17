@@ -1,11 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 import { Box, Button, Card, CardContent, CardMedia, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import { CommonHero, CommonSidebar, SectionalHeading, InterestFree, TermsNCondition, BookAndCall } from '../../../components/components'
 import Banner from '../../../public/TeethWhitening/Banner.jpg'
 import ZoomCard from '../../../public/TeethWhitening/zoom-teeth-whitening-philips.webp'
 import TakeHomeCard from '../../../public/TeethWhitening/take-home-philips.webp'
 import { CheckCircleOutline } from '@mui/icons-material'
+import BDAY from '../../../public/TeethWhitening/day-B.jpg'
+import NightB from '../../../public/TeethWhitening/b-night.jpg'
+import Smoking from '../../../public/TeethWhitening/smoke.jpg'
+import Gen from '../../../public/TeethWhitening/gen.jpg'
+import Age from '../../../public/TeethWhitening/age.jpg'
+import Apply from '../../../public/TeethWhitening/apply.webp'
+import Exam from '../../../public/TeethWhitening/exam.jpg'
 
 const TW = () => {
     const [hydarate, setHydrate] = useState(false);
@@ -41,14 +49,14 @@ const TW = () => {
                                                 <Box mt={2}>
                                                     <Typography className='para'>Are your teeth all yellow and dark? This might be time to schedule a teeth-whitening visit with your dentist. This is crucial if routine dental care procedures, such as brushing twice a day, are not yielding the desired results.</Typography>
                                                     <Typography className='para'>Professional teeth whitening is risk-free, efficient, and done under a dentist&apos;s guidance. Most of the time, paying more to see a dentist is worthwhile if it means getting long-lasting, secure results.</Typography>
-                                                    <Typography className='para'>Professional teeth whitening is risk-free, efficient, and done under a dentist&apos;s guidance. Most of the time, paying more to see a dentist is worthwhile if it means getting long-lasting, secure results.</Typography>
+                                                    <Typography className='para'>At Carrum Downs Dental Group, we provide professional teeth whitening services. These include Take-Home teeth whitening and In-Chair teeth whitening. Here are some of the benefits of each method: </Typography>
                                                 </Box>
                                                 <Box mt={2}>
                                                     <Grid container spacing={3}>
                                                         <Grid item xs={12} sm={6}>
                                                             <Card className='tWCard shadow'>
                                                                 <CardMedia component="img" image={ZoomCard.src} src="Zoom teeth whitening" />
-                                                                <CardContent className='cardContentTW' style={{position:"relative"}}>
+                                                                <CardContent className='cardContentTW' style={{ position: "relative" }}>
                                                                     <Typography variant='h5' color="var(--dark-blue)">Zoom In Chair Teeth Whitening</Typography>
                                                                     <List>
                                                                         <ListItem>
@@ -136,26 +144,28 @@ const TW = () => {
                                                 <Box mt={2}>
                                                     <SectionalHeading variant="h3" title="Causes of Teeth Discoloration" align='left' color="var(--dark-blue)" />
                                                     <Typography className='para'>Your teeth could discolour for several reasons, but the main ones are;</Typography>
-                                                    <List>
-                                                        <ListItem>
-                                                            <ListItemIcon>
-                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                                            </ListItemIcon>
-                                                            <ListItemText primary="Ageing" />
-                                                        </ListItem>
-                                                        <ListItem>
-                                                            <ListItemIcon>
-                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                                            </ListItemIcon>
-                                                            <ListItemText primary="Genetics" />
-                                                        </ListItem>
-                                                        <ListItem>
-                                                            <ListItemIcon>
-                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                                            </ListItemIcon>
-                                                            <ListItemText primary="Lifestyle habits such as smoking" />
-                                                        </ListItem>
-                                                    </List>
+                                                    <Box my={3}>
+                                                        <Grid container spacing={3}>
+                                                            <Grid item xs={12} sm={6} md={4} >
+                                                                <Typography variant='h5' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Ageing</Typography>
+                                                                <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
+                                                                    <Image src={Age} alt="age" className='rounded' />
+                                                                </Box>
+                                                            </Grid>
+                                                            <Grid item xs={12} sm={6} md={4} >
+                                                                <Typography variant='h5' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Genetic</Typography>
+                                                                <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
+                                                                    <Image src={Gen} alt="gen" className='rounded' />
+                                                                </Box>
+                                                            </Grid>
+                                                            <Grid item xs={12} sm={6} md={4} >
+                                                                <Typography variant='h5' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Smoking</Typography>
+                                                                <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
+                                                                    <Image src={Smoking} alt="smoking" className='rounded' />
+                                                                </Box>
+                                                            </Grid>
+                                                        </Grid>
+                                                    </Box>
                                                     <Typography className='para'>Luckily, our team of professional dentists at Carrum Downs Dental Group will conduct any of the two whitening procedures and restore your caramel white teeth.</Typography>
                                                 </Box>
                                             </Container>
@@ -164,16 +174,26 @@ const TW = () => {
                                             <Container maxWidth="xxl">
                                                 <Box className='border'>
                                                     <Grid container>
-                                                        <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('zoom')} component={Button} py={2} className={`tab ${selectedTab == "zoom" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center' className={`tab ${selectedTab == "zoom" ? 'text-white' : 'text-dark'}`}>Zoom In-Chair teeth whitening</Typography></Box></Grid>
-                                                        <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('boutique')} component={Button} py={2} className={`tab ${selectedTab == "boutique" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center' className={`tab ${selectedTab == "zoom" ? 'text-white' : 'text-dark'}`}>Boutique Teeth Whitening</Typography></Box></Grid>
+                                                        <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('zoom')} component={Button} py={2} className={`tab ${selectedTab == "zoom" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center' className={`tab text-dark ${selectedTab == "zoom" ? 'text-white' : 'text-dark'}`}>Zoom In-Chair teeth whitening</Typography></Box></Grid>
+                                                        <Grid item xs={6} className="border"><Box onClick={() => setSelectedTab('boutique')} component={Button} py={2} className={`tab ${selectedTab == "boutique" ? 'bg--blue' : 'bg-light'}`} fullWidth><Typography variant='h6' align='center' className={`tab text-dark ${selectedTab == "boutique" ? 'text-white' : 'text-dark'}`}>Boutique Teeth Whitening</Typography></Box></Grid>
                                                         <Grid item xs={12}>
                                                             {
                                                                 selectedTab == 'zoom' ? <>
                                                                     <Box p={3}>
                                                                         <Box>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Zoom Teeth Whitening</Typography>
-                                                                            <Typography className='para'>Zoom whitening is a type of laser therapy that has grown in popularity due to its ability to deliver long-lasting benefits in the shortest time.</Typography>
-                                                                            <Typography className='para'>It is a method that dentists employ to whiten teeth using cutting-edge therapy. The method combines a unique lamp known as a Zoom light with a whitening cream that contains hydrogen peroxide. It works better than other tooth whitening solutions that may take weeks or even months to provide noticeable results and lessens the stains or discolouration of tooth enamel.
+                                                                            <Grid container>
+                                                                                <Grid item xs={12} sm={6} className="pe-2">
+                                                                                    <Image src={Apply} alt="day" className='rounded' />
+                                                                                </Grid>
+                                                                                <Grid item xs={12} sm={6} className="ps-2">
+                                                                                    <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Zoom Teeth Whitening</Typography>
+                                                                                    <Typography className='para'>Zoom whitening is a type of laser therapy that has grown in popularity due to its ability to deliver long-lasting benefits in the shortest time.</Typography>
+                                                                                    <Typography>
+                                                                                        It is a method that dentists employ to whiten teeth using cutting-edge therapy. The method combines a unique lamp known as a Zoom light with a whitening cream that contains hydrogen peroxide.
+                                                                                    </Typography>
+                                                                                </Grid>
+                                                                            </Grid>
+                                                                            <Typography className='para'>It works better than other tooth whitening solutions that may take weeks or even months to provide noticeable results and lessens the stains or discolouration of tooth enamel.
                                                                                 Additionally, Zoom whitening requires much less dedication and gives you a brilliant smile in just 90 minutes.
                                                                             </Typography>
                                                                             <Box mt={3}>
@@ -200,7 +220,7 @@ const TW = () => {
 
                                                                     </Box>
                                                                 </> : selectedTab == 'boutique' ? <>
-                                                                    <Box p={3}>
+                                                                    <Box p={3} style={{ backgroundColor: "#11527826" }}>
                                                                         <Box>
                                                                             <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Teeth Whitening</Typography>
                                                                             <Typography className='para'>Founded in 2015, Boutique Whitening created its whitening solution to bridge the gap between in-office and at-home treatments, enabling everyone to achieve a dazzling smile safely and effectively without having to pay the exorbitant costs associated with professional teeth whitening procedures.</Typography>
@@ -224,16 +244,31 @@ const TW = () => {
                                                                             <Typography className='para'>These two procedures are designed to fit different tastes and preferences. </Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
-                                                                            <Typography className='para'>Boutique by day is a whitening method that uses hydrogen peroxide as the main ingredient. You will apply your whitening gel to each tooth on your custom-made trays and then bite on them firmly. </Typography>
+                                                                            <Grid container>
+                                                                                <Grid xs={12} sm={6} className="pe-2">
+                                                                                    <Image src={BDAY} alt="day" className='rounded' />
+                                                                                </Grid>
+                                                                                <Grid xs={12} sm={6} className="ps-2">
+                                                                                    <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
+                                                                                    <Typography className='para'>Boutique by day is a whitening method that uses hydrogen peroxide as the main ingredient. You will apply your whitening gel to each tooth on your custom-made trays and then bite on them firmly. </Typography>
+                                                                                </Grid>
+                                                                            </Grid>
+
                                                                             <Typography className='para'>Though most of the gel is used up in the first 20 minutes, you are advised to leave your custom trays in place for at least an hour, depending on the specific type of gel you are given.</Typography>
                                                                             <Typography className='para'>The goal is to offer a teeth-whitening procedure that is quick, simple, and effective while also fitting into your schedule and eating routine.</Typography>
                                                                             <Typography className='para'>The gel discharges significant amounts of oxygen free radicals to dissolve stains and ultimately lighten teeth in a quick, safe manner.</Typography>
                                                                             <Typography className='para'>When not in use, kindly store your kit in the refrigerator or a cool, dark cabinet. Syringes should be kept in their box as the gel will activate when they are exposed to light. Only use the syringes to inject gel into the trays; otherwise, keep them away from heat and light.</Typography>
                                                                         </Box>
                                                                         <Box mt={3}>
-                                                                            <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Night</Typography>
-                                                                            <Typography className='para'>Boutique by night is a whitening method that uses potassium nitrate and carbamide peroxide as the main ingredients. These compounds have lower whitening gel concertation compared to the one used on boutique by night. </Typography>
+                                                                            <Grid container>
+                                                                                <Grid xs={12} sm={6} className="pe-2">
+                                                                                    <Typography variant='h2' className="tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique by Night</Typography>
+                                                                                    <Typography className='para'>Boutique by night is a whitening method that uses potassium nitrate and carbamide peroxide as the main ingredients. These compounds have lower whitening gel concertation compared to the one used on boutique by night. </Typography>
+                                                                                </Grid>
+                                                                                <Grid xs={12} sm={6} className="ps-2">
+                                                                                    <Image src={NightB} alt="night" className='rounded' />
+                                                                                </Grid>
+                                                                            </Grid>
                                                                             <Typography className='para'>The trays should be worn for roughly 4 hours at night, although it is advisable that you wear your trays for at least 6 hours to obtain the maximum benefit. This method is best for people who run a busy schedule and would like to have the treatment done at night. </Typography>
                                                                             <Typography className='para'>If you are not sure which of the two is good for you, get in touch with us at Carrum Downs Dental Group for professional assistance.</Typography>
                                                                         </Box>
