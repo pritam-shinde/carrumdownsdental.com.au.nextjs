@@ -24,7 +24,7 @@ const SeaFord = () => {
   }, [])
 
   const breadcrumb = [
-    { id: "seaford_breadcrumb_1", link: null, title: "Find the best dentist in Seaford" }
+    { id: "seaford_breadcrumb_1", link: null, title: "Dentist In Seaford" }
   ]
 
   return (

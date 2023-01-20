@@ -24,7 +24,7 @@ const FrankstonNorth = () => {
   }, [])
 
   const breadcrumb = [
-    { id: "frankson_north_breadcrumb_1", link: null, title: "Looking for a dentist in Frankston North?" }
+    { id: "frankson_north_breadcrumb_1", link: null, title: "Dentist In Frankston North" }
   ]
 
   return (

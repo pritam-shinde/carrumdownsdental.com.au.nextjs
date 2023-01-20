@@ -26,7 +26,7 @@ const Lyndhurst = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "lyndhurst_breadcrumb_1", link: null, title: "Get all your dental needs handled in Lyndhurst" }
+    { id: "lyndhurst_breadcrumb_1", link: null, title: "Dentist In Lyndhurst" }
   ]
 
   return (

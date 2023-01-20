@@ -24,7 +24,7 @@ const Sandhurst = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "suburb_sandhurst_breadcrumb_1", link: null, title: "Get the Best Dental Care at Sandhurst" }
+    { id: "suburb_sandhurst_breadcrumb_1", link: null, title: "Dentist In Sandhursts" }
   ]
 
   return (

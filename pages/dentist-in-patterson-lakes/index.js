@@ -25,7 +25,7 @@ const PattersonLake = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "patterson_lake_breadcrumb_1", link: null, title: "Affordable Dental Services at Patterson Lakes" }
+    { id: "patterson_lake_breadcrumb_1", link: null, title: "Dentist In Patterson Lake" }
   ]
 
   return (
@@ -37,7 +37,7 @@ const PattersonLake = () => {
         <meta name="robots" content="index" />
         <link rel="canonical" href="/affordable-dental-services-at-patterson-lakes/" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Patterson Lakessss" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Patterson Lakes" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
         show ? <><main>
           <Container maxWidth="xxl">

@@ -24,7 +24,7 @@ const Langwarrin = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "langwarrin_breadcrumb_1", link: null, title: "Affordable Dental Services at Langwarrin" }
+    { id: "langwarrin_breadcrumb_1", link: null, title: "Dentist In Langwarrin" }
   ]
 
   return (

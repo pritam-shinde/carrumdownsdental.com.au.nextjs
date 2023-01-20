@@ -24,7 +24,7 @@ const CranbourneWest = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "cranbourne_west_breadcrumb_1", link: null, title: "We are your go-to Dentist in Cranbourne West" }
+    { id: "cranbourne_west_breadcrumb_1", link: null, title: "Dentist In Cranbourne West" }
   ]
 
   return (

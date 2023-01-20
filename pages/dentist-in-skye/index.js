@@ -24,7 +24,7 @@ const Skye = () => {
     }, [width])
 
     const breadcrumb = [
-        { id: "suburb_skye_breadcrumb_1", link: null, title: "Get Painless Dental Treatment At Skye" }
+        { id: "suburb_skye_breadcrumb_1", link: null, title: "Dentist In Skye" }
     ]
 
     return (
