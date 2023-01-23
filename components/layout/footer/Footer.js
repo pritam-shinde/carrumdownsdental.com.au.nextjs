@@ -138,28 +138,28 @@ const Footer = () => {
                 </Grid>
                 <Box py={1} mt={3} className='d-flex justify-content-center align-items-center mb-md-0 mb-5' style={{borderTop:"2.5px solid rgba(255, 255, 255, 0.1)", borderBottom: "2.5px solid rgba(255, 255, 255, 0.1)" }}>
                   <ul className='d-flex p-0 mb-0 flex-wrap'>
-                    <li className='mx-2'><Link href="/get-painless-dental-treatment-at-skye/">
+                    <li className='mx-2'><Link href="/dentist-in-skye/">
                       <a className='nav-link'>Skye</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/get-the-best-dental-care-at-sandhurst/">
+                    <li className='mx-2'><Link href="/dentist-in-sandhurst/">
                       <a className='nav-link'>Sandhurst</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/affordable-dental-services-at-patterson-lakes/">
+                    <li className='mx-2'><Link href="/dentist-in-patterson-lakes/">
                       <a className='nav-link'>Patterson Lakes</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/we-are-your-go-to-dentist-in-cranbourne-west/">
+                    <li className='mx-2'><Link href="/dentist-in-cranbourne-west/">
                       <a className='nav-link'>Cranbourne West</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/looking-for-a-dentist-in-frankston-north/">
+                    <li className='mx-2'><Link href="/dentist-in-frankston-north/">
                       <a className='nav-link'>Frankston North</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/find-the-best-dentist-in-seaford/">
+                    <li className='mx-2'><Link href="/dentist-in-seaford/">
                       <a className='nav-link'>Seaford</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/get-all-your-dental-needs-handled-in-lyndhurst/">
+                    <li className='mx-2'><Link href="/dentist-in-lyndhurst/">
                       <a className='nav-link'>Lyndhurst</a>
                     </Link></li>
-                    <li className='mx-2'><Link href="/affordable-dental-services-at-langwarrin/">
+                    <li className='mx-2'><Link href="/dentist-in-langwarrin/">
                       <a className='nav-link'>Langwarrin</a>
                     </Link></li>
                   </ul>
