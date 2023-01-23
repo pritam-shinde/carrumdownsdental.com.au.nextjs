@@ -46,7 +46,11 @@ const FrankstonNorth = () => {
                     <Box>
                       <Image src={FrankstonNorthClinic} alt="Dentist In Frankston" />
                       <SectionalHeading variant="h2" title="Looking for a dentist in Frankston North?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
+<<<<<<< HEAD
                       <Typography className='para'>Are you looking for quality and affordable dental options? We have what you need and would love to be your choice of <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">dentist near Frankston North</Link>. Ours is a practice is among the select few offering convenience, competence and compatibility all at costs you can afford. We are able to achieve this thanks to the committed group of dental professionals that we have in our team. We are also happy to inform you that our practice is equipped with cutting-edge technology that allows for the best modern dentistry you can find out there.</Typography>
+=======
+                      <Typography className='para'>Are you looking for quality and affordable dental options? We have what you need and would love to be your choice of dentist near Frankston North. Ours is a practice is among the select few offering convenience, competence and compatibility all at costs you can afford. We are able to achieve this thanks to the committed group of dental professionals that we have in our team. We are also happy to inform you that our practice is equipped with cutting-edge technology that allows for the best modern dentistry you can find out there.</Typography>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                     </Box>
                     <Box className='mt-4'>
                       <Typography className='para'><strong>Dentists who are good with children</strong></Typography>

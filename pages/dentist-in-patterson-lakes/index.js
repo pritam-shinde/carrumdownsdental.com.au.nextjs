@@ -32,7 +32,11 @@ const PattersonLake = () => {
     <>
 
       <Head>
+<<<<<<< HEAD
         <title>Top Rated Dentist in Patterson Lakes | Carrum Downs Dental</title>
+=======
+        <title>Dental Clinic in Patterson Lakes | Carrum Downs Dental Group</title>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
         <meta name="description" content="Carrum Downs Dentist offers a number of dental services to people of all ages ranging from children to adults near Patterson Lakes. Book an online appointment with us." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/affordable-dental-services-at-patterson-lakes/" />
@@ -51,7 +55,11 @@ const PattersonLake = () => {
                           <Image src={PattersonLakeClinic} alt="Dentist In Patterson Lakes" />
                           <Box>
                           <SectionalHeading variant="h2" title="Affordable Dental Services at Patterson Lakes" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
+<<<<<<< HEAD
                             <Typography className='para'>Conveniently located on Frankston-Dandenong Road in the Carrum Downs suburbs, our dental practice is one of the reputable <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">Clinics near Patterson-Lakes</Link>. Patterson-Lakes boast of clean streets that are also noise-free and secure. Besides getting exceptional dental services, you will definitely enjoy your visit here.</Typography>
+=======
+                            <Typography className='para'>Conveniently located on Frankston-Dandenong Road in the Carrum Downs suburbs, our dental practice is one of the reputable Clinics near Patterson-Lakes. Patterson-Lakes boast of clean streets that are also noise-free and secure. Besides getting exceptional dental services, you will definitely enjoy your visit here.</Typography>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                             <Typography className='para'>Here at Carrum Downs Dental Group, we are dedicated to providing superior dental services to our clients. Your smile and good dental health is our top priority. We offer a comprehensive range of dental services; from <Link href="/service/dental-implants/">dental implants</Link>, orthodontics and wisdom tooth extractions to cosmetic and restorative dentistry. Whether you are looking to have a tooth replacement, teeth whitening or simply want a dental check up, our dedicated team is looking forward to your visit.</Typography>
                             <Typography className='para'>Our dentists and skilled staff are dedicated to providing with high-quality, personalized dental to get your teeth functioning normally again.</Typography>
                             <Typography className='para'>We cater to patients of all ages- from little children to adults. We are dedicated to providing the best dental care for you and your entire family at affordable charges.</Typography>

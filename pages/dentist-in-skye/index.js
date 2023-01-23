@@ -31,7 +31,11 @@ const Skye = () => {
         <>
 
             <Head>
+<<<<<<< HEAD
                 <title>Experienced Dentist in Skye | Carrum Downs Dental Group</title>
+=======
+                <title>Professional Dental Care in Skye by Carrum Downs Dental Group</title>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                 <meta name="description" content="Our dentists in skye offer quality dental care to the patients. Our experienced dentists can meet all your oral care needs. Contact us today!" />
                 <meta name="robots" content="index" />
                 <link rel="canonical" href="/get-painless-dental-treatment-at-skye/" />
@@ -51,7 +55,11 @@ const Skye = () => {
                                                     <Box>
                                                         <SectionalHeading variant="h2" title="Get Painless Dental Treatment at Skye" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
                                                         <Typography className='para'>At Carrum Downs Dental, just the moment, you step on our doors; our lovely staff will greet and welcome you with a warm smile. They will help you answer any question you might have and will go above and beyond to serve your needs.</Typography>
+<<<<<<< HEAD
                                                         <Typography className='para'>We know that there is nothing worse than visiting a dental clinic and wondering if the professionals you are trusting with your valuable smile are properly qualified and experienced. At <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">Carrum Downs Dental near Skye</Link> you can relax with the knowledge that our dentists are well trained, experienced and certified by the Australian Dental Association. This means that all our dentists have proven their ability to the highest standard.</Typography>
+=======
+                                                        <Typography className='para'>We know that there is nothing worse than visiting a dental clinic and wondering if the professionals you are trusting with your valuable smile are properly qualified and experienced. At <Link href="/">Carrum Downs Dental</Link> near Skye you can relax with the knowledge that our dentists are well trained, experienced and certified by the Australian Dental Association. This means that all our dentists have proven their ability to the highest standard.</Typography>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                                                         <Typography className='para'>Everyone hates sitting in a waiting room, going through some old magazine, watching time pass while there are other valuable things to attend to. At Carrum Downs Dental, we understand that your time is important. We never squeeze in appointments; we will always book plenty of time for you. This means that we always run on time and never rush treatment. If something happens meaning that we can’t run on time, you will always be the first to know.</Typography>
                                                         <Typography className='para'>Thankfully, modern technology and the latest techniques ensure that <Link href="/dental-treatments-for-top-10-mouth-problems/">dental treatment</Link> is always painless and gentle, but to us, comfort is just as important as the absence of pain. At Carrum Downs Dental in Skye we work hard to ensure a painless treatment for you, but also go an extra mile to make sure that your experience with us is as pleasant as possible.</Typography>
                                                         <Typography className='para'>We know that sometimes dental expense can be unexpected, and the smile you have always desired can seem out of reach. To assist you in making it easy to acquire the dental care you want, we offer affordable, simple, clear and convenient payment options.</Typography>

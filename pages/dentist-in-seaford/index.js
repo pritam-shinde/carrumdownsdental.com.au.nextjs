@@ -31,7 +31,11 @@ const SeaFord = () => {
     <>
 
       <Head>
+<<<<<<< HEAD
         <title>Find the Best Dentist in Seaford | Carrum Downs Dental Group</title>
+=======
+        <title>Dentist in Seaford | Carrum Downs Dental Group</title>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Seaford. All the dental service you expect and more are now available in Seaford." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/find-the-best-dentist-in-seaford/" />
@@ -49,7 +53,11 @@ const SeaFord = () => {
                         <Image src={SeafordClinic} alt="Dentist In Seaford" />
                         <Box mt={1}>
                         <SectionalHeading variant="h2" title="Find the best dentist in Seaford" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
+<<<<<<< HEAD
                           <Typography className="para">A lot of people hear about visiting the dentist and get frightened by the thought. The truth is you don’t have to be. You can go for a lifetime without having any major operation or losing a tooth with a good dentists checking your oral health every once in a while. If you are looking for a <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">good dentist in Seaford</Link>, you should look no further. We have the facilities and professional staff to ensure you keep your pearly whites safe from any harm from disease or bacteria.</Typography>
+=======
+                          <Typography className="para">A lot of people hear about visiting the dentist and get frightened by the thought. The truth is you don’t have to be. You can go for a lifetime without having any major operation or losing a tooth with a good dentists checking your oral health every once in a while. If you are looking for a good dentist in Seaford, you should look no further. We have the facilities and professional staff to ensure you keep your pearly whites safe from any harm from disease or bacteria.</Typography>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                           <Box className="mt-4">
                             <Typography className="para mb-0"><strong>Feel involved in your dental care</strong></Typography>
                             <Typography className="para">One of the most important aspects of our dental practice is to always make the patient know everything that is going on with them. We will always lay the options for you for any dental procedure you need and offer expert advice on what your best choice is.</Typography>

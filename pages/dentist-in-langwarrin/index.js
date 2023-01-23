@@ -30,7 +30,11 @@ const Langwarrin = () => {
   return (
     <>
       <Head>
+<<<<<<< HEAD
         <title>Trusted and Experienced Dentist in Lyndhurst | Dental Services</title>
+=======
+        <title>Dentist in Langwarrin | Affordable Dental Services</title>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
         <meta name="description" content="We offer a number of dental services to people of all ages ranging from children to adults. Schedule an online appointment with Carrum Downs Dental Group." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/affordable-dental-services-at-langwarrin/" />
@@ -49,7 +53,11 @@ const Langwarrin = () => {
                         <Box>
                         <SectionalHeading variant="h2" title="Affordable Dental Services at Langwarrin" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
                           <Typography className='para'><strong>Why People of Langwarrin Suburb Should Visit Carrum Downs Dental</strong></Typography>
+<<<<<<< HEAD
                           <Typography className="para">Taking good care of your teeth means more than just brushing and flossing. For a complete care, it is important that you visit a dentist at least every six months. Having a dentist, you can trust means your smile will maintain its perfect whiteness and your teeth will be in ideal condition. The fact that there are thousands of <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">dental specialists in Langwarrin</Link> suburb, we know it can be a difficult task finding that one dentist that will truly understand all your needs. If you are in that position, you can now rest easy. Here are some few reasons why people of Langwarrin suburb should make <Link href="/">Carrum Downs Dental</Link>, your dental clinic of choice.</Typography>
+=======
+                          <Typography className="para">Taking good care of your teeth means more than just brushing and flossing. For a complete care, it is important that you visit a dentist at least every six months. Having a dentist, you can trust means your smile will maintain its perfect whiteness and your teeth will be in ideal condition. The fact that there are thousands of dental specialists in Langwarrin suburb, we know it can be a difficult task finding that one dentist that will truly understand all your needs. If you are in that position, you can now rest easy. Here are some few reasons why people of Langwarrin suburb should make <Link href="/">Carrum Downs Dental</Link>, your dental clinic of choice.</Typography>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                         </Box>
                         <Box className='mt-4'>
                           <Typography className='para'><strong>– Our High Reputation</strong></Typography>

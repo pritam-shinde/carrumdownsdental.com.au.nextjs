@@ -33,7 +33,11 @@ const Lyndhurst = () => {
     <>
 
       <Head>
+<<<<<<< HEAD
         <title>Experienced Dentist in Lyndhurst | Carrum Downs Dental Group</title>
+=======
+        <title>Dental Care and Dentist in Lyndhurst | Carrum Downs Dental Group</title>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Lyndhurst. All the dental service you expect and more are now available in Lyndhurst." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/get-all-your-dental-needs-handled-in-lyndhurst/" />
@@ -51,7 +55,11 @@ const Lyndhurst = () => {
                         <Image src={LyndhurstClinic} alt="dentist in lyndhurst" />
                         <Box>
                         <SectionalHeading variant="h2" title="Get all your dental needs handled in Lyndhurst" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
+<<<<<<< HEAD
                           <Typography className='para'>Your health is not something you can easily make decisions over. You have to look around and find the best you can before settling for a medical practitioner. We understand these concerns and are here to abate them. Our dental practice has been going from strength to strength, always bringing something new to the table. We have some of the <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">best dental practitioners</Link> you can find in Lyndhurst and they have an amazing support staff rallying behind them to make our practice the number one choice in Lyndhurst. This, coupled with the high-tech equipment we use here ensures your smile will never be in jeopardy.</Typography>
+=======
+                          <Typography className='para'>Your health is not something you can easily make decisions over. You have to look around and find the best you can before settling for a medical practitioner. We understand these concerns and are here to abate them. Our dental practice has been going from strength to strength, always bringing something new to the table. We have some of the best dental practitioners you can find in Lyndhurst and they have an amazing support staff rallying behind them to make our practice the number one choice in Lyndhurst. This, coupled with the high-tech equipment we use here ensures your smile will never be in jeopardy.</Typography>
+>>>>>>> f06b4a6e19cea6aa9899c810d2301d5e43edc607
                         </Box>
                         <Box className='mt-4'>
                           <Typography className="para"><strong>Get any type of dental procedure you need</strong></Typography>
