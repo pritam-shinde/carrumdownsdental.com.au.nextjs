@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Banner from '../../public/suburb/bg.jpg'
 import FrankstonNorthClinic from '../../public/suburb/frankston-north/frankston-North.jpg'
-import { CommonHero, CommonSidebar, SectionalHeading } from '../../components/components'
+import { CommonHero, CommonSidebar } from '../../components/components'
 import { Box, Container, Grid, Typography } from '@mui/material'
 
 const FrankstonNorth = () => {
@@ -24,7 +24,7 @@ const FrankstonNorth = () => {
   }, [])
 
   const breadcrumb = [
-    { id: "frankson_north_breadcrumb_1", link: null, title: "Dentist In Frankston North" }
+    { id: "frankson_north_breadcrumb_1", link: null, title: "Looking for a dentist in Frankston North?" }
   ]
 
   return (
@@ -35,7 +35,7 @@ const FrankstonNorth = () => {
         <meta name="robots" content="index" />
         <link rel="canonical" href="/looking-for-a-dentist-in-frankston-north/" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Frankston North" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Looking for a dentist in Frankston North?" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {show ? <main>
         <Container maxWidth="xxl">
           <Grid container>
@@ -45,8 +45,7 @@ const FrankstonNorth = () => {
                   <Grid item xs={12} lg={8}>
                     <Box>
                       <Image src={FrankstonNorthClinic} alt="Dentist In Frankston" />
-                      <SectionalHeading variant="h2" title="Looking for a dentist in Frankston North?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
-                      <Typography className='para'>Are you looking for quality and affordable dental options? We have what you need and would love to be your choice of <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">dentist near Frankston North</Link>. Ours is a practice is among the select few offering convenience, competence and compatibility all at costs you can afford. We are able to achieve this thanks to the committed group of dental professionals that we have in our team. We are also happy to inform you that our practice is equipped with cutting-edge technology that allows for the best modern dentistry you can find out there.</Typography>
+                      <Typography className='para'>Are you looking for quality and affordable dental options? We have what you need and would love to be your choice of dentist near Frankston North. Ours is a practice is among the select few offering convenience, competence and compatibility all at costs you can afford. We are able to achieve this thanks to the committed group of dental professionals that we have in our team. We are also happy to inform you that our practice is equipped with cutting-edge technology that allows for the best modern dentistry you can find out there.</Typography>
                     </Box>
                     <Box className='mt-4'>
                       <Typography className='para'><strong>Dentists who are good with children</strong></Typography>

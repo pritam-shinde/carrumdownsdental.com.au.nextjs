@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Banner from '../../public/suburb/bg.jpg';
 import CranbourneWestClinic from '../../public/suburb/cranbourne-west/cranbourne-west.jpg'
-import { CommonHero, CommonSidebar, SectionalHeading } from '../../components/components'
+import { CommonHero, CommonSidebar } from '../../components/components'
 import { Box, Container, Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 
@@ -24,19 +24,19 @@ const CranbourneWest = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "cranbourne_west_breadcrumb_1", link: null, title: "Dentist In Cranbourne West" }
+    { id: "cranbourne_west_breadcrumb_1", link: null, title: "We are your go-to Dentist in Cranbourne West" }
   ]
 
   return (
     <>
 
       <Head>
-        <title>Dentist in Cranbourne West | Carrum Downs Dental Group</title>
+        <title>Dentist & Dental Care in Cranbourne West | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Cranbourne West. All the dental service you expect and more are now available in Cranbourne West." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/we-are-your-go-to-dentist-in-cranbourne-west/" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Cranbourne West" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="We are your go-to Dentist in Cranbourne West" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
         show ? <><main>
           <Container maxWidth="xxl">
@@ -48,11 +48,10 @@ const CranbourneWest = () => {
                       <Box>
                         <Image src={CranbourneWestClinic} alt="Dentist in Cranbourne West" />
                       </Box>
-                      <SectionalHeading variant="h2" title="We are your go-to Dentist in Cranbourne West" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
                       <Typography className='para'>If you have just moved into the area, haven’t been to a dental checkup in a while or are looking to change your dentist, we invite you to try our services. We have a reputation for always delivering the best quality services. Our team of certified professionals together with our sophisticated equipment makes us one of the best dental health care partners for you. Our patients always find a health practitioner who understands their needs and a comfortable space that helps them do away with the nerves.</Typography>
                       <Box className="mt-4">
                         <Typography className='para'><strong>Comprehensive dental care</strong></Typography>
-                        <Typography className='para'>We believe in always giving the best and it is one of the aspects about our practice that has allowed us to grow and become one of the most dependable <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">dental practices in Cranbourne West</Link>. Our list of dental services includes a wide range of routine and specific procedures such as implant placement, dentures, wisdom tooth removal, <Link href="/service/teeth-whitening/">teeth whitening</Link>, and root canals among others. The procedures cover the scope of restorative, preventive and cosmetic dentistry.</Typography>
+                        <Typography className='para'>We believe in always giving the best and it is one of the aspects about our practice that has allowed us to grow and become one of the most dependable dental practices in Cranbourne West. Our list of dental services includes a wide range of routine and specific procedures such as implant placement, dentures, wisdom tooth removal, <Link href="/service/teeth-whitening/">teeth whitening</Link>, and root canals among others. The procedures cover the scope of restorative, preventive and cosmetic dentistry.</Typography>
                       </Box>
                       <Box className='mt-4'>
                         <Typography className='para'><strong>Dentistry for children</strong></Typography>

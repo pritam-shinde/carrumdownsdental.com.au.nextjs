@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Banner from '../../public/suburb/bg.jpg'
 import LangwarrinClinic from '../../public/suburb/Langwarrin/langwarin.jpg'
-import { BlueFilledBtn, CommonHero, CommonSidebar, SectionalHeading } from '../../components/components'
+import { BlueFilledBtn, CommonHero, CommonSidebar } from '../../components/components'
 import { Box, Container, Grid, Typography } from '@mui/material'
 
 const Langwarrin = () => {
@@ -24,18 +24,18 @@ const Langwarrin = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "langwarrin_breadcrumb_1", link: null, title: "Dentist In Langwarrin" }
+    { id: "langwarrin_breadcrumb_1", link: null, title: "Affordable Dental Services at Langwarrin" }
   ]
 
   return (
     <>
       <Head>
-        <title>Trusted and Experienced Dentist in Lyndhurst | Dental Services</title>
+        <title>Dentist in Langwarrin | Affordable Dental Services</title>
         <meta name="description" content="We offer a number of dental services to people of all ages ranging from children to adults. Schedule an online appointment with Carrum Downs Dental Group." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/affordable-dental-services-at-langwarrin/" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Langwarrin" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Affordable Dental Services at Langwarrin" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
         show ? <><main>
           <Container maxWidth="xxl">
@@ -47,9 +47,8 @@ const Langwarrin = () => {
                       <Box>
                         <Image src={LangwarrinClinic} alt="dentist in langwarrin" />
                         <Box>
-                        <SectionalHeading variant="h2" title="Affordable Dental Services at Langwarrin" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
                           <Typography className='para'><strong>Why People of Langwarrin Suburb Should Visit Carrum Downs Dental</strong></Typography>
-                          <Typography className="para">Taking good care of your teeth means more than just brushing and flossing. For a complete care, it is important that you visit a dentist at least every six months. Having a dentist, you can trust means your smile will maintain its perfect whiteness and your teeth will be in ideal condition. The fact that there are thousands of <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">dental specialists in Langwarrin</Link> suburb, we know it can be a difficult task finding that one dentist that will truly understand all your needs. If you are in that position, you can now rest easy. Here are some few reasons why people of Langwarrin suburb should make <Link href="/">Carrum Downs Dental</Link>, your dental clinic of choice.</Typography>
+                          <Typography className="para">Taking good care of your teeth means more than just brushing and flossing. For a complete care, it is important that you visit a dentist at least every six months. Having a dentist, you can trust means your smile will maintain its perfect whiteness and your teeth will be in ideal condition. The fact that there are thousands of dental specialists in Langwarrin suburb, we know it can be a difficult task finding that one dentist that will truly understand all your needs. If you are in that position, you can now rest easy. Here are some few reasons why people of Langwarrin suburb should make <Link href="/">Carrum Downs Dental</Link>, your dental clinic of choice.</Typography>
                         </Box>
                         <Box className='mt-4'>
                           <Typography className='para'><strong>– Our High Reputation</strong></Typography>

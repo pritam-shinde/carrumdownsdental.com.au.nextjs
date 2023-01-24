@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { CommonHero, CommonSidebar, SectionalHeading } from '../../components/components'
+import { CommonHero, CommonSidebar } from '../../components/components'
 import Banner from '../../public/suburb/bg.jpg';
 import SeafordClinic from '../../public/suburb/seaford/Seaford.jpg'
 import { Box, Container, Grid, Typography } from '@mui/material'
@@ -24,19 +24,19 @@ const SeaFord = () => {
   }, [])
 
   const breadcrumb = [
-    { id: "seaford_breadcrumb_1", link: null, title: "Dentist In Seaford" }
+    { id: "seaford_breadcrumb_1", link: null, title: "Find the best dentist in Seaford" }
   ]
 
   return (
     <>
 
       <Head>
-        <title>Find the Best Dentist in Seaford | Carrum Downs Dental Group</title>
+        <title>Dentist in Seaford | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Seaford. All the dental service you expect and more are now available in Seaford." />
         <meta name="robots" content="index" />
         <link rel="canonical" href="/find-the-best-dentist-in-seaford/" />
       </Head>
-      <CommonHero breadcrumb={breadcrumb} bg={Banner} title="Dentist In Seaford" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero breadcrumb={breadcrumb} bg={Banner} title="Find the best dentist in Seaford" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
         show ? <><main>
           <Container maxWidth="xxl">
@@ -46,10 +46,9 @@ const SeaFord = () => {
                   <Grid container spacing={5}>
                     <Grid item xs={12} lg={8}>
                       <Box>
-                        <Image src={SeafordClinic} alt="Dentist In Seaford" />
+                        <Image src={SeafordClinic} alt="Dentist in Seaford" />
                         <Box mt={1}>
-                        <SectionalHeading variant="h2" title="Find the best dentist in Seaford" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)"/>
-                          <Typography className="para">A lot of people hear about visiting the dentist and get frightened by the thought. The truth is you don’t have to be. You can go for a lifetime without having any major operation or losing a tooth with a good dentists checking your oral health every once in a while. If you are looking for a <Link href="https://goo.gl/maps/qomX2kzjyE91xHiX7">good dentist in Seaford</Link>, you should look no further. We have the facilities and professional staff to ensure you keep your pearly whites safe from any harm from disease or bacteria.</Typography>
+                          <Typography className="para">A lot of people hear about visiting the dentist and get frightened by the thought. The truth is you don’t have to be. You can go for a lifetime without having any major operation or losing a tooth with a good dentists checking your oral health every once in a while. If you are looking for a good dentist in Seaford, you should look no further. We have the facilities and professional staff to ensure you keep your pearly whites safe from any harm from disease or bacteria.</Typography>
                           <Box className="mt-4">
                             <Typography className="para mb-0"><strong>Feel involved in your dental care</strong></Typography>
                             <Typography className="para">One of the most important aspects of our dental practice is to always make the patient know everything that is going on with them. We will always lay the options for you for any dental procedure you need and offer expert advice on what your best choice is.</Typography>
