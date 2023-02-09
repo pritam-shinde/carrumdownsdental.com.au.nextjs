@@ -484,3 +484,13 @@ footer a:hover {
         bottom: 5% !important;
     }
 }
+
+.dropdown2:hover .dropdown-menu-2 {
+    display: block !important;
+    left: 13.5rem;
+    top: 0 !important
+}
+
+.dropdown2 .dropdown-menu-2 {
+    display: none !important;
+}

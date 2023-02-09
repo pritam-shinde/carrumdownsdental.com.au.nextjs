@@ -112,10 +112,17 @@ const Navbar = () => {
                       <a className='nav-link dropdown-item'>VENEERS</a>
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item dropdown dropdown2">
                     <Link href="/service/teeth-aligners/">
                       <a className='nav-link dropdown-item'>INVISALIGN</a>
                     </Link>
+                    <ul className="dropdown-menu dropdown-menu-2 p-2 border-0" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                          <Link className="nav-item" href="/invisalign-open-day/">
+                          <a className='nav-link dropdown-item'>INVISALIGN OPEN DAY</a>
+                          </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/root-canal/">

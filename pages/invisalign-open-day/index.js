@@ -8,7 +8,7 @@ import Image from 'next/image'
 import { CheckCircleOutline } from '@mui/icons-material'
 import Link from 'next/link'
 import Register from '../../public/OpenDay/register-invisilign.jpg'
-import WhyChoose from '../../public/OpenDay/whyChoose.jpg' 
+import WhyChoose from '../../public/OpenDay/whyChoose.webp' 
 
 const openDay = () => {
     const [width, setWidth] = useState();
@@ -49,7 +49,7 @@ const openDay = () => {
                                 <Grid container spacing={5}>
                                     <Grid item xs={12} md={6}>
                                         <SectionalHeading variant="h2" title="Invisalign Open Day .. Register your interest" align="left" color="var(--dark-blue)" />
-                                        <Typography className='para'>Book your consultation for FREE at our Invisalign open day.</Typography>
+                                        <Typography className='para' mt={2}>Book your consultation for FREE at our Invisalign open day.</Typography>
                                         <Typography className='para'>We&apos;re so excited about our next Open Day! We want you to join us.</Typography>
                                         <Typography className='para'>Invisalign is a clear, comfortable alternative to braces. Along with aligning your teeth, it also makes them straighter and more beautiful.</Typography>
                                         <Typography className='para'>Would you like to learn more about Invisalign? Well, we are inviting you to our Invisalign Open Day.</Typography>
@@ -139,7 +139,8 @@ const openDay = () => {
                                         </List>
                                         <SectionalHeading variant="h3" title="What are Invisalign clear braces?"  align="left"  color="var(--dark-blue)" />
                                         <Typography className='para'>Invisalign are clear braces that use transparent plastic trays to help move your teeth into a better position. These plastic trays help in adjusting the teeth in stages. Based on the moulds that were taken from your mouth, they will exert some pressure on different parts of your teeth to slowly move them in position.</Typography>
-                                        <Typography className='para'>Register your interest for the Invisalign Open Day by emailing us on <Link href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</Link> or Giving us a call on 03-9782 1200</Typography>
+                                        <Typography className='para'>Register your interest for the Invisalign Open Day by emailing us on <Link href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</Link> or Giving us a call on <strong>03-9782 1200</strong></Typography>
+                                        <Link href="https://carrumdownsdental.com.au/terms-and-conditions/">* Terms and Conditions apply.</Link>
                                     </Grid>               
                                     </Grid>
                                 </Box>
