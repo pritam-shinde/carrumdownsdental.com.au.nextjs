@@ -7,10 +7,10 @@ import { Container, Grid, Box, Typography, List, ListItemIcon, ListItemText, Lis
 import Image from 'next/image'
 import { CheckCircleOutline } from '@mui/icons-material'
 import Link from 'next/link'
-import Register from '../../public/OpenDay/register-invisilign.jpg'
-import WhyChoose from '../../public/OpenDay/whyChoose.webp' 
+import Register from '../../public/OpenDay/register-interest.jpg'
+import WhyChoose from '../../public/OpenDay/whyChoose.jpg' 
 
-const openDay = () => {
+const OpenDay = () => {
     const [width, setWidth] = useState();
     const [show, setShow] = useState();
 
@@ -165,4 +165,4 @@ const openDay = () => {
   )
 }
 
-export default openDay
+export default OpenDay
