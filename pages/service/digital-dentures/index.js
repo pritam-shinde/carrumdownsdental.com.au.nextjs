@@ -8,6 +8,7 @@ import image1 from '../../../public/digital-denture/digital-denture-1.jpg'
 import image2 from '../../../public/digital-denture/digital-denture-2.jpg'
 import image3 from '../../../public/digital-denture/digital-denture-3.jpg'
 import { CheckCircleOutline } from '@mui/icons-material'
+import Link from 'next/link'
 
 
 const DigitalDentures = () => {
@@ -34,12 +35,12 @@ const DigitalDentures = () => {
   return (
     <>
     <Head>
-      <title></title>
-      <meta name="description" content="" />
+      <title> Digital Dentures in Carrum Downs | Carrum Downs Dental Group</title>
+      <meta name="description" content="Carrum Downs Dental Clinic offering digital denture services, a latest innovation in dental care has given people a new way to smile and chew comfortably." />
       <meta name="robots" content="index" />
       <link rel="canonical" href="/service/digital-dentures/" />
     </Head>
-    <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Digital dentures Carrum Downs Dental Clinic" align={width < 600 ? 'center' : 'left'} color="#fff" />
+    <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Digital D  entures Carrum Downs Dental Clinic" align={width < 600 ? 'center' : 'left'} color="#fff" />
     {
       show ? <>
         <main>
@@ -51,7 +52,7 @@ const DigitalDentures = () => {
                     <Grid item xs={12} lg={8}>
                       <section>
                         <Container maxWidth="xxl" className='p-0'>
-                          <SectionalHeading variant="h2" title="Digital dentures Carrum Downs Dental Clinic" align='center' color="var(--dark-blue)" />
+                          <SectionalHeading variant="h2" title="Digital Dentures Carrum Downs Dental Clinic" align='center' color="var(--dark-blue)" />
                           <Box mt={3}>
                             <Grid container spacing={5}>                           
                               <Grid item xs={12}>
@@ -89,7 +90,7 @@ const DigitalDentures = () => {
                               <ListItemIcon>
                                 <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                               </ListItemIcon>
-                              <ListItemText primary={<strong>Comfortable than traditional dentures</strong>} secondary="The denture is designed in a way that they will feel comfortable to wear. This will cause less irritation and sores on the gums. Traditional dentures are often uncomfortable, ill-fitting, and can irritate the gums." />
+                              <ListItemText><strong>Comfortable than traditional dentures</strong> The denture is designed in a way that they will feel comfortable to wear. This will cause less irritation and sores on the gums.  <Link href='https://carrumdownsdental.com.au/service/dentures/'>traditional dentures</Link> are often uncomfortable, ill-fitting, and can irritate the gums. </ListItemText>
                             </ListItem>
                             <ListItem>
                               <ListItemIcon>
@@ -136,7 +137,7 @@ const DigitalDentures = () => {
                         <Box mt={3}>
                         <Grid container spacing={5}>                                                 
                           <Grid item xs={12} md={6}>
-                            <Typography className='para'>Digital dentures are made from high-quality, durable, and long-lasting materials. They are made from a PMMA material and designed using 3-shape camera software. The resulting model is actually three times harder than traditional dentures. </Typography>
+                            <Typography className='para'>Digital dentures are made from high-quality, durable, and long-lasting materials. They are made from a PMMA material and designed using 3-shape camera software. The resulting model is actually three times harder than <Link href='https://carrumdownsdental.com.au/service/dentures/'>traditional dentures</Link>. </Typography>
                           </Grid> 
                           <Grid item xs={12} md={6}>
                            <Image src={image3} alt="girl smiling" />
@@ -194,7 +195,7 @@ const DigitalDentures = () => {
                         <Box mt={3}>
                           <Grid container>                             
                             <Grid item xs={12}>
-                              <Typography className='para'>If you are considering digital dentures or have any questions about the process, please don't hesitate to contact us at Carrum Downs Dental Clinic. Our team of dental professionals would be happy to discuss your options and help you determine the best course of treatment. We look forward to hearing from you soon!</Typography>
+                              <Typography className='para'>If you are considering digital dentures or have any questions about the process, please don't hesitate to contact us at <Link href="https://carrumdownsdental.com.au/">Carrum Downs Dental Clinic</Link>. Our team of dental professionals would be happy to discuss your options and help you determine the best course of treatment. We look forward to hearing from you soon!</Typography>
                             </Grid>
                           </Grid>
                         </Box>
