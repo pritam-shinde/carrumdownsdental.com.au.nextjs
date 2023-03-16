@@ -83,16 +83,33 @@ const DigitalDentures = () => {
                        
                           <Box p={3}>
                             <SectionalHeading variant="h2" title="Advantages of Digital Dentures" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                            <Box mt={3}></Box>
-                            <SectionalHeading variant="h5" title="Comfortable than traditional dentures" color="var(--dark-blue)" style={{marginTop:'2rem'}}/>
-                            <Typography className='para'>The denture is designed in a way that they will feel comfortable to wear. This will cause less irritation and sores on the gums. Traditional dentures are often uncomfortable, ill-fitting, and can irritate the gums.</Typography>
-                            <SectionalHeading variant="h5" title="Aesthetically pleasing than traditional dentures." color="var(--dark-blue)" />
-                            <Typography className='para'>Digital dentures are designed in a way that they will match the natural color of your teeth. This will make them look more realistic and natural and thus enhance their aesthetic appeal.</Typography>
-                            <SectionalHeading variant="h5" title="The speed at which they can be made"  color="var(--dark-blue)" />
-                            <Typography className='para'>It can take up to a week to create traditional dentures. However, digital dentures can be made in a few days. This is because creating digital dentures is much faster than traditional methods since it uses the latest technology.</Typography>
-                            <SectionalHeading variant="h5" title="Easy Adjustments" color="var(--dark-blue)" />
-                            <Typography className='para'>It is quite easy to adjust digital dentures since they have been made using CAD/CAM technology. This means that if your dentures need to be adjusted, your dentist can do so in just a few hours instead of days.</Typography>
-                            
+  
+                            <List>
+                            <ListItem>
+                              <ListItemIcon>
+                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                              </ListItemIcon>
+                              <ListItemText primary={<strong>Comfortable than traditional dentures</strong>} secondary="The denture is designed in a way that they will feel comfortable to wear. This will cause less irritation and sores on the gums. Traditional dentures are often uncomfortable, ill-fitting, and can irritate the gums." />
+                            </ListItem>
+                            <ListItem>
+                              <ListItemIcon>
+                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                              </ListItemIcon>
+                              <ListItemText primary={<strong>Aesthetically pleasing than traditional dentures.</strong>} secondary="Digital dentures are designed in a way that they will match the natural color of your teeth. This will make them look more realistic and natural and thus enhance their aesthetic appeal." />
+                            </ListItem>
+                            <ListItem>
+                              <ListItemIcon>
+                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                              </ListItemIcon>
+                              <ListItemText primary={<strong>The speed at which they can be made</strong>} secondary="It can take up to a week to create traditional dentures. However, digital dentures can be made in a few days. This is because creating digital dentures is much faster than traditional methods since it uses the latest technology." />
+                            </ListItem>
+                            <ListItem>
+                            <ListItemIcon>
+                              <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                            </ListItemIcon>
+                            <ListItemText primary={<strong>Easy Adjustments</strong>} secondary="It is quite easy to adjust digital dentures since they have been made using CAD/CAM technology. This means that if your dentures need to be adjusted, your dentist can do so in just a few hours instead of days." />
+                          </ListItem>
+                          </List>
                         </Box>
                         </Container>
                       </section>
@@ -135,25 +152,23 @@ const DigitalDentures = () => {
                       <Box p={3}>
                         <SectionalHeading variant="h2" title="How Much Do Digital Dentures Cost" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                         <Typography className='para'>The cost of digital dentures varies depending on a number of factors, which include the material used and the complexity of the design. Digital dentures tend to have a higher initial cost. However, several long-term benefits can make them a better investment. For example, they are less likely to break and often last longer. They are also easier to clean and maintain, saving you money on dental bills in the long run.</Typography>
-                      </Box>
+                      
+                        <SectionalHeading variant="h2" title="Why Choose Carrum Downs Dental Clinic for Digital Dentures?"  color="var(--dark-blue)" />
+                        <Box mt={3}>
+                          <Grid container>                             
+                            <Grid item xs={12}>
+                            <Typography className='para'>Carrum Downs Dental Clinic is committed to providing our patients the best possible care. Our team of highly trained dental professionals has extensive experience in digital dentures. We use the latest technology to create comfortable, aesthetically pleasing, long-lasting dentures.</Typography>
+                            <Typography className='para'>We understand that getting a new set of dentures can sometimes be quite doubting. Therefore, we take time to explain to our patients the benefits that come with it as well as other alternatives they may want to consider. </Typography>
+                            <Typography className='para'>We are dedicated to providing a comfortable and stress-free experience for all our patients. Our dentists will work hard to ensure you feel confident and happy with their new dentures.</Typography>
+                           
+                            </Grid>
+                          </Grid>
+                        </Box>
+                        </Box>
+                      
                     </Container>
                   </section>
 
-                      <section className='mt-md-5 mt-4'>
-                        <Container maxWidth="xxl" className='p-0'>
-                          <SectionalHeading variant="h2" title="Why Choose Carrum Downs Dental Clinic for Digital Dentures?"  color="var(--dark-blue)" />
-                          <Box mt={3}>
-                            <Grid container>                             
-                              <Grid item xs={12}>
-                              <Typography className='para'>Carrum Downs Dental Clinic is committed to providing our patients the best possible care. Our team of highly trained dental professionals has extensive experience in digital dentures. We use the latest technology to create comfortable, aesthetically pleasing, long-lasting dentures.</Typography>
-                              <Typography className='para'>We understand that getting a new set of dentures can sometimes be quite doubting. Therefore, we take time to explain to our patients the benefits that come with it as well as other alternatives they may want to consider. </Typography>
-                              <Typography className='para'>We are dedicated to providing a comfortable and stress-free experience for all our patients. Our dentists will work hard to ensure you feel confident and happy with their new dentures.</Typography>
-                             
-                              </Grid>
-                            </Grid>
-                          </Box>
-                        </Container>
-                      </section>
                       <section className='mt-md-5 mt-4'>
                       <Container maxWidth="xxl" className='p-0'>
                        
