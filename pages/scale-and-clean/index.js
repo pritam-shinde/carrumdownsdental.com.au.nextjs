@@ -16,7 +16,6 @@ const ScaleNClean = () => {
                 <title>Scale and Clean -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="noindex" />
-                <link rel="canonical" href="/scale-and-clean/" />
             </Head>
             <PPCBanner bg={Banner} title="Scale and Clean" tagline="" align='start' />
             <main>

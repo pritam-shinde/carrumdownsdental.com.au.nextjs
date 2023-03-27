@@ -33,7 +33,6 @@ const FrankstonNorth = () => {
         <title>Dentist in Frankston North | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Frankston North. All the dental service you expect and more are now available in Frankston North." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/looking-for-a-dentist-in-frankston-north/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Frankston North" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {show ? <main>

@@ -32,7 +32,6 @@ const TermsNConditions = () => {
         <title>Terms and Conditions | Carrum Downs Dental Group</title>
         <meta name="description" content="Go through our Terms and Conditions that unveils all the information regarding our services, prices & more. By using this site, you are agreeing to the terms of use." />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="/terms-and-conditions/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Terms And Conditions" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

@@ -18,7 +18,6 @@ const RootCanal = () => {
                 <title>Root Canal -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/root-canal/" />
             </Head>
             <PPCBanner bg={Banner} title="Root Canal" tagline="Don&apos;t wait, let us help schedule appointment now!" align="end" />
             <main>

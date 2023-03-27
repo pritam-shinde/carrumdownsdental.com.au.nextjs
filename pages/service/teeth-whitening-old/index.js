@@ -71,7 +71,6 @@ const TeethWhitening = ({ data }) => {
         <title>Teeth Whitening in Carrum Downs | Carrum Downs Dentist</title>
         <meta name="description" content="Teeth Whitening is the most effective way to restore the whiteness of your tooth. We use Pola Whitening system to remove the discoloration." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/teeth-whitening/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Teeth Whitening in Carrum Downs" align='left' color="#fff" />
       {

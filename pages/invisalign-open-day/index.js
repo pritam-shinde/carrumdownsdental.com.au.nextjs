@@ -34,8 +34,7 @@ const OpenDay = () => {
         <Head>
             <title> Invisalign Open Day | Carrum Downs Dental</title>
             <meta name="description" content="" />
-            <meta name="robots" content="index" />
-            <link rel="canonical" href="/open-day/" />
+            <meta name="robots" content="index" />        
         </Head>
         <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} title="Invisalign Open Day 30th of March" color="#fff" />
          {

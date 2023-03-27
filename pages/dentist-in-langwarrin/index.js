@@ -33,7 +33,6 @@ const Langwarrin = () => {
         <title>Trusted and Experienced Dentist in Lyndhurst | Dental Services</title>
         <meta name="description" content="We offer a number of dental services to people of all ages ranging from children to adults. Schedule an online appointment with Carrum Downs Dental Group." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/affordable-dental-services-at-langwarrin/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Langwarrin" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

@@ -62,7 +62,6 @@ const ToothFillings = ({ data }) => {
         <title>Tooth Fillings | Carrum Downs Dentist</title>
         <meta name="description" content="Your teeth will be restored to a natural look and feel. Our experienced dentists in Carrum Downs are specialized in tooth fillings. Call us now!" />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/tooth-fillings/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Tooth Fillings" align={width < 600 ? "center" : 'left'} color="#fff" />
       {

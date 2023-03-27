@@ -34,7 +34,6 @@ const ReferralProgram = () => {
         <title>Patient Referral Program By Carrum Downs Dental Group</title>
         <meta name="description" content="A referral is the greatest compliment we can receive from our patients. Get $25 credit towards your next dental visit. Check out our referral program in detail." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/referral-program/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Referral Program" />
       {

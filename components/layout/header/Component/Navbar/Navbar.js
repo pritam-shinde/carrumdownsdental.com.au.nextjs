@@ -149,6 +149,11 @@ const Navbar = () => {
                       <a className='nav-link dropdown-item'>SMILE DESIGN</a>
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link href="/service/digital-dentures/">
+                      <a className='nav-link dropdown-item'>DIGITAL DENTURES</a>
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li className='nav-item'>

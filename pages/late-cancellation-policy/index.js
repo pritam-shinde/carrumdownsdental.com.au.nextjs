@@ -28,8 +28,7 @@ const LateCancellation = () => {
             <Head>
                 <title>Late Cancellation and Fail to Attend Policy | Carrum Downs Dental </title>
                 <meta name="description" content="Late cancellations or Fail to Attend (FTA) often result in wasted time, preparation, and materials." />
-                <meta name="robots" content="noindex" />
-                <link rel="canonical" href="/late-cancellation-policy/" />
+                <meta name="robots" content="noindex" />      
             </Head>
             <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Late Cancellation and Fail to Attend Policy" />
            <main>

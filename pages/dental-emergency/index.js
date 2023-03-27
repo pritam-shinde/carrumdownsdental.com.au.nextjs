@@ -19,7 +19,6 @@ const index = () => {
         <title>Dental Emergency -</title>
         <meta name="description" content="" />
         <meta name="robots" content="noindex" />
-        <link rel="canonical" href="/dental-emergency/" />
       </Head>
       <PPCBanner bg={Banner} title="DENTAL EMERGENCY" tagline="Don&apos;t wait, let us help schedule appointment now!" align="end" />
       <main>

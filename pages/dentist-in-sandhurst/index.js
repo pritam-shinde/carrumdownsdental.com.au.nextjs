@@ -34,7 +34,6 @@ const Sandhurst = () => {
         <title>Top Dentist in Sandhurst  - Quality Dental Care Services</title>
         <meta name="description" content="Skilled & experienced dentists in Sandhurst that provide best quality dental services. Carrum We provides superior dental treatment at an affordable price." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/get-the-best-dental-care-at-sandhurst/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} title="Dentist In Sandhursts" color="#fff" />
       {

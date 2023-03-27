@@ -16,7 +16,6 @@ const Veneers = () => {
                 <title>Veneers -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/veneers/" />
             </Head>
             <PPCBanner bg={Banner} title="Veneers" tagline="" align="start" />
             <main>

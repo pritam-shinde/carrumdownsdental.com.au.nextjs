@@ -17,8 +17,7 @@ const CNB = () => {
             <Head>
                 <title>Crowns and Bridges -</title>
                 <meta name="description" content="" />
-                <meta name="robots" content="index" />
-                <link rel="canonical" href="/crowns-and-bridges/" />
+                <meta name="robots" content="index" />     
             </Head>
             <PPCBanner bg={Banner} title="Crown And Bridges" tagline="" align="end" />
             <main>

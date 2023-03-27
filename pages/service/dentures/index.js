@@ -9,7 +9,7 @@ import DentureService from '../../../public/denture/denture-services.jpg'
 import { CommonHero, CommonSidebar, InterestFree, BookAndCall, CustomCard, SectionalHeading, TermsNCondition } from '../../../components/components'
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import { CheckCircleOutline } from '@mui/icons-material'
-
+import Link from 'next/link'
 
 // export const getServerSideProps = async () => {
 //   const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=denture`)
@@ -66,7 +66,6 @@ const Denture = ({ data }) => {
         <title>Dentures in Carrum Downs | Carrum Downs Dental Group Clinic</title>
         <meta name="description" content="Dentist in Carrum Downs Dental Group has extensive denture experience that satisfies every patient’s denture needs. We provide high quality of dentures." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/dentures/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentures in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {show ? <main>
@@ -188,7 +187,7 @@ const Denture = ({ data }) => {
                                 <ListItemIcon>
                                   <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                 </ListItemIcon>
-                                <ListItemText primary="With help from your dentist you can decide which tooth shapes, sizes and colours fit your mouth and look right for you. Your ‘bite’ is also recorded by the dentist. In the case of complete dentures the dentist records where the bite of the new dentures needs to be. Our dentist works with you to get this accurately." />
+                                <ListItemText>With help from your dentist you can decide which tooth shapes, sizes and colours fit your mouth and look right for you. Your ‘bite’ is also recorded by the dentist. In the case of complete dentures the dentist records where the bite of the <Link href="https://carrumdownsdental.com.au/service/digital-dentures/">new dentures</Link> needs to be. Our dentist works with you to get this accurately.</ListItemText>
                               </ListItem>
                               <ListItem className="ps-0">
                                 <ListItemIcon>

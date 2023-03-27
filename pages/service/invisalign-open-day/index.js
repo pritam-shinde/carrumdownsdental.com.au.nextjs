@@ -64,7 +64,6 @@ const InvisalignOpenDay = ({data}) => {
         <title>Invisalign Open Day 2022 at Carrum Downs Dental Group</title>
         <meta name="description" content=" Our Invisalign Open Day is the perfect opportunity to see yourself with straight teeth. Come to Carrum Downs Dental for free Invisalign Open Day to find out more. " />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/invisalign-open-day/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Invisalign Open Day" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

@@ -36,7 +36,6 @@ const Lyndhurst = () => {
         <title>Experienced Dentist in Lyndhurst | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Lyndhurst. All the dental service you expect and more are now available in Lyndhurst." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/get-all-your-dental-needs-handled-in-lyndhurst/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Lyndhurst" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

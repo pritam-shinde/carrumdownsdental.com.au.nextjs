@@ -12,11 +12,14 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);
+
+
+  const canonicalUrl = (`https://carrumdownsdental.com.au` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
   return (<>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
-      
+      <link rel="canonical" href={canonicalUrl} />
       <script type="application/ld+json">
         {
           JSON.stringify({

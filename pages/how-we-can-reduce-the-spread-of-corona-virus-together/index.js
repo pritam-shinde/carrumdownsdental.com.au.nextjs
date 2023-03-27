@@ -31,8 +31,7 @@ const Covid = () => {
       <Head>
         <title>How we can Reduce the Spread of Corona virus Together?</title>
         <meta name="description" content="During this COVID-19 our abled and dedicated team has undergone proper training on protocols and safety measures to ensure your safety during your visit." />
-        <meta name="robots" content="index" />
-        <link rel="canonical" href="/how-we-can-reduce-the-spread-of-corona-virus-together/" />
+        <meta name="robots" content="index" />     
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="How we can Reduce the Spread of Corona virus Together" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

@@ -25,7 +25,6 @@ const Service = () => {
                 <title>Dental Health Services Carrum Downs | Carrum Downs Dental</title>
                 <meta name="description" content="Carrum Downs Dental offers wisdom teeth extraction, dental implants, teeth whitening, dentures, root canal, & other services in Carrum Downs, you can count on Us." />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/service/" />
             </Head>
             <CommonHero bg={Banner} breadcrumb={null} title="Services" align="left" color="#fff" />
             <main>

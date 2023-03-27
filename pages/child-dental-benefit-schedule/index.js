@@ -17,7 +17,6 @@ const CDBS = () => {
                 <title>Child Dental Benefit Schedule -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/child-dental-benefit-schedule/" />
             </Head>
             <PPCBanner bg={Banner} title="Grow Up Smiling" tagline=" Child Dental Benefit Schedule (CDBS)" align='start' />
             <main>

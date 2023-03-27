@@ -34,7 +34,8 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
                     { id: "service-menu-10", title: "TEETH CLEANING", path: "/service/teeth-cleaning/", submenu:null  },
                     { id: "service-menu-11", title: "DENTAL EMERGENCY", path: "/service/dental-emergency/", submenu:null  },
                     { id: "service-menu-12", title: "TOOTH FILLING", path: "/service/tooth-fillings/", submenu:null  },
-                    { id: "service-menu-13", title: "SMILE DESIGN", path: "/service/smile-design/", submenu:null  }].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
+                    { id: "service-menu-13", title: "SMILE DESIGN", path: "/service/smile-design/", submenu:null  },
+                    { id: "service-menu-14", title: "DIGITAL DENTURES", path: "/service/digital-dentures/", submenu:null  }].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
                         <Link href={item.path}>
                             <a className='nav-link text-dark'>{item.title}</a>
                         </Link>

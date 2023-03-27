@@ -38,7 +38,6 @@ const PaymentPlan = () => {
             <title>Various Payment Plans for Dental Treatment | Carrum Downs Dental</title>
             <meta name="description" content="Find the suitable Dental Plans which is completely automated system, convenient & affordable way to pay your dental bills. Call or Visit Carrum Downs Dental Clinic" />
             <meta name="robots" content="index" />
-            <link rel="canonical" href="/payment-plan/" />
           </Head>
           <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} title="Payment Plans for Your Dental Treatment" color="#fff" />
           {

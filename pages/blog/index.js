@@ -41,7 +41,7 @@ const Blog = ({ data, category }) => {
         <title>Blog | Carrum Downs Dental Group | Dentist Carrum Downs</title>
         <meta name="description" content="Our blog contains various posts related to the dental conditions, treatments and vouchers. Read our blogs for dental tips and be aware of the dental problems." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/blog/" />
+      
       </Head>
       <CommonHero breadcrumb={breadcrumb} title="Blog" bg={Banner} />
       {

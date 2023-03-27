@@ -36,8 +36,7 @@ const Contact = () => {
       <Head>
         <title>Contact Dentist in and around Carrum Downs | Walk in @Carrum Downs Clinic</title>
         <meta name="description" content="Don’t suffer from a dental problem! Get your dental problem treated by Carrum Downs Dental Group. We’re available at Carrum Downs and nearby localities." />
-        <meta name="robots" content="index" />
-        <link rel="canonical" href="/contact-us/" />
+        <meta name="robots" content="index" />    
       </Head>
       <CommonHero bg={Banner} breadcrumb={breacrumb} title="Contact" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

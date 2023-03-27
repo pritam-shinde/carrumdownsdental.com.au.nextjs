@@ -33,8 +33,7 @@ const Sandhurst = () => {
       <Head>
         <title>Dental Care at Sandhurst | Carrum Downs Dental Group</title>
         <meta name="description" content="Skilled & experienced dentists in Sandhurst that provide best quality dental services. Carrum We provides superior dental treatment at an affordable price." />
-        <meta name="robots" content="index" />
-        <link rel="canonical" href="/get-the-best-dental-care-at-sandhurst/" />
+        <meta name="robots" content="index" /> 
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} title="Get the Best Dental Care at Sandhurst" color="#fff" />
       {

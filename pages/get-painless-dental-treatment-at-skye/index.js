@@ -33,8 +33,7 @@ const Skye = () => {
             <Head>
                 <title>Professional Dental Care in Skye by Carrum Downs Dental Group</title>
                 <meta name="description" content="Our dentists in skye offer quality dental care to the patients. Our experienced dentists can meet all your oral care needs. Contact us today!" />
-                <meta name="robots" content="index" />
-                <link rel="canonical" href="/get-painless-dental-treatment-at-skye/" />
+                <meta name="robots" content="index" />     
             </Head>
             <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Get Painless Dental Treatment at Skye" align={width < 600 ? 'center' : 'left'} color="#fff" />
             {
