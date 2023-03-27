@@ -32,7 +32,6 @@ const About = () => {
         <title>Carrum Downs Family Dental | About Us | Carrum Downs Dentist</title>
         <meta name="description" content="Dentists in Carrum Downs Dental Group treat their patients with warm & friendly manner. We provide a treatment plan & cost to our patients before the treatment." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/about-us/" />
       </Head>
       <CommonHero breadcrumb={breadcrumb} color="#fff" align={width < 600 ? 'center' : 'left'} bg={Banner} title="Who we are" />
       {
