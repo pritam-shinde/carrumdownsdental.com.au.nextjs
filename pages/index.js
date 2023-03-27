@@ -32,7 +32,9 @@ const Home = ({ data }) => {
         <title>Trusted Family Dentist in Carrum Downs | Carrum Downs Dental Clinic</title>
         <meta name="description" content="Experience the best dental treatment from Carrum Downs Dental Group. Our Dentist knowledge and skills will provide you all Dental Care under one roof." />
         <meta name="robots" content="index" />
-        
+
+        <link rel="canonical" href="carrumdownsdental.com.au/" />
+
       </Head>
       <Hero />
       <main>
