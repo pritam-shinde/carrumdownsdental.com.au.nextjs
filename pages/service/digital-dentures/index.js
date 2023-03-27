@@ -40,7 +40,7 @@ const DigitalDentures = () => {
       <meta name="robots" content="index" />
       <link rel="canonical" href="/service/digital-dentures/" />
     </Head>
-    <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Digital D  entures Carrum Downs Dental Clinic" align={width < 600 ? 'center' : 'left'} color="#fff" />
+    <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Digital Dentures Carrum Downs Dental Clinic" align={width < 600 ? 'center' : 'left'} color="#fff" />
     {
       show ? <>
         <main>
