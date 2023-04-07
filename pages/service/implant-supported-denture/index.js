@@ -40,7 +40,7 @@ const Implant = () => {
         <meta name="description" content="Are you looking to achieve the best smile? Carrum Downs Dental offers Smile Design service that uses a digital process to fix your smile. Contact us at 03-9782 1200." />
         <meta name="robots" content="noindex" />
       </Head>
-      <CommonHero bg={ImplantBg} breadcrumb={breadcrumb} title="Implant supported denture"  color="#fff" />
+      <CommonHero bg={ImplantBg} breadcrumb={breadcrumb} title="Implant Supported Denture"  color="#fff" />
       {
         show ? <>
           <main>
