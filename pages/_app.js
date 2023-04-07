@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import { Footer, Header, PPCFooter, PPCHeader } from '../components/components'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import "swiper/css/bundle";
-import '../styles/globals.css'
+import '../styles/globals.css' 
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
