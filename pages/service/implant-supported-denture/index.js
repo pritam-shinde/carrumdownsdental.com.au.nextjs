@@ -29,8 +29,8 @@ const Implant = () => {
   }, [width])
 
   const breadcrumb = [
-    { id: "SmileDesign_breadcrumb_1", link: "/service/", title: "Service" },
-    { id: "SmileDesign_breadcrumb_2", link: null, title: 'Implant Supported Denture' }
+    { id: "ImplantSupportedDenture_breadcrumb_1", link: "/service/", title: "Service" },
+    { id: "ImplantSupportedDenture_breadcrumb_2", link: null, title: 'Implant Supported Denture' }
   ]
 
   return (
