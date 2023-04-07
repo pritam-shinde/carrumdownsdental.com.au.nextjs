@@ -36,7 +36,7 @@ const Implant = () => {
   return (
     <>
       <Head>
-        <title> Implant supported denture in Carrum Downs | Carrum Downs Dental Group</title>
+        <title> Implant Supported Denture in Carrum Downs | Carrum Downs Dental Group</title>
         <meta name="description" content="Are you looking to achieve the best smile? Carrum Downs Dental offers Smile Design service that uses a digital process to fix your smile. Contact us at 03-9782 1200." />
         <meta name="robots" content="noindex" />
       </Head>
