@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Topbar, Navbar } from './Component/Components'
 import Styles from '../../../styles/components-style/layout-style/header/Header.module.css'
 import Marquee from "react-fast-marquee";
-
+import CampaignIcon from '@mui/icons-material/Campaign';
 const Header = () => {
   const [width, setWidth] = useState();
 
@@ -34,7 +34,8 @@ const Header = () => {
   return (
     <>
       <header className={Styles.header}>
-      <Marquee speed={50} className='bg-white'><span className='ms-5 me-5 text-danger'><b>We are OPEN throughout the Easter Long Weekend for Emergencies</b></span></Marquee>
+
+      <Marquee speed={50} className='bg-white'><span className='ms-5 me-5 text-danger'><b><CampaignIcon/> We are OPEN throughout the Easter Long Weekend for Emergencies.</b></span></Marquee>
         <Container maxWidth="xxl" className='px-0 px-lg-2'>
           <Grid container>
             <Grid item xs={12} md={10} className="mx-auto">
