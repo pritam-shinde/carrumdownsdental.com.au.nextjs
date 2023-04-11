@@ -49,8 +49,7 @@ function a11yProps(index) {
         'aria-controls': `full-width-tabpanel-${index}`,
     };
 }
-
-export default function DentureTechnology() {
+const DentureTechnology =() => {
     const theme = useTheme();
     const [value, setValue] = React.useState(0);
     const [hydarate, setHydrate] = useState(false);
@@ -295,9 +294,9 @@ export default function DentureTechnology() {
     );
 }
 
+export default DentureTechnology
 
-
-//
+ 
 
 
 
