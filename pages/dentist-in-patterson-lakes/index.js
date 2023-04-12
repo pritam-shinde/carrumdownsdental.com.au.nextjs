@@ -35,7 +35,6 @@ const PattersonLake = () => {
         <title>Top Rated Dentist in Patterson Lakes | Carrum Downs Dental</title>
         <meta name="description" content="Carrum Downs Dentist offers a number of dental services to people of all ages ranging from children to adults near Patterson Lakes. Book an online appointment with us." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/affordable-dental-services-at-patterson-lakes/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Patterson Lakes" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

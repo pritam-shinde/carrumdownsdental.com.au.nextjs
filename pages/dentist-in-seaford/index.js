@@ -34,7 +34,6 @@ const SeaFord = () => {
         <title>Find the Best Dentist in Seaford | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Seaford. All the dental service you expect and more are now available in Seaford." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/find-the-best-dentist-in-seaford/" />
       </Head>
       <CommonHero breadcrumb={breadcrumb} bg={Banner} title="Dentist In Seaford" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

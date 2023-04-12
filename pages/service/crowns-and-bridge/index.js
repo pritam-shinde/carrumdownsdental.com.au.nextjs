@@ -62,7 +62,6 @@ const CNB = ({ data }) => {
         <title>Crown & Bridge in Carrum Downs | Carrum Downs Dental Clinic</title>
         <meta name="description" content="Crowns and Bridges restore damaged and missing teeth. We have the best dentist in Carrum Downs that provide the greatest dental services. Contact us today!" />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/crowns-and-bridge/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Crowns and bridge in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

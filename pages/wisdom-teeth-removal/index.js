@@ -17,7 +17,6 @@ const WisdomTeethRemoval = () => {
                 <title>Wisdom Teeth Removal -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/wisdom-teeth-removal/" />
             </Head>
             <PPCBanner bg={Banner} title="DENTAL EMERGENCY" tagline="Don&apos;t wait, let us help schedule appointment now!" align="end" />
             <main>

@@ -62,7 +62,6 @@ const Veneers = ({ data }) => {
         <title>Porcelain Veneers Dentist | Best Dentist Carrum Downs</title>
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/veneers/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Veneers in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

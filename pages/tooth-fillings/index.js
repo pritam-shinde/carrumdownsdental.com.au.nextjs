@@ -16,7 +16,6 @@ const ToothFillings = () => {
                 <title>Tooth Fillings -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/tooth-fillings/" />
             </Head>
             <PPCBanner bg={Banner} title="Tooth Fillings" tagline="" align="end" />
             <main>

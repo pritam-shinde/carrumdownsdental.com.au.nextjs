@@ -19,7 +19,6 @@ const TeethWhitening = () => {
                 <title>Teeth Whitening -</title>
                 <meta name="description" content="" />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/about-us/" />
             </Head>
             <main>
                 <section>

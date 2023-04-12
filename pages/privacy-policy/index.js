@@ -32,7 +32,6 @@ const PrivacyPolicy = () => {
         <title>Privacy Policy | Carrum Downs Dental Group</title>
         <meta name="description" content="Read our Privacy Policy carefully. You agree to accept the practices and terms described in this policy while you browse or visit or using the services." />
         <meta name="robots" content="no-index" />
-        <link rel="canonical" href="/privacy-policy/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Privacy Policy" color="#fff" align={width < 600 ? 'center' : 'left'} />
       {

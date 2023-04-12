@@ -62,7 +62,6 @@ const RootCanal = ({ data }) => {
         <title>Dental Root Canal Treatment | Carrum Downs Family Dental Clinic</title>
         <meta name="description" content="Carrum Downs Dental Group dentists are experienced and specialized in the root canal treatment. Have a look at the root canal treatment video here." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/root-canal/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Root Canal in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

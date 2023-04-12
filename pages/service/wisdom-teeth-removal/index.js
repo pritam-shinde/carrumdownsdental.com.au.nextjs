@@ -80,7 +80,6 @@ const WisdomTeeth = ({ data }) => {
         <title>Wisdom Teeth Removal Treatment | Carrum Downs Dental Group</title>
         <meta name="description" content="We have experienced & specialized in wisdom teeth removal dentists in Carrum Downs. Now don't suffer from symptoms of wisdom tooth extraction. Call Us now!" />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/wisdom-teeth-removal/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Wisdom Teeth Removal in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

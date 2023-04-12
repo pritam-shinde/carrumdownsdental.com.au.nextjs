@@ -38,7 +38,6 @@ const DigitalDentures = () => {
       <title> Digital Dentures in Carrum Downs | Carrum Downs Dental Group</title>
       <meta name="description" content="Carrum Downs Dental Clinic offering digital denture services, a latest innovation in dental care has given people a new way to smile and chew comfortably." />
       <meta name="robots" content="index" />
-      <link rel="canonical" href="/service/digital-dentures/" />
     </Head>
     <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Digital Dentures Carrum Downs Dental Clinic" align={width < 600 ? 'center' : 'left'} color="#fff" />
     {

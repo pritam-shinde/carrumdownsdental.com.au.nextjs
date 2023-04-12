@@ -34,7 +34,6 @@ const BookNow = () => {
         <title>Book Now</title>
         <meta name="description" content="" />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/book-now/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Book Appointment" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
       {

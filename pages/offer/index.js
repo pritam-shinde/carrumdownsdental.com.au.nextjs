@@ -35,7 +35,6 @@ const Offer = () => {
                 <title>Offer</title>
                 <meta name="description" content="Check out the offers on teeth whitening, scale and clean with full check-up, & kid’s dental service. We accept afterpay dental plan to make dental treatment simple." />
                 <meta name="robots" content="index" />
-                <link rel="canonical" href="/offer/" />
             </Head>
             <CommonHero breadcrumb={breadcrumb} color="#fff" align={width < 600 ? 'center' : 'left'} bg={Banner} title="Offer" />
             {

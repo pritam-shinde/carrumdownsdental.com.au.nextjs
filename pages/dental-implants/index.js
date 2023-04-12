@@ -16,8 +16,7 @@ const DentalImplant = () => {
             <Head>
                 <title>Dental Implants -</title>
                 <meta name="description" content="" />
-                <meta name="robots" content="index" />
-                <link rel="canonical" href="dental-implants" />
+                <meta name="robots" content="index" />       
             </Head>
             <PPCBanner bg={Banner} title="Dental Implant" tagline="Don&apos;t wait, let us help schedule appointment now!" align="end" />
             <main>

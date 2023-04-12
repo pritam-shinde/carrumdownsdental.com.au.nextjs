@@ -65,7 +65,6 @@ const TeethAligner = ({ data }) => {
         <title>Teeth Aligners by Carrum Downs Dental Group | Dentist in Skye</title>
         <meta name="description" content="Carrum Downs Dental Group has the best dentist in the Carrum Downs that provide high quality teeth aligners which makes you smile more pleasant." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/teeth-aligners/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Invisalign" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

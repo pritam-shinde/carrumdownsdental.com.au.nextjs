@@ -36,7 +36,6 @@ const DentalEmergency = () => {
         <title>Dental Emergency in and around Carrum Downs & other Suburbs</title>
         <meta name="description" content="If you are in a dental emergency and in need of immediate dental care, please call our clinic on (03) 8899 6367 to book your dental appointment." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/dental-emergency/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Emergency in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" /> 
       {

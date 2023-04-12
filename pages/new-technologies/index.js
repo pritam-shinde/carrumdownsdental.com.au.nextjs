@@ -30,8 +30,7 @@ const NewTechnology = () => {
       <Head>
         <title>New Dental Technologies – Carrum Downs Dental Group</title>
         <meta name="description" content="Our dental clinic has introduced new technologies to help enhance our practice and patient education. Explore the technologies" />
-        <meta name="robots" content="index" />
-        <link rel="canonical" href="/new-technologies/" />
+        <meta name="robots" content="index" />    
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="New Technologies" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

@@ -33,8 +33,7 @@ const CranbourneWest = () => {
       <Head>
         <title>Dentist in Cranbourne West | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Cranbourne West. All the dental service you expect and more are now available in Cranbourne West." />
-        <meta name="robots" content="index" />
-        <link rel="canonical" href="/we-are-your-go-to-dentist-in-cranbourne-west/" />
+        <meta name="robots" content="index" />      
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentist In Cranbourne West" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

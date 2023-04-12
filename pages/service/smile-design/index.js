@@ -37,7 +37,6 @@ const SmileDesign = () => {
         <title>Digital Smile Design in Carrum Downs | Carrum Downs Dental Group</title>
         <meta name="description" content="Are you looking to achieve the best smile? Carrum Downs Dental offers Smile Design service that uses a digital process to fix your smile. Contact us at 03-9782 1200." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/smile-design/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Smile Design" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

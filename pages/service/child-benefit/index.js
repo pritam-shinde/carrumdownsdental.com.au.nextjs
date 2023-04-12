@@ -67,7 +67,6 @@ const ChildBenefit = ({ data }) => {
         <title>Child Dentist Carrum Downs | CDBS Carrum Downs | Child Benefit</title>
         <meta name="description" content="CDBS schedule allows child dental services for the kids between 2-17 years. Child dentists in Carrum Downs carry out the dental treatment very gently." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/child-benefit/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Child Benefit" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {

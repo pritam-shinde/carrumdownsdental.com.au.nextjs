@@ -12,7 +12,6 @@ const index = () => {
         <title>Thank you page</title>
         <meta name="description" content="" />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/thankyou/" />
       </Head>
       <CommonHero breadcrumb={null} bg={Banner} />
       <main>

@@ -66,7 +66,6 @@ const Denture = ({ data }) => {
         <title>Dentures in Carrum Downs | Carrum Downs Dental Group Clinic</title>
         <meta name="description" content="Dentist in Carrum Downs Dental Group has extensive denture experience that satisfies every patient’s denture needs. We provide high quality of dentures." />
         <meta name="robots" content="index" />
-        <link rel="canonical" href="/service/dentures/" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dentures in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {show ? <main>

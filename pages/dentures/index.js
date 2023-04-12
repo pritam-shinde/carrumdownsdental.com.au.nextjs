@@ -16,8 +16,7 @@ const Dentures = () => {
             <Head>
                 <title>Dentures -</title>
                 <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
-                <link rel="canonical" href="/dentures/" />
+                <meta name="robots" content="noindex" />         
             </Head>
             <PPCBanner bg={Banner} title="Dentures" tagline="We offer the best solutions for dentures and have affordable denture options." align="end" />
             <main>

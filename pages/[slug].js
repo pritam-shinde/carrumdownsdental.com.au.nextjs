@@ -42,7 +42,7 @@ const SingleBlog = ({ data, category, blogs }) => {
   const breadcrumb = [
     { id: "single_blog_bredcrumb_1", link: "/blog/", title: "Blog" },
     { id: "single_blog_bredcrumb_2", link: `/category/${filteredCat ? filteredCat[0] ? filteredCat[0].slug ? filteredCat[0].slug : null : null : null}/`, title: `${filteredCat ? filteredCat[0] ? filteredCat[0].name ? filteredCat[0].name : null : null : null}` },
-    { id: "single_blog_bredcrumb_2", link: null, title: `${blog ? blog.title ? blog.title.rendered ? blog.title.rendered : null : null : null}` },
+    { id: "single_blog_bredcrumb_3", link: null, title: `${blog ? blog.title ? blog.title.rendered ? blog.title.rendered : null : null : null}` },
   ];
 
   const Banner = [Banner1, Banner2, Banner4]
