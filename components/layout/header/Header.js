@@ -34,12 +34,13 @@ const Header = () => {
   return (
     <>
       <header className={Styles.header}>
-         <Marquee speed={50} className='bg-white'><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span></Marquee>
+      <Marquee speed={50} className='bg-white'><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span><span className='ms-5 me-5 text-danger'><b>We have moved to a Bigger and Shinier location within Carrum Downs with plenty of easy parking</b></span></Marquee>
+        <Container maxWidth="xxl" className='px-0 px-lg-2'>
           <Grid container>
             <Grid item xs={12} md={10} className="mx-auto">
               <Topbar />
               <Navbar />
-           </Grid>
+            </Grid>
           </Grid>
         </Container>
       </header>
