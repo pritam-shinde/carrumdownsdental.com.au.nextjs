@@ -1,4 +1,4 @@
-{
+ {
   "name": "carrumdownsdental.com.au.next",
   "version": "0.1.0",
   "private": true,
@@ -22,10 +22,10 @@
     "nodemailer": "^6.7.8",
     "parse-link-header": "^2.0.0",
     "react": "18.2.0",
+    "react-carousel": "^4.3.0",
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.3.5",
     "react-icons": "^4.4.0",
-    "react-swipeable-views": "^0.14.0",
     "react-xmasonry": "^3.0.6",
     "swiper": "^8.3.2",
     "wpapi": "^1.2.2"
