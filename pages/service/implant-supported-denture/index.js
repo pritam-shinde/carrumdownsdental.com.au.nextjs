@@ -30,7 +30,7 @@ const Implant = () => {
 
   const breadcrumb = [
     { id: "ImplantSupportedDenture_breadcrumb_1", link: "/service/", title: "Service" },
-    { id: "ImplantSupportedDenture_breadcrumb_2", link: null, title: 'Implant Supported Denture' }
+    { id: "ImplantSupportedDenture_breadcrumb_2", link: null, title: 'Overdentures at Carrum Downs Dental Clinic ' }
   ]
 
   return (
@@ -40,7 +40,7 @@ const Implant = () => {
         <meta name="description" content="Are you looking to achieve the best smile? Carrum Downs Dental offers Smile Design service that uses a digital process to fix your smile. Contact us at 03-9782 1200." />
         <meta name="robots" content="noindex" />
       </Head>
-      <CommonHero bg={ImplantBg} breadcrumb={breadcrumb} title="Implant Supported Denture"  color="#fff" />
+      <CommonHero bg={ImplantBg} breadcrumb={breadcrumb} title="Why Consider Implant Stabilised Overdentures?"  color="#fff" />
       {
         show ? <>
           <main>
@@ -52,15 +52,17 @@ const Implant = () => {
                       <Grid item xs={12} lg={8}>
                         <section>
                           <Container maxWidth="xxl" className='p-0'>
-                            <SectionalHeading variant="h2" title="Did you know that a lot of Individuals with convectional dentures end up not wearing them due to the simple fact that they don’t stay in place?"  color="var(--dark-blue)" />
+                            <SectionalHeading variant="h2" title="Many people with conventional dentures end up not using them for the simple fact that they don't stay in place"  color="var(--dark-blue)" />
                             <Box mt={3}>
                               <Grid container spacing={5}>
                                 <Grid item xs={12} md={6}>
                                   <Image src={implant1} alt="girl smiling" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                  <Typography className='para'>Dental implants provide you with a means of ensuring that dentures remain firmly in position. It enables you to carry out your daily activities with confidence. An implant-supported overdenture is a denture that is held in place by implants and attached to the Many people have found dental implants procedure to secure their dentures in place to be very successful. As a result, the treatment has gained a lot of popularity as more and more people become aware of its amazing benefits and effectiveness. 
+                                  <Typography className='para'>Dental implants can greatly enhance your quality of life if you wear dentures. They ensure that your dentures stay put while you talk and eat, leading to increased confidence in social settings and the ability to enjoy your food with ease. An implant-supported overdenture is an ideal solution for those who have experienced issues with unstable or ill-fitting dentures. It attaches to special dental implants that are surgically implanted in the jawbone, providing a reliable and secure closure for the denture.  
                                   </Typography>
+
+                               
                                 </Grid>
                               </Grid>
                             </Box>
@@ -69,10 +71,14 @@ const Implant = () => {
                        
                           <Container maxWidth="xxl" className='p-0'>
                             <Box p={1}>
-                              <Typography className='para'>In fact, when compared to other implanted surgical devices, it has been reported that dental implants to support dentures have the highest success rate. 
+                            <Typography className='para'>Many people have discovered the advantages of using dental implants to support their dentures. Not only can they eat, speak and smile with greater self-assurance, but the success rate and longevity of implant-supported overdentures are both high. It truly is a life-changing experience. </Typography>
+                              <Typography className='para'>As the word spreads about implant-supported overdentures' effectiveness, it has become a popular dental treatment option for many. If you are considering this for yourself, speak to a qualified professional who can assess your situation and help you make the best decision. Proper care and maintenance of your implants can provide you with greater comfort and confidence in life.
                              </Typography>
-                              <Typography className='para'>An implant-supported overdenture uses some special attachments that snap onto the implants. Like regular dentures, an implant-supported overdenture must be taken out at night for cleaning purposes. It would be best if you also cleaned the gums and implant attachments.</Typography>
-                              <Typography className='para'>Millions of individuals across the globe are missing enough teeth to necessitate the use of conventional dentures. Therefore, most of them face difficulties keeping themselves securely in place, particularly in the lower jaw. If you struggle with loose dentures, you must be familiar with the embarrassment that comes with slipping dentures and the inability to enjoy your favorite foods.</Typography>
+                              <Typography className='para'>Dental implants are renowned for their high success rate among all implanted surgical devices. If you're considering an implant-supported overdenture, it's worth to note they are equipped with special attachments that attach to the implants.</Typography>
+                              <Typography className='para'>It is essential to take an implant-supported overdenture out each night for cleaning. Doing this not only keeps your dentures in top shape but also allows you to properly clean your gums and the implant fixtures.</Typography>
+                              <Typography className='para'>Millions of people who are missing teeth turn to dentures for a replacement. Having loose dentures in the lower jaw area can be an incredibly frustrating and embarrassing experience, as even the simplest tasks, like eating, can become difficult when your dentures slip and cause discomfort.</Typography>
+                             
+                            
                             </Box>
                           </Container>
                            <Container maxWidth="xxl" className='p-0'> 
@@ -82,18 +88,18 @@ const Implant = () => {
                                   <Image src={Gum_ulcer} alt="smile" />
                                 </Grid>
                                 <Grid item xs={12}>
-                              <Typography> Moreover, denture movement can result in gum ulcers. Having food caught under them during meal times can also be very embarrassing. 
-                      Thankfully, there is a solution to make your denture function as intended: by stabilizing it with dental implants.
- </Typography>
+                                <Typography className='para'>Denture adhesives are not always helpful and can lead to painful ulcers on your gums due to the dentures constantly moving around. Additionally, food can become stuck beneath the dentures during meals, which can be especially irritating.</Typography>
+                                <Typography className='para'>Fortunately, a dental implant can provide a secure and stable foundation for your dentures, eliminating the discomfort and embarrassment often caused by loose dentures.</Typography>
 </Grid>
                               </Grid>
                             </Box>
                           </Container>
                           <Container maxWidth="xxl" className='p-0'> 
                          <Box> 
+                         <SectionalHeading variant="h2" title="Advantages of Denture Stabilisation"  color="var(--dark-blue)" />
                           <List>
                                 {
-                                  ["It enhances the ability to chew properly, resulting in a better diet and enhanced health.", "Enhances speech and confidence.", "Enhances comfort by reducing irritation of the gum tissue.", "Eliminates the expenses and inconvenience associated with denture adhesives.", "Often, it is feasible to use your current denture.", "The procedure is minimally invasive."].map(item => <ListItem key={item}>
+                                  ["Enhancing the ability to chew can lead to a more varied diet, which in turn can contribute to improved total health.","Strengthens self-assurance and communication skills.", "This minimizes gum irritation, leading to greater comfort.", "No adhesives are needed for dentures, which eliminates the need to spend time and money on them.", "Often involves the utilization of existing dentures.", "The procedure is minimally invasive."].map(item => <ListItem key={item}>
                                     <ListItemIcon>
                                       < ArrowRightIcon style={{ color: "#117295" }} />
                                     </ListItemIcon>
