@@ -63,6 +63,7 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                 <Typography variant='h6' className='mt-3'><Link href="/service/smile-design/">Smile Design</Link></Typography>
                                 <Typography variant='h6' className='mt-3'><Link href="/service/digital-dentures/">Digital Dentures</Link></Typography>
                                 <Typography variant='h6' className='mt-3'><Link href="/service/implant-supported-denture/">Implant Supported Denture</Link></Typography>
+                                <Typography variant='h6' className='mt-3'><Link href="/service/denture-technology/">Denture Technology</Link></Typography>
                             </Box>
                         </Box> : null
                     }

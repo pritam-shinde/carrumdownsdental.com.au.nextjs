@@ -159,6 +159,11 @@ const Navbar = () => {
                       <a className='nav-link dropdown-item'>IMPLANT SUPPORTED DENTURE</a>
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link href="/service/denture-technology/">
+                      <a className='nav-link dropdown-item'>DENTURE TECHNOLOGY</a>
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li className='nav-item'>
