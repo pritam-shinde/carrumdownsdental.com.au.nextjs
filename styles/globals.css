@@ -494,3 +494,12 @@ footer a:hover {
 .dropdown2 .dropdown-menu-2 {
     display: none !important;
 }
+
+.css-1q2h7u5.Mui-selected {   
+    background: #115278;
+    color: #fff !important; 
+    font-weight: 600;
+}
+.css-1q2h7u5 {   
+    flex:1 !important;
+}
