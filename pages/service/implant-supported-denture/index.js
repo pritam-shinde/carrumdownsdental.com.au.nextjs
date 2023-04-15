@@ -61,8 +61,6 @@ const Implant = () => {
                                 <Grid item xs={12} md={6}>
                                   <Typography className='para'>Dental implants can greatly enhance your quality of life if you wear dentures. They ensure that your dentures stay put while you talk and eat, leading to increased confidence in social settings and the ability to enjoy your food with ease. An implant-supported overdenture is an ideal solution for those who have experienced issues with unstable or ill-fitting dentures. It attaches to special dental implants that are surgically implanted in the jawbone, providing a reliable and secure closure for the denture.  
                                   </Typography>
-
-                               
                                 </Grid>
                               </Grid>
                             </Box>
@@ -70,25 +68,23 @@ const Implant = () => {
                         </section>
                        
                           <Container maxWidth="xxl" className='p-0'>
-                            <Box p={1}>
+                            <Box>
                             <Typography className='para'>Many people have discovered the advantages of using dental implants to support their dentures. Not only can they eat, speak and smile with greater self-assurance, but the success rate and longevity of implant-supported overdentures are both high. It truly is a life-changing experience. </Typography>
                               <Typography className='para'>As the word spreads about implant-supported overdentures' effectiveness, it has become a popular dental treatment option for many. If you are considering this for yourself, speak to a qualified professional who can assess your situation and help you make the best decision. Proper care and maintenance of your implants can provide you with greater comfort and confidence in life.
                              </Typography>
                               <Typography className='para'>Dental implants are renowned for their high success rate among all implanted surgical devices. If you're considering an implant-supported overdenture, it's worth to note they are equipped with special attachments that attach to the implants.</Typography>
                               <Typography className='para'>It is essential to take an implant-supported overdenture out each night for cleaning. Doing this not only keeps your dentures in top shape but also allows you to properly clean your gums and the implant fixtures.</Typography>
                               <Typography className='para'>Millions of people who are missing teeth turn to dentures for a replacement. Having loose dentures in the lower jaw area can be an incredibly frustrating and embarrassing experience, as even the simplest tasks, like eating, can become difficult when your dentures slip and cause discomfort.</Typography>
-                             
-                            
                             </Box>
                           </Container>
                            <Container maxWidth="xxl" className='p-0'> 
-                            <Box mt={3}>
+                            <Box mt={2}>
                               <Grid container>
                                 <Grid item xs={12}>
                                   <Image src={Gum_ulcer} alt="smile" />
                                 </Grid>
                                 <Grid item xs={12}>
-                                <Typography className='para'>Denture adhesives are not always helpful and can lead to painful ulcers on your gums due to the dentures constantly moving around. Additionally, food can become stuck beneath the dentures during meals, which can be especially irritating.</Typography>
+                                <Typography className='para' mt={1}>Denture adhesives are not always helpful and can lead to painful ulcers on your gums due to the dentures constantly moving around. Additionally, food can become stuck beneath the dentures during meals, which can be especially irritating.</Typography>
                                 <Typography className='para'>Fortunately, a dental implant can provide a secure and stable foundation for your dentures, eliminating the discomfort and embarrassment often caused by loose dentures.</Typography>
 </Grid>
                               </Grid>
