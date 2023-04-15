@@ -71,7 +71,7 @@ const DentureTechnology = () => {
             <Head>
                 <title>Denture Technology in Carrum Downs | Carrum Downs Dentist</title>
                 <meta name="description" content="Teeth Whitening is the most effective way to restore the whiteness of your tooth. We use Pola Whitening system to remove the discoloration." />
-                <meta name="robots" content="noindex" />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Denture Technology in Carrum Downs" align='left' color="#fff" />
             < main >

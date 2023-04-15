@@ -79,89 +79,89 @@ const Navbar = () => {
                 <ul className="dropdown-menu border-0 shadow p-2">
                   <li className="nav-item">
                     <Link href="/service/wisdom-teeth-removal/">
-                      <a className='nav-link dropdown-item'>WISDOM TEETH REMOVAL</a>
+                      <a className='nav-link dropdown-item service-menu'>WISDOM TEETH REMOVAL</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/child-benefit/">
-                      <a className='nav-link dropdown-item'>CHILD BENEFIT</a>
+                      <a className='nav-link dropdown-item service-menu'>CHILD BENEFIT</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/dental-implants/">
-                      <a className='nav-link dropdown-item'>DENTAL IMPLANTS</a>
+                      <a className='nav-link dropdown-item service-menu'>DENTAL IMPLANTS</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/dentures/">
-                      <a className='nav-link dropdown-item'>DENTURE</a>
+                      <a className='nav-link dropdown-item service-menu'>DENTURE</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/teeth-whitening/">
-                      <a className='nav-link dropdown-item'>TEETH WHITENING</a>
+                      <a className='nav-link dropdown-item service-menu'>TEETH WHITENING</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/crowns-and-bridge/">
-                      <a className='nav-link dropdown-item'>CROWN AND BRIDGES</a>
+                      <a className='nav-link dropdown-item service-menu'>CROWN AND BRIDGES</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/veneers/">
-                      <a className='nav-link dropdown-item'>VENEERS</a>
+                      <a className='nav-link dropdown-item service-menu'>VENEERS</a>
                     </Link>
                   </li>
                   <li className="nav-item dropdown dropdown2">
                     <Link href="/service/teeth-aligners/">
-                      <a className='nav-link dropdown-item'>INVISALIGN</a>
+                      <a className='nav-link dropdown-item service-menu'>INVISALIGN</a>
                     </Link>
                     <ul className="dropdown-menu dropdown-menu-2 p-2 border-0" aria-labelledby="dropdownMenuButton1">
                       <li>
                           <Link className="nav-item" href="/invisalign-open-day/">
-                          <a className='nav-link dropdown-item'>INVISALIGN OPEN DAY</a>
+                          <a className='nav-link dropdown-item service-menu'>INVISALIGN OPEN DAY</a>
                           </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/root-canal/">
-                      <a className='nav-link dropdown-item'>ROOT CANAL</a>
+                      <a className='nav-link dropdown-item service-menu'>ROOT CANAL</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/teeth-cleaning/">
-                      <a className='nav-link dropdown-item'>TEETH CLEANING</a>
+                      <a className='nav-link dropdown-item service-menu'>TEETH CLEANING</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/dental-emergency/">
-                      <a className='nav-link dropdown-item'>DENTAL EMERGENCY</a>
+                      <a className='nav-link dropdown-item service-menu'>DENTAL EMERGENCY</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/tooth-fillings/">
-                      <a className='nav-link dropdown-item'>TOOTH FILLING</a>
+                      <a className='nav-link dropdown-item service-menu'>TOOTH FILLING</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/smile-design/">
-                      <a className='nav-link dropdown-item'>SMILE DESIGN</a>
+                      <a className='nav-link dropdown-item service-menu'>SMILE DESIGN</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/digital-dentures/">
-                      <a className='nav-link dropdown-item'>DIGITAL DENTURES</a>
+                      <a className='nav-link dropdown-item service-menu'>DIGITAL DENTURES</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/implant-supported-denture/">
-                      <a className='nav-link dropdown-item'>IMPLANT SUPPORTED DENTURE</a>
+                      <a className='nav-link dropdown-item service-menu'>IMPLANT SUPPORTED DENTURE</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/service/denture-technology/">
-                      <a className='nav-link dropdown-item'>DENTURE TECHNOLOGY</a>
+                      <a className='nav-link dropdown-item service-menu'>DENTURE TECHNOLOGY</a>
                     </Link>
                   </li>
                 </ul>
