@@ -29,7 +29,8 @@ const Navbar = () => {
   return (
     <>
       {
-        width > 1199 ? <nav className="navbar navbar-expand-xl bg-transparent">
+        width > 1199 ? 
+        <nav className="navbar navbar-expand-xl bg-transparent">
           <Link href="/">
             <a className={`navbar-brand ${Styles.deskNavbarBrand}`}>
               <Image src={Logo} alt="carrumdowns dental clinic logo" />

@@ -11,6 +11,7 @@ import Gum_ulcer from '../../../public/implant/Gum_ulcer.jpg'
 import ImplantBg from '../../../public/Implant-Support/ImplantBg.jpg'
 import Overdentures from '../../../public/implant/Overdentures.jpg'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import Link from "next/link";
 
 const Implant = () => {
   const [show, setShow] = useState(false)
@@ -59,7 +60,7 @@ const Implant = () => {
                                   <Image src={implant1} alt="girl smiling" />
                                 </Grid>
                                 <Grid item xs={12} md={6}>
-                                  <Typography className='para'>Dental implants can greatly enhance your quality of life if you wear dentures. They ensure that your dentures stay put while you talk and eat, leading to increased confidence in social settings and the ability to enjoy your food with ease. An implant-supported overdenture is an ideal solution for those who have experienced issues with unstable or ill-fitting dentures. It attaches to special dental implants that are surgically implanted in the jawbone, providing a reliable and secure closure for the denture.  
+                                  <Typography className='para'><Link href="/how-dental-implants-work-and-functions-like-natural-teeth/">Dental implants </Link> can greatly enhance your quality of life if you wear dentures. They ensure that your dentures stay put while you talk and eat, leading to increased confidence in social settings and the ability to enjoy your food with ease. An implant-supported overdenture is an ideal solution for those who have experienced issues with unstable or ill-fitting dentures. It attaches to special dental implants that are surgically implanted in the jawbone, providing a reliable and secure closure for the denture.  
                                   </Typography>
                                 </Grid>
                               </Grid>
@@ -74,7 +75,7 @@ const Implant = () => {
                              </Typography>
                               <Typography className='para'>Dental implants are renowned for their high success rate among all implanted surgical devices. If you're considering an implant-supported overdenture, it's worth to note they are equipped with special attachments that attach to the implants.</Typography>
                               <Typography className='para'>It is essential to take an implant-supported overdenture out each night for cleaning. Doing this not only keeps your dentures in top shape but also allows you to properly clean your gums and the implant fixtures.</Typography>
-                              <Typography className='para'>Millions of people who are missing teeth turn to dentures for a replacement. Having loose dentures in the lower jaw area can be an incredibly frustrating and embarrassing experience, as even the simplest tasks, like eating, can become difficult when your dentures slip and cause discomfort.</Typography>
+                              <Typography className='para'>Millions of people who are missing teeth turn to  <Link href="/the-complete-guideline-for-dentures/">dentures </Link> for a replacement. Having loose dentures in the lower jaw area can be an incredibly frustrating and embarrassing experience, as even the simplest tasks, like eating, can become difficult when your dentures slip and cause discomfort.</Typography>
                             </Box>
                           </Container>
                            <Container maxWidth="xxl" className='p-0'> 

@@ -109,7 +109,12 @@ const DentureTechnology = () => {
                                                                     <ListItemIcon>
                                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                                     </ListItemIcon>
-                                                                    <ListItemText primary="Digital dentures are made available by using the latest technology which is easy to wear." />
+                                                                     <ListItemText primary={
+    <>
+      <Link href="service/digital-dentures" className='bg-blue'>Digital dentures </Link> are made available by using the latest technology which is easy to wear.
+     
+    </>
+  } />
                                                                 </ListItem>
                                                                 <ListItem className="ps-0">
                                                                     <ListItemIcon>
