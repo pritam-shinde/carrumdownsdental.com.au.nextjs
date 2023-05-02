@@ -45,7 +45,7 @@ const index = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                                
-                            <Image src={teethMissing1} alt="Image"  width={500} height={300} />
+                            <Image src={teethMissing1} alt="Image"   width={600} height={400}  />
                           
                         </Grid>
                     </Grid>
@@ -81,8 +81,7 @@ const index = () => {
 
             <div className='upper_clipPath'></div>
             <section style={{
-                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
-                
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative', 
                 paddingBottom: '6rem',
             }}>
                 <Container>
@@ -182,7 +181,6 @@ const index = () => {
             <div className='upper_clipPath2'></div>
             <section style={{
                 marginTop: "2rem", backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
-               
                 paddingBottom: '80px',
             }}>
                 <Container>
