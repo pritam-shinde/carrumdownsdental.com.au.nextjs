@@ -45,7 +45,7 @@ const index = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                                
-                            <Image src={teethMissing1} alt="Image"   width={600} height={400}  />
+                            <Image src={teethMissing1} alt="Image" width={600} height={400}/>
                           
                         </Grid>
                     </Grid>

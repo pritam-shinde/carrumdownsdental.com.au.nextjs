@@ -540,5 +540,9 @@ footer a:hover {
 /* service in topbar */
 
 .service-menu{
-    line-height: 0.8rem !important;
+    line-height: 0.7rem !important;
+}
+
+.dental-problem-menu{
+    line-height: 0.7rem !important;
 }
