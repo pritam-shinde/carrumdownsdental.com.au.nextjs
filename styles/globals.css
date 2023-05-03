@@ -526,6 +526,7 @@ footer a:hover {
 .dropdown2 .dropdown-menu-2 {
     display: none !important;
 }
+
 /* /tab section */
 .css-1q2h7u5.Mui-selected {   
     background: #115278;
@@ -546,3 +547,21 @@ footer a:hover {
 .dental-problem-menu{
     line-height: 0.7rem !important;
 }
+
+  /* .dental-problems-section:hover{
+    display: block;
+    width: 600px;
+    
+}
+ li.nav-item.dropdown:hover .dental-problems-section{
+    display: block;
+    width: 480px;
+} 
+.dental-problems-section1{
+    width: 50%;
+    float: left;
+}
+.dental-problems-section2{
+    width: 50%;
+    float: right;
+} */

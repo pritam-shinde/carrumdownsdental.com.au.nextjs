@@ -173,12 +173,12 @@ const Navbar = () => {
                   </ul>
                 </li>
  
-                <li className='nav-item dropdown' >
+                <li className='nav-item dropdown dental-problems-section' >
                   <Link href="/dental-problems/"  >
-                    <a className='nav-link dropdown-toggle' >DENTAL PROBLEMS</a>
+                    <a className='nav-link dropdown-toggle'>DENTAL PROBLEMS</a>
                   </Link>
                   <ul className="dropdown-menu border-0 shadow p-2">
-                    <div className="dental-problems-section1" >
+                    <ul className="dental-problems-section1" >
                       <li className="nav-item">
                         <Link href="/dental-problems/">
                           <a className='nav-link dropdown-item dental-problem-menu'>WISDOM TOOTH PAIN</a>
@@ -219,8 +219,8 @@ const Navbar = () => {
                           <a className='nav-link dropdown-item dental-problem-menu'>DRY SOCKET</a>
                         </Link>
                       </li>
-                    </div>
-                    <div className="dental-problems-section2">
+                    </ul>
+                    <ul className="dental-problems-section2">
                       <li className="nav-item">
                         <Link href="/ dental-problems/">
                           <a className='nav-link dropdown-item dental-problem-menu'>DENTAL ABSCESS</a>
@@ -256,7 +256,7 @@ const Navbar = () => {
                           <a className='nav-link dropdown-item dental-problem-menu'>BAD BREATH</a>
                         </Link>
                       </li>
-                    </div>
+                    </ul>
                   </ul>
                 </li>
 

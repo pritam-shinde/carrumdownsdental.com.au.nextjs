@@ -4,9 +4,9 @@ import { CheckCircleOutline } from '@mui/icons-material'
 import Image from 'next/image';
 import Link from 'next/link';
 import teethMissing1 from '../../public/teeth-missing/Demo 01.png'
-import teethMissing2 from '../../public/teeth-missing/benefits.png'
+import teethMissing2 from '../../public/teeth-missing/teeth-missing3.png'
 import teethMissing3 from '../../public/teeth-missing/teeth-missing3 (1).png'
-import teethMissing4 from '../../public/teeth-missing/teeth-missing4.png'
+import teethMissing4 from '../../public/teeth-missing/missing-teeth6.png'
 // import image2 from '../../../public/digital-denture/digital-denture-2.jpg'
 // import image3 from '../../../public/digital-denture/digital-denture-3.jpg'
 //  import BlueFilledBtn from '../../components/components';
@@ -44,9 +44,7 @@ const index = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={6}>
-                               
-                            <Image src={teethMissing1} alt="Image" width={600} height={400}/>
-                          
+                            <Image src={teethMissing1} alt="Image" width={450} height={400}/>
                         </Grid>
                     </Grid>
                 </Container>
@@ -56,7 +54,7 @@ const index = () => {
                 <Container>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
-                            <Image src={teethMissing2} alt="Image" width={600} height={400} />
+                            <Image src={teethMissing2} alt="Image" width={450} height={400} />
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 1 }}>
@@ -128,7 +126,7 @@ const index = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={6}>
-                            <Image src={teethMissing3} alt="Image" width={600} height={400} />
+                            <Image src={teethMissing3} alt="Image" width={450} height={400} />
                         </Grid>
                     </Grid>
                 </Container>
@@ -186,7 +184,7 @@ const index = () => {
                 <Container>
                     <Grid container spacing={2}>
                     <Grid item xs={12} md={6}>
-                            <Image src={teethMissing4} alt="Image" width={600} height={400} />
+                            <Image src={teethMissing4} alt="Image" width={450} height={400} />
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 2 }}>
