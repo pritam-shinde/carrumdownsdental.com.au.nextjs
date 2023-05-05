@@ -148,25 +148,25 @@ const index = () => {
                                         <ListItemIcon>
                                             <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                         </ListItemIcon>
-                                        <ListItemText  ><strong>Improved appearance </strong> By replacing a missing tooth, you can enhance your appearance and regain your confidence in social or professional settings. Your smile will look great, and you'll feel better than ever before.</ListItemText>
+                                        <ListItemText  ><strong>Improved appearance </strong> One of the most significant benefits of addressing a missing tooth is improved appearance. Replacing one or more teeth can boost your self-esteem and make you feel more confident in social or professional settings. You'll look great and feel more confident than ever before.</ListItemText>
                                     </ListItem>
                                     <ListItem>
                                         <ListItemIcon>
                                             <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                         </ListItemIcon>
-                                        <ListItemText  ><strong>Restored oral health </strong>Treating tooth loss can help you achieve optimal oral health. You'll be able to return to proper oral hygiene practices and live without discomfort.</ListItemText>
+                                        <ListItemText  ><strong>Restored oral health </strong>Addressing tooth loss can help you achieve optimal oral health. You can return to enjoying good oral hygiene and living without discomfort. Leaving a gap in your mouth can lead to various oral health problems, including gum disease, tooth decay, and bone loss.</ListItemText>
                                     </ListItem>
                                     <ListItem>
                                         <ListItemIcon>
                                             <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                         </ListItemIcon>
-                                        <ListItemText ><strong>Restored functionality </strong> Addressing your missing tooth problem can restore the normal function of your mouth. You'll be able to chew, bite, and speak properly and regain the original benefits of your teeth. This can help you restore balance and aesthetics to your smile.</ListItemText>
+                                        <ListItemText ><strong>Restored functionality </strong> Addressing your missing tooth issue can restore the normal function of your mouth. It can give you back dental functions like chewing, biting, and speaking. Managing the problem can help you regain your teeth's original benefits and restore balance and aesthetics to your smile.</ListItemText>
                                     </ListItem>
                                     <ListItem>
                                         <ListItemIcon>
                                             <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                         </ListItemIcon>
-                                        <ListItemText><strong>Support for remaining teeth </strong> Filling the gap created by a missing tooth can provide much-needed stability and support to adjacent teeth. It can help these teeth maintain proper alignment while preventing food debris from collecting in the empty space.
+                                        <ListItemText><strong>Support for remaining teeth </strong> Filling the gap left behind by that lost tooth can also provide much-needed stability and support to adjacent teeth, supporting the remaining teeth. It can help the adjacent teeth maintain proper alignment while preventing food debris from collecting in the empty gap. 
                                         </ListItemText>
                                     </ListItem>
                                 </List>
