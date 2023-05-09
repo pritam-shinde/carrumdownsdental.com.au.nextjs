@@ -17,7 +17,7 @@ const index = () => {
     return (
         <>
             <section className='teeth-missing-section1' style={{
-                marginTop: "12rem", backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative', 
+                marginTop: "12rem", backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
                 paddingBottom: '100px',
             }}>
@@ -44,7 +44,7 @@ const index = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={6}>
-                            <Image src={teethMissing1} alt="Image" width={450} height={400}/>
+                            <Image src={teethMissing1} alt="Image" width={450} height={400} />
                         </Grid>
                     </Grid>
                 </Container>
@@ -79,7 +79,7 @@ const index = () => {
 
             <div className='upper_clipPath'></div>
             <section style={{
-                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative', 
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingBottom: '6rem',
             }}>
                 <Container>
@@ -132,142 +132,6 @@ const index = () => {
                 </Container>
             </section>
             <div className='lower_clipPath'></div>
-            <section style={{
-                marginTop: "2rem", marginBottom: "2rem", position: 'relative',
-                paddingBottom: '20px',
-            }}>
-                <Container>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} md={12}>
-                            <Box sx={{ p: 2 }}>
-                                <Typography variant="h5" component="h2" gutterBottom>
-                                    What are the Benefits of Addressing a Missing Tooth?
-                                </Typography>
-                                <List>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText  ><strong>Improved appearance </strong> One of the most significant benefits of addressing a missing tooth is improved appearance. Replacing one or more teeth can boost your self-esteem and make you feel more confident in social or professional settings. You'll look great and feel more confident than ever before.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText  ><strong>Restored oral health </strong>Addressing tooth loss can help you achieve optimal oral health. You can return to enjoying good oral hygiene and living without discomfort. Leaving a gap in your mouth can lead to various oral health problems, including gum disease, tooth decay, and bone loss.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText ><strong>Restored functionality </strong> Addressing your missing tooth issue can restore the normal function of your mouth. It can give you back dental functions like chewing, biting, and speaking. Managing the problem can help you regain your teeth's original benefits and restore balance and aesthetics to your smile.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText><strong>Support for remaining teeth </strong> Filling the gap left behind by that lost tooth can also provide much-needed stability and support to adjacent teeth, supporting the remaining teeth. It can help the adjacent teeth maintain proper alignment while preventing food debris from collecting in the empty gap. 
-                                        </ListItemText>
-                                    </ListItem>
-                                </List>
-                            </Box>
-                        </Grid>
-                    </Grid>
-                </Container>
-            </section>
-
-            <div className='upper_clipPath2'></div>
-            <section style={{
-                marginTop: "2rem", backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
-                paddingBottom: '80px',
-            }}>
-                <Container>
-                    <Grid container spacing={2}>
-                    <Grid item xs={12} md={6}>
-                            <Image src={teethMissing4} alt="Image" width={450} height={400} />
-                        </Grid>
-                        <Grid item xs={12} md={6}>
-                            <Box sx={{ p: 2 }}>
-                                <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                    What are the Disadvantages of having a Missing Tooth?
-                                </Typography>
-                                <List>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Discomfort while eating </strong> Difficulty in chewing hard foods may lead to digestion issues and unhealthy snacking habits. Moreover, the unnatural movement of your mouth while chewing food can also cause jaw pain.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white' ><strong>Bone density loss </strong> Lack of motion in key areas of the jawbone can cause a reduction in bone mass and strength over time. This can result in weaker bones and significant loss of bone density.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white' ><strong>Premature facial aging </strong> Progressive bone loss without tooth roots stimulating the jawbone can make a face hollow over time.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Teeth misalignment </strong> The absence of support from missing teeth can cause the neighbouring teeth to move and shift, leading to misaligned teeth.
-                                        </ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Speech impediments </strong> A missing tooth can result in difficulty communicating with others and create speech impediments.
-                                        </ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Periodontal disease </strong> The space left behind by a missing tooth can become a breeding ground for bacteria, increasing the chances of infection and the potential development of gum disease.
-                                        </ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Compromised facial aesthetics </strong> A missing tooth can impact the aesthetics of your smile, leaving a lasting impression on those around you. It may even cause feelings of embarrassment or unattractiveness.
-                                        </ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Decreased confidence </strong> A missing tooth can result in plummeting self-esteem, preventing new experiences such as meaningful social connections or career opportunities.
-                                        </ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Decreased confidence </strong> A missing tooth can result in plummeting self-esteem, preventing new experiences such as meaningful social connections or career opportunities.
-                                        </ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>What happens if I lose a tooth and don't replace it? </strong> Although a missing tooth may appear to be insignificant, it can result in various issues beyond just affecting your smile. The absence of support and stability provided by each tooth in your mouth can cause the remaining teeth to shift toward the empty space, resulting in an uneven bite. This can lead to difficulties while flossing and increase the likelihood of plaque build-up, potentially causing gum disease and further tooth loss.
-                                        </ListItemText>
-                                    </ListItem>
-                                </List>
-
-                            </Box>
-                        </Grid>
-                    </Grid>
-                    {/* <svg className='bottom-clipPath' xmlns="http://www.w3.org/2000/svg" width="100%" height="182" viewBox="0 0 3000 182"><path fill="#1ebdb6" d="M-.8.4C533.5 23.5 633.5 123 1044.4 130.8c385.5 7.3 369.1-47.3 778.2-49.2 367.3-1.7 456 100 785.5 100C2813.5 181.6 2804.4.4 2999.2.4H-.8z" /></svg> */}
-                </Container>
-            </section>
-            <div className='lower_clipPath'></div>
             <section className="mt-4 ">
                 <Container>
                     <Grid item xs={12} md={6}>
@@ -310,6 +174,124 @@ const index = () => {
                                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 <p className='para'>The duration depends on the treatment plan selected by your dentist. In some cases, where there is enough healthy bone available at the site of the gap left behind by the missing tooth/teeth, an implant-supported crown can be completed relatively quickly - sometimes within one day!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="accordion-item">
+                                        <h3 className="accordion-header" id="headingFour">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                What are the Disadvantages of having a Missing Tooth?
+                                            </button>
+                                        </h3>
+                                        <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div className="accordion-body">
+                                                <p className='para'>
+                                                    <List>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText  ><strong>Discomfort while eating </strong> Difficulty in chewing hard foods may lead to digestion issues and unhealthy snacking habits. Moreover, the unnatural movement of your mouth while chewing food can also cause jaw pain.</ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText   ><strong>Bone density loss </strong> Lack of motion in key areas of the jawbone can cause a reduction in bone mass and strength over time. This can result in weaker bones and significant loss of bone density.</ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText   ><strong>Premature facial aging </strong> Progressive bone loss without tooth roots stimulating the jawbone can make a face hollow over time.</ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText ><strong>Teeth misalignment </strong> The absence of support from missing teeth can cause the neighbouring teeth to move and shift, leading to misaligned teeth.
+                                                            </ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText  ><strong>Speech impediments </strong> A missing tooth can result in difficulty communicating with others and create speech impediments.
+                                                            </ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText  ><strong>Periodontal disease </strong> The space left behind by a missing tooth can become a breeding ground for bacteria, increasing the chances of infection and the potential development of gum disease.
+                                                            </ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText  ><strong>Compromised facial aesthetics </strong> A missing tooth can impact the aesthetics of your smile, leaving a lasting impression on those around you. It may even cause feelings of embarrassment or unattractiveness.
+                                                            </ListItemText>
+                                                        </ListItem>
+                                                        <ListItem>
+                                                            <ListItemIcon>
+                                                                <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                            </ListItemIcon>
+                                                            <ListItemText  ><strong>Decreased confidence </strong> A missing tooth can result in plummeting self-esteem, preventing new experiences such as meaningful social connections or career opportunities.
+                                                            </ListItemText>
+                                                        </ListItem>
+                                                    </List>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="accordion-item">
+                                        <h3 className="accordion-header" id="headingFive">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            What happens if I lose a tooth and don't replace it?
+                                            </button>
+                                        </h3>
+                                        <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div className="accordion-body">
+                                                <p className='para'>Although a missing tooth may appear to be insignificant, it can result in various issues beyond just affecting your smile. The absence of support and stability provided by each tooth in your mouth can cause the remaining teeth to shift toward the empty space, resulting in an uneven bite. This can lead to difficulties while flossing and increase the likelihood of plaque build-up, potentially causing gum disease and further tooth loss.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="accordion-item">
+                                        <h3 className="accordion-header" id="headingSix">
+                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            What are the Benefits of Addressing a Missing Tooth?
+                                            </button>
+                                        </h3>
+                                        <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                            <div className="accordion-body">
+                                                <p className='para'> <List>
+                                    <ListItem>
+                                        <ListItemIcon>
+                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                        </ListItemIcon>
+                                        <ListItemText  ><strong>Improved appearance </strong> One of the most significant benefits of addressing a missing tooth is improved appearance. Replacing one or more teeth can boost your self-esteem and make you feel more confident in social or professional settings. You'll look great and feel more confident than ever before.</ListItemText>
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListItemIcon>
+                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                        </ListItemIcon>
+                                        <ListItemText  ><strong>Restored oral health </strong>Addressing tooth loss can help you achieve optimal oral health. You can return to enjoying good oral hygiene and living without discomfort. Leaving a gap in your mouth can lead to various oral health problems, including gum disease, tooth decay, and bone loss.</ListItemText>
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListItemIcon>
+                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                        </ListItemIcon>
+                                        <ListItemText ><strong>Restored functionality </strong> Addressing your missing tooth issue can restore the normal function of your mouth. It can give you back dental functions like chewing, biting, and speaking. Managing the problem can help you regain your teeth's original benefits and restore balance and aesthetics to your smile.</ListItemText>
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListItemIcon>
+                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                        </ListItemIcon>
+                                        <ListItemText><strong>Support for remaining teeth </strong> Filling the gap left behind by that lost tooth can also provide much-needed stability and support to adjacent teeth, supporting the remaining teeth. It can help the adjacent teeth maintain proper alignment while preventing food debris from collecting in the empty gap.
+                                        </ListItemText>
+                                    </ListItem>
+                                </List></p>
                                             </div>
                                         </div>
                                     </div>
