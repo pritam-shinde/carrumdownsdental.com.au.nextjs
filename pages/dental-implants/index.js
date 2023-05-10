@@ -33,7 +33,7 @@ const DentalImplant = () => {
                                                 <Typography className='para'>Carrum Downs Dental Group’s Dental Implants are made from Titanium, a very strong material that is also compatible with human body. A crown placed on top of it will make it appear and function as a normal tooth and provides up to 90% chewing capacity</Typography>
                                                 <List>
                                                     {
-                                                        ["Complete Dental Implants with Crown normally $4500* for a limited time only $3500*", "We use high quality State-Of-The-Art Implant kit from MIS Australia.", "15 Years+ experience in performing dental Implants.", "Flexible Payment plans available."].map(item => <ListItem key={item}>
+                                                        ["Complete Dental Implants with Crown normally $4500* for a limited time only $3900*", "We use high quality State-Of-The-Art Implant kit from MIS Australia.", "15 Years+ experience in performing dental Implants.", "Flexible Payment plans available."].map(item => <ListItem key={item}>
                                                             <ListItemIcon>
                                                                 <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                             </ListItemIcon>
