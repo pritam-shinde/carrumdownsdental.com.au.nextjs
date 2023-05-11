@@ -82,7 +82,7 @@ const DentalImplants = ({ data }) => {
                               <ListItemIcon>
                                 <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                               </ListItemIcon>
-                              <ListItemText primary={<strong>Complete Dental Implants with Crown normally $4500* is special on $3700*.</strong>} />
+                              <ListItemText primary={<strong>Complete Dental Implants with Crown normally $4500* is special on $3900*.</strong>} />
                             </ListItem>
                             <ListItem className='ps-0'>
                               <ListItemIcon>
