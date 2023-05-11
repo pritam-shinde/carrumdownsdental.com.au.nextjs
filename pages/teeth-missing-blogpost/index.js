@@ -7,9 +7,10 @@ import teethMissing1 from '../../public/teeth-missing/Demo 01.png'
 import teethMissing2 from '../../public/teeth-missing/teeth-missing3.png'
 import teethMissing3 from '../../public/teeth-missing/teeth-missing3 (1).png'
 import teethMissing4 from '../../public/teeth-missing/missing-teeth6.png'
-// import image2 from '../../../public/digital-denture/digital-denture-2.jpg'
-// import image3 from '../../../public/digital-denture/digital-denture-3.jpg'
-//  import BlueFilledBtn from '../../components/components';
+import bridges from "../../public/teeth-missing/teeth-missing-denture-bridge.png"
+import denture from "../../public/teeth-missing/teeth-missing-dentures.png"
+import supportedDenture from "../../public/teeth-missing/teeth-missing-supported-dentures.png"
+import dentalImplants from "../../public/teeth-missing/teeth-missing-dental-implants.png"
 import { BlueFilledBtn, BlueOulinedBtn, IconBtn } from '../../components/components';
 import { SectionalHeading } from '../../components/components'
 
@@ -31,19 +32,13 @@ const index = () => {
                                 <Typography variant="body1" className='text-white' gutterBottom>
                                     Are you struggling with missing teeth? Not only can it affect your appearance and confidence, but it can also lead to oral problems and impact your overall health. That's why restoring missing teeth is crucial, and Carrum Downs Dental Group is here to help. Our dental clinic offers a range of services that can address missing teeth, improve your oral health, and boost your self-esteem.
                                 </Typography>
-                                {/* <Button variant="contained" color="primary" sx={{ mr: 2 }}>
-                                    387029-3402
-                                </Button>
-                                <Button variant="outlined" color="primary">
-                                    Book Appointment
-                                </Button> */}
                                 <Box>
                                     <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
                                     <BlueOulinedBtn anchor={true} btnTitle="03-9782 1200" btnLink="tel:03-9782 1200" />
                                 </Box>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                             <Image src={teethMissing1} alt="Image" width={450} height={400} />
                         </Grid>
                     </Grid>
@@ -53,7 +48,7 @@ const index = () => {
             <section>
                 <Container>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                             <Image src={teethMissing2} alt="Image" width={450} height={400} />
                         </Grid>
                         <Grid item xs={12} md={6}>
@@ -84,7 +79,7 @@ const index = () => {
             }}>
                 <Container>
                     <Grid container spacing={2}>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={12}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
                                     Dental Services That Can Address Missing Teeth
@@ -94,39 +89,76 @@ const index = () => {
                                 </Typography>
                                 <List>
                                     <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Dental Implants </strong> Dental implants are one of the most effective ways to replace missing teeth. They are surgically placed into the jawbone to act as artificial tooth roots. This allows for the secure attachment of replacement teeth; such as crowns or bridges. Implants provide a permanent solution that looks and feels like natural teeth. Additionally, they prevent bone loss in the jaw by stimulating bone growth through Osseointegration.</ListItemText>
+                                        <Grid container spacing={2}>
+                                            <Grid item xs={12} md={10}>
+                                                <Box sx={{ p: 2 }} className='d-flex'>
+                                                    <ListItemIcon>
+                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                    </ListItemIcon>
+                                                    <ListItemText className='text-white'><strong>Dental Implants </strong> Dental implants are one of the most effective ways to replace missing teeth. They are surgically placed into the jawbone to act as artificial tooth roots. This allows for the secure attachment of replacement teeth; such as crowns or bridges. Implants provide a permanent solution that looks and feels like natural teeth. Additionally, they prevent bone loss in the jaw by stimulating bone growth through Osseointegration.
+                                                    </ListItemText>
+                                                </Box>
+                                            </Grid>
+                                            <Grid item xs={12} md={2} className='d-flex justify-content-center'><Image src={dentalImplants} alt="Image" className='img-fluid'  />
+                                            </Grid>
+                                        </Grid>
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Dentures. </strong> Dentures are removable appliances customized to fit your mouth. We offer both full and partial dentures depending on the extent of tooth loss.</ListItemText>
+                                        <Grid container spacing={2}>
+                                            <Grid item xs={12} md={10}>
+                                                <Box sx={{ p: 2 }} className='d-flex'>
+
+                                                    <ListItemIcon>
+                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                    </ListItemIcon>
+                                                    <ListItemText className='text-white'><strong>Dentures </strong> Dentures are removable appliances customized to fit your mouth. We offer both full and partial dentures depending on the extent of tooth loss.Dentures can help restore your way of life by helping you with day-to-day functions, such as eating and speaking, as well as help restore your confidence by improving your appearance and smile.</ListItemText>
+                                                </Box> </Grid>
+                                            <Grid item xs={12} md={2} className='d-flex justify-content-center'>
+                                                <Image src={denture} alt="Image" className='img-fluid' />
+                                            </Grid>
+                                        </Grid>
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Dental Bridges. </strong>Bridges are one of the most effective ways to restore missing teeth. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants.</ListItemText>
+                                        <Grid container spacing={2}>
+                                            <Grid item xs={12} md={10}>
+                                                <Box sx={{ p: 2 }} className='d-flex'>
+                                                    <ListItemIcon >
+                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                    </ListItemIcon>
+                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore missing teeth. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants.Restores your natural beautiful smile. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
+                                                </Box>
+
+                                            </Grid>
+                                            <Grid item xs={12} md={2} className='d-flex justify-content-center'>
+                                                <Image src={bridges} alt="Image" className='img-fluid'  />
+                                            </Grid>
+                                        </Grid>
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText className='text-white'><strong>Implant Supported Dentures. </strong>Often called as ‘Snap on Dentures’, An implant-supported denture is a denture attached to dental implants, with the implants providing improved stability and support. They are unlike regular (conventional) dentures which sit on the gumline without support.If you are missing a tooth and would like to restore your beautiful smile, contact us today at Carrum Downs Dental Clinic. Our experienced dentist will walk you through the available options and help you pick the best according to your preferences.
-                                        </ListItemText>
+                                        <Grid container spacing={2} >
+                                            <Grid item xs={12} md={10} >
+                                                <Box sx={{ p: 2 }} className='d-flex'>
+                                                    <ListItemIcon>
+                                                        <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                    </ListItemIcon>
+                                                    <ListItemText className='text-white'><strong>Implant Supported Dentures. </strong>Often called as ‘Snap on Dentures’, An implant-supported denture is a denture attached to dental implants, with the implants providing improved stability and support. They are unlike regular (conventional) dentures which sit on the gumline without support.If you are missing a tooth and would like to restore your beautiful smile, contact us today at Carrum Downs Dental Clinic. Our experienced dentist will walk you through the available options and help you pick the best according to your preferences.
+                                                    </ListItemText>
+                                                </Box>
+                                            </Grid>
+                                            <Grid item xs={12} md={2} className='d-flex justify-content-center' >
+                                                <Image src={supportedDenture} alt="Image"  className='img-fluid' />
+                                            </Grid>
+                                        </Grid>
                                     </ListItem>
                                 </List>
-                                <Box>
-                                    <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
-                                    <BlueOulinedBtn anchor={true} btnTitle="03-9782 1200" btnLink="tel:03-9782 1200" />
-                                </Box>
+
                             </Box>
                         </Grid>
-                        <Grid item xs={12} md={6}>
-                            <Image src={teethMissing3} alt="Image" width={450} height={400} />
+                        <Grid item xs={12} md={12}>
+                            <Box>
+                                <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
+                                <BlueOulinedBtn anchor={true} btnTitle="03-9782 1200" btnLink="tel:03-9782 1200" />
+                            </Box>
                         </Grid>
                     </Grid>
                 </Container>
@@ -248,7 +280,7 @@ const index = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFive">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            What happens if I lose a tooth and don't replace it?
+                                                What happens if I lose a tooth and don't replace it?
                                             </button>
                                         </h3>
                                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -260,38 +292,38 @@ const index = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingSix">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            What are the Benefits of Addressing a Missing Tooth?
+                                                What are the Benefits of Addressing a Missing Tooth?
                                             </button>
                                         </h3>
                                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 <p className='para'> <List>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText  ><strong>Improved appearance </strong> One of the most significant benefits of addressing a missing tooth is improved appearance. Replacing one or more teeth can boost your self-esteem and make you feel more confident in social or professional settings. You'll look great and feel more confident than ever before.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText  ><strong>Restored oral health </strong>Addressing tooth loss can help you achieve optimal oral health. You can return to enjoying good oral hygiene and living without discomfort. Leaving a gap in your mouth can lead to various oral health problems, including gum disease, tooth decay, and bone loss.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText ><strong>Restored functionality </strong> Addressing your missing tooth issue can restore the normal function of your mouth. It can give you back dental functions like chewing, biting, and speaking. Managing the problem can help you regain your teeth's original benefits and restore balance and aesthetics to your smile.</ListItemText>
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListItemIcon>
-                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
-                                        </ListItemIcon>
-                                        <ListItemText><strong>Support for remaining teeth </strong> Filling the gap left behind by that lost tooth can also provide much-needed stability and support to adjacent teeth, supporting the remaining teeth. It can help the adjacent teeth maintain proper alignment while preventing food debris from collecting in the empty gap.
-                                        </ListItemText>
-                                    </ListItem>
-                                </List></p>
+                                                    <ListItem>
+                                                        <ListItemIcon>
+                                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                        </ListItemIcon>
+                                                        <ListItemText  ><strong>Improved appearance </strong> One of the most significant benefits of addressing a missing tooth is improved appearance. Replacing one or more teeth can boost your self-esteem and make you feel more confident in social or professional settings. You'll look great and feel more confident than ever before.</ListItemText>
+                                                    </ListItem>
+                                                    <ListItem>
+                                                        <ListItemIcon>
+                                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                        </ListItemIcon>
+                                                        <ListItemText  ><strong>Restored oral health </strong>Addressing tooth loss can help you achieve optimal oral health. You can return to enjoying good oral hygiene and living without discomfort. Leaving a gap in your mouth can lead to various oral health problems, including gum disease, tooth decay, and bone loss.</ListItemText>
+                                                    </ListItem>
+                                                    <ListItem>
+                                                        <ListItemIcon>
+                                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                        </ListItemIcon>
+                                                        <ListItemText ><strong>Restored functionality </strong> Addressing your missing tooth issue can restore the normal function of your mouth. It can give you back dental functions like chewing, biting, and speaking. Managing the problem can help you regain your teeth's original benefits and restore balance and aesthetics to your smile.</ListItemText>
+                                                    </ListItem>
+                                                    <ListItem>
+                                                        <ListItemIcon>
+                                                            <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
+                                                        </ListItemIcon>
+                                                        <ListItemText><strong>Support for remaining teeth </strong> Filling the gap left behind by that lost tooth can also provide much-needed stability and support to adjacent teeth, supporting the remaining teeth. It can help the adjacent teeth maintain proper alignment while preventing food debris from collecting in the empty gap.
+                                                        </ListItemText>
+                                                    </ListItem>
+                                                </List></p>
                                             </div>
                                         </div>
                                     </div>
