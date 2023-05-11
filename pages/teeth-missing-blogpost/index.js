@@ -111,7 +111,7 @@ const index = () => {
                                                     <ListItemIcon>
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white'><strong>Dentures </strong> Dentures are removable appliances customized to fit your mouth. We offer both full and partial dentures depending on the extent of tooth loss.Dentures can help restore your way of life by helping you with day-to-day functions, such as eating and speaking, as well as help restore your confidence by improving your appearance and smile.</ListItemText>
+                                                    <ListItemText className='text-white'><strong>Dentures </strong> Dentures are removable appliances customized to fit your mouth. We offer both full and partial dentures depending on the extent of tooth loss. Dentures can help restore your way of life by helping you with day-to-day functions, such as eating and speaking, as well as help restore your confidence by improving your appearance and smile.</ListItemText>
                                                 </Box> </Grid>
                                             <Grid item xs={12} md={2} className='d-flex justify-content-center'>
                                                 <Image src={denture} alt="Image" className='img-fluid' />
@@ -125,7 +125,7 @@ const index = () => {
                                                     <ListItemIcon >
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore missing teeth. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants.Restores your natural beautiful smile. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
+                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore missing teeth. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
                                                 </Box>
 
                                             </Grid>
@@ -141,7 +141,7 @@ const index = () => {
                                                     <ListItemIcon>
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white'><strong>Implant Supported Dentures. </strong>Often called as ‘Snap on Dentures’, An implant-supported denture is a denture attached to dental implants, with the implants providing improved stability and support. They are unlike regular (conventional) dentures which sit on the gumline without support.If you are missing a tooth and would like to restore your beautiful smile, contact us today at Carrum Downs Dental Clinic. Our experienced dentist will walk you through the available options and help you pick the best according to your preferences.
+                                                    <ListItemText className='text-white'><strong>Implant Supported Dentures. </strong>Often called as ‘Snap on Dentures’, An implant-supported denture is a denture attached to dental implants, with the implants providing improved stability and support. They are unlike regular (conventional) dentures which sit on the gumline without support. An implant-supported overdenture is an ideal solution for those who have experienced issues with unstable or ill-fitting dentures. It attaches to special dental implants that are surgically implanted in the jawbone, providing a reliable and secure closure for the denture.
                                                     </ListItemText>
                                                 </Box>
                                             </Grid>
