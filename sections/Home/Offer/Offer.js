@@ -23,7 +23,7 @@ const Offer = () => {
                                     [
                                         { id: "Home_offer_Sec_Offer1", image: Offer1, title: "*New Patient Offer - Scale & Clean with Full Check-up", para: null, list: ["Comprehensive Dental Examination", "Scale & Clean", "Fluoride"], price: "$199*", small: "or 4 equal payments of $49.75*" },
 
-                                        { id: "Home_offer_Sec_Offer2", image: Offer2, title: "Dental Implant (implant, crown and abutment) Offer", para: "At Carrum Down Dental Clinic we use the leading edge implant Kit from MIS Australia for all our Implant treatments.", list: null, price: "$3700*", small: null },
+                                        { id: "Home_offer_Sec_Offer2", image: Offer2, title: "Dental Implant (implant, crown and abutment) Offer", para: "At Carrum Down Dental Clinic we use the leading edge implant Kit from MIS Australia for all our Implant treatments.", list: null, price: "$3900*", small: null },
 
                                         { id: "Home_offer_Sec_Offer3", image: Offer3, title: "TakeHome Teeth Whitening Offer", para: null, list: ["Whitening Consultation with Dentist", "Whitening trays made to fit you", "Whitening Gel and Demonstration of how to use it"], price: "$399*", small: "or $99.75 per fortnight on Afterpay*" }
                                     ].map((item, index) => <Grid key={item.id} item xs={12} sm={6} lg={4}>
