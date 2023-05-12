@@ -9,8 +9,8 @@ import bridges from "../../../public/teeth-missing/teeth-missing-dental-bridges.
 import denture from "../../../public/teeth-missing/teeth-missing-dentures.png"
 import supportedDenture from "../../../public/teeth-missing/teeth-missing-supported-dentures.png"
 import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png"
-import { BlueFilledBtn, BlueOulinedBtn, IconBtn } from '../../../components/components';
-import { SectionalHeading } from '../../../components/components'
+import { BlueFilledBtn, BlueOulinedBtn, IconBtn, SectionalHeading } from '../../../components/components';
+ 
 
 const index = () => {
     return (
