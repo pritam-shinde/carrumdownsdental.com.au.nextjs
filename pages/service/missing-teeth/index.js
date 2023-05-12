@@ -3,14 +3,12 @@ import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListIt
 import { CheckCircleOutline } from '@mui/icons-material'
 import Image from 'next/image';
 import Link from 'next/link';
-import teethMissing1 from '../../public/teeth-missing/Demo 01.png'
-import teethMissing2 from '../../public/teeth-missing/teeth-missing3.png'
-import teethMissing3 from '../../public/teeth-missing/teeth-missing3 (1).png'
-import teethMissing4 from '../../public/teeth-missing/missing-teeth6.png'
-import bridges from "../../public/teeth-missing/teeth-missing-dental-bridges.png"
-import denture from "../../public/teeth-missing/teeth-missing-dentures.png"
-import supportedDenture from "../../public/teeth-missing/teeth-missing-supported-dentures.png"
-import dentalImplants from "../../public/teeth-missing/teeth-missing-dental-implants.png"
+import teethMissing1 from '../../../public/teeth-missing/Demo 01.png' 
+import teethMissing2 from '../../../public/teeth-missing/teeth-missing3.png'
+import bridges from "../../../public/teeth-missing/teeth-missing-dental-bridges.png"
+import denture from "../../../public/teeth-missing/teeth-missing-dentures.png"
+import supportedDenture from "../../../public/teeth-missing/teeth-missing-supported-dentures.png"
+import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png"
 import { BlueFilledBtn, BlueOulinedBtn, IconBtn } from '../../../components/components';
 import { SectionalHeading } from '../../../components/components'
 
