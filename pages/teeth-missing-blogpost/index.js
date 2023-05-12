@@ -7,7 +7,7 @@ import teethMissing1 from '../../public/teeth-missing/Demo 01.png'
 import teethMissing2 from '../../public/teeth-missing/teeth-missing3.png'
 import teethMissing3 from '../../public/teeth-missing/teeth-missing3 (1).png'
 import teethMissing4 from '../../public/teeth-missing/missing-teeth6.png'
-import bridges from "../../public/teeth-missing/teeth-missing-denture-bridge.png"
+import bridges from "../../public/teeth-missing/teeth-missing-dental-bridges.png"
 import denture from "../../public/teeth-missing/teeth-missing-dentures.png"
 import supportedDenture from "../../public/teeth-missing/teeth-missing-supported-dentures.png"
 import dentalImplants from "../../public/teeth-missing/teeth-missing-dental-implants.png"
