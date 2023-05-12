@@ -9,6 +9,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
+  
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);

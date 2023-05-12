@@ -83,6 +83,11 @@ const Navbar = () => {
                     <a className='nav-link dropdown-toggle'>SERVICES</a>
                   </Link>
                   <ul className="dropdown-menu border-0 shadow p-2">
+                  <li className="nav-item">
+                      <Link href="/service/missing-teeth/">
+                        <a className='nav-link dropdown-item service-menu'>MISSING TEETH</a>
+                      </Link>
+                    </li>
                     <li className="nav-item">
                       <Link href="/service/wisdom-teeth-removal/">
                         <a className='nav-link dropdown-item service-menu'>WISDOM TEETH REMOVAL</a>
