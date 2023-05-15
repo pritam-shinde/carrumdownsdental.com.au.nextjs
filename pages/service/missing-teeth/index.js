@@ -10,6 +10,7 @@ import denture from "../../../public/teeth-missing/teeth-missing-dentures.png"
 import supportedDenture from "../../../public/teeth-missing/teeth-missing-supported-dentures.png"
 import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png"
 import { BlueFilledBtn, BlueOulinedBtn, IconBtn, SectionalHeading } from '../../../components/components';
+import Head from 'next/head';
  
 
 const index = () => {
