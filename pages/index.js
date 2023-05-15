@@ -22,10 +22,7 @@ const Home = ({ data }) => {
       setShow(false)
     }
   }, [])
-
   
-
-
   return (
     <>
       <Head>
