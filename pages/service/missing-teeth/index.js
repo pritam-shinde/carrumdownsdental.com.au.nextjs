@@ -15,6 +15,11 @@ import { BlueFilledBtn, BlueOulinedBtn, IconBtn, SectionalHeading } from '../../
 const index = () => {
     return (
         <>
+           <Head>
+                <title>Missing Teeth In Carrum Downs | Carrum Downs Dental</title>
+                <meta name="description" content= "" />
+                <meta name="robots" content="noindex" />
+            </Head>
             <section className='teeth-missing-section1' style={{
                 marginTop: "12rem", backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
