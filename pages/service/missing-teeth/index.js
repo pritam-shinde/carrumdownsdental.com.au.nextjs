@@ -3,7 +3,7 @@ import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListIt
 import { CheckCircleOutline } from '@mui/icons-material'
 import Image from 'next/image';
 import Link from 'next/link';
-import teethMissing1 from '../../../public/teeth-missing/Demo 01.png' 
+import teethMissing1 from '../../../public/teeth-missing/Demo 01.png'
 import teethMissing2 from '../../../public/teeth-missing/teeth-missing3.png'
 import bridges from "../../../public/teeth-missing/teeth-missing-dental-bridges.png"
 import denture from "../../../public/teeth-missing/teeth-missing-dentures.png"
@@ -11,14 +11,14 @@ import supportedDenture from "../../../public/teeth-missing/teeth-missing-suppor
 import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png"
 import { BlueFilledBtn, BlueOulinedBtn, IconBtn, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
- 
+
 
 const index = () => {
     return (
         <>
-           <Head>
+            <Head>
                 <title>Missing Teeth In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content= "" />
+                <meta name="description" content="" />
                 <meta name="robots" content="noindex" />
             </Head>
             <section className='teeth-missing-section1' style={{
@@ -103,7 +103,7 @@ const index = () => {
                                                     </ListItemText>
                                                 </Box>
                                             </Grid>
-                                            <Grid item xs={12} md={2} className='d-flex justify-content-center'><Image src={dentalImplants} alt="Image" className='img-fluid'  />
+                                            <Grid item xs={12} md={2} className='d-flex justify-content-center'><Image src={dentalImplants} alt="Image" className='img-fluid' />
                                             </Grid>
                                         </Grid>
                                     </ListItem>
@@ -134,7 +134,7 @@ const index = () => {
 
                                             </Grid>
                                             <Grid item xs={12} md={2} className='d-flex justify-content-center'>
-                                                <Image src={bridges} alt="Image" className='img-fluid'  />
+                                                <Image src={bridges} alt="Image" className='img-fluid' />
                                             </Grid>
                                         </Grid>
                                     </ListItem>
@@ -150,7 +150,7 @@ const index = () => {
                                                 </Box>
                                             </Grid>
                                             <Grid item xs={12} md={2} className='d-flex justify-content-center' >
-                                                <Image src={supportedDenture} alt="Image"  className='img-fluid' />
+                                                <Image src={supportedDenture} alt="Image" className='img-fluid' />
                                             </Grid>
                                         </Grid>
                                     </ListItem>
