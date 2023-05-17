@@ -76,6 +76,11 @@ const Navbar = () => {
                         <a className="nav-link dropdown-item">OFFER</a>
                       </Link>
                     </li>
+                    <li className="nav-item">
+                      <Link href="/meet-our-team/">
+                        <a className="nav-link dropdown-item">MEET OUR TEAM</a>
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className='nav-item dropdown'>
