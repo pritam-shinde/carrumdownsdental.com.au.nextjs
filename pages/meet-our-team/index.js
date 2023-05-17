@@ -41,15 +41,15 @@ const MeetOurTeam = () => {
               <Grid item xs={12} md={10} className="mx-auto">
                  
                 <Box py={5}>
-                  <Typography variant="h2" align="center">HELLO!</Typography>
-                  <Typography className="para" style={{fontSize:"1.2rem"}}>This is us – the carrumdowns dental Team.</Typography>
-                  <Typography className="para" style={{fontSize:"1.2rem"}}>We pride ourselves on delivering the best cosmetic and restorative dental care possible and love getting to know our patients on a personal level. More importantly, we strive to go beyond the obvious to create a great environment in which you can feel safe and welcome.</Typography>
-                  <Typography className="para" style={{fontSize:"1.2rem"}}>We’re excited to meet you!</Typography>
+                  {/* <Typography variant="h2" align="center">HELLO!</Typography> */}
+                  <Typography className="para" >This is us – the carrumdowns dental Team.</Typography>
+                  <Typography className="para" >We pride ourselves on delivering the best cosmetic and restorative dental care possible and love getting to know our patients on a personal level. More importantly, we strive to go beyond the obvious to create a great environment in which you can feel safe and welcome.</Typography>
+                  <Typography className="para">We’re excited to meet you!</Typography>
                   <Box mt={3}>
                     <Grid container>
                       {
                         [
-                          { id: "doc-1", docName: "Dr. Jhauj", degree: "(BDS)", image: Jhauj, para: ["Dr. Jhauj graduated from The University of Melbourne in the class of 2020. He enjoys all aspects of dentistry from cleanings, to implants. Dr. Jhauj is motivated to continuously growing his knowledge from taking courses involving oral-moderate sedation, orthodontics and implant dentistry. Dr. Jhauj has experience dealing with dental trauma having worked as the team dentist for an ice hockey team while living in Canada. In his spare time Dr. Jhauj enjoys staying physically active and plays a variety of sports including soccer, volleyball, golf and ice hockey."] },
+                          { id: "doc-1", docName: "Dr. Jhauj",image: Jhauj, para: ["Dr. Jhauj graduated from The University of Melbourne in the class of 2020. He enjoys all aspects of dentistry from cleanings, to implants. Dr. Jhauj is motivated to continuously growing his knowledge from taking courses involving oral-moderate sedation, orthodontics and implant dentistry. Dr. Jhauj has experience dealing with dental trauma having worked as the team dentist for an ice hockey team while living in Canada. In his spare time Dr. Jhauj enjoys staying physically active and plays a variety of sports including soccer, volleyball, golf and ice hockey."] },
                         ].map(item => <Grid key={item.id} className="mt-5">
                           <Box>
                             <Grid container spacing={5}>
@@ -58,14 +58,14 @@ const MeetOurTeam = () => {
                                   <CardMedia component="img" image={item.image.src} alt="dr_img"/>
                                   <CardContent>
                                     <Typography variant="h3">{item.docName}</Typography>
-                                    {item.degree !== null ? <Typography variant="h4">{item.degree}</Typography> : null}
+                                    {/* {item.degree !== null ? <Typography variant="h4">{item.degree}</Typography> : null} */}
                                   </CardContent>
                                 </Card>
                               </Grid>
                               <Grid item xs={12} md={9}>
                                 <Box>
                                   {
-                                    item.para.map((para, index) => <Typography key={`${item.id}.${index}`} className="para" style={{fontSize:"1.2rem"}}>{para}</Typography>)
+                                    item.para.map((para, index) => <Typography key={`${item.id}.${index}`} className="para">{para}</Typography>)
                                   }
                                 </Box>
                               </Grid>
