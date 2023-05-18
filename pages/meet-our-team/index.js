@@ -2,7 +2,7 @@ import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from '
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react'
 import { CommonHero } from '../../components/components';
-import Banner from '../../public/new-technology/new-tech.jpg'
+import Banner from '../../public/meet-our-team/meet-our-team.jpg'
 import Jhauj from '../../public/meet-our-team/headshot.jpg'
 
 const MeetOurTeam = () => {
