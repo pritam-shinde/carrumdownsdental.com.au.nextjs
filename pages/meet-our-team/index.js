@@ -33,7 +33,7 @@ const MeetOurTeam = () => {
         <meta name="description" content="Our dental clinic has introduced new technologies to help enhance our practice and patient education. Explore the technologies" />
         <meta name="robots" content="index" />    
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Meet Our Team" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Meet Our Professional Dental Team." align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
         show ? <><main>
           <Container maxWidth="xxl">
