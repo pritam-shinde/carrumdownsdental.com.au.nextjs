@@ -26,7 +26,10 @@ const Topbar = () => {
             <Box className="d-flex">
               {
                 [
-                  { id: "topbar-item-1", icon: <AccessTime className={`${Styles.topbarIcons}`} />, text: "<strong>Mon to Sat:</strong> <span>9AM - 6PM (Sunday Close)</span>" }, { id: "topbar-item-2", icon: <Place className={`${Styles.topbarIcons}`} />, text: "<strong>Address:</strong> <span>Shop T5, 100 Hall Road, Carrum Downs</span>" }, { id: "topbar-item-3", icon: <Phone className={`${Styles.topbarIcons}`} />, text: "<strong>Call Today:</strong> <span><a href='tel:03-9782 1200'>03-9782 1200</a></span>" }
+                  { id: "topbar-item-1", icon: <AccessTime className={`${Styles.topbarIcons}`} />, text: "<strong>Mon to Sat:</strong> <span>9AM - 6PM</span>" },
+                  { id: "topbar-item-4",  icon:<AccessTime className={`${Styles.topbarIcons}`} />, text: "<strong>Sun :</strong> <span>9AM - 3PM</span>"}, 
+                  { id: "topbar-item-2", icon: <Place className={`${Styles.topbarIcons}`} />, text: "<strong>Address:</strong> <span>Shop T5, 100 Hall Road, Carrum Downs</span>" }, 
+                  { id: "topbar-item-3", icon: <Phone className={`${Styles.topbarIcons}`} />, text: "<strong>Call Today:</strong> <span><a href='tel:03-9782 1200'>03-9782 1200</a></span>" }
                 ].map(item => <Box key={item.id} className="d-flex align-items-baseline" mr={width <= 1450 ? 1 : 2}>
                   <Box style={{ marginRight: "0.2rem" }}>{item.icon}</Box>
                   <Box style={{ width: "fit-content" }}>

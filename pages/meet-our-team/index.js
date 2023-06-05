@@ -57,7 +57,7 @@ const MeetOurTeam = () => {
                                 <Card >
                                   <CardMedia component="img" image={item.image.src} alt="dr_img"/>
                                   <CardContent>
-                                    <Typography variant="h3">{item.docName}</Typography>
+                                    <Typography variant="h3" className="text-center">{item.docName}</Typography>
                                     {/* {item.degree !== null ? <Typography variant="h4">{item.degree}</Typography> : null} */}
                                   </CardContent>
                                 </Card>

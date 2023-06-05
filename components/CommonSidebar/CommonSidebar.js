@@ -30,10 +30,14 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>Phone</strong>} secondary={<a href="tel:03-9782 1200">03-9782 1200</a>} />
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemText primary={<strong>Opening hours</strong>} secondary={<p style={{ marginBottom: "0 !important" }}>Mon - Sat 09 am - 06 pm <br />Sunday CLOSED</p>} />
+                                        <ListItemText primary={<strong>Opening hours</strong>} secondary={<p style={{ marginBottom: "0 !important" }}>Mon - Sat 09 am - 06 pm <br />Sunday &nbsp;&nbsp;&nbsp; 09 am - 03 pm</p>}/>
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListItemText primary={<strong>We Are 7 Days Open</strong>} />
                                     </ListItem>
                                 </List>
-                                <Box p={3} mt={3}>
+                                {/* <p> <strong> We Are 7 Days Open</strong> </p> */}
+                                <Box p={3} mt={2}>
                                     <Typography variant='h6'>Scan for Direction</Typography>
                                     <Box>
                                         <img src={Scan.src} alt="scan" style={{ maxWidth: "60%" }} />

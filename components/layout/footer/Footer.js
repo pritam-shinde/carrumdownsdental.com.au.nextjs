@@ -105,7 +105,7 @@ const Footer = () => {
                           <li className='text-white'>9:00am - 6:00pm</li>
                           <li className='text-white'>9:00am - 6:00pm</li>
                           <li className='text-white'>9:00am - 6:00pm</li>
-                          <li className='text-white'>Closed</li>
+                          <li className='text-white'>9:00am - 3:00pm</li>
                         </ul>
                       </Box>
                     </Box>
