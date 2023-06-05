@@ -38,9 +38,9 @@ const Address = () => {
                                         </ListItemIcon>
                                         <a href="mailto:carrumdownsdental@gmail.com"><ListItemText primary="carrumdownsdental@gmail.com" className="font-weight-bold" /></a>
                                     </ListItem>
-                                    <ListItem>
-                                         <ListItemText primary="We Are Open 7 Days" className="font-weight-bold" />
-                                    </ListItem>
+                                    {/* <ListItem>
+                                         <ListItemText primary="We are Open 7 Days." className="font-weight-bold" />
+                                    </ListItem> */}
                                 </List>
                                 <Box mt={3}>
                                     <SectionalHeading variant='h5' align='left' color="var(--dark-blue)" title="Scan for Direction" />

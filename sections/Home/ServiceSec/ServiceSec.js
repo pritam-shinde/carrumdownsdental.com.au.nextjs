@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from '@mui/material'
+import { Box, Container, Grid, Typography } from '@mui/material'
 import React, { useState, useEffect } from 'react'
 import Data from './Data/Data';
 import { BlueFilledBtn, CustomCard } from '../../../components/components'
@@ -16,6 +16,7 @@ const ServiceSec = () => {
       <Container maxWidth="xxl" id="service">
         <Grid container>
           <Grid item xs={12} md={10} className="mx-auto">
+          <Typography variant='h1' className='text-dark-blue text-center m-2' gutterBottom>We are Open 7 Days. </Typography>
             <Grid container spacing={3}>
               {
                 Data.map(item => <Grid key={item.id} item xs={12} sm={6} lg={3} >

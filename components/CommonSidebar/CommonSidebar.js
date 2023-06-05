@@ -33,7 +33,7 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>Opening hours</strong>} secondary={<p style={{ marginBottom: "0 !important" }}>Mon - Sat 09 am - 06 pm <br />Sunday &nbsp;&nbsp;&nbsp; 09 am - 03 pm</p>}/>
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemText primary={<strong>We Are 7 Days Open</strong>} />
+                                        <ListItemText primary={<strong>We are Open 7 Days.</strong>} />
                                     </ListItem>
                                 </List>
                                 {/* <p> <strong> We Are 7 Days Open</strong> </p> */}

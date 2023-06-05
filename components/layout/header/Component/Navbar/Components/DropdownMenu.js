@@ -8,7 +8,7 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
     }
     return (
         <>
-            <ul onClick={handleOnClick} className={`${click ? 'dropdownMenu clicked' : 'dropdownMenu'}      shadow p-3 bg-white`}>
+            <ul onClick={handleOnClick} className={`${click ? 'dropdownMenu clicked' : 'dropdownMenu'}   shadow p-3 bg-white`}>
                 {
                     menu === "about" ? [
                         { id: "about-menu-1", title: "PATIENT REFERRAL PROGRAM", path: "/referral-program/" },
