@@ -40,7 +40,7 @@ const Footer = () => {
                   <Grid item xs={12} sm={6} lg={3}>
                     <Box>
                       <Typography className="footer-sec-head" gutterBottom>ABOUT US</Typography>
-                      <Typography className='text-white'>Carrum Downs Dental at Shop T5, Hall Road we are committed to apply our dental knowledge and skills in a caring and gentle way, you will feel at ease while we work on your smile. Learn more about our <Link href="/about-us/">dentist in Carum Downs</Link>.</Typography>
+                      <Typography className='text-white'>Carrum Downs Dental at Shop T5, Hall Road we are committed to apply our dental knowledge and skills in a caring and gentle way, you will feel at ease while we work on your smile. Learn more about our <Link href="/about-us/">dentist in Carrum Downs</Link>.</Typography>
                     </Box>
                   </Grid>
                   <Grid item xs={12} sm={6} lg={3}>

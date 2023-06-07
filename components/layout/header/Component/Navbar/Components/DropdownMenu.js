@@ -15,7 +15,8 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
                         { id: "about-menu-2", title: "PAYMENT PLAN", path: "/payment-plan/" },
                         { id: "about-menu-3", title: "NEW TECHNOLOGIES", path: "/new-technologies/" },
                         { id: "about-menu-4", title: "OFFER", path: "/offer/" },
-                        { id: "about-menu-5", title: "MEET OUR TEAM", path: "/meet-our-team/" }
+                        { id: "about-menu-5", title: "MEET OUR TEAM", path: "/meet-our-team/" },
+                        { id: "about-menu-6", title: "COVID-19", path: "/how-we-can-reduce-the-spread-of-corona-virus-together/" }
                     ].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
                         <Link href={item.path}>
                             <a className='nav-link text-dark'>{item.title}</a>

@@ -81,6 +81,11 @@ const Navbar = () => {
                         <a className="nav-link dropdown-item">MEET OUR TEAM</a>
                       </Link>
                     </li>
+                    <li className='nav-item'>
+                      <Link href="/how-we-can-reduce-the-spread-of-corona-virus-together/">
+                        <a className='nav-link'>COVID-19</a>
+                      </Link>
+                    </li>
                   </ul>
                 </li>
                 <li className='nav-item dropdown'>
@@ -88,7 +93,7 @@ const Navbar = () => {
                     <a className='nav-link dropdown-toggle'>SERVICES</a>
                   </Link>
                   <ul className="dropdown-menu border-0 shadow p-2">
-                  <li className="nav-item">
+                    <li className="nav-item">
                       <Link href="/service/missing-teeth/">
                         <a className='nav-link dropdown-item service-menu'>MISSING TEETH</a>
                       </Link>
@@ -182,7 +187,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
- 
+
                 <li className='nav-item dropdown dental-problems-section' >
                   <Link href="/dental-problems/"  >
                     <a className='nav-link dropdown-toggle'>DENTAL PROBLEMS</a>
@@ -269,9 +274,6 @@ const Navbar = () => {
                     </ul>
                   </ul>
                 </li>
-
-
-
                 <li className='nav-item'>
                   <Link href="/blog/">
                     <a className='nav-link'>BLOG</a>
@@ -280,11 +282,6 @@ const Navbar = () => {
                 <li className='nav-item'>
                   <Link href="/contact-us/">
                     <a className='nav-link'>CONTACT US</a>
-                  </Link>
-                </li>
-                <li className='nav-item'>
-                  <Link href="/how-we-can-reduce-the-spread-of-corona-virus-together/">
-                    <a className='nav-link'>COVID-19</a>
                   </Link>
                 </li>
               </ul>
@@ -363,11 +360,6 @@ const Navbar = () => {
                   <li onClick={closeMobileMenu}>
                     <Link href="/contact-us/">
                       <a className="text-white nav-link">CONTACT US</a>
-                    </Link>
-                  </li>
-                  <li onClick={closeMobileMenu}>
-                    <Link href="/how-we-can-reduce-the-spread-of-corona-virus-together/">
-                      <a className="text-white nav-link">COVID-19</a>
                     </Link>
                   </li>
                 </ul>
