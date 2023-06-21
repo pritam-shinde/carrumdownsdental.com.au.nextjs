@@ -34,5 +34,4 @@ const CommonHero = ({ align, title, color, breadcrumb, bg }) => {
     </>
   )
 }
-
 export default CommonHero
