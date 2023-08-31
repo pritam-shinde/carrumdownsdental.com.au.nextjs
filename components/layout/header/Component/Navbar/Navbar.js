@@ -188,7 +188,7 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                {/* <li className='nav-item dropdown dental-problems-section' >
+                <li className='nav-item dropdown dental-problems-section' >
                   <Link href="/dental-problems/"  >
                     <a className='nav-link dropdown-toggle'>DENTAL PROBLEMS</a>
                   </Link>
@@ -273,7 +273,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </ul>
-                </li> */}
+                </li>  
                 <li className='nav-item'>
                   <Link href="/blog/">
                     <a className='nav-link'>BLOG</a>
