@@ -66,7 +66,7 @@ const DentalImplants = ({ data }) => {
         <meta name="description" content="Dental Implants are an effective way to deal with tooth loss. Our dental implants are made from Titanium. Call us today for your dental implants treatment." />
         <meta name="robots" content="index" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Implants in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Computer Guided Dental Implants in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {show ? <main>
         <Container maxWidth="xxl">
           <Grid container>

@@ -58,7 +58,7 @@ const TermsNConditions = () => {
                     </Box>
                   </Box>
                   <Box className='mt-4'>
-                    <SectionalHeading variant="h2" align="left" title="Dental Implant (implant, crown, and abutment) for just $3700 – Terms and Conditions" color="var(--dark-blue)" />
+                    <SectionalHeading variant="h2" align="left" title="Dental Implant (implant, crown, and abutment) for just $3900 – Terms and Conditions" color="var(--dark-blue)" />
                     <Box>
                       <List>
                         {
