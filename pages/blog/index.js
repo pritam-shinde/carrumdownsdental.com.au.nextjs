@@ -6,9 +6,22 @@ import { BlogSidebar, BlueFilledBtn, CommonHero, CustomCard } from '../../compon
 import Banner from '../../public/CommonHero/blog-index-1.jpg'
 import { Box, Container, Grid } from '@mui/material'
 
+// export const getServerSideProps = async () => {
+//   const res = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true');
+//   const catRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99')
+//   const data = await res.json();
+//   const category = await catRes.json();
+//   return {
+//     props: {
+//       data,
+//       category,
+//     }
+//   }
+// }
+
 export const getServerSideProps = async () => {
-  const res = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true');
-  const catRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99')
+  const res = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/posts?_embed=true');
+  const catRes = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/categories?_embed=true&per_page=99')
   const data = await res.json();
   const category = await catRes.json();
   return {
