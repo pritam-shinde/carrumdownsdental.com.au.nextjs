@@ -203,22 +203,22 @@ footer a:hover {
 .square-left {
     border: 10px solid rgba(128, 128, 128, 0.171);
     border-left: none;
-    border-radius: 0 1.2rem  1.2rem 0;
-    -webkit-border-radius: 0 1.2rem  1.2rem 0;
-    -moz-border-radius: 0 1.2rem  1.2rem 0;
-    -ms-border-radius: 0 1.2rem  1.2rem 0;
-    -o-border-radius: 0 1.2rem  1.2rem 0;
+    border-radius: 0 1.2rem 1.2rem 0;
+    -webkit-border-radius: 0 1.2rem 1.2rem 0;
+    -moz-border-radius: 0 1.2rem 1.2rem 0;
+    -ms-border-radius: 0 1.2rem 1.2rem 0;
+    -o-border-radius: 0 1.2rem 1.2rem 0;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 1rem;
 }
 
-.clipPathBgGreyUp{
+.clipPathBgGreyUp {
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
-.clipPathBgGreyDown{
+.clipPathBgGreyDown {
     clip-path: polygon(0 0, 75% 1%, 100% 100%, 25% 100%);
 }
 
@@ -270,41 +270,45 @@ footer a:hover {
         border: 5px solid rgba(128, 128, 128, 0.171);
     }
 
-    .clipPathBgGreyUp{
+    .clipPathBgGreyUp {
         clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
     }
-    
-    .clipPathBgGreyDown{
+
+    .clipPathBgGreyDown {
         clip-path: polygon(0 0, 95% 1%, 100% 100%, 5% 100%);
     }
 }
 
 /* upper clippath */
-.upper_clipPath{
+.upper_clipPath {
     background-color: #1ebdb6;
     height: 116px;
     margin-bottom: -30px;
-    clip-path: polygon(100% 100%, 0% 100% , 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
-   
+    clip-path: polygon(100% 100%, 0% 100%, 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
+
 }
-.upper_clipPath2{
+
+.upper_clipPath2 {
     background-color: #1ebdb6;
     height: 116px;
     margin-bottom: -102px;
-    clip-path: polygon(100% 100%, 0% 100% , 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
-   
+    clip-path: polygon(100% 100%, 0% 100%, 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
+
 }
-.lower_clipPath{
+
+.lower_clipPath {
     background-color: #1ebdb6;
     height: 116px;
-    margin-top:-80px;
-    clip-path: polygon(100% 0%, 0% 0% , 0.00% 42.00%, 2.00% 42.18%, 4.00% 42.72%, 6.00% 43.59%, 8.00% 44.75%, 10.00% 46.15%, 12.00% 47.72%, 14.00% 49.40%, 16.00% 51.10%, 18.00% 52.76%, 20.00% 54.29%, 22.00% 55.62%, 24.00% 56.70%, 26.00% 57.47%, 28.00% 57.91%, 30.00% 57.98%, 32.00% 57.70%, 34.00% 57.06%, 36.00% 56.10%, 38.00% 54.86%, 40.00% 53.41%, 42.00% 51.79%, 44.00% 50.10%, 46.00% 48.40%, 48.00% 46.78%, 50.00% 45.30%, 52.00% 44.03%, 54.00% 43.04%, 56.00% 42.36%, 58.00% 42.03%, 60.00% 42.06%, 62.00% 42.46%, 64.00% 43.19%, 66.00% 44.24%, 68.00% 45.54%, 70.00% 47.06%, 72.00% 48.70%, 74.00% 50.40%, 76.00% 52.09%, 78.00% 53.68%, 80.00% 55.10%, 82.00% 56.29%, 84.00% 57.20%, 86.00% 57.77%, 88.00% 58.00%, 90.00% 57.86%, 92.00% 57.36%, 94.00% 56.53%, 96.00% 55.40%, 98.00% 54.03%, 100.00% 52.47%);
+    margin-top: -80px;
+    clip-path: polygon(100% 0%, 0% 0%, 0.00% 42.00%, 2.00% 42.18%, 4.00% 42.72%, 6.00% 43.59%, 8.00% 44.75%, 10.00% 46.15%, 12.00% 47.72%, 14.00% 49.40%, 16.00% 51.10%, 18.00% 52.76%, 20.00% 54.29%, 22.00% 55.62%, 24.00% 56.70%, 26.00% 57.47%, 28.00% 57.91%, 30.00% 57.98%, 32.00% 57.70%, 34.00% 57.06%, 36.00% 56.10%, 38.00% 54.86%, 40.00% 53.41%, 42.00% 51.79%, 44.00% 50.10%, 46.00% 48.40%, 48.00% 46.78%, 50.00% 45.30%, 52.00% 44.03%, 54.00% 43.04%, 56.00% 42.36%, 58.00% 42.03%, 60.00% 42.06%, 62.00% 42.46%, 64.00% 43.19%, 66.00% 44.24%, 68.00% 45.54%, 70.00% 47.06%, 72.00% 48.70%, 74.00% 50.40%, 76.00% 52.09%, 78.00% 53.68%, 80.00% 55.10%, 82.00% 56.29%, 84.00% 57.20%, 86.00% 57.77%, 88.00% 58.00%, 90.00% 57.86%, 92.00% 57.36%, 94.00% 56.53%, 96.00% 55.40%, 98.00% 54.03%, 100.00% 52.47%);
 }
-.bottom-clipPath{
+
+.bottom-clipPath {
     fill: #a51212;
     transform-origin: center;
     transform: rotateY(0deg);
 }
+
 .deskNavbarBrandMenu img {
     min-width: 70% !important;
     min-height: 70% !important;
@@ -400,15 +404,19 @@ footer a:hover {
     background-position: center bottom;
 }
 
-.offerPageOfferCard{
+.offerPageOfferCard {
     height: 36.5rem;
 }
 
-.offerPageOfferCard .manageHeight{height: 13rem;}
+.offerPageOfferCard .manageHeight {
+    height: 13rem;
+}
 
 
-@media only screen and (max-width: 600px){
-    .offerPageOfferCard, .offerPageOfferCard .manageHeight{
+@media only screen and (max-width: 600px) {
+
+    .offerPageOfferCard,
+    .offerPageOfferCard .manageHeight {
         height: auto;
     }
 }
@@ -418,15 +426,19 @@ footer a:hover {
         font-size: 0.8rem;
     }
 
-    .offerPageOfferCard{
+    .offerPageOfferCard {
         height: 37.5rem;
     }
 
-    .offerPageOfferCard .manageHeight{height: 18rem;}
+    .offerPageOfferCard .manageHeight {
+        height: 18rem;
+    }
 }
 
-@media only screen and (min-width: 1301px) and (max-width: 1500px){
-    .offerPageOfferCard .manageHeight{height: 14.5rem;}
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+    .offerPageOfferCard .manageHeight {
+        height: 14.5rem;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -434,84 +446,87 @@ footer a:hover {
         margin-top: -1.2% !important;
     }
 
-    .offerPageOfferCard .manageHeight{height: 16rem;}
+    .offerPageOfferCard .manageHeight {
+        height: 16rem;
+    }
 }
 
 .MuiBox-root.css-178yklu li {
     list-style: disc !important;
 }
 
-.tWCard{
+.tWCard {
     height: 45.2rem;
 }
 
-.tab{
+.tab {
     cursor: pointer;
 }
 
-.bg--blue, .bg--blue:hover{
+.bg--blue,
+.bg--blue:hover {
     background-color: var(--dark-blue) !important;
     color: #fff;
 }
 
 
-.tabHead{
+.tabHead {
     font-size: 1.8rem !important;
 }
 
-.cardContentTW{
+.cardContentTW {
     position: relative !important;
     height: 31.7rem !important;
 }
 
-.cardBtn{
+.cardBtn {
     position: absolute !important;
     bottom: 1.5% !important;
 }
 
-@media only screen and (max-width: 600px){
-    .tWCard{
+@media only screen and (max-width: 600px) {
+    .tWCard {
         height: auto !important;
     }
 
-    .tabHead{
+    .tabHead {
         font-size: 1.3rem !important;
     }
 
-    .cardContentTW{
+    .cardContentTW {
         position: relative !important;
         height: auto !important;
     }
 
-    .cardBtn{
+    .cardBtn {
         position: relative !important;
     }
 }
 
 
-@media only screen and (min-width: 601px) and (max-width: 992px){
-    .cardContentTW{
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .cardContentTW {
         position: relative !important;
         height: 33rem !important;
     }
 
-    .cardBtn{
+    .cardBtn {
         position: absolute !important;
         bottom: 5% !important;
     }
 }
 
-@media only screen and (min-width: 993px) and (max-width: 1280px){
-    .tWCard{
+@media only screen and (min-width: 993px) and (max-width: 1280px) {
+    .tWCard {
         height: 48rem;
     }
 
-    .cardContentTW{
+    .cardContentTW {
         position: relative !important;
         height: 35rem !important;
     }
 
-    .cardBtn{
+    .cardBtn {
         position: absolute !important;
         bottom: 5% !important;
     }
@@ -528,27 +543,26 @@ footer a:hover {
 }
 
 /* /tab section */
-.css-1q2h7u5.Mui-selected {   
+.css-1q2h7u5.Mui-selected {
     background: #115278;
-    color: #fff !important; 
+    color: #fff !important;
     font-weight: 600;
 }
-.css-1q2h7u5 {   
-    flex:1 !important;
-}
 
+.css-1q2h7u5 {
+    flex: 1 !important;
+}
 
 /* service in topbar */
-
-.service-menu{
+.service-menu {
     line-height: 0.7rem !important;
 }
 
-.dental-problem-menu{
+.dental-problem-menu {
     line-height: 0.7rem !important;
 }
 
-  /* .dental-problems-section:hover{
+/* .dental-problems-section:hover{
     display: block;
     width: 600px;
     
@@ -568,47 +582,42 @@ footer a:hover {
 
 /* Default styles for mobile-accordion (visible on mobile screens) */
 .mobile-accordion {
-    display: block;  
-  }
-  
-  /* Default styles for medium-large-layout (hidden on mobile screens) */
-  .medium-large-layout {
-    display: none;  
-  }
-  
-  /* Media query to show medium-large-layout on medium and large screens */
-  /* @media (min-width: 768px) {
-    .mobile-accordion {
-      display: none;  
-    }
-    .medium-large-layout {
-      display: block;  
-    }
-  } */
-  @media (min-width: 768px) {
-    .mobile-accordion {
-      display: none;  
-    }
+    display: block;
+}
+
+/* Default styles for medium-large-layout (hidden on mobile screens) */
+.medium-large-layout {
+    display: none;
+}
+
+/* query to show medium-large-layout on medium and large screens */
+@media (min-width: 768px) {
     .mobile-view {
         display: none;
-      }
-    .medium-large-layout {
-      display: block;  
     }
-  }
-  /* Styling for the accordion */
-  /* .accordion-body {
+    .mobile-accordion {
+        display: none;
+    }
+
+    .medium-large-layout {
+        display: block;
+    }
+}
+
+/* Styling for the accordion */
+/* .accordion-body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;  
   } */
-  
-  /* Expand the accordion when it's open */
-  /* .accordion-body.show {
+
+/* Expand the accordion when it's open */
+/* .accordion-body.show {
     max-height: 500px;  
   }
   
-   */div.scroll {
+   */
+div.scroll {
     margin: 4px, 4px;
     padding: 20px 25px;
     height: 29em;
