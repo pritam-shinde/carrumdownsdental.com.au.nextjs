@@ -188,92 +188,90 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                {/* <li className='nav-item dropdown dental-problems-section' >
+                <li className='nav-item dropdown dental-problems-section' >
                   <Link href="/dental-problems/"  >
                     <a className='nav-link dropdown-toggle'>DENTAL PROBLEMS</a>
                   </Link>
                   <ul className="dropdown-menu border-0 shadow p-2">
                     <ul className="dental-problems-section1" >
                       <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>WISDOM TOOTH PAIN</a>
+                        <Link href="/dental-problems/bad-breath">
+                          <a className='nav-link dropdown-item dental-problem-menu'>BAD BREATH</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>TOOTH GAPS</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>TEETH SENSITIVITY</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu '>STAINED TEETH</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/ dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>SEVERE TOOTHACHE</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems /">
-                          <a className='nav-link dropdown-item dental-problem-menu'>KNOCKED OUT TEETH</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>GUM DISEASE</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>DRY SOCKET</a>
-                        </Link>
-                      </li>
-                    </ul>
-                    <ul className="dental-problems-section2">
-                      <li className="nav-item">
-                        <Link href="/ dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>DENTAL ABSCESS</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item dropdown dropdown2">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>CROOKED TEETH</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>CHIPPED OR CRACKED TOOTH</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>BRUXISM</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>BLEEDING GUMS</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/dental-problems/">
+                        <Link href="/dental-problems/bite-problems">
                           <a className='nav-link dropdown-item dental-problem-menu'>BITE PROBLEMS</a>
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link href="/dental-problems/">
-                          <a className='nav-link dropdown-item dental-problem-menu'>BAD BREATH</a>
+                        <Link href="/dental-problems/bleeding-gums">
+                          <a className='nav-link dropdown-item dental-problem-menu'>BLEEDING GUMS</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/bruxism">
+                          <a className='nav-link dropdown-item dental-problem-menu'>BRUXISM</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/chipped-or-cracked-tooth">
+                          <a className='nav-link dropdown-item dental-problem-menu'>CHIPPED OR CRACKED TOOTH</a>
+                        </Link>
+                      </li>
+                        <li className="nav-item">
+                          <Link href="/dental-problems/crooked-teeth">
+                            <a className='nav-link dropdown-item dental-problem-menu'>CROOKED TEETH</a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link href="/dental-problems/dental-abscess">
+                            <a className='nav-link dropdown-item dental-problem-menu'>DENTAL ABSCESS</a>
+                          </Link>
+                        </li>
+                        <li className="nav-item">
+                        <Link href="/dental-problems/dry-socket">
+                          <a className='nav-link dropdown-item dental-problem-menu'>DRY SOCKET</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/gum-disease">
+                          <a className='nav-link dropdown-item dental-problem-menu'>GUM DISEASE</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/knocked-out-tooth">
+                          <a className='nav-link dropdown-item dental-problem-menu'>KNOCKED OUT TEETH</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/severe-toothache">
+                          <a className='nav-link dropdown-item dental-problem-menu'>SEVERE TOOTHACHE</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/stained-teeth">
+                          <a className='nav-link dropdown-item dental-problem-menu '>STAINED TEETH</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/teeth-sensitivity">
+                          <a className='nav-link dropdown-item dental-problem-menu'>TEETH SENSITIVITY</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/tooth-gap">
+                          <a className='nav-link dropdown-item dental-problem-menu'>TOOTH GAPS</a>
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/dental-problems/wisdom-tooth-pain">
+                          <a className='nav-link dropdown-item dental-problem-menu'>WISDOM TOOTH PAIN</a>
                         </Link>
                       </li>
                     </ul>
                   </ul>
-                </li>   */}
+                </li>
                 <li className='nav-item'>
                   <Link href="/blog/">
                     <a className='nav-link'>BLOG</a>

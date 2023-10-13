@@ -19,7 +19,8 @@ const CommonHero = ({ align, title, color, breadcrumb, bg }) => {
                   {
                     breadcrumb.map(item => <li key={item.id} className={`breadcrumb-item ${item.link === null ? 'active' : ''}`}aria-current={item.link === null ? 'page' : null}><span><KeyboardArrowRight /> </span>
                       {
-                        item.link !== null ? <Link href={item.link}><a style={{color:'var(--dark-green) !important', fontWeight:"700 !important"}} >{item.title}</a></Link> : <strong>{item.title}</strong>
+                        item.link !== null ? <Link href={item.link}><a style={{color:'#fff !important', fontWeight:"700 !important"}} >{item.title}</a></Link> 
+                        : <strong style={{color:'#fff !important', fontWeight:"700 !important"}}>{item.title}</strong>
                       }
                     </li>)
                   }

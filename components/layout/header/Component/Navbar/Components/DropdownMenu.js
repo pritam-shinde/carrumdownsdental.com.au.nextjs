@@ -56,21 +56,21 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
                             </ul> : null
                         }
                     </li>) : menu === "dentalProblems" ? [
-                        { id: "dentalProblems-1", title: "WISDOM TOOTH PAIN", path: "/referral-program/" },
-                        { id: "dentalProblems-2", title: "TOOTH GAPS", path: "/payment-plan/" },
-                        { id: "dentalProblems-3", title: "TEETH SENSITIVITY", path: "/new-technologies/" },
-                        { id: "dentalProblems-4", title: "STAINED TEETH", path: "/offer/" },
-                        { id: "dentalProblems-5", title: "SEVERE TOOTHACHE", path: "/offer/" },
-                        { id: "dentalProblems-6", title: "KNOCKED OUT TEETH", path: "/offer/" },
-                        { id: "dentalProblems-7", title: "GUM DISEASE", path: "/offer/" },
-                        { id: "dentalProblems-8", title: "DRY SOCKET", path: "/offer/" },
-                        { id: "dentalProblems-9", title: "DENTAL ABSCESS", path: "/offer/" },
-                        { id: "dentalProblems-10", title: "CROOKED TEETH", path: "/offer/" },
-                        { id: "dentalProblems-11", title: "CHIPPED OR CRACKED TOOTH", path: "/offer/" },
-                        { id: "dentalProblems-12", title: "BRUXISM", path: "/offer/" },
-                        { id: "dentalProblems-13", title: "BLEEDING GUMS", path: "/offer/" },
-                        { id: "dentalProblems-14", title: "BITE PROBLEMS", path: "/offer/" },
-                         { id: "dentalProblems-15", title: "BAD BREATH", path: "/offer/" },
+                          { id: "dentalProblems-1", title: "BAD BREATH", path: "/dental-problems/bad-breath" },
+                          { id: "dentalProblems-2", title: "BITE PROBLEMS", path: "/dental-problems/bite-problems" },
+                          { id: "dentalProblems-3", title: "BLEEDING GUMS", path: "/dental-problems/bleeding-gums" },
+                          { id: "dentalProblems-4", title: "BRUXISM", path: "/dental-problems/bruxism" },
+                          { id: "dentalProblems-5", title: "CHIPPED OR CRACKED TOOTH", path: "/dental-problems/chipped-or-cracked-tooth" },
+                          { id: "dentalProblems-6", title: "CROOKED TEETH", path: "/dental-problems/crooked-teeth" },
+                          { id: "dentalProblems-7", title: "DENTAL ABSCESS", path: "/dental-problems/dental-abscess" },
+                          { id: "dentalProblems-8", title: "DRY SOCKET", path: "/dental-problems/dry-socket" },
+                          { id: "dentalProblems-9", title: "GUM DISEASE", path: "/dental-problems/gum-disease" },
+                          { id: "dentalProblems-10", title: "KNOCKED OUT TEETH", path: "/dental-problems/knocked-out-tooth" },
+                          { id: "dentalProblems-11", title: "SEVERE TOOTHACHE", path: "/dental-problems/severe-toothache" },
+                          { id: "dentalProblems-12", title: "STAINED TEETH", path: "/dental-problems/stained-teeth" },
+                          { id: "dentalProblems-13", title: "TEETH SENSITIVITY", path: "/dental-problems/teeth-sensitivity/" },
+                          { id: "dentalProblems-15", title: "TOOTH GAPS", path: "/dental-problems/tooth-gap" },
+                          { id: "dentalProblems-15", title: "WISDOM TOOTH PAIN", path: "/dental-problems/wisdom-tooth-pain" },
                     ].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
                         <Link href={item.path}>
                             <a className='nav-link text-dark'>{item.title}</a>

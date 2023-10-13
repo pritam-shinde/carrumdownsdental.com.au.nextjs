@@ -57,7 +57,7 @@ const index = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 1 }}>
-                                <Typography variant="h5" component="h2" gutterBottom>
+                                <Typography variant="h5" component="h2" gutterBottom style={{ color: "var(--dark-blue)" }}>
                                     Restore Missing Teeth and Improve Your Overall Health
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
@@ -221,7 +221,7 @@ const index = () => {
                                         </h3>
                                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                <p className='para'>
+                                                <div className='para'>
                                                     <List>
                                                         <ListItem>
                                                             <ListItemIcon>
@@ -277,7 +277,7 @@ const index = () => {
                                                             </ListItemText>
                                                         </ListItem>
                                                     </List>
-                                                </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -301,7 +301,7 @@ const index = () => {
                                         </h3>
                                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                <p className='para'> <List>
+                                                <div className='para'> <List>
                                                     <ListItem>
                                                         <ListItemIcon>
                                                             <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
@@ -327,7 +327,7 @@ const index = () => {
                                                         <ListItemText><strong>Support for remaining teeth </strong> Filling the gap left behind by that lost tooth can also provide much-needed stability and support to adjacent teeth, supporting the remaining teeth. It can help the adjacent teeth maintain proper alignment while preventing food debris from collecting in the empty gap.
                                                         </ListItemText>
                                                     </ListItem>
-                                                </List></p>
+                                                </List></div>
                                             </div>
                                         </div>
                                     </div>
@@ -342,3 +342,5 @@ const index = () => {
 }
 
 export default index
+
+ 

@@ -38,21 +38,21 @@ const WisdomTeeth = ({ data }) => {
     useremail: "",
     message: ""
   })
-  const router = useRouter()
-  const [selectedFile, setSelectedFile] = useState({})
-  // const [category] = data
+        const router = useRouter()
+        const [selectedFile, setSelectedFile] = useState({})
+        // const [category] = data
 
-  // const wp = new WPAPI({
-  //   endpoint: "https://pritams3.sg-host.com/wp-json/"
-  // })
+        // const wp = new WPAPI({
+        //   endpoint: "https://pritams3.sg-host.com/wp-json/"
+        // })
 
-  useEffect(() => {
-    if (typeof window !== undefined) {
-      setHydration(true)
-    } else {
-      setHydration(false)
-    }
-  }, [])
+        useEffect(() => {
+          if (typeof window !== undefined) {
+            setHydration(true)
+          } else {
+            setHydration(false)
+          }
+        }, [])
 
   useEffect(() => {
     setWidth(window.innerWidth)
@@ -160,25 +160,54 @@ const WisdomTeeth = ({ data }) => {
                               </Box>
                               <Box mt={3}>
                                 <div className="accordion" id="accordionExample">
-                                  {
-                                    [
-                                      { id: "One", que: "Why are wisdom teeth removed?", ans: "A wisdom tooth can be removed for various reasons, such as a wisdom tooth that failed to erupt fully, chronic pain on the gums around the wisdom tooth, a tooth that didn’t come out straight or a wisdom tooth causing decay to the adjacent teeth." },
-                                      { id: "Two", que: "Does Medicare cover wisdom teeth removal?", ans: "Yes, wisdom teeth removal is covered under Medicare for eligible Kids under the CDBS Program." },
-                                      { id: "Three", que: "What to eat after wisdom teeth removal?", ans: "Following wisdom teeth removal, you should eat soft foods and liquids such as yoghurt, mashed potatoes, pudding and smoothies. Cold foods like ice cream can offer relief." },
-                                      { id: "Four", que: "after wisdom teeth removal?", ans: "Following wisdom teeth removal, you should eat soft foods and liquids such as yoghurt, mashed potatoes, pudding and smoothies. Cold foods like ice cream can offer relief." }
-                                    ].map(item => <div key={`faq-${item.id}`} className="accordion-item">
-                                      <h3 className="accordion-header" id={`heading${item.id}`}>
-                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${item.id}`} aria-expanded="true" aria-controls={`collapse${item.id}`}>
-                                          {item.que}
-                                        </button>
-                                      </h3>
-                                      <div id={`collapse${item.id}`} className="accordion-collapse collapse show" aria-labelledby={`heading${item.id}`} data-bs-parent="#accordionExample">
-                                        <div className="accordion-body">
-                                          <p className='para'>{item.ans}.</p>
-                                        </div>
+                                  <div className="accordion-item">
+                                    <h3 className="accordion-header" id="headingOne">
+                                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Why are wisdom teeth removed?
+                                      </button>
+                                    </h3>
+                                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                      <div className="accordion-body">
+                                        <p className='para'>A wisdom tooth can be removed for various reasons, such as a wisdom tooth that failed to erupt fully, chronic pain on the gums around the wisdom tooth, a tooth that didn’t come out straight or a wisdom tooth causing decay to the adjacent teeth.</p>
                                       </div>
-                                    </div>)
-                                  }
+                                    </div>
+                                  </div>
+                                  <div className="accordion-item">
+                                    <h3 className="accordion-header" id="headingTwo">
+                                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Does Medicare cover wisdom teeth removal?
+                                      </button>
+                                    </h3>
+                                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                      <div className="accordion-body">
+                                        <p className='para'>Yes, wisdom teeth removal is covered under Medicare for eligible Kids under the CDBS Program.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div className="accordion-item">
+                                    <h3 className="accordion-header" id="headingThree">
+                                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        What to eat after wisdom teeth removal?
+                                      </button>
+                                    </h3>
+                                    <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                      <div className="accordion-body">
+                                        <p className='para'>Following wisdom teeth removal, you should eat soft foods and liquids such as yoghurt, mashed potatoes, pudding and smoothies. Cold foods like ice cream can offer relief.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div className="accordion-item">
+                                    <h3 className="accordion-header" id="headingFour">
+                                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        after wisdom teeth removal?
+                                      </button>
+                                    </h3>
+                                    <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                      <div className="accordion-body">
+                                        <p className='para'>Following wisdom teeth removal, you should eat soft foods and liquids such as yoghurt, mashed potatoes, pudding and smoothies. Cold foods like ice cream can offer relief.</p>
+                                      </div>
+                                    </div>
+                                  </div>
                                 </div>
                               </Box>
                             </Box>
@@ -198,7 +227,7 @@ const WisdomTeeth = ({ data }) => {
                             </Box>
                           </Container>
                         </section>
-                        <section className="mt-md-5 mt-4">
+                        {/* <section className="mt-md-5 mt-4">
                           <Container maxWidth="xxl" className="p-0">
                             <Box>
                               <SectionalHeading variant="h2" color="var(--dark-blue)" title="Recent Posts" align="center" />
@@ -213,7 +242,7 @@ const WisdomTeeth = ({ data }) => {
                               </Grid>
                             </Box>
                           </Container>
-                        </section>
+                        </section> */}
                       </Grid>
                       <Grid item xs={12} lg={4}>
                         <Box px={3}>

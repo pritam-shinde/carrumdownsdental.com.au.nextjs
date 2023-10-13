@@ -16,7 +16,6 @@ import WPAPI from 'wpapi';
 //   const catRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99')
 //   const latestBlogRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&per_page=5&page=1')
 //   const data = await res.json();
-//   const category = await catRes.json();
 //   const latestBlog = await latestBlogRes.json()
 //   return {
 //     props: {

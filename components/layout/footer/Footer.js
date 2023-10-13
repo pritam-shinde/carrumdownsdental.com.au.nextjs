@@ -112,7 +112,7 @@ const Footer = () => {
                   </Grid>
                   <Grid item xs={12} sm={6} lg={3}>
                     <Box>
-                      <Typography className="footer-sec-head">CONTACT US</Typography>
+                      <Typography className="footer-sec-head ms-3">CONTACT US</Typography>
                       <List>
                         <ListItem>
                           <ListItemIcon>

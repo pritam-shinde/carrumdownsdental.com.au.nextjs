@@ -1,4 +1,4 @@
-  import Tabs from '@mui/material/Tabs';
+import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types';
@@ -112,7 +112,6 @@ const DentureTechnology = () => {
                                                                      <ListItemText primary={
     <>
       <Link href="service/digital-dentures" className='bg-blue'>Digital dentures </Link> are made available by using the latest technology which is easy to wear.
-     
     </>
   } />
                                                                 </ListItem>
