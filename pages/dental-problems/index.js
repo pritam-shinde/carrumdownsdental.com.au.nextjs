@@ -294,7 +294,7 @@ const index = () => {
               backgroundColor: "#1ebdb6",
               marginBottom: "2rem",
               position: "relative",
-              paddingBottom: "6rem",
+              paddingBottom: "2rem",
             }}>
             <Container>
               <Grid container spacing={2}>
