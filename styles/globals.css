@@ -592,7 +592,7 @@ footer a:hover {
 
 /* query to show medium-large-layout on medium and large screens */
 @media (min-width: 768px) {
-    .mobile-view {
+    .MuiContainer-root.MuiContainer-maxWidthLg.mobile-view.css-1oqqzyl-MuiContainer-root {
         display: none;
     }
     .mobile-accordion {
@@ -603,6 +603,10 @@ footer a:hover {
     }
 }
 
+/* .MuiContainer-root.MuiContainer-maxWidthLg.mobile-view.css-1qsxih2 {
+    display: none;
+} */
+
 /* Styling for the accordion */
 /* .accordion-body {
     max-height: 0;
@@ -610,12 +614,12 @@ footer a:hover {
     transition: max-height 0.3s ease;  
   } */
 
-/* Expand the accordion when it's open */
+/* Expand accordion when open */
 /* .accordion-body.show {
     max-height: 500px;  
   }
-  
    */
+   /* scrollbar */
 div.scroll {
     margin: 4px, 4px;
     padding: 20px 25px;
