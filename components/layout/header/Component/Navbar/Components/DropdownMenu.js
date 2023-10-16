@@ -69,7 +69,7 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
                           { id: "dentalProblems-11", title: "SEVERE TOOTHACHE", path: "/dental-problems/severe-toothache" },
                           { id: "dentalProblems-12", title: "STAINED TEETH", path: "/dental-problems/stained-teeth" },
                           { id: "dentalProblems-13", title: "TEETH SENSITIVITY", path: "/dental-problems/teeth-sensitivity/" },
-                          { id: "dentalProblems-15", title: "TOOTH GAPS", path: "/dental-problems/tooth-gap" },
+                          { id: "dentalProblems-14", title: "TOOTH GAPS", path: "/dental-problems/tooth-gap" },
                           { id: "dentalProblems-15", title: "WISDOM TOOTH PAIN", path: "/dental-problems/wisdom-tooth-pain" },
                     ].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
                         <Link href={item.path}>

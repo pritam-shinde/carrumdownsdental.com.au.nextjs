@@ -9,7 +9,7 @@ import CNBTeeth from '../../../public/CNB/defective-large-old-fillings.jpg'
 import { CheckCircleOutline } from '@mui/icons-material'
 
 // export const getServerSideProps = async () => {
-//   const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=dental-crowns`)
+//   const res =  await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=dental-crowns`)
 //   const data = await res.json()
 //   return {
 //     props: {

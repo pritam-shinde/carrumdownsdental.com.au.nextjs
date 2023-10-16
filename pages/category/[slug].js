@@ -10,13 +10,13 @@ import { XMasonry, XBlock } from 'react-xmasonry'
 
 export const getServerSideProps = async (context) => {
   const { slug } = context.params;
-  let response = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=${slug}`);
+  let response = await fetch(`https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/categories?slug=${slug}`);
   let category = await response.json();
 
-  let allBlogsRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&per_page=5&page=1');
+  let allBlogsRes = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/posts?_embed=true&per_page=5&page=1');
   let allBlogs = await allBlogsRes.json();
 
-  let categoriesRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99');
+  let categoriesRes = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/categories?_embed=true&per_page=99');
   let categories = await categoriesRes.json()
 
   return {
@@ -34,7 +34,7 @@ const BlogsPerCategory = ({ category, allBlogs, categories }) => {
   const [randomBanner, setRandomBanner] = useState(0)
 
   const wp = new WPAPI({
-    endpoint: "https://pritams3.sg-host.com/wp-json/"
+    endpoint: "https://apicarrumdownsdental.myconcept.website/wp-json/"
   })
 
   const fetchBlog = async () => {

@@ -93,11 +93,11 @@ export default SingleBlog
 
 export async function getServerSideProps(context) {
   const slug = context.params.slug
-  const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&slug=${slug}`);
+  const res = await fetch(`https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/posts?_embed=true&slug=${slug}`);
   const data = await res.json()
-  const catRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99')
+  const catRes = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/categories?_embed=true&per_page=99')
   const category = await catRes.json();
-  const blogRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true');
+  const blogRes = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/posts?_embed=true');
   const blogs = await blogRes.json()
 
   return {

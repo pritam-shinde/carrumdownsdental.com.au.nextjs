@@ -432,7 +432,7 @@ const index = () => {
               </Grid>
             </Container>
           </section>
-          {/* <div className="lower_clipPath"></div> */}
+          <div className="lower_clipPath"></div>
           <section className="mt-4 ">
                 <Container>
                     <Grid item xs={12} md={6}>
