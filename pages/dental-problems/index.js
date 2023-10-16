@@ -42,7 +42,7 @@ const tabs = [
   "Wisdom Tooth pain", 
 ];
 
-const index = () => {
+const dentalProblems = () => {
   const [selectedTab, setSelectedTab] = useState(0);
   const [openAccordion, setOpenAccordion] = useState(0);
   const [width, setWidth] = useState();
@@ -472,4 +472,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default dentalProblems;
