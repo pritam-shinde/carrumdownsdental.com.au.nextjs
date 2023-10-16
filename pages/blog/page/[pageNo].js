@@ -36,7 +36,7 @@ const MultipleBlogs = ({ data, category, latestBlog }) => {
 
   const wp = new WPAPI({
     // endpoint: "https://pritams3.sg-host.com/wp-json"
-    endpoint: "hhttps://apicarrumdownsdental.myconcept.website/wp-json"
+    endpoint: "https://apicarrumdownsdental.myconcept.website/wp-json"
   });
 
   const fetchBlog = async () => {
