@@ -580,29 +580,6 @@ footer a:hover {
     float: right;
 } */
 
-/* Default styles for mobile-accordion (visible on mobile screens) */
-.mobile-accordion {
-    display: block;
-}
-
-/* Default styles for medium-large-layout (hidden on mobile screens) */
-.medium-large-layout {
-    display: none;
-}
-
-/* query to show medium-large-layout on medium and large screens */
-@media (min-width: 768px) {
-    .mobile-view {
-        display: none;
-    }
-    .mobile-accordion {
-        display: none;
-    }
-    .medium-large-layout {
-        display: block;
-    }
-}
-
 /* Styling for the accordion */
 /* .accordion-body {
     max-height: 0;
@@ -639,4 +616,27 @@ div.scroll::-webkit-scrollbar-track {
 div.scroll::-webkit-scrollbar-thumb {
     background: #115278;
     border-radius: 10px;
+}
+
+/* Default styles for mobile-accordion (visible on mobile screens) */
+.mobile-accordion {
+    display: block;
+}
+
+/* Default styles for medium-large-layout (hidden on mobile screens) */
+.medium-large-layout {
+    display: none;
+}
+
+/* query to show medium-large-layout on medium and large screens */
+@media only screen and (min-width: 768px) {
+    .mobile-view {
+        display: none;
+    }
+    .mobile-accordion {
+        display: none;
+    }
+    .medium-large-layout {
+        display: block;
+    }
 }
