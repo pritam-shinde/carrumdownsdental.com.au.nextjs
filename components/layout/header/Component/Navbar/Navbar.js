@@ -188,7 +188,7 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                {/* <li className='nav-item dropdown dental-problems-section' >
+                <li className='nav-item dropdown dental-problems-section' >
                   <Link href="/dental-problems/"  >
                     <a className='nav-link dropdown-toggle'>DENTAL PROBLEMS</a>
                   </Link>
@@ -271,7 +271,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </ul>
-                </li> */}
+                </li>
                 <li className='nav-item'>
                   <Link href="/blog/">
                     <a className='nav-link'>BLOG</a>
@@ -338,7 +338,7 @@ const Navbar = () => {
                   </li>
                   {servicesDropdown ? <DropdownMenu menu="service" closeMobileMenu={closeMobileMenu} /> : null}
 
-                  {/* <li className="nav-item dropdownListItem">
+                  <li className="nav-item dropdownListItem">
                     <Box className='d-flex align-items-center'>
                       <Link href="/dental-problems/">
                         <a className="nav-link text-white" onClick={closeMobileMenu}>Dental Problems</a>
@@ -348,7 +348,7 @@ const Navbar = () => {
                       </IconButton>
                     </Box>
                   </li>
-                  {dentalProblems ? <DropdownMenu menu="dentalProblems" closeMobileMenu={closeMobileMenu} /> : null} */}
+                  {dentalProblems ? <DropdownMenu menu="dentalProblems" closeMobileMenu={closeMobileMenu} /> : null}
 
                   <li onClick={closeMobileMenu}>
                     <Link href="/blog/">
