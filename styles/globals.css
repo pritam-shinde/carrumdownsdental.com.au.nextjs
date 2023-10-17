@@ -619,11 +619,15 @@ div.scroll::-webkit-scrollbar-thumb {
 }
 
 /* Default styles for mobile-accordion (visible on mobile screens) */
-.mobile-accordion {
+/* .mobile-accordion {
+    display: block;
+} */
+
+/* Default styles for medium-large-layout (hidden on mobile screens) */
+.mobile-view {
     display: block;
 }
 
-/* Default styles for medium-large-layout (hidden on mobile screens) */
 .medium-large-layout {
     display: none;
 }
@@ -633,9 +637,9 @@ div.scroll::-webkit-scrollbar-thumb {
     .mobile-view {
         display: none;
     }
-    .mobile-accordion {
+    /* .mobile-accordion {
         display: none;
-    }
+    } */
     .medium-large-layout {
         display: block;
     }
