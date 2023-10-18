@@ -503,29 +503,7 @@ footer a:hover {
     }
 }
 
-/* ------------------------------------------------------------------------------ */
-/* Default styles for medium-large-layout (hidden on mobile screens) */
-/* .mobile-accordion {
-    display: block;
-} 
 
-.medium-large-layout {
-    display: none;
-} */
-
-/* query to show medium-large-layout on medium and large screens */
-/* @media only screen and (min-width: 768px) {
-    .mobile-view {
-        display: none;
-    }
-   .mobile-accordion {
-        display: none;
-    } 
-    .medium-large-layout {
-        display: block;
-    }
-} */
-/* ------------------------------------------------------------------------------ */
 @media only screen and (min-width: 601px) and (max-width: 992px) {
     .cardContentTW {
         position: relative !important;
@@ -661,3 +639,27 @@ div.scroll::-webkit-scrollbar-thumb {
         display: block;
     }
 } */
+
+/* ------------------------------------------------------------------------------ */
+/* Default styles for medium-large-layout (hidden on mobile screens) */
+/* .mobile-accordion {
+    display: block;
+} 
+
+.medium-large-layout {
+    display: none;
+} */
+
+/* query to show medium-large-layout on medium and large screens */
+/* @media only screen and (min-width: 768px) {
+    .mobile-view {
+        display: none;
+    }
+   .mobile-accordion {
+        display: none;
+    } 
+    .medium-large-layout {
+        display: block;
+    }
+} */
+/* ------------------------------------------------------------------------------ */
