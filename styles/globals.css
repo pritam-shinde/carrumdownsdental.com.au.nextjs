@@ -618,11 +618,6 @@ div.scroll::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-/* Default styles for mobile-accordion (visible on mobile screens) */
-.mobile-view {
-    display: block;
-}
-
 /* Default styles for medium-large-layout (hidden on mobile screens) */
 .medium-large-layout {
     display: none;
