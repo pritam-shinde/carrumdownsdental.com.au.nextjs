@@ -619,7 +619,7 @@ div.scroll::-webkit-scrollbar-thumb {
 }
 
 /* Default styles for mobile-accordion (visible on mobile screens) */
-.mobile-accordion {
+.mobile-view {
     display: block;
 }
 
@@ -633,9 +633,9 @@ div.scroll::-webkit-scrollbar-thumb {
     .mobile-view {
         display: none;
     }
-    .mobile-accordion {
+    /* .mobile-accordion {
         display: none;
-    }
+    } */
     .medium-large-layout {
         display: block;
     }
