@@ -3,12 +3,15 @@ import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListIt
 import { CheckCircleOutline } from '@mui/icons-material'
 import Image from 'next/image';
 import chippedTooth1 from '../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_01.png'
-import chippedTooth2 from '../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_02.png'
+import chippedTooth2 from '../../../public/dental-problems-img/chipped or cracked tooth/bad_breath_04.png'
 import chippedTooth_Banner from "../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_banner.jpg"
-import DentalCrowns from "../../../public/dental-problems-img/chipped or cracked tooth/Dental_crowns_01.png"
-import SmileMakeovers from "../../../public/dental-problems-img/chipped or cracked tooth/Smile_Makeovers_01.png"
+// import DentalCrowns from "../../../public/dental-problems-img/chipped or cracked tooth/Dental_crowns_01.png"
+// import SmileMakeovers from "../../../public/dental-problems-img/chipped or cracked tooth/Smile_Makeovers_01.png"
 import ToothExtraction from "../../../public/dental-problems-img/chipped or cracked tooth/Tooth_Extraction.png"
-import Veneers from "../../../public/dental-problems-img/chipped or cracked tooth/Veneers_01.png"
+// import Veneers from "../../../public/dental-problems-img/chipped or cracked tooth/Veneers_01.png"
+import DentalCrowns from "../../../public/dental-problems-img/chipped or cracked tooth/Dental_crowns_1.png"
+import SmileMakeovers from "../../../public/dental-problems-img/chipped or cracked tooth/Smile_Makeovers_1.png" 
+import Veneers from "../../../public/dental-problems-img/chipped or cracked tooth/Veneers_1.png"
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
 
