@@ -31,8 +31,6 @@ export const getServerSideProps = async () => {
     }
   }
 }
-
-
 const Blog = ({ data, category }) => {
   const [show, setShow] = useState(false);
 
@@ -73,9 +71,7 @@ const Blog = ({ data, category }) => {
                           }
                         </XMasonry>
                         <Box pt={3} className="d-flex justify-content-center align-items-center">
-                          
                             <BlueFilledBtn btnLink={`/blog/page/2/`} btnTitle="NEXT" navlink={true} />
-                          
                         </Box>
                       </Grid>
                       <Grid item xs={12} lg={4}>
@@ -93,4 +89,6 @@ const Blog = ({ data, category }) => {
   )
 }
 
-export default Blog
+export default Blog;
+
+ 
