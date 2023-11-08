@@ -26,7 +26,6 @@ export const getServerSideProps = async (context) => {
     }
   }
 }
-
 const MultipleBlogs = ({ data, category, latestBlog }) => {
   const [blogs, setBlogs] = useState([])
   const [show, setShow] = useState(false);
@@ -35,7 +34,6 @@ const MultipleBlogs = ({ data, category, latestBlog }) => {
   const { pageNo } = router.query;
 
   const wp = new WPAPI({
-    // endpoint: "https://pritams3.sg-host.com/wp-json"
     endpoint: "https://apicarrumdownsdental.myconcept.website/wp-json"
   });
 
@@ -59,7 +57,6 @@ const MultipleBlogs = ({ data, category, latestBlog }) => {
   const breadcrumb = [
     { id: "blog_page_index", link: null, title: "BLOG" }
   ]
-
   const Banner = [Banner1, Banner2, Banner3, Banner4];
 
   useEffect(() => {
@@ -119,23 +116,4 @@ const MultipleBlogs = ({ data, category, latestBlog }) => {
     </>
   )
 }
-
 export default MultipleBlogs;
-
-
-// export const getServerSideProps = async (context) => {
-//   const { pageNo } = context.params;
-//   const res = await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&page=${pageNo}`);
-//   const catRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99')
-//   const latestBlogRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true&per_page=5&page=1')
-//   const data = await res.json();
-//   const category = await catRes.json();
-//   const latestBlog = await latestBlogRes.json()
-//   return {
-//     props: {
-//       data,
-//       category,
-//       latestBlog
-//     }
-//   }
-// }

@@ -10,14 +10,13 @@ import image2 from '../../public/ppccnb/cnb-2.jpg'
 import image3 from '../../public/ppccnb/cnb-3.jpg'
 import Banner from '../../public/ppccnb/crowns-and-bridges.jpg'
 
-
 const CNB = () => {
     return (
         <>
             <Head>
                 <title>Crowns and Bridges -</title>
                 <meta name="description" content="" />
-                <meta name="robots" content="index" />     
+                <meta name="robots" content="index" />
             </Head>
             <PPCBanner bg={Banner} title="Crown And Bridges" tagline="" align="end" />
             <main>
@@ -219,5 +218,4 @@ const CNB = () => {
         </>
     )
 }
-
 export default CNB

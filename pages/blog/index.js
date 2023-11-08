@@ -6,19 +6,6 @@ import { BlogSidebar, BlueFilledBtn, CommonHero, CustomCard } from '../../compon
 import Banner from '../../public/CommonHero/blog-index-1.jpg'
 import { Box, Container, Grid } from '@mui/material'
 
-// export const getServerSideProps = async () => {
-//   const res = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/posts?_embed=true');
-//   const catRes = await fetch('https://pritams3.sg-host.com/wp-json/wp/v2/categories?_embed=true&per_page=99')
-//   const data = await res.json();
-//   const category = await catRes.json();
-//   return {
-//     props: {
-//       data,
-//       category,
-//     }
-//   }
-// }
-
 export const getServerSideProps = async () => {
   const res = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/posts?_embed=true');
   const catRes = await fetch('https://apicarrumdownsdental.myconcept.website/wp-json/wp/v2/categories?_embed=true&per_page=99')
@@ -51,7 +38,7 @@ const Blog = ({ data, category }) => {
       <Head>
         <title>Blog | Carrum Downs Dental Group | Dentist Carrum Downs</title>
         <meta name="description" content="Our blog contains various posts related to the dental conditions, treatments and vouchers. Read our blogs for dental tips and be aware of the dental problems." />
-        <meta name="robots" content="index" />   
+        <meta name="robots" content="index" />
       </Head>
       <CommonHero breadcrumb={breadcrumb} title="Blog" bg={Banner} />
       {
@@ -71,11 +58,11 @@ const Blog = ({ data, category }) => {
                           }
                         </XMasonry>
                         <Box pt={3} className="d-flex justify-content-center align-items-center">
-                            <BlueFilledBtn btnLink={`/blog/page/2/`} btnTitle="NEXT" navlink={true} />
+                          <BlueFilledBtn btnLink={`/blog/page/2/`} btnTitle="NEXT" navlink={true} />
                         </Box>
                       </Grid>
                       <Grid item xs={12} lg={4}>
-                        <BlogSidebar blogs={data.slice(0,5)} cat={category} />
+                        <BlogSidebar blogs={data.slice(0, 5)} cat={category} />
                       </Grid>
                     </Grid>
                   </Box>
@@ -91,4 +78,3 @@ const Blog = ({ data, category }) => {
 
 export default Blog;
 
- 
