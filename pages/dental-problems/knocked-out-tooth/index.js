@@ -16,9 +16,9 @@ const KnockedOutTeeth = () => {
     return (
         <>
             <Head>
-                <title>Knocked Out Tooth In Carrum Downs | Carrum Downs Dental</title>
+                <title>A Treatment Guide for Knocked-Out Teeth | Carrum Down Dental</title>
                 <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={BannerKnockedOutTeeth}

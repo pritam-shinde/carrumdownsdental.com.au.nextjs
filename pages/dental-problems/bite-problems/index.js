@@ -2,13 +2,6 @@ import React from 'react';
 import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import { CheckCircleOutline } from '@mui/icons-material'
 import Image from 'next/image';
-import Link from 'next/link';
-import teethMissing1 from '../../../public/teeth-missing/Demo 01.png'
-import teethMissing2 from '../../../public/teeth-missing/teeth-missing3.png'
-import bridges from "../../../public/teeth-missing/teeth-missing-dental-bridges.png"
-import denture from "../../../public/teeth-missing/teeth-missing-dentures.png"
-import supportedDenture from "../../../public/teeth-missing/teeth-missing-supported-dentures.png"
-import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png"
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
 import BiteProblems1 from  "../../../public/dental-problems-img/bite problems/Bite_problems_02.png"
@@ -23,9 +16,9 @@ const WisdomToothPain = () => {
     return (
         <>
             <Head>
-                <title>Bite Problems In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Dealing with Bite Problems | Carrum Downs Dental</title>
+                <meta name="description" content="Carrum Downs Dental Can Help With Bite Problems. Learn the causes of biting problems and look at practical solutions to guarantee a comfortable bite for a happier smile."/>
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={BiteProblemsBanner}
@@ -165,12 +158,10 @@ const WisdomToothPain = () => {
                                             </Grid>
                                         </Grid>
                                     </ListItem>
-
                                     <Typography variant="body1" className='text-white' gutterBottom>
                                     Our affordable dental treatments use state-of-the-art technology to restore proper bite function. We develop customized plans to discreetly and efficiently correct bite issues for a healthier, more beautiful smile. Schedule a consultation to learn more about how our cost-effective services can help resolve your bite alignment problems.
                                 </Typography>
                                 </List>
-
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={12}>
@@ -323,7 +314,6 @@ const WisdomToothPain = () => {
                     </Grid>
                 </Container>
             </section>
-            
         </>
     )
 }

@@ -13,9 +13,9 @@ const SevereToothache = () => {
     return (
         <>
             <Head>
-                <title>Severe Toothache In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Learn About Severe Toothaches | Carrum Down Dental</title>
+                <meta name="description" content="A common issue is severe toothache. Usually, tooth damage or decay is to blame. Carrum Downs Dental can provide further information." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={BannerSevereToothache}

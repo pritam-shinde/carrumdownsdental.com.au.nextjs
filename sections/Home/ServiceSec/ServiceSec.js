@@ -10,7 +10,6 @@ const ServiceSec = () => {
     setWidth(window.innerWidth)
   }, [width]);
 
-
   return (
     <>
       <Container maxWidth="xxl" id="service">

@@ -17,9 +17,9 @@ const BadBreath = () => {
     return (
         <>
             <Head>
-                <title>Bad Breath In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Find Remedies for Your Bad Breath | Carrum Downs Dental</title>
+                <meta name="description" content="Banish Bad Breath with Solutions from Carrum Downs Dental. Learn about the causes of bad breath & discover effective remedies to regain your confidence & fresh breath." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={BannerBadBreath}
@@ -275,7 +275,6 @@ const BadBreath = () => {
                     </Grid>
                 </Container>
             </section>
-
         </>
     )
 }

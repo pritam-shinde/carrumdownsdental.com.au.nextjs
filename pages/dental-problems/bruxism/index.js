@@ -14,9 +14,9 @@ const Bruxism = () => {
     return (
         <>
             <Head>
-                <title>Bruxism In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Get Your Bruxism Treatment l Carrum Down Dental</title>
+                <meta name="description" content="Get Professional Bruxism Treatment at Carrum Downs Dental. Find out how we can relieve your teeth grinding and clenching while preserving the health of your mouth." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={Bruxism_banner}

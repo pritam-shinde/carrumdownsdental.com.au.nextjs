@@ -16,9 +16,9 @@ const StainedTeeth = () => {
     return (
         <>
             <Head>
-                <title>Stained Teeth In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>A Guide to Understanding and Managing Stained Teeth | Carrum Down Dental</title>
+                <meta name="description" content="For most people, stained teeth are a common occurrence. Our goal at Carrum Downs Dental is to promptly resolve any dental issues you may be facing. Call us right now." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={StainedBanner}

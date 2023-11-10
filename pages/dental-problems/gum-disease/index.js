@@ -16,9 +16,9 @@ const GumDiseases = () => {
     return (
         <>
             <Head>
-                <title>Gum Disease In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>A Guide to Understanding Gum Disease l Carrum Down Dental</title>
+                <meta name="description" content="Gum disease is an infection of the gums rather than the teeth. Gum disease might start long before you have any symptoms or signs. Contact Carrum Downs Dental for more." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={BannerGumDisease}

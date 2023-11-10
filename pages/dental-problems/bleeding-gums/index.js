@@ -5,20 +5,18 @@ import Image from 'next/image';
 import bleedingGums1 from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_01.png'
 import bleedingGums2 from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_02.png'
 import bleedingGumsBanner from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_banner.jpg'
-// import ScalingNCleaning from '../../../public/dental-problems-img/bleeding gums/Scaling_and_Cleaning.png'
 import ScalingNCleaning from '../../../public/dental-problems-img/bleeding gums/Scaling_and_Cleaning.png'
 import GumDisaese from '../../../public/dental-problems-img/bleeding gums/Gum_disaese_01.png'
 import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png"
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
 
-
 const WisdomToothPain = () => {
     return (
         <>
             <Head>
-                <title>Bleeding Gums In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
+                <title>Causes, Signs, and Treatment of Bleeding Gums | Carrum Downs Dental</title>
+                <meta name="description" content="Learn about the Causes, Signs, and Effective Treatment for Bleeding Gums with Carrum Downs Dental. Investigate the root causes of this common issue and get expert help."/>
                 <meta name="robots" content="noindex" />
             </Head>
             <CommonHero
@@ -252,7 +250,6 @@ const WisdomToothPain = () => {
                     </Grid>
                 </Container>
             </section>
-            
         </>
     )
 }

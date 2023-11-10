@@ -13,8 +13,8 @@ const DrySocket = () => {
     return (
         <>
             <Head>
-                <title>Dry Socket In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
+                <title>Dry Socket: Causes, Symptoms, and Treatment | Carrum Down Dental</title>
+                <meta name="description" content="A dry socket may develop a few days following tooth extraction. Know more about dry sockets. Contact Carrum Downs Dental for more Dental problems and good oral health." />
                 <meta name="robots" content="noindex" />
             </Head>
             <CommonHero

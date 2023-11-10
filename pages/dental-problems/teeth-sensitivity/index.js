@@ -15,9 +15,9 @@ const teethSensitivity = () => {
     return (
         <>
             <Head>
-                <title>Teeth Sensitivity In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Carrum Down Dental: Teeth Sensitivity: What You Need to Know</title>
+                <meta name="description" content="Taking care of sensitive teeth Do you have a sensitive tooth in particular? At Carrum Downs Dental, we provide a variety of treatments. Visit right now." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={BannerTeethSensitivity}

@@ -17,7 +17,7 @@ const DentalAbscess = () => {
         <>
             <Head>
                 <title>Dental Abscess In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
+                <meta name="description" content="A dental abscess is an illness of the teeth that is brought on by an infected pus pocket. For further information, go to Carrum Downs Dental." />
                 <meta name="robots" content="noindex" />
             </Head>
             <CommonHero

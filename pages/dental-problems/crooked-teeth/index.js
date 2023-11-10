@@ -16,9 +16,9 @@ const CrookedTeeth = () => {
     return (
         <>
             <Head>
-                <title>Crooked Teeth In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Get Your Crooked Teeth Straightened l Carrum Down Dental</title>
+                <meta name="description" content="Transform Your Smile with Crooked Teeth Treatment at Carrum Downs Dental. Explore our range of solutions designed to straighten teeth and enhance your oral health."/>
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={crookedTeeth_banner}
