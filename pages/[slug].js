@@ -88,7 +88,7 @@ const SingleBlog = ({ data, category, blogs }) => {
   )
 }
 
-export default SingleBlog;s
+export default SingleBlog;
 
 export async function getServerSideProps(context) {
   const slug = context.params.slug
