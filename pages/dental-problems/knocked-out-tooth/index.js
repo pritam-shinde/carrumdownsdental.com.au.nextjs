@@ -17,7 +17,7 @@ const KnockedOutTeeth = () => {
         <>
             <Head>
                 <title>A Treatment Guide for Knocked-Out Teeth | Carrum Down Dental</title>
-                <meta name="description" content="Discover the ultimate treatment guide for knocked-out teeth at Carrum Down Dental. Our expert dentists provide complete solutions to help you restore your smile." />
+                <meta name="description" content="Discover the ultimate treatment guide for knocked-out teeth at Carrum Down Dental. Our expert dentists provide complete solutions to help you restore your smile."/>
                 <meta name="robots" content="index" />
             </Head>
             <CommonHero
