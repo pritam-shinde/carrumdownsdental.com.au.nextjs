@@ -4,7 +4,6 @@ const nextConfig = {
   swcMinify: true,
   images:{
     domains:[
-      // "https://pritams3.sg-host.com/"
       "https://apicarrumdownsdental.myconcept.website/"
     ]
   },

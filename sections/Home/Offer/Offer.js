@@ -7,7 +7,6 @@ import Offer3 from '../../../public/Home/Offer/offer3.jpg'
 import { CheckCircleOutline } from '@mui/icons-material'
 import Styles from '../../../styles/Home.module.css'
 
-
 const Offer = () => {
     return (
         <>
@@ -54,8 +53,7 @@ const Offer = () => {
                                                 </Box>
                                             </CardActions>
                                         </Card>
-                                    </Grid>)
-                                }
+                                    </Grid>)  }
                             </Grid>
                         </Box>
                         <Box>
@@ -70,5 +68,4 @@ const Offer = () => {
         </>
     )
 }
-
-export default Offer
+export default Offer;

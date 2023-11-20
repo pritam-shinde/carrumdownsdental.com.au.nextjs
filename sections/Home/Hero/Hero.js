@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import Styles from '../../../styles/Home.module.css'
 import { BlueFilledBtn } from '../../../components/components';
 
-
 const Hero = () => {
   return (
     <>
@@ -24,9 +23,7 @@ const Hero = () => {
           slidesPerView={1}
           autoplay={{
             delay: 5000,
-            disableOnInteraction: false,
-          }}
-        >
+            disableOnInteraction: false, }}>
           <SwiperSlide className={`slide ${Styles.slider1}`} id="home-hero-slider1">
             <Grid container style={{ height: "inherit" }}>
               <Grid item xs={12} md={10} className="mx-auto d-flex justify-content-md-start justify-content-center align-items-center" style={{ height: "inherit" }} >
@@ -58,7 +55,7 @@ const Hero = () => {
               <Grid item xs={12} md={10} className="mx-auto d-flex justify-content-md-start justify-content-center align-items-center" style={{ height: "inherit" }} >
                 <Box p={1}>
                   <Typography className={Styles.home_hero_head}><span className={Styles.blueSpan}>Child Dental</span> <br /><span className={Styles.whiteSpan}>Benefit Scheme</span></Typography>
-                  <Typography className={Styles.home_hero_para}>Eligible families receive free  <br />treatments for up to 1000$.  <br />Call us to find out if you are eligible.</Typography>
+                  <Typography className={Styles.home_hero_para}>Eligible families receive free  <br />treatments for up to 1000$. <br />Call us to find out if you are eligible.</Typography>
                   <Box mt={2}>
                     <BlueFilledBtn navlink={true} btnLink="/service/child-benefit/" btnTitle="READ MORE" />
                   </Box>
@@ -72,4 +69,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;

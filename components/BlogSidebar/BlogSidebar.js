@@ -1,7 +1,6 @@
 import { Box, Container, Paper, Typography } from '@mui/material'
 import Link from 'next/link'
 import React from 'react'
-
 import { SectionalHeading } from '../components'
 import Styles from '../../styles/components-style/BlogSidebar/BlogSidebar.module.css'
 
@@ -42,4 +41,4 @@ const BlogSidebar = ({ blogs, cat }) => {
     )
 }
 
-export default BlogSidebar
+export default BlogSidebar;

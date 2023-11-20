@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
 import Script from 'next/script'
 import { CommonHero } from '../../components/components'
 import Banner from '../../public/Book_Now/appointment.jpg'
@@ -29,7 +27,6 @@ const BookNow = () => {
 
   return (
     <>
-
       <Head>
         <title>Book Now</title>
         <meta name="description" content="" />
@@ -57,5 +54,4 @@ const BookNow = () => {
     </>
   )
 }
-
-export default BookNow
+export default BookNow;

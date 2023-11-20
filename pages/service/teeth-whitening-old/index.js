@@ -16,22 +16,10 @@ import Poladay from '../../../public/TeethWhitening/poladay.jpg'
 import Polanight from '../../../public/TeethWhitening/polanight.jpg'
 import ZoomTeethWhitening from '../../../public/TeethWhitening/zoom.jpeg'
 
-// export const getServerSideProps = async () => {
-//   const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=teeth-whitening`)
-//   const data = await res.json()
-
-//   return {
-//     props: {
-//       data
-//     }
-//   }
-// }
-
 const TeethWhitening = ({ data }) => {
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState()
-  const [blogs, setBlogs] = useState([])
-  // const [category] = data
+  const [blogs, setBlogs] = useState([]) 
 
   useEffect(() => {
     if (typeof window !== undefined) {
@@ -44,22 +32,7 @@ const TeethWhitening = ({ data }) => {
   useEffect(() => {
     setWidth(window.innerWidth)
   }, [width])
-
-  // const wp = new WPAPI({
-  //   endpoint: "https://pritams3.sg-host.com/wp-json/"
-  // })
-
-  // const fetchBlog = async () => {
-  //   const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
-  //   setBlogs(posts)
-  // }
-
-  // useEffect(() => {
-  //   if (category) {
-  //     fetchBlog()
-  //   }
-  // })
-
+ 
   const breadcrumb = [
     { id: "TeethWhitening_breadcrumb_1", link: "/service/", title: "Service" },
     { id: "TeethWhitening_breadcrumb_2", link: null, title: 'Teeth Whitening in Carrum Downs' }
@@ -326,23 +299,7 @@ const TeethWhitening = ({ data }) => {
                           </Box>
                         </Box>
                       </Container>
-                    </section>
-                    {/* <section className="mt-md-5 mt-4">
-                      <Container maxWidth="xxl" className="p-0">
-                        <Box>
-                          <SectionalHeading variant="h2" color="var(--dark-blue)" title="Recent Posts" align="center" />
-                        </Box>
-                        <Box mt={3}>
-                          <Grid container spacing={3}>
-                            {
-                              blogs.map(item => <Grid item key={item.id} xs={12} md={6} >
-                                <CustomCard cardMedia={item._embedded ? item._embedded['wp:featuredmedia'] ? item._embedded['wp:featuredmedia'][0] ? item._embedded['wp:featuredmedia'][0].source_url : null : null : null} navlink={true} link={`/${item.slug}/`} cardTitle={item.title.rendered} cardPara={`${item.excerpt.rendered.split(" ").slice(0, 20).join(" ")} [...]`} cardHeight="auto" cardCls="shadow grow m-3" List={null} cardMediaAlt={item ? item._embedded ? item._embedded['wp:featuredmedia'] ? item._embedded['wp:featuredmedia'][0] ? item._embedded['wp:featuredmedia'][0].alt_text ? item._embedded['wp:featuredmedia'][0].alt_text : null : null : null : null : null} />
-                              </Grid>)
-                            }
-                          </Grid>
-                        </Box>
-                      </Container>
-                    </section> */}
+                    </section> 
                       </Grid>
                       <Grid item xs={12} lg={4}>
                         <CommonSidebar isContactAvailable={true} isServicesAvailable={true} />
@@ -358,5 +315,4 @@ const TeethWhitening = ({ data }) => {
     </>
   )
 }
-
-export default TeethWhitening
+export default TeethWhitening;

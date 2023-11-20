@@ -8,29 +8,23 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.46);
 }
-
 .deskNavbarBrand {
     width: 17% !important;
 }
-
-
 @media only screen and (max-width: 1199px) {
     .deskNavbarBrand {
         width: 40% !important;
     }
-
     .deskNavbarBrandMenu {
         width: 80% !important;
         margin: 1px auto;
     }
 }
 
-
 @media only screen and (min-width: 1200px) and (max-width: 1250px) {
     .topbarIcons {
         font-size: 0.7rem !important;
     }
-
     .topbarText {
         font-size: 0.7rem !important;
     }
@@ -40,7 +34,6 @@
     .topbarIcons {
         font-size: 0.75rem !important;
     }
-
     .topbarText {
         font-size: 0.75rem !important;
     }
@@ -50,7 +43,6 @@
     .topbarIcons {
         font-size: 0.8rem !important;
     }
-
     .topbarText {
         font-size: 0.8rem !important;
     }
@@ -60,7 +52,6 @@
     .topbarIcons {
         font-size: 0.85rem !important;
     }
-
     .topbarText {
         font-size: 0.85rem !important;
     }
@@ -70,7 +61,6 @@
     .topbarIcons {
         font-size: 0.9rem !important;
     }
-
     .topbarText {
         font-size: 0.9rem !important;
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import { Grid, Typography, Container, Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import { CheckCircleOutline } from '@mui/icons-material'
 import Image from 'next/image';
 import dentalAbscess1 from '../../../public/dental-problems-img/dental abscess/Dental_Abscess_01.png'
@@ -18,15 +18,14 @@ const DentalAbscess = () => {
             <Head>
                 <title>Dental Abscess In Carrum Downs | Carrum Downs Dental</title>
                 <meta name="description" content="A dental abscess is an illness of the teeth that is brought on by an infected pus pocket. For further information, go to Carrum Downs Dental." />
-                <meta name="robots" content="noindex" />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero
             bg={dentalAbscess4}
             breadcrumb={null}
             title="Dental Abscess"
             align="left"
-            color="#ccc"
-        />
+            color="#ccc"/>
             <section className='dental-abscess-tooth-section1' style={{
                  backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
@@ -77,15 +76,13 @@ const DentalAbscess = () => {
                                 </Typography>
                             </Box>
                         </Grid>
-
                     </Grid>
                 </Container>
             </section>
             <div className='upper_clipPath'></div>
             <section style={{
                 backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
-                paddingBottom: '6rem',
-            }}>
+                paddingBottom: '6rem'}}>
                 <Container>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={12}>
@@ -255,9 +252,7 @@ const DentalAbscess = () => {
                     </Grid>
                 </Container>
             </section>
-            
         </>
     )
 }
-
 export default DentalAbscess

@@ -31,16 +31,12 @@ const Home = ({ data }) => {
                 <section className="mt-md-5 mt-4">
                     <AdvantageSec />
                 </section>
-
                 <section className="mt-md-5 mt-4">
                     <Offer />
                 </section>
                 <section className="mt-md-5 mt-4">
                     <PaymentPlan />
                 </section>
-                {/* <section className='mt-md-5 mt-4'>
-          <Blogs data={data} />
-        </section> */}
                 <section className="my-md-5 my-4">
                     <Address />
                 </section>

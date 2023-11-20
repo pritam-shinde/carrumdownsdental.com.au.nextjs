@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Banner from "../../public/Services/service-bg.jpg";
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from "../../components/components";
-import { Grid, Typography, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText, Tab, Tabs, Card } from "@mui/material";
+import { Grid, Typography, Container, Box, Tab, Tabs, Card } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,23 +12,7 @@ import PageContent from "../../components/PageContent";
 import mobilePageData from "../../components/mobilePageData/index";
 import Styles from "../../styles/DentalProblemPage.module.css";
 
-const tabs = [
-  "Bad Breath",
-  "Bite Problems",
-  "Bleeding Gums",
-  "Bruxism",
-  "Chipped Or Cracked Tooth",
-  "Crooked Teeth",
-  "Dental Abscess",
-  "Dry Socket",
-  "Gum Disease",
-  "Knocked Out Teeth",
-  "Severe Toothache",
-  "Stained Teeth",
-  "Teeth Sensitivity",
-  "Tooth Gap",
-  "Wisdom Tooth pain",
-];
+const tabs = ["Bad Breath", "Bite Problems", "Bleeding Gums", "Bruxism", "Chipped Or Cracked Tooth", "Crooked Teeth", "Dental Abscess", "Dry Socket", "Gum Disease", "Knocked Out Teeth", "Severe Toothache", "Stained Teeth", "Teeth Sensitivity", "Tooth Gap", "Wisdom Tooth pain"];
 
 const CustomMobileViewContainer = styled(Container)(({ theme }) => ({
   display: "block",
@@ -60,7 +44,6 @@ const index = () => {
       setOpenAccordion(index); // Open the clicked accordion
     }
   };
-
   const handleTabChange = (event, newValue) => {
     setSelectedTab(newValue);
   };
@@ -84,8 +67,7 @@ const index = () => {
               position: "relative",
               paddingTop: "100px",
               paddingBottom: "100px",
-            }}
-          >
+            }}>
             <Container>
               <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
@@ -145,8 +127,7 @@ const index = () => {
               backgroundColor: "#1ebdb6",
               marginBottom: "2rem",
               position: "relative",
-              paddingBottom: "6rem",
-            }}>
+              paddingBottom: "6rem" }}>
             <Container>
               <Grid container spacing={2}>
                 <Grid item xs={12} md={12}>
@@ -161,7 +142,6 @@ const index = () => {
                 </Grid>
                 {/* medium-large device */}
                 <CustomLaptopViewContainer>
-                  {/* <Container className={`${Styles.mediumLargeLayout}`}> */}
                   <Grid container spacing={2}>
                     <Grid
                       item
@@ -173,8 +153,7 @@ const index = () => {
                         padding: "20px",
                         background: "transparent",
                       }}
-                      className="scroll"
-                    >
+                      className="scroll">
                       <Tabs
                         className="show-tabs-hide-accordion"
                         orientation="vertical"
@@ -183,8 +162,7 @@ const index = () => {
                         onChange={handleTabChange}
                         TabIndicatorProps={{
                           style: { display: "none" },
-                        }}
-                      >
+                        }}>
                         {tabs.map((tab, index) => (
                           <Tab
                             label={tab}
@@ -193,29 +171,23 @@ const index = () => {
                               backgroundColor: selectedTab === index ? "#115278" : "transparent",
                               color: "#fff",
                               borderRadius: selectedTab === index ? "5px" : "0px",
-                            }}
-                          />
+                            }} />
                         ))}
                       </Tabs>
                     </Grid>
                     <Grid item xs={9} md={9}>
-                      <Card
-                        sx={{
+                      <Card sx={{
                           minWidth: 275,
                           minHeight: 350,
                           maxHeight: 450,
-                          height: "60vh",
-                        }}
-                      >
+                          height: "60vh"}}>
                         <PageContent selectedTab={selectedTab} />
                       </Card>
                     </Grid>
                   </Grid>
-                  {/* </Container> */}
                 </CustomLaptopViewContainer>
                 {/* mobile view  */}
                 <CustomMobileViewContainer>
-                  {/* <Container className={`${Styles.mobileView}`}> */}
                   <Grid item xs={12} md={6}>
                     {mobilePageData.map((data, index) => (
                       <Box className="py-1" key={index}>
@@ -235,8 +207,7 @@ const index = () => {
                                 id={`collapse-${index}`}
                                 className={`accordion-collapse collapse ${openAccordion === index ? "show" : ""}`}
                                 aria-labelledby={`heading-${index}`}
-                                data-bs-parent={`#accordionExample-${index}`}
-                              >
+                                data-bs-parent={`#accordionExample-${index}`}>
                                 <div className="accordion-body">
                                   <p className="para">{data.content}</p>
                                   <Grid item xs={12} md={6} className="d-flex justify-content-center">
@@ -253,7 +224,6 @@ const index = () => {
                       </Box>
                     ))}
                   </Grid>
-                  {/* </Container> */}
                 </CustomMobileViewContainer>
               </Grid>
             </Container>
@@ -301,5 +271,4 @@ const index = () => {
     </>
   );
 };
-
 export default index;

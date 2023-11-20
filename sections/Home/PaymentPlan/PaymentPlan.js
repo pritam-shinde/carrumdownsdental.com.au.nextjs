@@ -46,15 +46,13 @@ const PaymentPlan = () => {
                                     delay: 2500,
                                     disableOnInteraction: false,
                                 }}
-                                loop={true}
-                            >
+                                loop={true}>
                                 {
                                     [
                                         { image: AfterPay, alt: "afterpay" }, { image: Bupa, alt: "Bupa" }, { image: CBHS, alt: "CBHS" }, { image: Denticare, alt: "denticare" }, { image: EFTPOS, alt: "EFTPOS" }, { image: HFC, alt: "HCF" }, { image: Hicaps, alt: "Hicaps" }, { image: Medibank, alt: "Medibank" }, { image: Medicare, alt: "Medicare" }, { image: MySmilePlan, alt: "MySmilePlan" }, { image: smile, alt: "smile" }, { image: WESTFUND, alt: "WESTFUND" }
                                     ].map((item, index) => <SwiperSlide key={`Home_payment_plan_${item.alt}`}>
                                         <Image src={item.image} alt={item.alt} />
-                                    </SwiperSlide>)
-                                }
+                                    </SwiperSlide>)}
                             </Swiper>
                         </Box>
                     </Grid>

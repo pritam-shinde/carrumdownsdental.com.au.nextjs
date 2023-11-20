@@ -1,23 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import WPAPI from 'wpapi'
-import Head from 'next/head'
-import Image from 'next/image'
+import React, { useEffect, useState } from 'react' 
+import Head from 'next/head' 
 import Banner from '../../../public/ToothFillings/teeth-fillings-bg.jpg'
 import { CommonHero, CommonSidebar, SectionalHeading, TermsNCondition, InterestFree, BookAndCall, CustomCard } from '../../../components/components'
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import { CheckCircleOutline } from '@mui/icons-material'
-
-
-// export const getServerSideProps = async () => {
-//   const res = await await fetch(`https://pritams3.sg-host.com/wp-json/wp/v2/categories?slug=tooth-filling`)
-//   const data = await res.json()
-
-//   return {
-//     props: {
-//       data
-//     }
-//   }
-// }
 
 const ToothFillings = ({ data }) => {
   const [show, setShow] = useState(false)
@@ -36,21 +22,6 @@ const ToothFillings = ({ data }) => {
   useEffect(() => {
     setWidth(window.innerWidth)
   }, [width])
-
-  // const wp = new WPAPI({
-  //   endpoint: "https://pritams3.sg-host.com/wp-json/"
-  // })
-
-  // const fetchBlog = async () => {
-  //   const posts = await wp.posts().embed().param({ categories: [category.id] }).perPage(2).page(1).get();
-  //   setBlogs(posts)
-  // }
-
-  // useEffect(() => {
-  //   if (category) {
-  //     fetchBlog()
-  //   }
-  // })
 
   const breadcrumb = [
     { id: "DentalFillings_breadcrumb_1", link: "/service/", title: "Service" },

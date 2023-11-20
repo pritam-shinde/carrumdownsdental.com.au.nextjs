@@ -7,7 +7,6 @@ import Banner1 from '../public/CommonHero/single-blog-1.jpg'
 import Banner2 from '../public/CommonHero/blog-3-0.jpg'
 import Banner4 from '../public/CommonHero/blog-index-2.jpg'
 
-
 const SingleBlog = ({ data, category, blogs }) => {
   const [filteredCat, setFilteredCat] = useState()
   const [show, setShow] = useState(false)
@@ -89,7 +88,7 @@ const SingleBlog = ({ data, category, blogs }) => {
   )
 }
 
-export default SingleBlog
+export default SingleBlog;s
 
 export async function getServerSideProps(context) {
   const slug = context.params.slug

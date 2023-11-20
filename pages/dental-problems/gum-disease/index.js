@@ -7,10 +7,10 @@ import gumDisease2 from '../../../public/dental-problems-img/gum disease/Gum_Dis
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
 import BannerGumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_banner.jpg"
-import  GumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_Treatment.png"
-import  Tooth_Extraction from "../../../public/dental-problems-img/gum disease/Tooth_Extraction_01.png"
-import  Scaling from "../../../public/dental-problems-img/gum disease/Scaling_and_Cleaning.png"
-import  Wisdom from "../../../public/dental-problems-img/gum disease/Wisdom_Teeth_Removal.png"
+import GumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_Treatment.png"
+import Tooth_Extraction from "../../../public/dental-problems-img/gum disease/Tooth_Extraction_01.png"
+import Scaling from "../../../public/dental-problems-img/gum disease/Scaling_and_Cleaning.png"
+import Wisdom from "../../../public/dental-problems-img/gum disease/Wisdom_Teeth_Removal.png"
 
 const GumDiseases = () => {
     return (
@@ -28,7 +28,7 @@ const GumDiseases = () => {
                 color="#ccc"
             />
             <section className='gum-disease-tooth-section1' style={{
-                 backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
                 paddingBottom: '100px',
             }}>
@@ -37,10 +37,10 @@ const GumDiseases = () => {
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Learn More About Gum Disease
+                                    Learn More About Gum Disease
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                If you're facing issues with gum disease, Carrum Downs Dental Group is here to provide assistance. Our advanced techniques and cutting-edge facilities enable us to deliver effective gum disease treatments. Our primary goal is to enhance your gum health and rejuvenate your confident smile through our exceptional dental care solutions.
+                                    If you're facing issues with gum disease, Carrum Downs Dental Group is here to provide assistance. Our advanced techniques and cutting-edge facilities enable us to deliver effective gum disease treatments. Our primary goal is to enhance your gum health and rejuvenate your confident smile through our exceptional dental care solutions.
                                 </Typography>
                                 <Box>
                                     <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
@@ -63,17 +63,17 @@ const GumDiseases = () => {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 1 }}>
-                                <Typography variant="h5" component="h2" gutterBottom  style={{ color: "var(--dark-blue)" }}>
-                                Don't Let Gum Disease Ruin Your Healthy Smile
+                                <Typography variant="h5" component="h2" gutterBottom style={{ color: "var(--dark-blue)" }}>
+                                    Don't Let Gum Disease Ruin Your Healthy Smile
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                Gum disease, a prevalent issue, has the potential to lead to tooth loss, unpleasant breath, and various oral health complications if not properly addressed.
+                                    Gum disease, a prevalent issue, has the potential to lead to tooth loss, unpleasant breath, and various oral health complications if not properly addressed.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                Unfortunately, gum disease is frequently overlooked, impacting both your well-being and self-assurance. 
+                                    Unfortunately, gum disease is frequently overlooked, impacting both your well-being and self-assurance.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                At Carrum Downs Dental Group, we provide thorough plans for gum disease treatment, aiming to restore your oral health. Our skilled dental team specialises in effectively managing gum disease and revitalizing your oral well-being. Schedule an appointment with us to embark on the journey of reclaiming your vibrant smile.
+                                    At Carrum Downs Dental Group, we provide thorough plans for gum disease treatment, aiming to restore your oral health. Our skilled dental team specialises in effectively managing gum disease and revitalizing your oral well-being. Schedule an appointment with us to embark on the journey of reclaiming your vibrant smile.
                                 </Typography>
                             </Box>
                         </Grid>
@@ -90,10 +90,10 @@ const GumDiseases = () => {
                         <Grid item xs={12} md={12}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Dental Services That Can Address Gum Disease
+                                    Dental Services That Can Address Gum Disease
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                We extend our dental services to effectively manage issues stemming from gum disease, ensuring a healthier mouth and an enhanced smile.
+                                    We extend our dental services to effectively manage issues stemming from gum disease, ensuring a healthier mouth and an enhanced smile.
                                 </Typography>
                                 <List>
                                     <ListItem>
@@ -176,13 +176,13 @@ const GumDiseases = () => {
                             <Box>
                                 <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions About Gum Disease" align="center" />
                             </Box>
-                            
+
                             <Box mt={3}>
                                 <div className="accordion" id="accordionExample">
-                                <div className="accordion-item">
+                                    <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingOne">
                                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What causes gum disease?
+                                                What causes gum disease?
                                             </button>
                                         </h3>
                                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -194,7 +194,7 @@ const GumDiseases = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingTwo">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                            What are the signs that I have gum disease?
+                                                What are the signs that I have gum disease?
                                             </button>
                                         </h3>
                                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -206,7 +206,7 @@ const GumDiseases = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingThree">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                            How do I manage gum disease at home?
+                                                How do I manage gum disease at home?
                                             </button>
                                         </h3>
                                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -218,7 +218,7 @@ const GumDiseases = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFour">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                            Will gum disease go away on its own?
+                                                Will gum disease go away on its own?
                                             </button>
                                         </h3>
                                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -230,12 +230,12 @@ const GumDiseases = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFive">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            How do I strengthen my gums to prevent gum disease?
+                                                How do I strengthen my gums to prevent gum disease?
                                             </button>
                                         </h3>
                                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                            
+
                                                 <div className='para'>
                                                     <List>
                                                         <ListItem>
@@ -262,21 +262,21 @@ const GumDiseases = () => {
                                                             </ListItemIcon>
                                                             <ListItemText >Green and black tea consumption serves as a proactive measure against gum disease. Polyphenols in these teas not only counteract plaque bacteria but also hinder their growth.
                                                             </ListItemText>
-                                                        </ListItem>   
+                                                        </ListItem>
                                                         <ListItem>
                                                             <ListItemIcon>
                                                                 <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                             </ListItemIcon>
                                                             <ListItemText >Fortify your oral health against gum disease with fluoride-rich foods. Embrace the advantages of fluoridated water and various products, such as sugar-free powdered juices and dehydrated soups (low in sugar). Poultry, seafood, and cereals also provide additional dental protection.
                                                             </ListItemText>
-                                                        </ListItem> 
+                                                        </ListItem>
                                                         <ListItem>
                                                             <ListItemIcon>
                                                                 <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                             </ListItemIcon>
                                                             <ListItemText >Chewing sugar-free gum triggers saliva production, assisting in the removal of food particles and aiding in gum disease prevention. Embrace the pleasant freshness of sugar-free gum for renewed confidence in your breath.
                                                             </ListItemText>
-                                                        </ListItem>                                                                                   
+                                                        </ListItem>
                                                     </List>
                                                 </div>
                                             </div>
@@ -285,7 +285,7 @@ const GumDiseases = () => {
                                 </div>
                                 <section style={{ marginBottom: "2rem" }}></section>
                                 <Typography variant="body1" className='text-black' gutterBottom><strong style={{ color: "var(--dark-blue)" }}>Experience luxury dental care at Carrum Downs Dental Group</strong><br></br>
-                                Carrum Downs Dental Group holds the belief that everyone should have access to top-notch dental care. Delay no more in embracing the noble experience – secure your appointment at Carrum Downs Dental Group today!
+                                    Carrum Downs Dental Group holds the belief that everyone should have access to top-notch dental care. Delay no more in embracing the noble experience – secure your appointment at Carrum Downs Dental Group today!
                                 </Typography>
                             </Box>
                         </Box>

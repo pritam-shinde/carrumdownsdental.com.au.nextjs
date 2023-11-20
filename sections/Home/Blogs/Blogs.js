@@ -2,8 +2,6 @@ import { Box, Container, Grid } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { CustomCard, SectionalHeading } from '../../../components/components'
 
-
-
 const Blogs = ({ data }) => {
     const [width, setWidth] = useState();
     const [show, setShow] = useState(false)

@@ -17,7 +17,7 @@ const KnockedOutTeeth = () => {
         <>
             <Head>
                 <title>A Treatment Guide for Knocked-Out Teeth | Carrum Down Dental</title>
-                <meta name="description" content="" />
+                <meta name="description" content="Discover the ultimate treatment guide for knocked-out teeth at Carrum Down Dental. Our expert dentists provide complete solutions to help you restore your smile." />
                 <meta name="robots" content="index" />
             </Head>
             <CommonHero
@@ -25,8 +25,7 @@ const KnockedOutTeeth = () => {
                 breadcrumb={null}
                 title="Knocked Out Tooth"
                 align="left"
-                color="#fff"
-            />
+                color="#fff" />
             <section className='knocked-out-tooth-section1' style={{
                  backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
@@ -77,7 +76,6 @@ const KnockedOutTeeth = () => {
                                 </Typography>
                             </Box>
                         </Grid>
-
                     </Grid>
                 </Container>
             </section>
