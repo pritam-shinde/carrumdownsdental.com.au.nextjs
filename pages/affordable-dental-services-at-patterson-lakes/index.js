@@ -30,7 +30,6 @@ const PattersonLake = () => {
 
   return (
     <>
-
       <Head>
         <title>Dental Clinic in Patterson Lakes | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dentist offers a number of dental services to people of all ages ranging from children to adults near Patterson Lakes. Book an online appointment with us." />
@@ -107,4 +106,4 @@ const PattersonLake = () => {
   )
 }
 
-export default PattersonLake
+export default PattersonLake;

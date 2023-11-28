@@ -11,7 +11,6 @@ import image2 from '../../public/ppc-dental-emergency/dental-emergency-2.jpg'
 import image3 from '../../public/ppc-dental-emergency/dental-emergency-3.jpg'
 import Styles from '../../styles/pages-style/PPCDentalEmergency.module.css'
 
-
 const index = () => {
   return (
     <>

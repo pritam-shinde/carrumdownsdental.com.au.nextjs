@@ -277,4 +277,4 @@ const Denture = ({ data }) => {
   )
 }
 
-export default Denture
+export default Denture; 

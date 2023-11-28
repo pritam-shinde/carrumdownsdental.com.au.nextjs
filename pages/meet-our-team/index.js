@@ -10,7 +10,6 @@ import Chandni from "../../public/meet-our-team/DrChandni.jpeg"
 import Chanrith from "../../public/meet-our-team/Chanrith.jpeg"
 import Ken from "../../public/meet-our-team/ken.webp"
 
-
 const MeetOurTeam = () => {
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState()
@@ -45,9 +44,7 @@ const MeetOurTeam = () => {
           <Container maxWidth="xxl">
             <Grid container>
               <Grid item xs={12} md={10} className="mx-auto">
-                 
                 <Box py={5}>
-                  {/* <Typography variant="h2" align="center">HELLO!</Typography> */}
                   <Typography className="para" >This is us – the carrumdowns dental Team.</Typography>
                   <Typography className="para" >We pride ourselves on delivering the best cosmetic and restorative dental care possible and love getting to know our patients on a personal level. More importantly, we strive to go beyond the obvious to create a great environment in which you can feel safe and welcome.</Typography>
                   <Typography className="para">We’re excited to meet you!</Typography>
@@ -69,8 +66,7 @@ const MeetOurTeam = () => {
                                 <Card >
                                   <CardMedia component="img" image={item.image.src} alt="dr_img" />
                                   <CardContent>
-                                    <Typography variant="h3" className="text-center">{item.docName}</Typography>
-                                    {/* {item.degree !== null ? <Typography variant="h4">{item.degree}</Typography> : null} */}
+                                    <Typography variant="h3" className="text-center">{item.docName}</Typography> 
                                   </CardContent>
                                 </Card>
                               </Grid>
@@ -88,7 +84,6 @@ const MeetOurTeam = () => {
                     </Grid>
                   </Box>
                 </Box>
-                
               </Grid>
             </Grid>
           </Container>

@@ -30,7 +30,6 @@ const PattersonLake = () => {
 
   return (
     <>
-
       <Head>
         <title>Top Rated Dentist in Patterson Lakes | Carrum Downs Dental</title>
         <meta name="description" content="Carrum Downs Dentist offers a number of dental services to people of all ages ranging from children to adults near Patterson Lakes. Book an online appointment with us." />

@@ -7,8 +7,6 @@ import LyndhurstClinic from '../../public/suburb/Lyndhurst/lyndhurst.jpg'
 import { CommonHero, CommonSidebar, SectionalHeading } from '../../components/components'
 import { Box, Container, Grid, Typography } from '@mui/material';
 
-
-
 const Lyndhurst = () => {
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState()
@@ -31,7 +29,6 @@ const Lyndhurst = () => {
 
   return (
     <>
-
       <Head>
         <title>Experienced Dentist in Lyndhurst | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Lyndhurst. All the dental service you expect and more are now available in Lyndhurst." />

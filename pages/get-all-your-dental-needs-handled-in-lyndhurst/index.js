@@ -7,8 +7,6 @@ import LyndhurstClinic from '../../public/suburb/Lyndhurst/lyndhurst.jpg'
 import { CommonHero, CommonSidebar } from '../../components/components'
 import { Box, Container, Grid, Typography } from '@mui/material';
 
-
-
 const Lyndhurst = () => {
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState()

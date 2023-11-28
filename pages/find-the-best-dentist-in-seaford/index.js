@@ -29,7 +29,6 @@ const SeaFord = () => {
 
   return (
     <>
-
       <Head>
         <title>Dentist in Seaford | Carrum Downs Dental Group</title>
         <meta name="description" content="Carrum Downs Dental Group is now available for people living in and around Seaford. All the dental service you expect and more are now available in Seaford." />
@@ -86,4 +85,4 @@ const SeaFord = () => {
   )
 }
 
-export default SeaFord
+export default SeaFord;

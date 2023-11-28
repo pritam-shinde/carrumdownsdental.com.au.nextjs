@@ -86,5 +86,4 @@ const SeaFord = () => {
     </>
   )
 }
-
 export default SeaFord

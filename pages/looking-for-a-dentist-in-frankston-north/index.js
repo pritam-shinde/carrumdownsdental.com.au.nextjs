@@ -79,5 +79,4 @@ const FrankstonNorth = () => {
     </>
   )
 }
-
-export default FrankstonNorth
+export default FrankstonNorth;

@@ -26,9 +26,7 @@ const BadBreath = () => {
                 breadcrumb={null}
                 title="Bad Breath"
                 align="left"
-                color="#fff"
-                // color="#ccc"
-            />
+                color="#fff" />
             <section className='bad-breath-section1' style={{
                  backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
@@ -193,7 +191,6 @@ const BadBreath = () => {
                             <Box>
                                 <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions About Bad Breath" align="center" />
                             </Box>
-
                             <Box mt={3}>
                                 <div className="accordion" id="accordionExample">
                                     <div className="accordion-item">

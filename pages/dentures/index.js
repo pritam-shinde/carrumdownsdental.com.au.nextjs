@@ -168,4 +168,4 @@ const Dentures = () => {
     )
 }
 
-export default Dentures
+export default Dentures;

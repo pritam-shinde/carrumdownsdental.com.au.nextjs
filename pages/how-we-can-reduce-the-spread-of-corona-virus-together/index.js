@@ -27,7 +27,6 @@ const Covid = () => {
 
   return (
     <>
-
       <Head>
         <title>How we can Reduce the Spread of Corona virus Together?</title>
         <meta name="description" content="During this COVID-19 our abled and dedicated team has undergone proper training on protocols and safety measures to ensure your safety during your visit." />

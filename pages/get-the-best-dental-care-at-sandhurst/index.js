@@ -29,7 +29,6 @@ const Sandhurst = () => {
 
   return (
     <>
-
       <Head>
         <title>Dental Care at Sandhurst | Carrum Downs Dental Group</title>
         <meta name="description" content="Skilled & experienced dentists in Sandhurst that provide best quality dental services. Carrum We provides superior dental treatment at an affordable price." />

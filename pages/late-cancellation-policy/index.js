@@ -42,14 +42,11 @@ const LateCancellation = () => {
                                         <Typography className='para'>Late cancellations or Fail to Attend (FTA) often result in wasted time, preparation, and materials.<strong>That’s why we urge you to give at least 24 hours notice if you need to cancel or reschedule an appointment.</strong>  Late notice or FTA may result in a fee of at least $50 to cover any preparatory work that has already been performed. The dental clinic will confirm the appointment via a phone call or SMS the previous day of the appointment. Please ensure you reply to the call or SMS. Any unconfirmed appointment could be made available to other patients.</Typography>
                                         <TermsNCondition />
                                     </Box>
-
                                 </Grid>
                             </Grid>
                         </Container>
                     </section>
                 </main>
-               
-
         </>
     )
 }

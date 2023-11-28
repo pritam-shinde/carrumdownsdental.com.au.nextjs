@@ -25,7 +25,6 @@ const About = () => {
                                 </Grid>
                                 <Grid item xs={12} md={6}>
                                     <Box>
-                                        {/* <Typography variant='h1'  className='text-white' gutterBottom> We are Open 7 Days. </Typography> */}
                                         <Typography variant='h1' className='text-dark-blue' gutterBottom>Welcome to Carrum Downs Dental at Shop T5, Hall Road!</Typography>
                                         <Typography variant='h2' className='text-white'>Most Trusted Family Dentist in Carrum Downs</Typography>
                                         <Typography className='text-white para'>Our practice provides our patients with comprehensive services under one roof. From <Link href="/dental-implants-procedure/">Dental Implants</Link> to Cosmetic Dentistry and <Link href="/service/wisdom-teeth-removal/">Wisdom tooth extractions</Link> to Dentures, our clinics wide range of affordable services will put a big smile on your face. We believe in giving our patients a choice in treatment and we will always educate and discuss treatment option with patients before a decision is made.</Typography>

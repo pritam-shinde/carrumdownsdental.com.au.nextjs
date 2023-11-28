@@ -29,7 +29,6 @@ const Skye = () => {
 
     return (
         <>
-
             <Head>
                 <title>Experienced Dentist in Skye | Carrum Downs Dental Group</title>
                 <meta name="description" content="Our dentists in skye offer quality dental care to the patients. Our experienced dentists can meet all your oral care needs. Contact us today!" />

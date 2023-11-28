@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import WPAPI from 'wpapi'
+import Image from 'next/image' 
 import { BookAndCall, CommonHero, CommonSidebar, SectionalHeading, CustomCard, InterestFree, TermsNCondition } from '../../../components/components'
 import Banner from '../../../public/Veneers/venners.jpg'
 import PorcelainVeneers from '../../../public/Veneers/porcelain-Veneers.jpg'
