@@ -5,21 +5,18 @@ import { useRouter } from 'next/router';
 import { Footer, Header, PPCFooter, PPCHeader } from '../components/components'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import "swiper/css/bundle";
-import '../styles/globals.css' 
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
-  
+
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle");
   }, []);
 
-  const canonicalUrl = (`https://carrumdownsdental.com.au` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+  const canonicalUrl = (`https://carrumdownsdental.com.au` + (router.asPath === "/" ? "" : router.asPath)).split("?")[0];
   return (<>
     <Head>
-    {/* <html lang="en" /> */}
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
       <link rel="canonical" href={canonicalUrl} />
       <script type="application/ld+json">
         {
@@ -95,9 +92,9 @@ function MyApp({ Component, pageProps }) {
       __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CWG7SV"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>`}} />
 
-     <Script strategy="lazyOnload" data-he-id="62595" data-alignment="left" data-he-fixed="true" data-background-color="#003a4c" src="https://healthengine.com.au/webplugin/appointments.js"></Script>
+    <Script strategy="lazyOnload" data-he-id="62595" data-alignment="left" data-he-fixed="true" data-background-color="#003a4c" src="https://healthengine.com.au/webplugin/appointments.js"></Script>
 
-    <Script strategy="lazyOnload" defer="defer" src="https://connect.podium.com/widget.js#API_TOKEN=b8ee9d3e-a23b-46a1-a5b7-b87931927e1f" id="podium-widget" data-api-token="b8ee9d3e-a23b-46a1-a5b7-b87931927e1f"></Script> 
+    <Script strategy="lazyOnload" defer="defer" src="https://connect.podium.com/widget.js#API_TOKEN=b8ee9d3e-a23b-46a1-a5b7-b87931927e1f" id="podium-widget" data-api-token="b8ee9d3e-a23b-46a1-a5b7-b87931927e1f"></Script>
 
     {router.pathname !== '/dental-emergency' ? <Header /> : <PPCHeader />}
     <Component {...pageProps} />
