@@ -8,7 +8,7 @@ import SuperBg from "../../public/superannuation/CarrumBanner1.jpg"
 import Super1 from "../../public/superannuation/CarrumImage-01.jpg"
 import Super2 from "../../public/superannuation/Carrum image-02.jpg"
 
-const AccessMySuper = () => {
+const  Super = () => {
     const [show, setShow] = useState();
     const [width, setWidth] = useState()
 
@@ -308,4 +308,4 @@ const AccessMySuper = () => {
     )
 }
 
-export default AccessMySuper;
+export default Super;
