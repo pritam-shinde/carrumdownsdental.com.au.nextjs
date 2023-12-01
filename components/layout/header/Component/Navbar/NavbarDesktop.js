@@ -56,11 +56,6 @@ const NavbarDesktop = () => {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/superannuation-to-pay-for-dental-treatment/">
-                                            <a className="nav-link dropdown-item">ACCESS MY SUPER</a>
-                                        </Link>
-                                    </li>
-                                    <li className="nav-item">
                                         <Link href="/how-we-can-reduce-the-spread-of-corona-virus-together/">
                                             <a className="nav-link">COVID-19</a>
                                         </Link>
