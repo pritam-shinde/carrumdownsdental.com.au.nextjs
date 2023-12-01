@@ -15,9 +15,9 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   const canonicalUrl = (`https://carrumdownsdental.com.au` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
-  return (
-  <>
+  return (<>
     <Head>
+    {/* <html lang="en" /> */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
       <link rel="canonical" href={canonicalUrl} />
@@ -102,8 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`}} />
     {router.pathname !== '/dental-emergency' ? <Header /> : <PPCHeader />}
     <Component {...pageProps} />
     {router.pathname !== '/dental-emergency' ? <Footer /> : <PPCFooter />}
-  </>
-  )
+  </>)
 }
 
 export default MyApp
