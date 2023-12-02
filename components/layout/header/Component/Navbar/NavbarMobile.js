@@ -85,7 +85,7 @@ const NavbarMobile = () => {
                             <Box className="d-flex align-items-center">
                                 <Link href="/dental-problems/">
                                     <a className="nav-link text-white" onClick={closeMobileMenu}>
-                                        Dental Problems
+                                        DENTAL PROBLEMS
                                     </a>
                                 </Link>
                                 <IconButton
