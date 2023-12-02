@@ -31,8 +31,8 @@ const AccessMySuper = () => {
     return (
         <>
             <Head>
-                <title>Various Payment Plans for Dental Treatment | Carrum Downs Dental</title>
-                <meta name="description" content="Accessing Superannuation to Pay for Dental Treatments" />
+                <title>Access My Super | Superannuation | Carrum Downs Dental Group</title>
+                <meta name="description" content='We are offering the "Access My Super" superannuation plan. In order to increase accessibility to dental treatments, the program offers a second payment option' />
                 <meta name="robots" content="index" />
             </Head>
             <CommonHero bg={SuperBg} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} title="Access My Super" color="#ccc" />
