@@ -1,7 +1,7 @@
-import WisdomTeeth from '../../../../public/Home/service/wisdom-teeth-removal.jpg'
-import DentalImplants from '../../../../public/Home/service/dental-implants.jpg';
-import ChildBenefits from '../../../../public/Home/service/child-dentistry.jpg'
-import Denture from '../../../../public/Home/service/dentures.jpg'
+import WisdomTeeth from '../../../../public/Services/wisdom-teeth-removal.09b5ecb9.webp'
+import DentalImplants from '../../../../public/Services/dental-implants.47b2ad90.webp';
+import ChildBenefits from '../../../../public/Services/child-dentistry.efd89056 (1).webp'
+import Denture from '../../../../public/Services/dentures.af228e47.webp';
 
 const Data = [
     {

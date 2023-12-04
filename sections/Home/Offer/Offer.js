@@ -1,9 +1,9 @@
 import { Box, Card, CardContent, CardMedia, Container, Grid, Typography, List, ListItem, ListItemIcon, ListItemText, Button, CardActions } from '@mui/material'
 import React from 'react'
-import { BlueFilledBtn, CustomCard, SectionalHeading, TermsNCondition } from '../../../components/components'
-import Offer1 from '../../../public/Home/Offer/offer1.jpg'
-import Offer2 from '../../../public/Home/Offer/offer2.jpg'
-import Offer3 from '../../../public/Home/Offer/offer3.jpg'
+import { BlueFilledBtn, CustomCard, SectionalHeading, TermsNCondition } from '../../../components/components' 
+import Offer1 from '../../../public/Offer/offer1.fc043bad.webp'
+import Offer2 from '../../../public/Offer/offer2.ca6cc601.webp'
+import Offer3 from '../../../public/Offer/offer3.bba5e778.webp'
 import { CheckCircleOutline } from '@mui/icons-material'
 import Styles from '../../../styles/Home.module.css'
 
