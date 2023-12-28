@@ -14,7 +14,7 @@ const About = () => {
   useEffect(() => {
     if (typeof window !== undefined) {
       setShow(true)
-    } else {
+    } else { 
       setShow(true)
     }
   }, [])

@@ -24,7 +24,7 @@ const NavbarMobile = () => {
     };
     return (
         <nav className="navbar navbar-expand-xl bg-transparent px-2">
-            <Button className="menu-icon" onClick={() => setClicked(!clicked)}>
+            <Button className="menu-icon" onClick={() => setClicked(!clicked)} aria-label="menu">
                 {clicked ? <Close className="text-white" /> : <Menu />}
             </Button>
             <Link href="/">
@@ -33,7 +33,7 @@ const NavbarMobile = () => {
                 </a>
             </Link>
             {router.pathname !== "/book-now" ? <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" /> : null}
-            <IconBtn variant="outlined" anchor={true} icon={<Phone />} btnLink="tel:03-9782 1200" />
+            <IconBtn variant="outlined" anchor={true} icon={<Phone />} btnLink="tel:03-9782 1200" aria-label="call now" />
             <Box className={`${clicked ? "nav-menu active" : "nav-menu"}`}>
                 <Link href="/">
                     <a className={`navbar-brand deskNavbarBrandMenu`}>
@@ -49,8 +49,8 @@ const NavbarMobile = () => {
                         </li>
                         <li className="nav-item dropdownListItem">
                             <Box className="d-flex align-items-center">
-                                <Link href="/about-us/">
-                                    <a className="nav-link text-white" onClick={closeMobileMenu}>
+                                <Link href="/about-us/" aria-label="about">
+                                    <a className="nav-link text-white" onClick={closeMobileMenu} aria-label="about">
                                         ABOUT
                                     </a>
                                 </Link>
@@ -58,7 +58,8 @@ const NavbarMobile = () => {
                                     onClick={() => {
                                         setAboutDropdown(!aboutDropdown);
                                         setServiceDropdown(false);
-                                    }}>
+                                    }}
+                                    aria-label="Toggle About Dropdown">
                                     <ArrowDropDown className="text-white" />
                                 </IconButton>
                             </Box>
@@ -67,7 +68,7 @@ const NavbarMobile = () => {
                         <li className="nav-item dropdownListItem">
                             <Box className="d-flex align-items-center">
                                 <Link href="/service/">
-                                    <a className="nav-link text-white" onClick={closeMobileMenu}>
+                                    <a className="nav-link text-white" onClick={closeMobileMenu} aria-label="services">
                                         SERVICES
                                     </a>
                                 </Link>
@@ -75,7 +76,7 @@ const NavbarMobile = () => {
                                     onClick={() => {
                                         setAboutDropdown(false);
                                         setServiceDropdown(!servicesDropdown);
-                                    }}>
+                                    }} aria-label="Toggle service Dropdown">
                                     <ArrowDropDown className="text-white" />
                                 </IconButton>
                             </Box>
@@ -84,7 +85,7 @@ const NavbarMobile = () => {
                         <li className="nav-item dropdownListItem">
                             <Box className="d-flex align-items-center">
                                 <Link href="/dental-problems/">
-                                    <a className="nav-link text-white" onClick={closeMobileMenu}>
+                                    <a className="nav-link text-white" onClick={closeMobileMenu} aria-label="dental">
                                         DENTAL PROBLEMS
                                     </a>
                                 </Link>
@@ -92,7 +93,7 @@ const NavbarMobile = () => {
                                     onClick={() => {
                                         setDentalProblems(false);
                                         setDentalProblems(!dentalProblems);
-                                    }}>
+                                    }} aria-label="Toggle Dental Problems Dropdown">
                                     <ArrowDropDown className="text-white" />
                                 </IconButton>
                             </Box>

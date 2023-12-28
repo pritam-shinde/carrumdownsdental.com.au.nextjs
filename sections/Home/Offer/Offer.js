@@ -27,7 +27,7 @@ const Offer = () => {
                                         { id: "Home_offer_Sec_Offer3", image: Offer3, title: "TakeHome Teeth Whitening Offer", para: null, list: ["Whitening Consultation with Dentist", "Whitening trays made to fit you", "Whitening Gel and Demonstration of how to use it"], price: "$399*", small: "or $99.75 per fortnight on Afterpay*" }
                                     ].map((item, index) => <Grid key={item.id} item xs={12} sm={6} lg={4}>
                                         <Card className={`${Styles.home_offer_card} shadow`} style={{position:"relative"}}>
-                                            <CardMedia component="img" image={item.image.src} />
+                                            <CardMedia component="img" image={item.image.src} alt={item.title}/>
                                             <CardContent>
                                                 <Typography variant="h5" gutterBottom style={{color:"var(--dark-blue)"}}>{item.title}</Typography>
                                                 {item.para !== null ? <Typography>{item.para}</Typography> : null}

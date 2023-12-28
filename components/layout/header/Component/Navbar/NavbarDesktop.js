@@ -262,8 +262,8 @@ const NavbarDesktop = () => {
                             </li>
                         </ul>
                         <Box>
-                            <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" />
-                            <BlueOulinedBtn anchor={true} btnTitle="03-9782 1200" btnLink="tel:03-9782 1200" />
+                            <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
+                            <BlueOulinedBtn anchor={true} btnTitle="03-9782 1200" btnLink="tel:03-9782 1200" ariaLabel="call now"/>
                         </Box>
                     </Box>
                 </nav> );

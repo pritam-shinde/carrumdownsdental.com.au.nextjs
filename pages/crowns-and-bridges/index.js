@@ -102,7 +102,7 @@ const CNB = () => {
                         <Grid container>
                             <Grid item xs={12} md={8} lg={6} className="mx-auto">
                                 <Box className="ratio ratio-16x9">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cAAq6NWuWQQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cAAq6NWuWQQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen></iframe>
                                 </Box>
                             </Grid>
                         </Grid>

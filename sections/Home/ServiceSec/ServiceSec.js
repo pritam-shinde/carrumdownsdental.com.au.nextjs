@@ -15,12 +15,31 @@ const ServiceSec = () => {
       <Container maxWidth="xxl" id="service">
         <Grid container>
           <Grid item xs={12} md={10} className="mx-auto">
-          <Typography variant='h1' className='text-dark-blue text-center m-2' gutterBottom>We are open 7 days a week for your convenience! </Typography>
+            <Typography variant='h1' className='text-dark-blue text-center m-2' gutterBottom>We are open 7 days a week for your convenience! </Typography>
             <Grid container spacing={3}>
               {
-                Data.map(item => <Grid key={item.id} item xs={12} sm={6} lg={3} >
-                  <CustomCard sec="Home_Service" resizedImage={item.Image} resizedImageWidth="60% !important" alt={item.alt} cardCls="shadow" navlink={true} link={item.link} cardTitle={item.title} cardPara={item.para} headAlign="center" paraAlign="center" cardHeight={(width < 600) ? "auto" : (width > 601 && width < 992) ? "28rem" : "25rem"} List={null} />
-                </Grid>)
+                Data.map(item => {
+                  // console.log("hit=>",item.alt); 
+                  return (
+                    <Grid key={item.id} item xs={12} sm={6} lg={3}>
+                      <CustomCard
+                        sec="Home_Service"
+                        resizedImage={item.Image}
+                        resizedImageWidth="60% !important"
+                        alt={item.alt}
+                        cardCls="shadow"
+                        navlink={true}
+                        link={item.link}
+                        cardTitle={item.title}
+                        cardPara={item.para}
+                        headAlign="center"
+                        paraAlign="center"
+                        cardHeight={(width < 600) ? "auto" : (width > 601 && width < 992) ? "28rem" : "25rem"}
+                        List={null}
+                      />
+                    </Grid>
+                  );
+                })
               }
             </Grid>
             <Grid item xs={12}>

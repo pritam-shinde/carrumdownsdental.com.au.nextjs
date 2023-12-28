@@ -285,7 +285,6 @@ footer a:hover {
     height: 116px;
     margin-bottom: -30px;
     clip-path: polygon(100% 100%, 0% 100%, 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
-
 }
 
 .upper_clipPath2 {
@@ -293,7 +292,6 @@ footer a:hover {
     height: 116px;
     margin-bottom: -102px;
     clip-path: polygon(100% 100%, 0% 100%, 0.00% 15.36%, 2.00% 17.72%, 4.00% 19.93%, 6.00% 21.85%, 8.00% 23.36%, 10.00% 24.37%, 12.00% 24.82%, 14.00% 24.67%, 16.00% 23.93%, 18.00% 22.66%, 20.00% 20.93%, 22.00% 18.85%, 24.00% 16.55%, 26.00% 14.17%, 28.00% 11.87%, 30.00% 9.79%, 32.00% 8.06%, 34.00% 6.78%, 36.00% 6.05%, 38.00% 5.90%, 40.00% 6.35%, 42.00% 7.36%, 44.00% 8.87%, 46.00% 10.79%, 48.00% 13.00%, 50.00% 15.36%, 52.00% 17.72%, 54.00% 19.93%, 56.00% 21.85%, 58.00% 23.36%, 60.00% 24.37%, 62.00% 24.82%, 64.00% 24.67%, 66.00% 23.93%, 68.00% 22.66%, 70.00% 20.93%, 72.00% 18.85%, 74.00% 16.55%, 76.00% 14.17%, 78.00% 11.87%, 80.00% 9.79%, 82.00% 8.06%, 84.00% 6.78%, 86.00% 6.05%, 88.00% 5.90%, 90.00% 6.35%, 92.00% 7.36%, 94.00% 8.87%, 96.00% 10.79%, 98.00% 13.00%, 100.00% 15.36%);
-
 }
 
 .lower_clipPath {
@@ -351,7 +349,6 @@ footer a:hover {
     header {
         background-color: #fff;
     }
-
     .nav-menu {
         flex-direction: column;
         width: 100%;
@@ -363,7 +360,6 @@ footer a:hover {
         transition: all 0.5s ease;
         overflow-y: scroll;
     }
-
     .nav-menu.active {
         background: #242222;
         left: 0;
@@ -372,18 +368,15 @@ footer a:hover {
         z-index: 1;
         padding: 0.5rem 1rem;
     }
-
     .nav-menu.active .navbar-nav {
         height: 100%;
         width: 100%;
         overflow-y: scroll;
         overflow: hidden;
     }
-
     .nav-menu.active .menu-icon {
         color: #fff !important;
     }
-
     .menu-icon {
         display: block;
         cursor: pointer;
@@ -394,7 +387,6 @@ footer a:hover {
         border: none;
         outline: none;
     }
-
 }
 
 #home_hero .slide {
@@ -412,9 +404,7 @@ footer a:hover {
     height: 13rem;
 }
 
-
 @media only screen and (max-width: 600px) {
-
     .offerPageOfferCard,
     .offerPageOfferCard .manageHeight {
         height: auto;
@@ -425,11 +415,9 @@ footer a:hover {
     .nav-item .nav-link {
         font-size: 0.8rem;
     }
-
     .offerPageOfferCard {
         height: 37.5rem;
     }
-
     .offerPageOfferCard .manageHeight {
         height: 18rem;
     }
@@ -445,7 +433,6 @@ footer a:hover {
     .bottomCurve {
         margin-top: -1.2% !important;
     }
-
     .offerPageOfferCard .manageHeight {
         height: 16rem;
     }
@@ -562,37 +549,6 @@ footer a:hover {
     line-height: 0.7rem !important;
 }
 
-/* .dental-problems-section:hover{
-    display: block;
-    width: 600px;
-    
-}
- li.nav-item.dropdown:hover .dental-problems-section{
-    display: block;
-    width: 480px;
-} 
-.dental-problems-section1{
-    width: 50%;
-    float: left;
-}
-.dental-problems-section2{
-    width: 50%;
-    float: right;
-} */
-
-/* Styling for the accordion */
-/* .accordion-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;  
-  } */
-
-/* Expand the accordion when it's open */
-/* .accordion-body.show {
-    max-height: 500px;  
-  }
-  
-   */
 div.scroll {
     margin: 4px, 4px;
     padding: 20px 25px;

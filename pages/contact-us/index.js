@@ -32,7 +32,6 @@ const Contact = () => {
 
   return (
     <>
-
       <Head>
         <title>Contact Dentist in and around Carrum Downs | Walk in @Carrum Downs Clinic</title>
         <meta name="description" content="Don’t suffer from a dental problem! Get your dental problem treated by Carrum Downs Dental Group. We’re available at Carrum Downs and nearby localities." />
@@ -85,7 +84,7 @@ const Contact = () => {
                     </Grid>
                     <Grid item xs={12} md={6}>
                       <Box py={3} className="ratio ratio-16x9">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6280.462306060237!2d145.182101!3d-38.088283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x883cf75f64c0eecb!2sCarrum%20Downs%20Dental%20Group!5e0!3m2!1sen!2sin!4v1661849953993!5m2!1sen!2sin" width="800" height="600" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe title="mapIframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6280.462306060237!2d145.182101!3d-38.088283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x883cf75f64c0eecb!2sCarrum%20Downs%20Dental%20Group!5e0!3m2!1sen!2sin!4v1661849953993!5m2!1sen!2sin" width="800" height="600" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                       </Box>
                     </Grid>
                     <Grid item xs={12} md={6}>

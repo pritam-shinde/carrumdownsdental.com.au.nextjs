@@ -7,7 +7,8 @@ const CustomCard = ({ cardMedia, resizedImage, navlink, anchor, link, cardTitle,
         <>
             <Card className={`${cardCls}`} style={{ height: cardHeight, }}>
                 {
-                    cardMedia ? <CardMedia component="img" image={cardMedia} loading='lazy' alt={cardMediaAlt} /> : resizedImage ? <CardMedia component="img" image={resizedImage} style={{ width: '60% !important' }} className="mx-auto" loading='lazy' alt={cardMediaAlt} /> : null
+                    cardMedia ? <CardMedia component="img" image={cardMedia} loading='lazy' alt={alt}
+                    /> : resizedImage ? <CardMedia component="img" image={resizedImage} style={{ width: '60% !important' }} className="mx-auto" loading='lazy' alt={alt} /> : null
                 }
                 <CardContent>
                     {

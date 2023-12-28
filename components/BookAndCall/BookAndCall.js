@@ -17,4 +17,4 @@ const BookAndCall = ({appointment, call}) => {
   )
 }
 
-export default BookAndCall
+export default BookAndCall;
