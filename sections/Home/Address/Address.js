@@ -40,7 +40,7 @@ const Address = () => {
                                     </ListItem>
                                 </List>
                                 <Box mt={3}>
-                                    <SectionalHeading variant='h5' align='left' color="var(--dark-blue)" title="Scan for Direction" />
+                                    <SectionalHeading variant='h3' align='left' color="var(--dark-blue)" title="Scan for Direction" />
                                     <img src={Scan.src} alt="scan" style={{maxWidth:"60%"}} className="mt-3"/>
                                 </Box>
                             </Box>

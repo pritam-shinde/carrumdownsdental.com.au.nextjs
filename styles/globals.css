@@ -573,3 +573,9 @@ div.scroll::-webkit-scrollbar-thumb {
     background: #115278;
     border-radius: 10px;
 }
+
+/*  */
+
+img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.mx-auto.css-rhsghg {
+    width: 60% !important;
+}

@@ -13,8 +13,8 @@ const BlueOulinedBtn = ({ btnTitle, btnLink, anchor, navlink, ariaLabel }) => {
                             {btnTitle}
                         {/* </a> */}
                     </Link>
-                </Button> : anchor ? <Button className={`${Styles.blueOutlinedBtn} rounded-pill me-1 mt-md-0 mt-2`} >
-                    <a href={btnLink}  aria-label={ariaLabel || "Icon Outlined"}>{btnTitle}</a>
+                </Button> : anchor ? <Button className={`${Styles.blueOutlinedBtn} rounded-pill me-1 mt-md-0 mt-2`} aria-label={ariaLabel || "Icon Outlined"}>
+                    <a href={btnLink}>{btnTitle}</a>
                 </Button> : null
             }
         </>

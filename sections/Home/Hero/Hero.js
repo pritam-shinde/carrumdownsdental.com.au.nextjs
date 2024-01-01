@@ -31,7 +31,7 @@ const Hero = () => {
                   <Typography className={Styles.home_hero_head}><span className={Styles.blueSpan}>Family Quality</span> <br /><span className={Styles.whiteSpan}>Care</span></Typography>
                   <Typography className={Styles.home_hero_para}>Our team of dentist and staff always <br />ensure patients are treated like family...</Typography>
                   <Box mt={2}>
-                    <BlueFilledBtn navlink={true} btnLink="/about-us/" btnTitle="READ MORE" />
+                    <BlueFilledBtn navlink={true} btnLink="/about-us/" btnTitle="KNOW MORE" />
                   </Box>
                 </Box>
               </Grid>
@@ -44,7 +44,7 @@ const Hero = () => {
                   <Typography className={Styles.home_hero_head}><span className={Styles.blueSpan}>Experienced</span> <br /><span className={Styles.whiteSpan}>Service</span></Typography>
                   <Typography className={Styles.home_hero_para}>Our dentists are fully qualified <br />and have  years of Experience <br />in providing quality dental care.</Typography>
                   <Box mt={2}>
-                    <BlueFilledBtn navlink={true} btnLink="/about-us/" btnTitle="READ MORE" />
+                    <BlueFilledBtn navlink={true} btnLink="/about-us/" btnTitle="KNOW MORE" />
                   </Box>
                 </Box>
               </Grid>
@@ -57,7 +57,7 @@ const Hero = () => {
                   <Typography className={Styles.home_hero_head}><span className={Styles.blueSpan}>Child Dental</span> <br /><span className={Styles.whiteSpan}>Benefit Scheme</span></Typography>
                   <Typography className={Styles.home_hero_para}>Eligible families receive free  <br />treatments for up to 1000$. <br />Call us to find out if you are eligible.</Typography>
                   <Box mt={2}>
-                    <BlueFilledBtn navlink={true} btnLink="/service/child-benefit/" btnTitle="READ MORE" />
+                    <BlueFilledBtn navlink={true} btnLink="/service/child-benefit/" btnTitle="KNOW MORE" />
                   </Box>
                 </Box>
               </Grid>

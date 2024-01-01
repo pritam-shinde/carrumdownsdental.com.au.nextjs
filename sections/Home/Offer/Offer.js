@@ -29,7 +29,7 @@ const Offer = () => {
                                         <Card className={`${Styles.home_offer_card} shadow`} style={{position:"relative"}}>
                                             <CardMedia component="img" image={item.image.src} alt={item.title}/>
                                             <CardContent>
-                                                <Typography variant="h5" gutterBottom style={{color:"var(--dark-blue)"}}>{item.title}</Typography>
+                                                <Typography variant="h3" gutterBottom style={{color:"var(--dark-blue)"}}>{item.title}</Typography>
                                                 {item.para !== null ? <Typography>{item.para}</Typography> : null}
                                                 {
                                                     item.list !== null ? <List>

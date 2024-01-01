@@ -252,4 +252,4 @@ const ChildBenefit = ({ data }) => {
     </>
   )
 }
-export default ChildBenefit
+export default ChildBenefit;

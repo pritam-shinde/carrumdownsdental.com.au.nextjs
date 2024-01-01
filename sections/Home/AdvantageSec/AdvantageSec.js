@@ -36,7 +36,7 @@ const AdvantageSec = () => {
                                             </Box>
                                         </Box>
                                         <Box>
-                                            <Typography variant='h5' gutterBottom align="center" className={Styles.advSecHead} >{item.title}</Typography>
+                                            <Typography variant='h3' gutterBottom align="center" className={Styles.advSecHead} >{item.title}</Typography>
                                             <Typography dangerouslySetInnerHTML={{__html: item.para}} align="center" />
                                         </Box>
                                     </Box>

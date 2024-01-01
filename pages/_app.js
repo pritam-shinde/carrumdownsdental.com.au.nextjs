@@ -102,6 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`}} />
       {router.pathname !== '/dental-emergency' ? <Header /> : <PPCHeader />}
       <Component {...pageProps} />
       {router.pathname !== '/dental-emergency' ? <Footer /> : <PPCFooter />}
+      
     </>
   )
 }
