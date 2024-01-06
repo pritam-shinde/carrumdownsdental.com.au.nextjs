@@ -12,7 +12,7 @@ const About = () => {
         <>
             <Container maxWidth="xxl" className={`p-0`}>
                 <Box>
-                    <img src={Top.src} alt="top curve" className='img-fluid' style={{position:"relative", zIndex:"-1"}} />
+                    <img src={Top.src} alt="top curve" className='img-fluid' style={{ position: "relative", zIndex: "-1" }} />
                 </Box>
                 <Container maxWidth="xxl" className={`${Styles.aboutSec} py-0 mt-n1`}>
                     <Grid container>
@@ -25,7 +25,9 @@ const About = () => {
                                 </Grid>
                                 <Grid item xs={12} md={6}>
                                     <Box>
-                                        <Typography variant='h1' className='text-dark-blue' gutterBottom>Welcome to Carrum Downs Dental at Shop T5, Hall Road!</Typography>
+                                        <div className='welcome text-dark-blue'>
+                                            Welcome to Carrum Downs Dental at Shop T5, Hall Road!
+                                        </div>
                                         <Typography variant='h2' className='text-white'>Most Trusted Family Dentist in Carrum Downs</Typography>
                                         <Typography className='text-white para'>Our practice provides our patients with comprehensive services under one roof. From <Link href="/dental-implants-procedure/">Dental Implants</Link> to Cosmetic Dentistry and <Link href="/service/wisdom-teeth-removal/">Wisdom tooth extractions</Link> to Dentures, our clinics wide range of affordable services will put a big smile on your face. We believe in giving our patients a choice in treatment and we will always educate and discuss treatment option with patients before a decision is made.</Typography>
                                         <Typography className='text-white para'>Our staff are very friendly and will receive you with a smile and our warm and inviting office will provide you a relaxing experience. Our dentist/staff are very good with children and will do whatever it takes to calm them down and distract them with IPAD while the treatment is performed.</Typography>
@@ -37,7 +39,7 @@ const About = () => {
                     </Grid>
                 </Container>
                 <Box>
-                <img src={Bottom.src} alt="bottom curve" className='img-fluid bottomCurve' style={{position:"relative", zIndex:"-1"}} />
+                    <img src={Bottom.src} alt="bottom curve" className='img-fluid bottomCurve' style={{ position: "relative", zIndex: "-1" }} />
                 </Box>
             </Container>
         </>

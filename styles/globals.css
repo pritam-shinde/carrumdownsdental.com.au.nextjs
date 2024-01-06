@@ -70,7 +70,7 @@ h1 {
 h2 {
     font-size: var(--h2-desk) !important;
 }
-
+ 
 h3 {
     font-size: var(--h3-desk) !important;
 }
@@ -349,6 +349,7 @@ footer a:hover {
     header {
         background-color: #fff;
     }
+
     .nav-menu {
         flex-direction: column;
         width: 100%;
@@ -360,6 +361,7 @@ footer a:hover {
         transition: all 0.5s ease;
         overflow-y: scroll;
     }
+
     .nav-menu.active {
         background: #242222;
         left: 0;
@@ -368,15 +370,18 @@ footer a:hover {
         z-index: 1;
         padding: 0.5rem 1rem;
     }
+
     .nav-menu.active .navbar-nav {
         height: 100%;
         width: 100%;
         overflow-y: scroll;
         overflow: hidden;
     }
+
     .nav-menu.active .menu-icon {
         color: #fff !important;
     }
+
     .menu-icon {
         display: block;
         cursor: pointer;
@@ -405,6 +410,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
     .offerPageOfferCard,
     .offerPageOfferCard .manageHeight {
         height: auto;
@@ -415,9 +421,11 @@ footer a:hover {
     .nav-item .nav-link {
         font-size: 0.8rem;
     }
+
     .offerPageOfferCard {
         height: 37.5rem;
     }
+
     .offerPageOfferCard .manageHeight {
         height: 18rem;
     }
@@ -433,6 +441,7 @@ footer a:hover {
     .bottomCurve {
         margin-top: -1.2% !important;
     }
+
     .offerPageOfferCard .manageHeight {
         height: 16rem;
     }
@@ -578,4 +587,13 @@ div.scroll::-webkit-scrollbar-thumb {
 
 img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.mx-auto.css-rhsghg {
     width: 60% !important;
+}
+
+.welcome {
+    letter-spacing: -0.01562em;
+    margin-bottom: 0.35em;
+    font-size: 48px;
+    font-weight: var(--heading-font-weight)!important;
+    font-family: var(--heading-font)!important;
+    line-height: 1.2!important;
 }
