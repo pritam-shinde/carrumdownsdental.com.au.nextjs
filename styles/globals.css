@@ -597,3 +597,18 @@ img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.mx-auto.css-rhsghg {
     font-family: var(--heading-font)!important;
     line-height: 1.2!important;
 }
+
+/* h2.wp-block-heading {
+    font-size: 28px !important;
+}
+h3.wp-block-heading {
+    font-size: 20px !important;
+}
+h4.wp-block-heading {
+    font-size: 16px !important;
+} */
+
+p.wp-block-heading.has-large-font-size {
+    font-size: 24px !important;
+    margin-bottom: 0.5rem !important;
+}
