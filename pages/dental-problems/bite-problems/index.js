@@ -11,6 +11,7 @@ import SmileMakeover from  "../../../public/dental-problems-img/bite problems/Sm
 import Wisdom from  "../../../public/dental-problems-img/bite problems/Wisdom_Teeth_Removal_01.png"
 import ToothExtraction from  "../../../public/dental-problems-img/bite problems/Tooth_Extraction_01.png"
 import BiteProblemsBanner from  "../../../public/dental-problems-img/bite problems/Bite_problems_banner-main.jpg"
+import Link from 'next/link';
 
 const WisdomToothPain = () => {
     return (
@@ -68,7 +69,7 @@ const WisdomToothPain = () => {
                                 Manage Your Bite Problems for a Healthier Smile
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                You may not notice issues with your bite alignment until dental problems start to arise. A poor bite can worsen over time if left untreated, leading to tooth decay, gum disease, chewing and speaking difficulties, and excessive tooth wear.
+                                You may not notice issues with your bite alignment until dental problems start to arise. A poor bite can worsen over time if left untreated, leading to tooth decay,<Link href="/to-avoid-gum-disease-its-important-to-keep-up-with-dental-cleanings/"> gum disease</Link>, chewing and speaking difficulties, and excessive tooth wear.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
                                 At Carrum Downs Dental Group, we understand the frustrations of a bad bite and provide affordable care to help you brighten your smile. We offer a range of services to address bite issues before they cause further oral health complications. This includes realignment treatments to correct your bite as well as restorative and preventive dentistry to repair any damage and protect your smile.

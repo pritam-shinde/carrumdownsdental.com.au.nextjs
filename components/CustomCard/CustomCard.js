@@ -12,7 +12,7 @@ const CustomCard = ({ cardMedia, resizedImage, navlink, anchor, link, cardTitle,
                 }
                 <CardContent>
                     {
-                        (cardTitle && navlink) ? <Typography variant='h5' align={headAlign} gutterBottom><Link href={link}>{cardTitle}</Link></Typography> : (cardTitle && anchor) ? <Typography variant='h5' align={headAlign} gutterBottom><a href={link}>{cardTitle}</a></Typography> : <Typography variant='h5' align={headAlign} gutterBottom>{cardTitle}</Typography>
+                        (cardTitle && navlink) ? <Typography variant='h5' component="h2" align={headAlign} gutterBottom><Link href={link}>{cardTitle}</Link></Typography> : (cardTitle && anchor) ? <Typography variant='h5' component="h2" align={headAlign} gutterBottom><a href={link}>{cardTitle}</a></Typography> : <Typography variant='h5' component="h2" align={headAlign} gutterBottom>{cardTitle}</Typography>
                     }
                     {
                         cardPara !== null ? <Typography align={paraAlign} dangerouslySetInnerHTML={{ __html: cardPara }} /> : null

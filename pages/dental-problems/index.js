@@ -76,11 +76,11 @@ const index = () => {
                       Read About Common Dental Problems
                     </Typography>
                     <Typography variant="body1" className="text-white" gutterBottom>
-                      At Carrum Downs Dental Group, we provide excellent dental care through quality services. Our skilled dentists and staff would love to inform you about common dental issues and ensure you know how
+                      At Carrum Downs Dental Group, we provide excellent <Link href="/dental-care-ideas-to-prevent-tooth-decay/">dental care</Link> through quality services. Our skilled dentists and staff would love to inform you about common dental issues and ensure you know how
                       to avoid them.
                     </Typography>
                     <Typography variant="body1" className="text-white" gutterBottom>
-                      Oral health issues are remarkably common, but many people don't know how to properly address them. Ignoring dental problems can lead to severe consequences later on. Regular dental exams are
+                     <Link href='/7-tips-for-improving-your-oral-health-before-sleep-time/'>Oral health </Link> issues are remarkably common, but many people don't know how to properly address them. Ignoring dental problems can lead to severe consequences later on. Regular dental exams are
                       crucial for catching problems early before they worsen. The key is being proactive with dental care rather than waiting until you have a crisis situation. With consistent preventative care and
                       good oral hygiene habits, your teeth and gums can stay in excellent shape.
                     </Typography>
@@ -109,7 +109,7 @@ const index = () => {
                       At Carrum Downs Dental Group, our expert team goes beyond simply providing excellent dental care - we empower you with the knowledge to maintain a healthy, beautiful smile.
                     </Typography>
                     <Typography variant="body1" gutterBottom>
-                      With decades of experience handling common dental issues, our team wants to ensure you fully understand your oral health. We take time to listen to your concerns, clearly explain treatment
+                      With decades of experience handling <Link href="/the-most-common-dental-issues-experienced-by-seniors-today/">common dental issues</Link>, our team wants to ensure you fully understand your oral health. We take time to listen to your concerns, clearly explain treatment
                       options, and answer all your questions.
                     </Typography>
                     <Typography variant="body1" gutterBottom>

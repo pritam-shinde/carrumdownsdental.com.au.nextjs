@@ -1,16 +1,17 @@
-import React from 'react';
-import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
-import { CheckCircleOutline } from '@mui/icons-material'
-import Image from 'next/image';
-import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
+import { CheckCircleOutline } from '@mui/icons-material';
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import Head from 'next/head';
-import BadBreath1 from "../../../public/dental-problems-img/bad breath/bad_breath_01.png"
-import BadBreath2 from "../../../public/dental-problems-img/bad breath/bad_breath_02.png"
-import DentalFilling from "../../../public/dental-problems-img/bad breath/Dental_filling.png"
-import ScaleAndCleaning from "../../../public/dental-problems-img/bad breath/Scaling_and_Cleaning.png"
-import ToothExtraction from "../../../public/dental-problems-img/bad breath/Tooth_Extraction.png"
-import Treatment from "../../../public/dental-problems-img/bad breath/bad_breath_06.png"
-import Wisdom from "../../../public/dental-problems-img/bad breath/Wisdom_Teeth_Removal.png" 
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
+import DentalFilling from "../../../public/dental-problems-img/bad breath/Dental_filling.png";
+import ScaleAndCleaning from "../../../public/dental-problems-img/bad breath/Scaling_and_Cleaning.png";
+import ToothExtraction from "../../../public/dental-problems-img/bad breath/Tooth_Extraction.png";
+import Wisdom from "../../../public/dental-problems-img/bad breath/Wisdom_Teeth_Removal.png";
+import BadBreath1 from "../../../public/dental-problems-img/bad breath/bad_breath_01.png";
+import BadBreath2 from "../../../public/dental-problems-img/bad breath/bad_breath_02.png";
+import Treatment from "../../../public/dental-problems-img/bad breath/bad_breath_06.png";
 import BannerBadBreath from "../../../public/dental-problems-img/bad breath/bad_breath_banner.jpg";
 
 const BadBreath = () => {
@@ -28,7 +29,7 @@ const BadBreath = () => {
                 align="left"
                 color="#fff" />
             <section className='bad-breath-section1' style={{
-                 backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
                 paddingBottom: '100px',
             }}>
@@ -40,7 +41,7 @@ const BadBreath = () => {
                                     Learn More About Bad Breath
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                    Halitosis, commonly known as bad breath, is a prevalent issue that can lead to feelings of embarrassment and unease in some people. At Carrum Downs Dental Group, our range of services is dedicated to tackling bad breath and providing proactive measures to maintain the overall health of your oral cavity.
+                                    Halitosis, commonly known as <Link href="/can-gum-disease-cause-bad-breath/">bad breath</Link>, is a prevalent issue that can lead to feelings of embarrassment and unease in some people. At Carrum Downs Dental Group, our range of services is dedicated to tackling bad breath and providing proactive measures to maintain the overall health of your oral cavity.
                                 </Typography>
                                 <Box>
                                     <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
@@ -64,7 +65,7 @@ const BadBreath = () => {
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 1 }}>
                                 <Typography variant="h5" component="h2" gutterBottom style={{ color: "var(--dark-blue)" }}>
-                                Don't Let Your Bad Breath Ruin Your Confidence
+                                    Don't Let Your Bad Breath Ruin Your Confidence
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
                                     Should you observe individuals distancing themselves or displaying discomfort during conversations, it could indicate the need to rejuvenate your breath's freshness.
@@ -90,7 +91,7 @@ const BadBreath = () => {
                         <Grid item xs={12} md={12}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Dental Services That Can Address Bad Breath
+                                    Dental Services That Can Address Bad Breath
                                 </Typography >
                                 <Typography variant="body1" className='text-white' gutterBottom>
                                     If you frequently experience unpleasant mouth odours, it's the right time to visit Carrum Downs Dental Group, where our expert dental services are geared towards tackling bad breath.
@@ -118,7 +119,7 @@ const BadBreath = () => {
                                                     <ListItemIcon>
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white'><strong> Tooth Extraction  </strong> Damaged teeth can become breeding grounds for bacteria, contributing to bad breath. In cases where tooth preservation isn't viable, our recommendation often includes tooth extraction to prevent the bacteria from spreading further and potential infections.
+                                                    <ListItemText className='text-white'><strong> Tooth Extraction  </strong> Damaged teeth can become breeding grounds for bacteria, contributing to bad breath. In cases where tooth preservation isn't viable, our recommendation often includes <Link href="/facts-you-need-to-know-about-wisdom-tooth-extraction/">tooth extraction </Link>to prevent the bacteria from spreading further and potential infections.
                                                     </ListItemText>
                                                 </Box>
                                             </Grid>
@@ -133,7 +134,7 @@ const BadBreath = () => {
                                                     <ListItemIcon>
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white'><strong> Wisdom Teeth Removal   </strong> Wisdom teeth are notoriously challenging to clean, often leading to infections and subsequent bad breath. At Carrum Downs Dental Group, we offer wisdom teeth removal procedures that significantly mitigate the risk of infections, thereby improving your breath's quality.
+                                                    <ListItemText className='text-white'><strong> Wisdom Teeth Removal   </strong> Wisdom teeth are notoriously challenging to clean, often leading to infections and subsequent bad breath. At Carrum Downs Dental Group, we offer <Link href="/know-the-wisdom-teeth-removal-procedure-and-complications/">wisdom teeth removal</Link> procedures that significantly mitigate the risk of infections, thereby improving your breath's quality.
                                                     </ListItemText>
                                                 </Box>
                                             </Grid>
@@ -148,7 +149,7 @@ const BadBreath = () => {
                                                     <ListItemIcon>
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white'><strong> Treatment for Gum Disease   </strong> The root cause of gum disease is typically the accumulation of plaque or tartar, which can give rise to halitosis. Our skilled dentists can accurately diagnose and evaluate your gum disease, crafting a tailored treatment plan that promotes healthier gums and a more refreshing breath.
+                                                    <ListItemText className='text-white'><strong> Treatment for Gum Disease   </strong> The root cause of gum disease is typically the accumulation of plaque or tartar, which can give rise to halitosis. Our skilled dentists can accurately diagnose and evaluate your <Link href="/replacing-teeth-lost-through-gum-disease/">gum disease</Link>, crafting a tailored treatment plan that promotes healthier gums and a more refreshing breath.
                                                     </ListItemText>
                                                 </Box>
                                             </Grid>

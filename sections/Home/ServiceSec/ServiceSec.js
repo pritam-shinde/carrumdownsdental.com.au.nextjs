@@ -15,7 +15,7 @@ const ServiceSec = () => {
       <Container maxWidth="xxl" id="service">
         <Grid container>
           <Grid item xs={12} md={10} className="mx-auto">
-            <Typography variant='h1' className='text-dark-blue text-center m-2' gutterBottom>We are open 7 days a week for your convenience! </Typography>
+            <Typography variant='h1'  className='text-dark-blue text-center m-2' gutterBottom>We are open 7 days a week for your convenience! </Typography>
             <Grid container spacing={3}>
               {
                 Data.map(item => {
