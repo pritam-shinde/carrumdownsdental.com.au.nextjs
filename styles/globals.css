@@ -102,6 +102,7 @@ li {
 a {
     text-decoration: none !important;
     color: var(--dark-blue) !important;
+    font-weight: 600;
 }
 
 a:hover {
