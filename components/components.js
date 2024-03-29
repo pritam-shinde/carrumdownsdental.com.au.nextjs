@@ -15,3 +15,8 @@ export {default as BookAndCall} from './BookAndCall/BookAndCall';
 export {default as PPCHeader} from './layout/PPCHeader/PPCHeader';
 export {default as PPCBanner} from './PPCBanner/PPCBanner';
 export {default as PPCFooter} from './layout/PPCFooter/PPCFooter'
+
+// 
+export { default as BeforeAfterData } from './VeneersData/beforeAfterData'
+export { default as VeneerProcessData } from './VeneersData/veneerProcessData'
+export { default as VeneerData } from './VeneersData/veneerData'

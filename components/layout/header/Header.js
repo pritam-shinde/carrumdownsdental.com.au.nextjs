@@ -42,7 +42,7 @@ const Header = () => {
                   <Navbar />
                 </React.Fragment>
               )}
-              {width <= 1199 && (
+              {width <= 1200 && (
                 <React.Fragment>
                   <Navbar />
                 </React.Fragment>

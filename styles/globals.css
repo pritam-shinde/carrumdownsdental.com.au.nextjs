@@ -613,3 +613,7 @@ p.wp-block-heading.has-large-font-size {
     font-size: 24px !important;
     margin-bottom: 0.5rem !important;
 }
+/* for making 7th box in veneer-sample-page centered  */
+.centered-box {
+    margin : 0 auto !important;
+  }
