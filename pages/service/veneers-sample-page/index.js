@@ -50,7 +50,11 @@ const VeneerSamplePage = ({ data }) => {
           <section className='teeth-missing-section1' style={{
             backgroundColor: "#000", marginBottom: "2rem", position: 'relative',
             paddingTop: '60px',
-            paddingBottom: '60px',
+            backgroundImage: `url("https://avgardesmiles.com.au/wp-content/uploads/2024/03/shutterstock_1781846108-1.png")`,
+            backgroundSize: 'contain',
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center left",
+            backgroundAttachment:"fixed"
           }}>
             <Grid>
               <Grid container spacing={2}>
@@ -85,12 +89,12 @@ const VeneerSamplePage = ({ data }) => {
                 <Container maxWidth="xxl" >
                   <Grid container spacing={2}>
                     <Grid item xs={12} md={6}>
-                      <Box sx={{ p: 2 }}>
+                      {/* <Box sx={{ p: 2 }}>
                         <Image src={Veneer} alt="porcelain-Veneers" width={700} height={400} />
-                      </Box>
+                      </Box> */}
                     </Grid>
-                    <Grid item xs={12} md={6}>
-                      <Box sx={{ p: 2 }}>
+                    <Grid item xs={12} md={6} >
+                      <Box sx={{ p: 2 }} >
                         <Typography variant="h5" component="h2" gutterBottom className='text-white'>
                           Dental Veneers
                         </Typography>
@@ -112,22 +116,22 @@ const VeneerSamplePage = ({ data }) => {
           </section>
           <section className='teeth-missing-section1' style={{
             marginBottom: "2rem", position: 'relative',
-            paddingBottom:"0.5rem"
+            paddingBottom: "0.5rem"
           }}>
             <Container >
-              <Box py={2}> 
-              <Typography variant="h5" component="h2" gutterBottom className='text-center' style={{ color: "#115278" }} >
-                Why dental veneers?
-              </Typography>
+              <Box py={2}>
+                <Typography variant="h5" component="h2" gutterBottom className='text-center' style={{ color: "#115278" }} >
+                  Why dental veneers?
+                </Typography>
               </Box>
               <Grid container spacing={2}>
-                <Grid item xs={12} md={6}> 
-                    <Typography variant="body1" gutterBottom  >
-                      Dental veneers are a less invasive alternative to dental crowns depending on the defects or damages you are dealing with. Veneers provide a more conservative approach to fixing teeth colour, size, and shape that can also be removed easily in the future if you decide to change them out. Their ability to cover up gaps between teeth and worn-out teeth makes dental veneers a lasting and cost-effective solution. Root canal procedures and the use of tetracycline medication can also permanently stain your teeth, making dental veneers a recommendable fix.
-                    </Typography>
-                    <Typography variant="body1" gutterBottom >
-                      Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic needs with proven results in restoring beautiful natural smiles.
-                    </Typography> 
+                <Grid item xs={12} md={6}>
+                  <Typography variant="body1" gutterBottom  >
+                    Dental veneers are a less invasive alternative to dental crowns depending on the defects or damages you are dealing with. Veneers provide a more conservative approach to fixing teeth colour, size, and shape that can also be removed easily in the future if you decide to change them out. Their ability to cover up gaps between teeth and worn-out teeth makes dental veneers a lasting and cost-effective solution. Root canal procedures and the use of tetracycline medication can also permanently stain your teeth, making dental veneers a recommendable fix.
+                  </Typography>
+                  <Typography variant="body1" gutterBottom >
+                    Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic needs with proven results in restoring beautiful natural smiles.
+                  </Typography>
                 </Grid>
                 <Grid item xs={12} md={6} >
                   <Box style={{ maxWidth: '800px', margin: 'auto', overflow: 'hidden' }}>
@@ -149,7 +153,7 @@ const VeneerSamplePage = ({ data }) => {
             </Container>
           </section>
           <section className='teeth-missing-section1 bg-grey' style={{
-            marginBottom: "2rem", position: 'relative', paddingBottom:"0.5rem"
+            marginBottom: "2rem", position: 'relative', paddingBottom: "0.5rem"
           }}>
             <Container>
               <Box py={2}>
@@ -183,7 +187,7 @@ const VeneerSamplePage = ({ data }) => {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            paddingBottom:"0.5rem"
+            paddingBottom: "0.5rem"
           }}>
             <Container>
               <Typography variant="h5" component="h2" gutterBottom className='text-center' style={{ color: "#115278" }}>
@@ -198,10 +202,10 @@ const VeneerSamplePage = ({ data }) => {
                   <Grid item xs={12} sm={6} md={6} key={index} className={index === 6 ? "centered-box" : ""}>
                     <Box display="flex" alignItems="center">
                       <Box textAlign="center" p={2}>
-                        <Image src={item.imageUrl} alt="Image" width={80} height={100} className="img-fluid" />
+                        <Image src={item.imageUrl} alt="Image" width={70} height={70} className="img-fluid" />
                       </Box>
                       <Box>
-                        <Typography variant="h6" component="h2" gutterBottom>
+                        <Typography variant="h6" component="h3" gutterBottom>
                           {item.title}
                         </Typography>
                         <Typography variant="body1" paragraph>
@@ -216,7 +220,7 @@ const VeneerSamplePage = ({ data }) => {
 
           </section>
           <section className='teeth-missing-section1' style={{
-            backgroundColor: "#000", marginBottom: "2rem", position: 'relative', paddingBottom:"0.5rem"
+            backgroundColor: "#000", marginBottom: "2rem", position: 'relative', paddingBottom: "0.5rem"
           }}>
             <Container>
               <Box py={2}>
@@ -243,23 +247,33 @@ const VeneerSamplePage = ({ data }) => {
               </Box>
             </Container>
           </section>
-          <section className='teeth-missing-section1' style={{
+          <section className='teeth-missing-section1 veneer-section' style={{
             marginBottom: "2rem",
             position: 'relative',
-            paddingBottom:"0.5rem"
+            paddingBottom: "0.5rem",
+            backgroundImage: `url("https://avgardesmiles.com.au/wp-content/uploads/2024/03/Mask-group.png")`,
+            backgroundSize: '46%',
+            backgroundColor: "#fff",
+            backgroundRepeat: "no-repeat",
+            backgroundAttachment:"fixed"
           }}>
             <Container>
-              <Grid container spacing={3} className="mt-2">
-                <Grid item xs={12} md={6}>
-                  <Box>
+              <Grid container spacing={3} className="mt-2" >
+                <Grid item xs={12} md={6} >
+                  {/* <Box>
                     <Image src={pageImage2} alt="Cosmetic Dentists Porcelain Veneers" height={300} width={500} />
-                  </Box>
+                  </Box> */}
                 </Grid>
                 <Grid item xs={12} md={6}>
-                  <Typography className="para" style={{ color: "#115278" }} variant='h2' sx={{ pb: 2 }}>Our Guarantee</Typography>
-                  <Typography className="para">We guarantee you will love your smile, We won’t stop until you do.</Typography>
-                  <Typography className="para">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
-                  <Typography className="para">We will only design and craft smiles that we would want for ourselves.</Typography>
+                  <Typography className="para font-white" style={{ color: "#115278" }} variant='h2' sx={{ pb: 2 }}>Our Guarantee</Typography>
+                  <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
+                  <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
+                  <Typography className="para font-white">We will only design and craft smiles that we would want for ourselves.</Typography>
+                  <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
+                  <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
+                  <Typography className="para font-white">We will only design and craft smiles that we would want for ourselves.</Typography>
+                  <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
+
                 </Grid>
               </Grid>
             </Container>
@@ -330,7 +344,7 @@ const VeneerSamplePage = ({ data }) => {
           </section>
           <section className='teeth-missing-section1 bg-grey' style={{
             position: 'relative',
-            paddingBottom:"0.5rem"
+            paddingBottom: "0.5rem"
           }}>
             <Container>
               <Box py={2}>
