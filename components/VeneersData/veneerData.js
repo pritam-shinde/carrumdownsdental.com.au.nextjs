@@ -20,22 +20,22 @@ const veneerData = [
     },
     {
         id: 3,
-        title: "Sample Title 2",
+        title: "Sample Title 3",
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: Broken,
     }, {
         id: 4,
-        title: "Sample Title 2",
+        title: "Sample Title 4",
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: Overcrowded,
     }, {
         id: 5,
-        title: "Sample Title 2",
+        title: "Sample Title 5",
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: Worndown,
     }, {
         id: 5,
-        title: "Sample Title 2",
+        title: "Sample Title 6",
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl:Crooked,
     },

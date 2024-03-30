@@ -54,7 +54,7 @@ const VeneerSamplePage = ({ data }) => {
             backgroundSize: 'contain',
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center left",
-            backgroundAttachment:"fixed"
+            backgroundAttachment: "fixed"
           }}>
             <Grid>
               <Grid container spacing={2}>
@@ -67,19 +67,19 @@ const VeneerSamplePage = ({ data }) => {
                     marginLeft: "32px"
                   }}
                 >
-                  <Grid item xs={12} md={3} style={{ border: "1px solid gray", background: "#fff", borderRadius: "0.5rem", marginRight: "20px", marginBottom: "20px", padding: "0.5rem" }}>
+                  <Grid item xs={12} md={3} style={{ border: "1px solid rgb(162 215 245)", background: "#fff", borderRadius: "0.5rem", marginRight: "20px", marginBottom: "20px", padding: "0.5rem" }}>
                     <Box className='text-center'>
                       <Typography variant='subtitle1' className='mb-2'>Natural Beauty</Typography>
                       Our ultra-thin, custom-crafted porcelain veneers mimic the look and feel of your natural enamel, creating a seamlessly beautiful smile.
                     </Box>
                   </Grid>
-                  <Grid item xs={12} md={3} style={{ border: "1px solid gray", background: "#fff", borderRadius: "0.5rem", marginRight: "20px", marginBottom: "20px", padding: "0.5rem" }}>
+                  <Grid item xs={12} md={3} style={{ border: "1px solid rgb(162 215 245)", background: "#fff", borderRadius: "0.5rem", marginRight: "20px", marginBottom: "20px", padding: "0.5rem" }}>
                     <Box className='text-center'>
                       <Typography variant='subtitle1' className='mb-2'>Designed Just for You</Typography>
                       We utilise advanced digital technology to map your facial features and design veneers that perfectly complement your unique smile. Achieve the smile you’ve always envisioned.
                     </Box>
                   </Grid>
-                  <Grid item xs={12} md={3} style={{ border: "1px solid gray", background: "#fff", borderRadius: "0.5rem", marginRight: "20px", marginBottom: "20px", padding: "0.5rem" }}>
+                  <Grid item xs={12} md={3} style={{ border: "1px solid rgb(162 215 245)", background: "#fff", borderRadius: "0.5rem", marginRight: "20px", marginBottom: "20px", padding: "0.5rem" }}>
                     <Box className='text-center'>
                       <Typography variant='subtitle1' className='mb-2' >Long-lasting Confidence</Typography>
                       Crafted from high-quality porcelain, our veneers offer exceptional strength and durability, ensuring your radiant smile lasts for years to come.
@@ -94,7 +94,7 @@ const VeneerSamplePage = ({ data }) => {
                       </Box> */}
                     </Grid>
                     <Grid item xs={12} md={6} >
-                      <Box sx={{ p: 2 }} >
+                      <Box sx={{ p: 2}} >
                         <Typography variant="h5" component="h2" gutterBottom className='text-white'>
                           Dental Veneers
                         </Typography>
@@ -107,6 +107,9 @@ const VeneerSamplePage = ({ data }) => {
                         <Typography variant="body1" gutterBottom className='text-white'>
                           Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic needs with proven results in restoring beautiful natural smiles.
                         </Typography>
+                        <Box >
+                          <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
+                        </Box>
                       </Box>
                     </Grid>
                   </Grid>
@@ -115,17 +118,17 @@ const VeneerSamplePage = ({ data }) => {
             </Grid>
           </section>
           <section className='teeth-missing-section1' style={{
-            marginBottom: "2rem", position: 'relative',
+           marginTop:"2rem", marginBottom: "2rem", position: 'relative',
             paddingBottom: "0.5rem"
           }}>
             <Container >
-              <Box py={2}>
-                <Typography variant="h5" component="h2" gutterBottom className='text-center' style={{ color: "#115278" }} >
+              {/* <Box py={2}>
+              </Box> */}
+              <Grid container spacing={2} py={2}>
+                <Grid item xs={12} md={6}>
+                <Typography variant="h5" component="h2" gutterBottom  style={{ color: "#115278" }} >
                   Why dental veneers?
                 </Typography>
-              </Box>
-              <Grid container spacing={2}>
-                <Grid item xs={12} md={6}>
                   <Typography variant="body1" gutterBottom  >
                     Dental veneers are a less invasive alternative to dental crowns depending on the defects or damages you are dealing with. Veneers provide a more conservative approach to fixing teeth colour, size, and shape that can also be removed easily in the future if you decide to change them out. Their ability to cover up gaps between teeth and worn-out teeth makes dental veneers a lasting and cost-effective solution. Root canal procedures and the use of tetracycline medication can also permanently stain your teeth, making dental veneers a recommendable fix.
                   </Typography>
@@ -164,10 +167,10 @@ const VeneerSamplePage = ({ data }) => {
                   {VeneerData.map((item, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
                       <Box sx={{ p: 2 }}>
-                        <Card sx={{ maxWidth: 345 }} className="mx-auto">
+                        <Card sx={{ maxWidth: 345 }} className="mx-auto" style={{ border: "1px solid rgb(162 215 245)" }}>
                           <CardMedia sx={{ height: 140 }} component="img" src={item.imageUrl.src} alt="Card Image" title="Card Image" className="mx-auto" />
                           <CardContent>
-                            <Typography gutterBottom variant="h3"  className="text-center">
+                            <Typography gutterBottom variant="h3" className="text-center">
                               {item.title}
                             </Typography>
                             <Typography variant="body2" color="text.secondary" className="text-center">
@@ -224,7 +227,7 @@ const VeneerSamplePage = ({ data }) => {
           }}>
             <Container>
               <Box py={2}>
-                <Typography variant="h2" component="h2" className='text-white text-center' sx={{ mt: 3, }}>
+                <Typography variant="h2" component="h2" className='text-white text-center' sx={{ mt: 3 }}>
                   Achieve the smile you’ve always wanted
                 </Typography>
                 <Box sx={{ mt: 3 }}>
@@ -236,8 +239,8 @@ const VeneerSamplePage = ({ data }) => {
                   </Typography>
                   <Grid container spacing={3}>
                     {BeforeAfterData.map((item, index) => (
-                      <Grid item xs={12} sm={6} md={4} key={index}>
-                        <Box textAlign="center" p={2}>
+                      <Grid item xs={12} sm={4} md={4} key={index}>
+                        <Box textAlign="center" p={1}>
                           <Image src={item.imageUrl} alt="Image" width={350} height={380} className="img-fluid" />
                         </Box>
                       </Grid>
@@ -252,10 +255,10 @@ const VeneerSamplePage = ({ data }) => {
             position: 'relative',
             paddingBottom: "0.5rem",
             backgroundImage: `url("https://avgardesmiles.com.au/wp-content/uploads/2024/03/Mask-group.png")`,
-            backgroundSize: '46%',
+            backgroundSize: '48%',
             backgroundColor: "#fff",
             backgroundRepeat: "no-repeat",
-            backgroundAttachment:"fixed"
+            // backgroundAttachment: "fixed"
           }}>
             <Container>
               <Grid container spacing={3} className="mt-2" >
@@ -264,7 +267,7 @@ const VeneerSamplePage = ({ data }) => {
                     <Image src={pageImage2} alt="Cosmetic Dentists Porcelain Veneers" height={300} width={500} />
                   </Box> */}
                 </Grid>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={6} >
                   <Typography className="para font-white" style={{ color: "#115278" }} variant='h2' sx={{ pb: 2 }}>Our Guarantee</Typography>
                   <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
                   <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
@@ -273,7 +276,9 @@ const VeneerSamplePage = ({ data }) => {
                   <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
                   <Typography className="para font-white">We will only design and craft smiles that we would want for ourselves.</Typography>
                   <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
-
+                  <Box>
+                    <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
+                  </Box>
                 </Grid>
               </Grid>
             </Container>
