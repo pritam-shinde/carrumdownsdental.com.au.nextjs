@@ -253,7 +253,6 @@ const VeneerSamplePage = ({ data }) => {
           <section className='teeth-missing-section1 veneer-section' style={{
             marginBottom: "2rem",
             position: 'relative',
-            paddingBottom: "0.5rem",
             backgroundImage: `url("https://avgardesmiles.com.au/wp-content/uploads/2024/03/Mask-group.png")`,
             backgroundSize: '48%',
             backgroundColor: "#fff",
@@ -267,7 +266,7 @@ const VeneerSamplePage = ({ data }) => {
                     <Image src={pageImage2} alt="Cosmetic Dentists Porcelain Veneers" height={300} width={500} />
                   </Box> */}
                 </Grid>
-                <Grid item xs={12} md={6} >
+                <Grid item xs={12} md={6} style={{zIndex:9,paddingBottom:"15px"}} >
                   <Typography className="para font-white" style={{ color: "#115278" }} variant='h2' sx={{ pb: 2 }}>Our Guarantee</Typography>
                   <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
                   <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>

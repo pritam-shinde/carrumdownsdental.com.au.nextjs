@@ -279,7 +279,8 @@ footer a:hover {
         clip-path: polygon(0 0, 95% 1%, 100% 100%, 5% 100%);
     }
     section.teeth-missing-section1.veneer-section{
-        background-size: 100% !important;
+        background-size: cover !important;
+        background-position: center;
     }
     section.veneer-section::after{
         content: "";
@@ -296,7 +297,7 @@ footer a:hover {
         position: relative;
     z-index: 999;
     }
-    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-1fyyp8j-MuiGrid-root .font-white{
+    .font-white{
         color:#fff !important;
     }
     h3.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root {
@@ -537,10 +538,8 @@ footer a:hover {
         bottom: 5% !important;
     }
     section.teeth-missing-section1.veneer-section{
-        background-size: 100% !important;
-    }
-    section.teeth-missing-section1.veneer-section{
-        background-size: 100% !important;
+        background-size: cover !important;
+        background-position: center;
     }
     section.veneer-section::after{
         content: "";
@@ -557,7 +556,7 @@ footer a:hover {
         position: relative;
     z-index: 999;
     }
-    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-1fyyp8j-MuiGrid-root   .font-white{
+     .font-white{
         color:#fff !important;
     }
     h3.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root {
