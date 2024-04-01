@@ -70,7 +70,7 @@ h1 {
 h2 {
     font-size: var(--h2-desk) !important;
 }
- 
+
 h3 {
     font-size: var(--h3-desk) !important;
 }
@@ -278,11 +278,13 @@ footer a:hover {
     .clipPathBgGreyDown {
         clip-path: polygon(0 0, 95% 1%, 100% 100%, 5% 100%);
     }
-    section.teeth-missing-section1.veneer-section{
+
+    section.teeth-missing-section1.veneer-section {
         background-size: cover !important;
         background-position: center;
     }
-    section.veneer-section::after{
+
+    section.veneer-section::after {
         content: "";
         position: absolute;
         background: #000;
@@ -293,15 +295,18 @@ footer a:hover {
         opacity: 0.5;
         z-index: 1;
     }
-    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-1fyyp8j-MuiGrid-root{
+
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-1fyyp8j-MuiGrid-root {
         position: relative;
-    z-index: 999;
+        z-index: 999;
     }
-    .font-white{
-        color:#fff !important;
+
+    .font-white {
+        color: #ffffff !important;
     }
+
     h3.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root {
-    font-size: 26px !important;
+        font-size: 26px !important;
     }
 }
 
@@ -471,7 +476,7 @@ footer a:hover {
     .offerPageOfferCard .manageHeight {
         height: 16rem;
     }
-    
+
 }
 
 .MuiBox-root.css-178yklu li {
@@ -537,11 +542,13 @@ footer a:hover {
         position: absolute !important;
         bottom: 5% !important;
     }
-    section.teeth-missing-section1.veneer-section{
+
+    section.teeth-missing-section1.veneer-section {
         background-size: cover !important;
         background-position: center;
     }
-    section.veneer-section::after{
+
+    section.veneer-section::after {
         content: "";
         position: absolute;
         background: #000;
@@ -552,16 +559,19 @@ footer a:hover {
         opacity: 0.5;
         z-index: 1;
     }
-    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-1fyyp8j-MuiGrid-root{
+
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-1fyyp8j-MuiGrid-root {
         position: relative;
-    z-index: 999;
+        z-index: 999;
     }
-     .font-white{
-        color:#fff !important;
+
+    .font-white {
+        color: #fff !important;
     }
+
     h3.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root {
         font-size: 26px !important;
-        }
+    }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1280px) {
@@ -645,9 +655,9 @@ img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.mx-auto.css-rhsghg {
     letter-spacing: -0.01562em;
     margin-bottom: 0.35em;
     font-size: 48px;
-    font-weight: var(--heading-font-weight)!important;
-    font-family: var(--heading-font)!important;
-    line-height: 1.2!important;
+    font-weight: var(--heading-font-weight) !important;
+    font-family: var(--heading-font) !important;
+    line-height: 1.2 !important;
 }
 
 /* h2.wp-block-heading {
@@ -664,11 +674,12 @@ p.wp-block-heading.has-large-font-size {
     font-size: 24px !important;
     margin-bottom: 0.5rem !important;
 }
+
 /* for making 7th box in veneer-sample-page centered  */
 .centered-box {
-    margin : 0 auto !important;
-  }
+    margin: 0 auto !important;
+}
 
-  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-vubbuv {
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-vubbuv {
     color: #115276 !important;
 }
