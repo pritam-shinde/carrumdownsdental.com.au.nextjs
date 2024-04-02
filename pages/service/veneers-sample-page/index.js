@@ -2,12 +2,9 @@ import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from "
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
-import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider, CompareSlider1, SectionalHeading, VeneerData, VeneerProcessData } from "../../../components/components";
-import BgSectionImg from "../../../public/Veneers/veneer-bg-image.png";
-import Banner from "../../../public/Veneers/veneers-banner2.jpg";
-// import Banner from "../../../public/Veneers/venners.jpg";
-
+import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, SectionalHeading, VeneerData, VeneerProcessData } from "../../../components/components";
+import BgSectionImg from "../../../public/Veneers/line1.png";
+import Banner from "../../../public/Veneers/veneers-banner2.jpg"; 
 
 const VeneerSamplePage = ({ data }) => {
   const [show, setShow] = useState(false);
@@ -51,7 +48,7 @@ const VeneerSamplePage = ({ data }) => {
               marginBottom: "2rem",
               position: "relative",
               paddingTop: "60px",
-              backgroundImage: `url("https://avgardesmiles.com.au/wp-content/uploads/2024/03/shutterstock_1781846108-1.png")`,
+              backgroundImage: `url("/Veneers/veneers-picker.webp")`,
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center left",
