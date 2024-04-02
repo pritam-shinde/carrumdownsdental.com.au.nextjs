@@ -1,10 +1,11 @@
-import One from "../../public/Veneers/one.webp"
-import Two from "../../public/Veneers/two.webp"
-import Three from "../../public/Veneers/three.webp"
-import Four from "../../public/Veneers/four.png"
-import Five from "../../public/Veneers/five.webp"
-import Six from "../../public/Veneers/six.webp"
-import Seven from "../../public/Veneers/seven.webp"
+import One from "../../public/Veneers/1-1.png"
+import Two from "../../public/Veneers/2.png"
+import Three from "../../public/Veneers/3.png"
+import Four from "../../public/Veneers/4.png"
+import Five from "../../public/Veneers/5.png"
+import Six from "../../public/Veneers/6.png"
+import Seven from "../../public/Veneers/7.png"
+
 
 const veneerProcessData = [
     {

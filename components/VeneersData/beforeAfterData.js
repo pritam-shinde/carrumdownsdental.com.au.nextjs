@@ -1,6 +1,6 @@
-import One from "../../public/Veneers/before-after1.jpg"
-import Two from "../../public/Veneers/before-after2.jpg"
-import Three from "../../public/Veneers/before-after3.jpg" 
+import One from "../../public/Veneers/before-after-1.jpg"
+import Two from "../../public/Veneers/before-after-2.jpg"
+import Three from "../../public/Veneers/before-after-3.jpg" 
 
 const beforeAfterData = [
     {

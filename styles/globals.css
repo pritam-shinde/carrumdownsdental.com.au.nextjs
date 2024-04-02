@@ -689,4 +689,6 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-vubbuv {
     max-height: 350px;
   }
     
-    
+  img.img-fluid.object-contain{
+    object-fit: contain;
+  }

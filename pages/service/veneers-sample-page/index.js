@@ -4,8 +4,9 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { ReactCompareSlider, ReactCompareSliderImage } from "react-compare-slider";
 import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider, CompareSlider1, SectionalHeading, VeneerData, VeneerProcessData } from "../../../components/components";
-import BgSectionImg from "../../../public/Veneers/veneer-bg-image.webp";
-import Banner from "../../../public/Veneers/venners.jpg";
+import BgSectionImg from "../../../public/Veneers/veneer-bg-image.png";
+import Banner from "../../../public/Veneers/veneers-banner2.jpg";
+// import Banner from "../../../public/Veneers/venners.jpg";
 
 
 const VeneerSamplePage = ({ data }) => {
@@ -40,7 +41,7 @@ const VeneerSamplePage = ({ data }) => {
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
         <meta name="robots" content="noindex" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Veneers in Carrum Downs" align={width < 600 ? "center" : "left"} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Veneers in Carrum Downs" align={width < 600 ? "center" : "left"} color="#115177" />
       {show && (
         <main>
           <section
@@ -215,7 +216,7 @@ const VeneerSamplePage = ({ data }) => {
                   {VeneerData.map((item, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
                       <Box sx={{ p: 2 }}>
-                        <Card sx={{ maxWidth: 345 }} className="mx-auto" style={{ border: "1px solid rgb(162 215 245)" }}>
+                        <Card sx={{ maxWidth: 345 }} className="mx-auto shadow-none" style={{ border: "1px solid rgb(162 215 245)" }}>
                           <CardMedia sx={{ height: 140 }} component="img" src={item.imageUrl.src} alt="Card Image" title="Card Image" className="mx-auto" />
                           <CardContent>
                             <Typography gutterBottom variant="h3" className="text-center">
@@ -258,7 +259,7 @@ const VeneerSamplePage = ({ data }) => {
                   <Grid item xs={12} sm={6} md={6} key={index} className={index === 6 ? "centered-box" : ""}>
                     <Box display="flex" alignItems="center">
                       <Box textAlign="center" p={2}>
-                        <Image src={item.imageUrl} alt="Image" width={70} height={70} className="img-fluid" />
+                        <Image src={item.imageUrl} alt="Image" width={70} height={70} className="img-fluid object-contain"/>
                       </Box>
                       <Box>
                         <Typography variant="h6" component="h3" gutterBottom>
@@ -313,7 +314,7 @@ const VeneerSamplePage = ({ data }) => {
             style={{
               marginBottom: "2rem",
               position: "relative",
-              backgroundImage: `url("https://avgardesmiles.com.au/wp-content/uploads/2024/03/Mask-group.png")`,
+              backgroundImage: `url("/Veneers/group-attractive-young-adult-people-isolated-white (1) (1).jpg")`,
               backgroundSize: "48%",
               backgroundColor: "#fff",
               backgroundRepeat: "no-repeat",
