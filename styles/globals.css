@@ -692,3 +692,6 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-vubbuv {
   img.img-fluid.object-contain{
     object-fit: contain;
   }
+.MuiBox-root.css-1sf3xto nav ul li a {
+    color: #fff !important;
+}
