@@ -129,10 +129,7 @@ const VeneerSamplePage = ({ data }) => {
                 </Grid>
                 <Container maxWidth="xxl">
                   <Grid container spacing={2}>
-                    <Grid item xs={12} md={6}>
-                      {/* <Box sx={{ p: 2 }}>
-                        <Image src={Veneer} alt="porcelain-Veneers" width={700} height={400} />
-                      </Box> */}
+                    <Grid item xs={12} md={6}> 
                     </Grid>
                     <Grid item xs={12} md={6}>
                       <Box sx={{ p: 2 }}>
