@@ -19,7 +19,7 @@ const CommonHero = ({ align, title, color, breadcrumb, bg }) => {
                       {
                         breadcrumb.map((item, index) => (
                           <li key={item.id} className={`breadcrumb-item ${item.link === null ? 'active' : ''}`} aria-current={item.link === null ? 'page' : null}>
-                            {item.title !== 'Services' && index !== 0 && <span><KeyboardArrowRight /> </span>}
+                            {item.title !== 'Services' && index !== 0 && <span className='arrow-right'><KeyboardArrowRight /> </span>}
                             {
                               item.link !== null ? 
                                 <Link href={item.link}>

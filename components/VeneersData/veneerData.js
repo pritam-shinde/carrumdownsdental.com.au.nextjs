@@ -1,9 +1,9 @@
-import Discolored from "../../public/Veneers/discolored.jpg"
-import Gappy from "../../public/Veneers/gappy.jpg"
-import Broken from "../../public/Veneers/chipped-cracked-1.jpg"
-import Overcrowded from "../../public/Veneers/overcrowded.jpg"
-import Worndown from "../../public/Veneers/worndown.jpg"
-import Crooked from "../../public/Veneers/crocked.jpg"
+import Discolored from "../../public/Veneers/Discolored/Discolored.jpg"
+import Gappy from "../../public/Veneers/Gappy/Gappy1.jpg"
+import Broken from "../../public/Veneers/Broken-chipped/Broken-and-chipped1.jpg"
+import Overcrowded from "../../public/Veneers/Overcrowded/Over1.jpg"
+import Worndown from "../../public/Veneers/Worn/Worn.jpg"
+import Crooked from "../../public/Veneers/Crooked/Crooked1.jpg" 
 
 const veneerData = [
     {

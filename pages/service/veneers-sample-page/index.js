@@ -48,7 +48,7 @@ const VeneerSamplePage = ({ data }) => {
               marginBottom: "2rem",
               position: "relative",
               paddingTop: "60px",
-              backgroundImage: `url("/Veneers/veneers-picker.webp")`,
+              backgroundImage: `url("/Veneers/dental-veneers-section-bg.jpg")`, 
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center left",
@@ -214,9 +214,9 @@ const VeneerSamplePage = ({ data }) => {
                     <Grid item xs={12} sm={6} md={4} key={index}>
                       <Box sx={{ p: 2 }}>
                         <Card sx={{ maxWidth: 345 }} className="mx-auto shadow-none" style={{ border: "1px solid rgb(162 215 245)" }}>
-                          <CardMedia sx={{ height: 140 }} component="img" src={item.imageUrl.src} alt="Card Image" title="Card Image" className="mx-auto" />
+                          <CardMedia sx={{ height: 140 }} component="img" src={item.imageUrl.src} alt="Card Image" title="Card Image" className="mx-auto img-fluid" />
                           <CardContent>
-                            <Typography gutterBottom variant="h3" className="text-center">
+                            <Typography gutterBottom variant="h3" className="text-center maintainance-title-font fs-4">
                               {item.title}
                             </Typography>
                             <Typography variant="body2" color="text.secondary" className="text-center">
@@ -297,7 +297,7 @@ const VeneerSamplePage = ({ data }) => {
                     {BeforeAfterData.map((item, index) => (
                       <Grid item xs={12} sm={4} md={4} key={index}>
                         <Box textAlign="center" p={1}>
-                          <Image src={item.imageUrl} alt="Image" width={350} height={380} className="img-fluid" />
+                          <Image src={item.imageUrl} alt="Image" width={350} height={380} className="img-fluid border border-1" />
                         </Box>
                       </Grid>
                     ))}

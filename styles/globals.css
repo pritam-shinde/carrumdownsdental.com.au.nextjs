@@ -697,3 +697,7 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-vubbuv {
 }
 
 /* for banner image */
+/* breadcrumb */
+span.arrow-right {
+    color: #647274;
+}
