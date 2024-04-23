@@ -77,3 +77,12 @@
     /* / z-index: 100; / */
     box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
 }
+  
+ /* .comparison-image-container {
+    transition: transform 0.3s ease;  
+  }
+  
+  .comparison-slider-line,
+  .comparison-slider-button {
+    transition: left 0.3s ease;  
+  }    */

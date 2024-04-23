@@ -5,6 +5,9 @@ import React, { useEffect, useState } from "react";
 import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, SectionalHeading, VeneerData, VeneerProcessData } from "../../../components/components";
 import BgSectionImg from "../../../public/Veneers/line1.png";
 import Banner from "../../../public/Veneers/veneers-banner2.jpg"; 
+import WhydentalVeneer from "../../../components/VeneersData/WhydentalVeneer";
+import HowAbout from "../../../components/VeneersData/HowAbout";
+import FaqVeneers from "../../../components/VeneersData/FaqVeneers";
 
 const VeneerSamplePage = ({ data }) => {
   const [show, setShow] = useState(false);
@@ -167,9 +170,8 @@ const VeneerSamplePage = ({ data }) => {
               paddingBottom: "0.5rem",
             }}
           >
-            <Container>
-              {/* <Box py={2}>
-              </Box> */}
+            {/* <WhydentalVeneer/> */}
+            <Container> 
               <Grid container spacing={2} py={2}>
                 <Grid item xs={12} md={6}>
                   <Typography variant="h5" component="h2" gutterBottom style={{ color: "#115278" }}>
@@ -317,10 +319,7 @@ const VeneerSamplePage = ({ data }) => {
           >
             <Container>
               <Grid container spacing={3} className="mt-2">
-                <Grid item xs={12} md={6}>
-                  {/* <Box>
-                        <Image src={pageImage2} alt="Cosmetic Dentists Porcelain Veneers" height={300} width={500} />
-                               </Box> */}
+                <Grid item xs={12} md={6}> 
                 </Grid>
                 <Grid item xs={12} md={6} style={{ zIndex: 9, paddingBottom: "15px" }}>
                   <Typography className="para font-white" style={{ color: "#115278" }} variant="h2" sx={{ pb: 2 }}>
@@ -347,7 +346,8 @@ const VeneerSamplePage = ({ data }) => {
               position: "relative",
             }}
           >
-            <Container>
+            <FaqVeneers/>
+            {/* <Container>
               <Box>
                 <Box>
                   <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions (FAQs)" align="center" />
@@ -405,7 +405,7 @@ const VeneerSamplePage = ({ data }) => {
                   </div>
                 </Box>
               </Box>
-            </Container>
+            </Container> */}
           </section>
           <section
             className="teeth-missing-section1 bg-grey"
