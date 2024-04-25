@@ -2,12 +2,10 @@ import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from "
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, SectionalHeading, VeneerData, VeneerProcessData } from "../../../components/components";
-import BgSectionImg from "../../../public/Veneers/line1.png";
-import Banner from "../../../public/Veneers/veneers-banner2.jpg"; 
-import WhydentalVeneer from "../../../components/VeneersData/WhydentalVeneer";
-import HowAbout from "../../../components/VeneersData/HowAbout";
 import FaqVeneers from "../../../components/VeneersData/FaqVeneers";
+import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, VeneerData, VeneerProcessData } from "../../../components/components";
+import BgSectionImg from "../../../public/Veneers/line1.png";
+import Banner from "../../../public/Veneers/veneers-banner2.jpg";
 
 const VeneerSamplePage = ({ data }) => {
   const [show, setShow] = useState(false);
@@ -188,7 +186,8 @@ const VeneerSamplePage = ({ data }) => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <Box>
-                    <CompareSlider1 />
+                    {/* <CompareSlider1 /> */}
+                    <Image src="/Veneers/slider-images/Before-after-in-slider.jpg" alt="Image" width={550} height={350} className="img-fluid"/>
                   </Box>
                 </Grid>
               </Grid>

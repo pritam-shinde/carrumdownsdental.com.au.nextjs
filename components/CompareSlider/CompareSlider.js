@@ -78,7 +78,7 @@ const CompareSlider = () => {
 
 export default CompareSlider;
 
-
+// Chandan provided this one.
 // import React, { useState } from "react";
 // // import "../../styles/compareSlider.css";
 
