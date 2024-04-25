@@ -186,8 +186,7 @@ const VeneerSamplePage = ({ data }) => {
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <Box>
-                    {/* <CompareSlider1 /> */}
-                    <Image src="/Veneers/slider-images/Before-after-in-slider.jpg" alt="Image" width={550} height={350} className="img-fluid"/>
+                <Image src="/Veneers/before-after-in-slider.jpg" alt="Image" width={550} height={350} className="img-fluid rounded-2"/>
                   </Box>
                 </Grid>
               </Grid>
