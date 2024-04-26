@@ -170,7 +170,7 @@ const VeneerSamplePage = ({ data }) => {
           > 
             <Container> 
               <Grid container spacing={2} py={2}>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={7}>
                   <Typography variant="h5" component="h2" gutterBottom style={{ color: "#115278" }}>
                     Why dental veneers?
                   </Typography>
@@ -184,9 +184,9 @@ const VeneerSamplePage = ({ data }) => {
                     proven results in restoring beautiful natural smiles.
                   </Typography>
                 </Grid>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={5}>
                   <Box>
-               <CompareSlider1/>
+               <Image src="/Veneers/slider-images/before-after-section.jpg" alt="Image" width={550} height={430} className="img-fluid rounded-2" />
                   </Box>
                 </Grid>
               </Grid>
