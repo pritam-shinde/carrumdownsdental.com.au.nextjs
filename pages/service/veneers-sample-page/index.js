@@ -233,7 +233,7 @@ const desc="Veneers offer a remarkable solution to achieve the smile you've alwa
                 Our Process
               </Typography>
               <Typography className="para mt-2">
-                Achieve a radiant, lasting smile with our comprehensive veneer process. We prioritise meticulous care and precision throughout the seven steps, ensuring a comfortable experience and natural-looking results
+                Achieve a radiant, lasting smile with our comprehensive veneer process. We prioritize meticulous care and precision throughout the seven steps, ensuring a comfortable experience and natural-looking results
                 that perfectly complement your unique smile.
               </Typography>
               <Grid container spacing={2}>

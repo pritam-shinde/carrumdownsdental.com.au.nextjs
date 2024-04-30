@@ -25,7 +25,7 @@ const veneerData = [
     }, {
         id: 4,
         title: "OVERCROWDED",
-        description: "Overcrowded teeth can trap bacteria, increasing the risk of decay and gum disease. Veneers can create the illusion of straighter teeth for mild cases of overcrowding. (For severe overcrowding, orthodontic treatment may be necessary first.",
+        description: "Overcrowded teeth can trap bacteria, increasing the risk of decay and gum disease. Veneers can create the illusion of straighter teeth for mild cases of overcrowding. (For severe overcrowding, orthodontic treatment may be necessary first.)",
         imageUrl: Overcrowded,
     }, {
         id: 5,

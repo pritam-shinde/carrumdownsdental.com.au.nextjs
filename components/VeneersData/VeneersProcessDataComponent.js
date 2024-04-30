@@ -25,8 +25,8 @@ const VeneersProcessDataComponent = ({ image, title, description, list1, desc1, 
 
                             {(list1 || list2) ?
                                 <List>
-                                    {list1 ? <ListItem>{list1} : {desc1}</ListItem> : null}
-                                    {list2 ? <ListItem>{list2} : {desc2}</ListItem> : null}
+                                    {list1 ? <ListItem>{list1}: {desc1}</ListItem> : null}
+                                    {list2 ? <ListItem>{list2}: {desc2}</ListItem> : null}
                                 </List>
                                 : null}
                         </Box>

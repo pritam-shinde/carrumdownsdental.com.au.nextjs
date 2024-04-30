@@ -718,6 +718,6 @@ span.arrow-right {
     font-weight: 600;
   }
 
-  .font-banner{
-    text-shadow: 1px 1px 7px rgb(0 0 0 / 76%);
+.font-banner{
+    text-shadow: 1px 1px 12px rgb(0 0 0 / 76%);
   }
