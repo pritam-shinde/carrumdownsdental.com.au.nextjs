@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import FaqVeneers from "../../../components/VeneersData/FaqVeneers";
-import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, VeneerData, VeneerProcessData } from "../../../components/components";
+import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, VeneerData, VeneerProcessData, VeneersProcessDataComponent } from "../../../components/components";
 import BgSectionImg from "../../../public/Veneers/line1.png";
 import Banner from "../../../public/Veneers/veneers-banner2.jpg";
 
@@ -24,14 +24,15 @@ const VeneerSamplePage = ({ data }) => {
   }, [width]);
 
   const breadcrumb = [
-    { id: "Veneers_breadcrumb_1", link: "/service/", title: "Service" },
+    { id: "Veneers_breadcrumb_1", link: "/service/", title: "Service", },
     {
       id: "Veneers_breadcrumb_2",
       link: null,
       title: "Dental Veneers in Carrum Downs",
     },
+    
   ];
-
+const desc="Veneers offer a remarkable solution to achieve the smile you've always envisioned. At Carrum Downs Dental Group, we understand the importance of an investment like this, which is why we've partnered with zipMoney to provide our patients with convenient and affordable payment plan options."
   return (
     <>
       <Head>
@@ -39,7 +40,7 @@ const VeneerSamplePage = ({ data }) => {
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
         <meta name="robots" content="noindex" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Veneers in Carrum Downs" align={width < 600 ? "center" : "left"} color="#115177" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} desc={desc} title="Transforming Smiles with Veneers" align={width < 600 ? "center" : "left"} color="#115177" />
       {show && (
         <main>
           <section
@@ -49,7 +50,7 @@ const VeneerSamplePage = ({ data }) => {
               marginBottom: "2rem",
               position: "relative",
               paddingTop: "60px",
-              backgroundImage: `url("/Veneers/dental-veneers-section-bg.jpg")`, 
+              backgroundImage: `url("/Veneers/dental-veneers-section-bg.jpg")`,
               backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center left",
@@ -81,10 +82,10 @@ const VeneerSamplePage = ({ data }) => {
                     }}
                   >
                     <Box className="text-center">
-                      <Typography variant="subtitle1" className="mb-2">
+                      <Typography variant="subtitle1" className="mb-2 veneer-font-color">
                         Natural Beauty
                       </Typography>
-                      Our ultra-thin, custom-crafted porcelain veneers mimic the look and feel of your natural enamel, creating a seamlessly beautiful smile.
+                      Our ultra-thin, custom-crafted porcelain veneers are meticulously designed to mimic the natural appearance and feel of your enamel, seamlessly blending with your unique smile.
                     </Box>
                   </Grid>
                   <Grid
@@ -101,10 +102,10 @@ const VeneerSamplePage = ({ data }) => {
                     }}
                   >
                     <Box className="text-center">
-                      <Typography variant="subtitle1" className="mb-2">
-                        Designed Just for You
+                      <Typography variant="subtitle1" className="mb-2 veneer-font-color">
+                        Tailored to Your Individuality
                       </Typography>
-                      We utilise advanced digital technology to map your facial features and design veneers that perfectly complement your unique smile. Achieve the smile you’ve always envisioned.
+                      Utilizing advanced digital technology, we map your facial features to create veneers that perfectly complement your one-of-a-kind smile. You'll achieve a radiant, personalized look that enhances your natural beauty.
                     </Box>
                   </Grid>
                   <Grid
@@ -121,33 +122,27 @@ const VeneerSamplePage = ({ data }) => {
                     }}
                   >
                     <Box className="text-center">
-                      <Typography variant="subtitle1" className="mb-2">
-                        Long-lasting Confidence
+                      <Typography variant="subtitle1" className="mb-2 veneer-font-color">
+                        Lasting Confidence
                       </Typography>
-                      Crafted from high-quality porcelain, our veneers offer exceptional strength and durability, ensuring your radiant smile lasts for years to come.
+                      Crafted from high-quality porcelain, our veneers offer exceptional strength and durability, ensuring your beautiful smile remains vibrant and radiant for years to come.
                     </Box>
                   </Grid>
                 </Grid>
                 <Container maxWidth="xxl">
                   <Grid container spacing={2}>
-                    <Grid item xs={12} md={6}> 
+                    <Grid item xs={12} md={6}>
                     </Grid>
                     <Grid item xs={12} md={6}>
                       <Box sx={{ p: 2 }}>
                         <Typography variant="h5" component="h2" gutterBottom className="text-white">
-                          Dental Veneers
+                          What are Porcelain Veneers?
                         </Typography>
                         <Typography variant="body1" gutterBottom className="text-white">
-                          Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic
-                          needs with proven results in restoring beautiful natural smiles.
+                          Veneers are thin porcelain shells bonded to the front surfaces of your natural teeth. The teeth are carefully prepared by polishing down the enamel, allowing the veneers to blend seamlessly and feel natural.
                         </Typography>
                         <Typography variant="body1" gutterBottom className="text-white">
-                          Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic
-                          needs with proven results in restoring beautiful natural smiles.
-                        </Typography>
-                        <Typography variant="body1" gutterBottom className="text-white">
-                          Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic
-                          needs with proven results in restoring beautiful natural smiles.
+                          Our skilled dentist, takes great care in selecting the perfect shade, shape, and design for your veneers before permanently bonding them. The porcelain veneers are crafted to look natural, provide strength, and ensure long-lasting results.
                         </Typography>
                         <Box>
                           <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
@@ -167,26 +162,30 @@ const VeneerSamplePage = ({ data }) => {
               position: "relative",
               paddingBottom: "0.5rem",
             }}
-          > 
-            <Container> 
+          >
+            <Container>
               <Grid container spacing={2} py={2}>
                 <Grid item xs={12} md={7}>
                   <Typography variant="h5" component="h2" gutterBottom style={{ color: "#115278" }}>
-                    Why dental veneers?
+                    Get your perfect smile with Porcelain Veneers
                   </Typography>
                   <Typography variant="body1" gutterBottom>
-                    Dental veneers are a less invasive alternative to dental crowns depending on the defects or damages you are dealing with. Veneers provide a more conservative approach to fixing teeth colour, size, and
-                    shape that can also be removed easily in the future if you decide to change them out. Their ability to cover up gaps between teeth and worn-out teeth makes dental veneers a lasting and cost-effective
-                    solution. Root canal procedures and the use of tetracycline medication can also permanently stain your teeth, making dental veneers a recommendable fix.
+                    Veneer treatments can range from a single tooth transformation to a complete smile makeover. To achieve a beautiful, natural-looking result, you need a dentist with an eye for detail and a commitment to perfection. Our dental staff is passionate about cosmetic dentistry and excels in creating stunning veneer smiles.
                   </Typography>
                   <Typography variant="body1" gutterBottom>
-                    Over time your teeth might get damaged, chipped, or discoloured, which can make you self-conscious about their appearance. Dental veneers offer a long-term solution to all these cosmetic needs with
-                    proven results in restoring beautiful natural smiles.
+                    At Carrum Downs Dental Group, we use Emax porcelain veneers, which mimic the appearance of youthful, natural teeth. Ceramic porcelain is aesthetically beautiful and superior in quality, offering you a long-term solution for your new smile.
+                    Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
+                  </Typography>
+                  {/* <Typography variant="body1" gutterBottom>
+                    Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
+                  </Typography> */}
+                  <Typography variant="body1" gutterBottom>
+                    We believe in supporting local, reputable Australian dental technicians and do not outsource our veneers or crowns to overseas labs with potentially compromised quality and regulation standards.
                   </Typography>
                 </Grid>
                 <Grid item xs={12} md={5}>
                   <Box>
-               <Image src="/Veneers/slider-images/before-after-section.jpg" alt="Image" width={550} height={430} className="img-fluid rounded-2" />
+                    <Image src="/Veneers/slider-images/before-after-section.jpg" alt="Image" width={550} height={450} className="img-fluid rounded-2" />
                   </Box>
                 </Grid>
               </Grid>
@@ -208,14 +207,14 @@ const VeneerSamplePage = ({ data }) => {
                 <Grid container spacing={2}>
                   {VeneerData.map((item, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
-                      <Box sx={{ p: 2 }}>
-                        <Card sx={{ maxWidth: 345 }} className="mx-auto shadow-none" style={{ border: "1px solid rgb(162 215 245)" }}>
+                      <Box sx={{ p: 2 }} style={{height:"100%"}}>
+                        <Card sx={{ maxWidth: 345 }} className="mx-auto shadow-none h-100" style={{ border: "1px solid rgb(162 215 245)" }}>
                           <CardMedia sx={{ height: 140 }} component="img" src={item.imageUrl.src} alt="Card Image" title="Card Image" className="mx-auto img-fluid" />
                           <CardContent>
-                            <Typography gutterBottom variant="h3" className="text-center maintainance-title-font fs-4">
+                            <Typography gutterBottom variant="h3" className="text-center maintainance-title-font veneer-font-color fs-4">
                               {item.title}
                             </Typography>
-                            <Typography variant="body2" color="text.secondary" className="text-center">
+                            <Typography variant="body2" color="text.secondary" className="text-justify">
                               {item.description}
                             </Typography>
                           </CardContent>
@@ -228,17 +227,7 @@ const VeneerSamplePage = ({ data }) => {
             </Container>
           </section>
           <section
-            className="teeth-missing-section1"
-            style={{
-              marginBottom: "2rem",
-              position: "relative",
-              backgroundImage: `url(${BgSectionImg.src})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              paddingBottom: "0.5rem",
-            }}
-          >
+            className="teeth-missing-section1">
             <Container>
               <Typography variant="h5" component="h2" gutterBottom className="text-center" style={{ color: "#115278" }}>
                 Our Process
@@ -250,7 +239,7 @@ const VeneerSamplePage = ({ data }) => {
               <Grid container spacing={2}>
                 {VeneerProcessData.map((item, index) => (
                   <Grid item xs={12} sm={6} md={6} key={index} className={index === 6 ? "centered-box" : ""}>
-                    <Box display="flex" alignItems="center">
+                    {/* <Box display="flex" alignItems="center">
                       <Box textAlign="center" p={2}>
                         <Image src={item.imageUrl} alt="Image" width={70} height={70} className="img-fluid object-contain"/>
                       </Box>
@@ -262,14 +251,15 @@ const VeneerSamplePage = ({ data }) => {
                           {item.description}
                         </Typography>
                       </Box>
-                    </Box>
+                    </Box> */}
+                    <VeneersProcessDataComponent image={item.imageUrl} title={item.title} description={item.description} list1={item.list1} desc1={item.desc1} desc2={item.desc2} list2={item.list2} />
                   </Grid>
                 ))}
               </Grid>
             </Container>
           </section>
           <section
-            className="teeth-missing-section1"
+            className="teeth-missing-section1 mt-4"
             style={{
               backgroundColor: "#000",
               marginBottom: "2rem",
@@ -311,24 +301,19 @@ const VeneerSamplePage = ({ data }) => {
               backgroundSize: "48%",
               backgroundColor: "#fff",
               backgroundRepeat: "no-repeat",
-              // backgroundAttachment: "fixed"
+              backgroundPosition:"left"
             }}
           >
             <Container>
               <Grid container spacing={3} className="mt-2">
-                <Grid item xs={12} md={6}> 
+                <Grid item xs={12} md={6}>
                 </Grid>
                 <Grid item xs={12} md={6} style={{ zIndex: 9, paddingBottom: "15px" }}>
                   <Typography className="para font-white" style={{ color: "#115278" }} variant="h2" sx={{ pb: 2 }}>
                     Our Guarantee
                   </Typography>
-                  <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
-                  <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
-                  <Typography className="para font-white">We will only design and craft smiles that we would want for ourselves.</Typography>
-                  <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
-                  <Typography className="para font-white">Your smile will be designed for you and only you. Our smile makeover team are artists, and perfectionists.</Typography>
-                  <Typography className="para font-white">We will only design and craft smiles that we would want for ourselves.</Typography>
-                  <Typography className="para font-white">We guarantee you will love your smile, We won’t stop until you do.</Typography>
+                  <Typography className="para font-white">At Carrum Downs Dental Group, we guarantee you will love your smile. We won't stop until you do. Your smile will be designed specifically for you, and our smile makeover team are true artists and perfectionists.</Typography>
+                  <Typography className="para font-white"> We will only design and craft smiles that we would want for ourselves.</Typography>
                   <Box>
                     <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
                   </Box>
@@ -337,13 +322,13 @@ const VeneerSamplePage = ({ data }) => {
             </Container>
           </section>
           <section
-            className="teeth-missing-section1"
+            className="teeth-missing-section1 mt-4"
             style={{
               marginBottom: "2rem",
               position: "relative",
             }}
           >
-            <FaqVeneers/> 
+            <FaqVeneers />
           </section>
           <section
             className="teeth-missing-section1 bg-grey"
@@ -355,14 +340,15 @@ const VeneerSamplePage = ({ data }) => {
             <Container>
               <Box py={2}>
                 <Typography variant="h5" component="h2" gutterBottom className="text-center mt-2" style={{ color: "#115278" }}>
-                  Free Call With A Cosmetic Dentist
+                  Free Call with A Cosmetic Dentist
                 </Typography>
                 <Box py={2}>
-                  <Typography className="para text-center">Small Bright With Confidence. Schedule a Conversation with Sydney’s Leading Cosmetic Dentist.</Typography>
+                  <Typography className="para text-center">At Carrum Downs Dental Group, we understand the importance of achieving a dazzling smile and exploring the various cosmetic dental options available. Our team is dedicated to answering all your questions and helping you unlock your perfect smile.</Typography>
                   <Typography className="para  text-center">
-                    Wondering how to achieve a dazzling smile? Want to explore options for teeth whitening, veneers, or other cosmetic procedures? People ask us all sorts of questions about enhancing their smiles. Do you
-                    have a question for a cosmetic dentist? Get in touch with us and unlock your perfect smile!
+                    Schedule a conversation with our leading cosmetic dentist today and take the first step towards a confident, radiant smile.
+                    We highly recommend considering Carrum Downs Dental Group for your veneer needs. With their commitment to excellence, personalized approach, and state-of-the-art facilities, you can trust that you'll receive exceptional care and stunning results.
                   </Typography>
+                  <Typography className="para text-center">Don't hesitate to book a consultation and experience the transformative power of their porcelain veneers firsthand.</Typography>
                 </Box>
                 <Box
                   sx={{

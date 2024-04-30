@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Styles from '../../styles/components-style/CommonHero/CommonHero.module.css'
 import { KeyboardArrowRight } from '@mui/icons-material'
 
-const CommonHero = ({ align, title, color, breadcrumb, bg }) => {
+const CommonHero = ({ align, title, color, breadcrumb, bg, desc }) => {
   return (
     <>
       <Container maxWidth="xxl" className={`${Styles.commonHero}`} style={{backgroundImage:`url(${bg.src})`}}>
@@ -34,6 +34,11 @@ const CommonHero = ({ align, title, color, breadcrumb, bg }) => {
                       }
                     </ul>
                   </nav> : null
+
+                   
+                }
+                {
+                   (desc ? <Typography className='HeroPara font-banner text-white'>{desc} </Typography> : null)
                 }
               </Box>
             </Box>

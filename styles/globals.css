@@ -701,3 +701,23 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-vubbuv {
 span.arrow-right {
     color: #647274;
 }
+
+.veneer-font-color{
+    color:#115278;
+}
+.img-process img {
+    max-height: 87px !important;
+  }
+  .img-process {
+    flex-basis: 91px;
+    flex-shrink: 0;
+  }
+
+  .HeroPara {
+    font-size: 1.1rem !important;
+    font-weight: 600;
+  }
+
+  .font-banner{
+    text-shadow: 1px 1px 7px rgb(0 0 0 / 76%);
+  }

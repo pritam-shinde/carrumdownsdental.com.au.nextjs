@@ -9,33 +9,33 @@ const veneerData = [
     {
         id: 1,
         title: "DISCOLOURED/STAINED",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        description: "Smoking, coffee, and age can leave your teeth with unsightly yellow or brown stains. Veneers can instantly brighten your smile and resist future staining with their special porcelain material.",
         imageUrl: Discolored,
     },
     {
         id: 2,
         title: "GAPPY",
-        description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: "Gaps between teeth can trap food and bacteria, leading to both health concerns and self-consciousness. Veneers can close minor gaps, creating a healthier and more confident appearance.",
         imageUrl: Gappy,
     },{
         id: 3,
         title: "BROKEN/CHIPPED",
-        description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: "Injuries, hard foods, and teeth grinding can cause breaks or chips, affecting your confidence and potentially causing pain. Veneers can restore the natural shape of your teeth, giving you a functional, beautiful smile.",
         imageUrl: Broken,
     }, {
         id: 4,
         title: "OVERCROWDED",
-        description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: "Overcrowded teeth can trap bacteria, increasing the risk of decay and gum disease. Veneers can create the illusion of straighter teeth for mild cases of overcrowding. (For severe overcrowding, orthodontic treatment may be necessary first.",
         imageUrl: Overcrowded,
     }, {
         id: 5,
         title: "WORN-DOWN",
-        description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: "Worn teeth can make you look older, cause sensitivity, and affect your ability to eat and drink comfortably. Veneers can restore the appearance and functionality of worn teeth, providing a more youthful look and improved comfort.",
         imageUrl: Worndown,
     }, {
         id: 5,
         title: "CROOKED",
-        description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        description: "Genetics, habits, and aging can contribute to crooked teeth, impacting your confidence and potentially causing discomfort. Veneers can reshape your smile, creating a symmetrical and stunning look.",
         imageUrl: Crooked,
     },
 ];
