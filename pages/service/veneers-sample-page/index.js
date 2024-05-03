@@ -5,7 +5,8 @@ import React, { useEffect, useState } from "react";
 import FaqVeneers from "../../../components/VeneersData/FaqVeneers";
 import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, VeneerData, VeneerProcessData, VeneersProcessDataComponent } from "../../../components/components";
 import BgSectionImg from "../../../public/Veneers/line1.png";
-import Banner from "../../../public/Veneers/veneers-banner2.jpg";
+import Banner from "../../../public/Veneers/carrumdowns-veneer-page-banner.jpg";
+// import Banner from "../../../public/Veneers/veneers-banner2.jpg";
 
 const VeneerSamplePage = ({ data }) => {
   const [show, setShow] = useState(false);
@@ -40,7 +41,7 @@ const desc="Veneers offer a remarkable solution to achieve the smile you've alwa
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
         <meta name="robots" content="noindex" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} desc={desc} title="Transforming Smiles with Veneers" align={width < 600 ? "center" : "left"} color="#115177" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} desc={desc} title="Transforming Smiles with Veneers" align={width < 600 ? "center" : "left"} color="#fff" />
       {show && (
         <main>
           <section
@@ -174,6 +175,8 @@ const desc="Veneers offer a remarkable solution to achieve the smile you've alwa
                   </Typography>
                   <Typography variant="body1" gutterBottom>
                     At Carrum Downs Dental Group, we use Emax porcelain veneers, which mimic the appearance of youthful, natural teeth. Ceramic porcelain is aesthetically beautiful and superior in quality, offering you a long-term solution for your new smile.
+                    </Typography>
+                  <Typography variant="body1" gutterBottom>
                     Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
                   </Typography>
                   {/* <Typography variant="body1" gutterBottom>
@@ -270,14 +273,14 @@ const desc="Veneers offer a remarkable solution to achieve the smile you've alwa
             <Container>
               <Box py={2}>
                 <Typography variant="h2" component="h2" className="text-white text-center" sx={{ mt: 3 }}>
-                  Achieve the smile you’ve always wanted
+                  Achieve the smile you’ve always wanted.
                 </Typography>
                 <Box sx={{ mt: 3 }}>
                   <Typography className="text-white text-center ">
-                    Everyone deserves to smile fully, and be confident in doing so. When you go through life hiding your smile, you’re potentially missing out on many pivotal moments, experiences and connections.
+                  Everyone is entitled to a smile that radiates confidence. Living life while hiding your smile can mean missing out on crucial relationships, great photo opportunities or experiences and happiness in general. 
                   </Typography>
                   <Typography className="text-white text-center  ">
-                    At Avant Garde Dental, your porcelain veneers are designed specially for you and your face, so your beautiful new smile will be one you can’t wait to show the world.
+                  At Carrum Downs Dental Group, we meticulously design porcelain veneers that are custom-made for your unique smile, ensuring that you'll be looking forward to sharing your dazzling smile with the world.
                   </Typography>
                   <Grid container spacing={3}>
                     {BeforeAfterData.map((item, index) => (
@@ -312,8 +315,7 @@ const desc="Veneers offer a remarkable solution to achieve the smile you've alwa
                   <Typography className="para font-white" style={{ color: "#115278" }} variant="h2" sx={{ pb: 2 }}>
                     Our Guarantee
                   </Typography>
-                  <Typography className="para font-white">At Carrum Downs Dental Group, we guarantee you will love your smile. We won't stop until you do. Your smile will be designed specifically for you, and our smile makeover team are true artists and perfectionists.</Typography>
-                  <Typography className="para font-white"> We will only design and craft smiles that we would want for ourselves.</Typography>
+                  <Typography className="para font-white" style={{ lineHeight: 2.2 }}>At Carrum Downs Dental Group, we guarantee you will love your smile. We won't stop until you do. Your smile will be designed specifically for you, and our smile makeover team are true artists and perfectionists. We will only design and craft smiles that we would want for ourselves.</Typography>
                   <Box>
                     <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
                   </Box>

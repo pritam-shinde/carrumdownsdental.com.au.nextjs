@@ -21,12 +21,12 @@ const veneerData = [
         id: 3,
         title: "BROKEN/CHIPPED",
         description: "Injuries, hard foods, and teeth grinding can cause breaks or chips, affecting your confidence and potentially causing pain. Veneers can restore the natural shape of your teeth, giving you a functional, beautiful smile.",
-        imageUrl: Broken,
+        imageUrl: Overcrowded,
     }, {
         id: 4,
         title: "OVERCROWDED",
         description: "Overcrowded teeth can trap bacteria, increasing the risk of decay and gum disease. Veneers can create the illusion of straighter teeth for mild cases of overcrowding. (For severe overcrowding, orthodontic treatment may be necessary first.)",
-        imageUrl: Overcrowded,
+        imageUrl: Broken,
     }, {
         id: 5,
         title: "WORN-DOWN",

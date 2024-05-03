@@ -33,9 +33,7 @@ const CommonHero = ({ align, title, color, breadcrumb, bg, desc }) => {
                         ))
                       }
                     </ul>
-                  </nav> : null
-
-                   
+                  </nav> : null  
                 }
                 {
                    (desc ? <Typography className='HeroPara font-banner text-white'>{desc} </Typography> : null)

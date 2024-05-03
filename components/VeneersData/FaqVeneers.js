@@ -9,7 +9,7 @@ const FaqVeneers = () => {
         <Box>
           <Box>
             <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions (FAQs)" align="center" />
-            <Typography variant='subtitle1' className='text-center veneer-font-color mt-4'>Below are some of our most frequently asked questions regarding our porcelain veneers. If you have a different question, please don't hesitate to get in touch with our team.</Typography>
+            <Typography className='para text-center veneer-font-color mt-4' style={{lineHeight:1.6, fontWeight:"bold"}}>Below are some of our most frequently asked questions regarding our porcelain veneers. If you have a different question, please don't hesitate to get in touch with our team.</Typography>
           </Box>
           <Box mt={3}>
             <div className="accordion" id="accordionExample">
