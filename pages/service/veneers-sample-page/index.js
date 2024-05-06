@@ -188,7 +188,8 @@ const desc="Veneers offer a remarkable solution to achieve the smile you've alwa
                 </Grid>
                 <Grid item xs={12} md={5}>
                   <Box>
-                    <Image src="/Veneers/slider-images/before-after-section.jpg" alt="Image" width={550} height={450} className="img-fluid rounded-2" />
+                    {/* <Image src="/Veneers/slider-images/before-after-section.jpg" alt="Image" width={550} height={450} className="img-fluid rounded-2" /> */}
+                    <CompareSlider1/>
                   </Box>
                 </Grid>
               </Grid>

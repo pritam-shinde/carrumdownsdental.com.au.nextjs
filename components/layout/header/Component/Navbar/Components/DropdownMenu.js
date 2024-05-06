@@ -76,7 +76,7 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
                         <Link href={item.path}>
                             <a className='nav-link text-dark'>{item.title}</a>
                         </Link>
-                    </li>) : null
+                    </li>): null
                 }
             </ul>
         </>

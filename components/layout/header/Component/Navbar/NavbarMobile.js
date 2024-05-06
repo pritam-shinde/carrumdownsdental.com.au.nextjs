@@ -14,6 +14,7 @@ const NavbarMobile = () => {
     const [aboutDropdown, setAboutDropdown] = useState(false);
     const [servicesDropdown, setServiceDropdown] = useState(false);
     const [dentalProblems, setDentalProblems] = useState(false);
+    const [blogDropdown, setBlogDropdown] = useState(false);
     const router = useRouter();
 
     const closeMobileMenu = () => {
@@ -21,6 +22,7 @@ const NavbarMobile = () => {
         setServiceDropdown(false);
         setAboutDropdown(false);
         setDentalProblems(false);
+        setBlogDropdown(false);
     };
     return (
         <nav className="navbar navbar-expand-xl bg-transparent px-2">
@@ -104,6 +106,24 @@ const NavbarMobile = () => {
                                 <a className="text-white nav-link">BLOG</a>
                             </Link>
                         </li>
+                        {/* <li className="nav-item dropdownListItem">
+                            <Box className="d-flex align-items-center">
+                                <Link href="/blog/" aria-label="about">
+                                    <a className="nav-link text-white" onClick={closeMobileMenu} aria-label="about">
+                                    BLOG
+                                    </a>
+                                </Link>
+                                <IconButton
+                                    onClick={() => {
+                                        setBlogDropdown(!blogDropdown);
+                                        setServiceDropdown(false);
+                                    }}
+                                    aria-label="Toggle About Dropdown">
+                                    <ArrowDropDown className="text-white" />
+                                </IconButton>
+                            </Box>
+                        </li> */}
+                        {/* {blogDropdown ? <DropdownMenu menu="blogDropdown" closeMobileMenu={closeMobileMenu} /> : null} */}
                         <li onClick={closeMobileMenu}>
                             <Link href="/contact-us/">
                                 <a className="text-white nav-link">CONTACT US</a>
