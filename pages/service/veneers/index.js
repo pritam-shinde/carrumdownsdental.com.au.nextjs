@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import Head from 'next/head'
-import Image from 'next/image' 
-import { BookAndCall, CommonHero, CommonSidebar, SectionalHeading, CustomCard, InterestFree, TermsNCondition } from '../../../components/components'
-import Banner from '../../../public/Veneers/venners.jpg'
-import PorcelainVeneers from '../../../public/Veneers/porcelain-Veneers.jpg'
-import { Box, Container, Grid, Typography } from '@mui/material'
- 
+import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
+import Head from "next/head";
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import FaqVeneers from "../../../components/VeneersData/FaqVeneers";
+import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, VeneerData, VeneerProcessData, VeneersProcessDataComponent } from "../../../components/components";
+import BgSectionImg from "../../../public/Veneers/line1.png";
+import Banner from "../../../public/Veneers/carrumdowns-veneer-page-banner.jpg";
+
 const Veneers = ({ data }) => {
   const [show, setShow] = useState(false)
   const [width, setWidth] = useState()
@@ -24,9 +25,15 @@ const Veneers = ({ data }) => {
   }, [width])
 
   const breadcrumb = [
-    { id: "Veneers_breadcrumb_1", link: "/service/", title: "Service" },
-    { id: "Veneers_breadcrumb_2", link: null, title: 'Dental Veneers in Carrum Downs' }
-  ]
+    { id: "Veneers_breadcrumb_1", link: "/service/", title: "Service", },
+    {
+      id: "Veneers_breadcrumb_2",
+      link: null,
+      title: "Dental Veneers in Carrum Downs",
+    },
+  ];
+
+  const desc = "Veneers offer a remarkable solution to achieve the smile you've always envisioned. At Carrum Downs Dental Group, we understand the importance of an investment like this, which is why we've partnered with zipMoney to provide our patients with convenient and affordable payment plan options."
 
   return (
     <>
@@ -35,159 +42,332 @@ const Veneers = ({ data }) => {
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
         <meta name="robots" content="index" />
       </Head>
-      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Veneers in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} desc={desc} title="Transforming Smiles with Veneers" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
         show ? <>
           <main>
-            <Container maxWidth="xxl">
-              <Grid container>
-                <Grid item xs={12} md={10} className="mx-auto">
-                  <Box py={5}>
-                    <Grid container spacing={3}>
-                      <Grid item xs={12} lg={8}>
-                        <section>
-                          <Container maxWidth="xxl" className='p-0'>
-                            <SectionalHeading variant="h2" title="When you look at pictures do you ever wish your teeth were whiter, straighter, more aligned?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                            <Typography className='para'>At Carrum Downs Dental Group at Shop T5, 100 Hall Road our dentists perform porcelain veneer ‘smile makeovers’ which can address all of these issues. We are delighted to be able to offer this “Hollywood” technique to our patients.</Typography>
-                          </Container>
-                        </section>
-                        <section className='mt-md-5 mt-4 bg-grey'>
-                          <Container maxWidth="xxl" className='p-0'>
-                            <Box p={3}>
-                              <SectionalHeading variant="h2" title="What are porcelain Veneers?" align='center' color="var(--dark-blue)" />
-                              <Box mt={3}>
-                                <Grid container spacing={5}>
-                                  <Grid item xs={12} md={6}>
-                                    <Image src={PorcelainVeneers} alt="porcelain-Veneers" />
-                                  </Grid>
-                                  <Grid item xs={12} md={6}>
-                                    <Typography className='para'><strong>Porcelain veneers are thin shells of ceramic that bond directly to the front surfaces of the teeth.</strong> They are an ideal choice for improving your smile and have become increasingly popular due to their simplicity and versatility.</Typography>
-                                    <Typography className='para'>Placing custom teeth veneers requires a high degree of technical skill as well as attention to cosmetic detail. We place dental veneers routinely, and design each case individually to match and enhance the characteristics of each patient’s smile.</Typography>
-                                  </Grid>
-                                </Grid>
-                              </Box>
-                            </Box>
-                          </Container>
-                        </section>
-                        <section className="mt-md-5 mt-4">
-                          <Container maxWidth="xxl" className="p-0">
-                            <SectionalHeading variant="h2" title="Will they look like normal teeth?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                            <Typography className='para'>When bonded to the teeth, the ultra-thin porcelain veneers are virtually undetectable. They are also highly resistant to coffee, tea, or even cigarette stains. For strength and appearance, their resemblance to healthy, white tooth enamel is unsurpassed by other restorative options.</Typography>
-                          </Container>
-                        </section>
-                        <section className="mt-md-5 mt-4 bg-grey">
-                          <Container maxWidth="xxl" className='p-0'>
-                            <Box p={3}>
-                              <SectionalHeading variant="h2" title="How durable are porcelain veneers?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                              <Typography className='para'>With proper care, porcelain veneers will brighten your smile for well over a decade. At Carrum Downs Dental Group on Frankston-Dandenong Road we ensure that your teeth veneers are crafted from the highest quality porcelains and are bonded with the most advanced and proven materials available.</Typography>
-                              <Typography className='para'>Refraining from using your veneers as tools to open and cut things will prolong their life, and if accidental breakage or damage occurs, it is usually possible to replace only the veneer involved.</Typography>
-                              <Typography className='para'>Call Carrum Downs Dental on <strong>03-9782 1200</strong> today for your consultation and Change your smile.</Typography>
-                              <Box mt={3}>
-                                <BookAndCall appointment={true} call={true} />
-                              </Box>
-                            </Box>
-                          </Container>
-                        </section>
-                        <section className="mt-md-5 mt-4">
-                          <Container maxWidth="xxl" className="p-0">
-                            <Box>
-                              <Box>
-                                <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions (FAQs)" align="center" />
-                              </Box>
-                              <Box mt={3}>
-                                <div className="accordion" id="accordionExample">
-                                  <div className="accordion-item">
-                                    <h3 className="accordion-header" id="headingOne">
-                                      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                      Are veneers covered by dental insurance?
-                                      </button>
-                                    </h3>
-                                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                      <div className="accordion-body">
-                                        <p className='para'>Being a cosmetic procedure, it depends on the insurance cover you have. Check with your</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="accordion-item">
-                                    <h3 className="accordion-header" id="headingTwo">
-                                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                      Do dental veneers stain?
-                                      </button>
-                                    </h3>
-                                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                      <div className="accordion-body">
-                                        <p className='para'>Dental veneers are made from stain-resistant composite, so they do not get easily stained. However, they can be susceptible to staining over time.</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="accordion-item">
-                                    <h3 className="accordion-header" id="headingThree">
-                                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                      Do porcelain veneers ruin your teeth?
-                                      </button>
-                                    </h3>
-                                    <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                      <div className="accordion-body">
-                                        <p className='para'>No, porcelain veneers do not ruin natural teeth. In fact, they are customized to fit over your teeth and enhance the smile.</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="accordion-item">
-                                    <h3 className="accordion-header" id="headingFour">
-                                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                      Do veneers make your breath smell?
-                                      </button>
-                                    </h3>
-                                    <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                      <div className="accordion-body">
-                                        <p className='para'>No, veneers do not make your breath smell. The foul smell could be caused by other factors and the neglect of your oral hygiene.</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </Box>
-                            </Box>
-                          </Container>
-                        </section>
-                        <section className='mt-md-5 mt-4'>
-                      <InterestFree />
-                      <TermsNCondition />
-                    </section>
-                    <section className='mt-md-5 mt-4 bg-grey'>
-                      <Container maxWidth="xxl" className="p-0">
-                        <Box p={2}>
-                          <SectionalHeading variant="h5" color="var(--dark-blue)" title="Book an appointment with Carrum Downs Dental (100 Hall Road) on 03-9782 1200 for your wisdom tooth extraction." align="center" />
-                          <Box mt={2} className="d-flex justify-content-center">
-                            <BookAndCall appointment={true} call={true} />
+            <section
+              className="teeth-missing-section1"
+              style={{
+                backgroundColor: "#000",
+                marginBottom: "2rem",
+                position: "relative",
+                paddingTop: "60px",
+                backgroundImage: `url("/Veneers/dental-veneers-section-bg.jpg")`,
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center left",
+                backgroundAttachment: "fixed",
+              }}
+            >
+              <Grid>
+                <Grid container spacing={2}>
+                  <Grid
+                    container
+                    spacing={3}
+                    className="properties-section justify-content-center"
+                    style={{
+                      marginTop: "-120px",
+                      marginLeft: "32px",
+                    }}
+                  >
+                    <Grid
+                      item
+                      xs={12}
+                      md={3}
+                      style={{
+                        border: "1px solid rgb(162 215 245)",
+                        background: "#fff",
+                        borderRadius: "0.5rem",
+                        marginRight: "20px",
+                        marginBottom: "20px",
+                        padding: "0.5rem",
+                      }}
+                    >
+                      <Box className="text-center">
+                        <Typography variant="subtitle1" className="mb-2 veneer-font-color">
+                          Natural Beauty
+                        </Typography>
+                        Our ultra-thin, custom-crafted porcelain veneers are meticulously designed to mimic the natural appearance and feel of your enamel, seamlessly blending with your unique smile.
+                      </Box>
+                    </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      md={3}
+                      style={{
+                        border: "1px solid rgb(162 215 245)",
+                        background: "#fff",
+                        borderRadius: "0.5rem",
+                        marginRight: "20px",
+                        marginBottom: "20px",
+                        padding: "0.5rem",
+                      }}
+                    >
+                      <Box className="text-center">
+                        <Typography variant="subtitle1" className="mb-2 veneer-font-color">
+                          Tailored to Your Individuality
+                        </Typography>
+                        Utilizing advanced digital technology, we map your facial features to create veneers that perfectly complement your one-of-a-kind smile. You'll achieve a radiant, personalized look that enhances your natural beauty.
+                      </Box>
+                    </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      md={3}
+                      style={{
+                        border: "1px solid rgb(162 215 245)",
+                        background: "#fff",
+                        borderRadius: "0.5rem",
+                        marginRight: "20px",
+                        marginBottom: "20px",
+                        padding: "0.5rem",
+                      }}
+                    >
+                      <Box className="text-center">
+                        <Typography variant="subtitle1" className="mb-2 veneer-font-color">
+                          Lasting Confidence
+                        </Typography>
+                        Crafted from high-quality porcelain, our veneers offer exceptional strength and durability, ensuring your beautiful smile remains vibrant and radiant for years to come.
+                      </Box>
+                    </Grid>
+                  </Grid>
+                  <Container maxWidth="xxl">
+                    <Grid container spacing={2}>
+                      <Grid item xs={12} md={6}>
+                      </Grid>
+                      <Grid item xs={12} md={6}>
+                        <Box sx={{ p: 2 }}>
+                          <Typography variant="h5" component="h2" gutterBottom className="text-white">
+                            What are Porcelain Veneers?
+                          </Typography>
+                          <Typography variant="body1" gutterBottom className="text-white">
+                            Veneers are thin porcelain shells bonded to the front surfaces of your natural teeth. The teeth are carefully prepared by polishing down the enamel, allowing the veneers to blend seamlessly and feel natural.
+                          </Typography>
+                          <Typography variant="body1" gutterBottom className="text-white">
+                            Our skilled dentist, takes great care in selecting the perfect shade, shape, and design for your veneers before permanently bonding them. The porcelain veneers are crafted to look natural, provide strength, and ensure long-lasting results.
+                          </Typography>
+                          <Box>
+                            <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
                           </Box>
                         </Box>
-                      </Container>
-                    </section>
-                    <section className="mt-md-5 mt-4">
-                      <Container maxWidth="xxl" className="p-0">
-                        <Box>
-                          <SectionalHeading variant="h2" color="var(--dark-blue)" title="Recent Posts" align="center" />
-                        </Box>
-                        <Box mt={3}>
-                          <Grid container spacing={3}>
-                            {
-                              blogs.map(item => <Grid item key={item.id} xs={12} md={6} >
-                                <CustomCard cardMedia={item._embedded ? item._embedded['wp:featuredmedia'] ? item._embedded['wp:featuredmedia'][0] ? item._embedded['wp:featuredmedia'][0].source_url : null : null : null} navlink={true} link={`/${item.slug}/`} cardTitle={item.title.rendered} cardPara={`${item.excerpt.rendered.split(" ").slice(0, 20).join(" ")} [...]`} cardHeight="auto" cardCls="shadow grow m-3" List={null} cardMediaAlt={item ? item._embedded ? item._embedded['wp:featuredmedia'] ? item._embedded['wp:featuredmedia'][0] ? item._embedded['wp:featuredmedia'][0].alt_text ? item._embedded['wp:featuredmedia'][0].alt_text : null : null : null : null : null} />
-                              </Grid>)
-                            }
-                          </Grid>
-                        </Box>
-                      </Container>
-                    </section>
-                      </Grid>
-                      <Grid item xs={12} lg={4}>
-                        <CommonSidebar isContactAvailable={true} isServicesAvailable={true} />
                       </Grid>
                     </Grid>
-                  </Box>
+                  </Container>
                 </Grid>
               </Grid>
-            </Container>
+            </section>
+            <section
+              className="teeth-missing-section1"
+              style={{
+                marginTop: "2rem",
+                marginBottom: "2rem",
+                position: "relative",
+                paddingBottom: "0.5rem",
+              }}
+            >
+              <Container>
+                <Grid container spacing={2} py={2}>
+                  <Grid item xs={12} md={7}>
+                    <Typography variant="h5" component="h2" gutterBottom style={{ color: "#115278" }}>
+                      Get your perfect smile with Porcelain Veneers
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                      Veneer treatments can range from a single tooth transformation to a complete smile makeover. To achieve a beautiful, natural-looking result, you need a dentist with an eye for detail and a commitment to perfection. Our dental staff is passionate about cosmetic dentistry and excels in creating stunning veneer smiles.
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                      At Carrum Downs Dental Group, we use Emax porcelain veneers, which mimic the appearance of youthful, natural teeth. Ceramic porcelain is aesthetically beautiful and superior in quality, offering you a long-term solution for your new smile.
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                      Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
+                    </Typography>
+                    {/* <Typography variant="body1" gutterBottom>
+                    Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
+                  </Typography> */}
+                    <Typography variant="body1" gutterBottom>
+                      We believe in supporting local, reputable Australian dental technicians and do not outsource our veneers or crowns to overseas labs with potentially compromised quality and regulation standards.
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12} md={5}>
+                    <Box>
+                      {/* <Image src="/Veneers/slider-images/before-after-section.jpg" alt="Image" width={550} height={450} className="img-fluid rounded-2" /> */}
+                      <CompareSlider1 />
+                    </Box>
+                  </Grid>
+                </Grid>
+              </Container>
+            </section>
+            <section
+              className="teeth-missing-section1 bg-grey"
+              style={{
+                marginBottom: "2rem",
+                position: "relative",
+                paddingBottom: "0.5rem",
+              }}
+            >
+              <Container>
+                <Box py={2}>
+                  <Typography variant="h5" component="h2" gutterBottom className="text-center" style={{ color: "#115278" }}>
+                    How about maintenance?
+                  </Typography>
+                  <Grid container spacing={2}>
+                    {VeneerData.map((item, index) => (
+                      <Grid item xs={12} sm={6} md={4} key={index}>
+                        <Box sx={{ p: 2 }} style={{ height: "100%" }}>
+                          <Card sx={{ maxWidth: 345 }} className="mx-auto shadow-none h-100" style={{ border: "1px solid rgb(162 215 245)" }}>
+                            <CardMedia sx={{ height: 140 }} component="img" src={item.imageUrl.src} alt="Card Image" title="Card Image" className="mx-auto img-fluid" />
+                            <CardContent>
+                              <Typography gutterBottom variant="h3" className="text-center maintainance-title-font veneer-font-color fs-4">
+                                {item.title}
+                              </Typography>
+                              <Typography variant="body2" color="text.secondary" className="text-justify">
+                                {item.description}
+                              </Typography>
+                            </CardContent>
+                          </Card>
+                        </Box>
+                      </Grid>
+                    ))}
+                  </Grid>
+                </Box>
+              </Container>
+            </section>
+            <section
+              className="teeth-missing-section1">
+              <Container>
+                <Typography variant="h5" component="h2" gutterBottom className="text-center" style={{ color: "#115278" }}>
+                  Our Process
+                </Typography>
+                <Typography className="para mt-2">
+                  Achieve a radiant, lasting smile with our comprehensive veneer process. We prioritize meticulous care and precision throughout the seven steps, ensuring a comfortable experience and natural-looking results
+                  that perfectly complement your unique smile.
+                </Typography>
+                <Grid container spacing={2}>
+                  {VeneerProcessData.map((item, index) => (
+                    <Grid item xs={12} sm={6} md={6} key={index} className={index === 6 ? "centered-box" : ""}>
+                      {/* <Box display="flex" alignItems="center">
+                      <Box textAlign="center" p={2}>
+                        <Image src={item.imageUrl} alt="Image" width={70} height={70} className="img-fluid object-contain"/>
+                      </Box>
+                      <Box>
+                        <Typography variant="h6" component="h3" gutterBottom>
+                          {item.title}
+                        </Typography>
+                        <Typography variant="body1" paragraph>
+                          {item.description}
+                        </Typography>
+                      </Box>
+                    </Box> */}
+                      <VeneersProcessDataComponent image={item.imageUrl} title={item.title} description={item.description} list1={item.list1} desc1={item.desc1} desc2={item.desc2} list2={item.list2} />
+                    </Grid>
+                  ))}
+                </Grid>
+              </Container>
+            </section>
+            <section
+              className="teeth-missing-section1 mt-4"
+              style={{
+                backgroundColor: "#000",
+                marginBottom: "2rem",
+                position: "relative",
+                paddingBottom: "0.5rem",
+              }}
+            >
+              <Container>
+                <Box py={2}>
+                  <Typography variant="h2" component="h2" className="text-white text-center" sx={{ mt: 3 }}>
+                    Achieve the smile you’ve always wanted.
+                  </Typography>
+                  <Box sx={{ mt: 3 }}>
+                    <Typography className="text-white text-center ">
+                      Everyone is entitled to a smile that radiates confidence. Living life while hiding your smile can mean missing out on crucial relationships, great photo opportunities or experiences and happiness in general.
+                    </Typography>
+                    <Typography className="text-white text-center  ">
+                      At Carrum Downs Dental Group, we meticulously design porcelain veneers that are custom-made for your unique smile, ensuring that you'll be looking forward to sharing your dazzling smile with the world.
+                    </Typography>
+                    <Grid container spacing={3}>
+                      {BeforeAfterData.map((item, index) => (
+                        <Grid item xs={12} sm={4} md={4} key={index}>
+                          <Box textAlign="center" p={1}>
+                            <Image src={item.imageUrl} alt="Image" width={350} height={380} className="img-fluid border border-1" />
+                          </Box>
+                        </Grid>
+                      ))}
+                    </Grid>
+                  </Box>
+                </Box>
+              </Container>
+            </section>
+            <section
+              className="teeth-missing-section1 veneer-section"
+              style={{
+                marginBottom: "2rem",
+                position: "relative",
+                backgroundImage: `url("/Veneers/group-attractive-young-adult-people-isolated-white (1) (1).jpg")`,
+                backgroundSize: "48%",
+                backgroundColor: "#fff",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "left"
+              }}
+            >
+              <Container>
+                <Grid container spacing={3} className="mt-2">
+                  <Grid item xs={12} md={6}>
+                  </Grid>
+                  <Grid item xs={12} md={6} style={{ zIndex: 9, paddingBottom: "15px" }}>
+                    <Typography className="para font-white" style={{ color: "#115278" }} variant="h2" sx={{ pb: 2 }}>
+                      Our Guarantee
+                    </Typography>
+                    <Typography className="para font-white" style={{ lineHeight: 2.2 }}>At Carrum Downs Dental Group, we guarantee you will love your smile. We won't stop until you do. Your smile will be designed specifically for you, and our smile makeover team are true artists and perfectionists. We will only design and craft smiles that we would want for ourselves.</Typography>
+                    <Box>
+                      <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
+                    </Box>
+                  </Grid>
+                </Grid>
+              </Container>
+            </section>
+            <section
+              className="teeth-missing-section1 mt-4"
+              style={{
+                marginBottom: "2rem",
+                position: "relative",
+              }}
+            >
+              <FaqVeneers />
+            </section>
+            <section
+              className="teeth-missing-section1 bg-grey"
+              style={{
+                position: "relative",
+                paddingBottom: "0.5rem",
+              }}
+            >
+              <Container>
+                <Box py={2}>
+                  <Typography variant="h5" component="h2" gutterBottom className="text-center mt-2" style={{ color: "#115278" }}>
+                    Free Call with A Cosmetic Dentist
+                  </Typography>
+                  <Box py={2}>
+                    <Typography className="para text-center">At Carrum Downs Dental Group, we understand the importance of achieving a dazzling smile and exploring the various cosmetic dental options available. Our team is dedicated to answering all your questions and helping you unlock your perfect smile.</Typography>
+                    <Typography className="para  text-center">
+                      Schedule a conversation with our leading cosmetic dentist today and take the first step towards a confident, radiant smile.
+                      We highly recommend considering Carrum Downs Dental Group for your veneer needs. With their commitment to excellence, personalized approach, and state-of-the-art facilities, you can trust that you'll receive exceptional care and stunning results.
+                    </Typography>
+                    <Typography className="para text-center">Don't hesitate to book a consultation and experience the transformative power of their porcelain veneers firsthand.</Typography>
+                  </Box>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
+                    <BlueOulinedBtn anchor={true} btnTitle="03-9782 1200" btnLink="tel:03-9782 1200" ariaLabel="call now" />
+                  </Box>
+                </Box>
+              </Container>
+            </section>
           </main>
         </> : null
       }

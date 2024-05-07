@@ -261,7 +261,7 @@ const NavbarDesktop = () => {
                                 </Link>
                                 <ul className="dropdown-menu p-2 border-0 shadow" aria-labelledby="navbarDropdown">
                                     <li className="nav-item">
-                                        <Link href="/blog/video-gallery/">
+                                        <Link href="/video-gallery/">
                                             <a className="nav-link dropdown-item">VIDEO GALLERY</a>
                                         </Link>
                                     </li>

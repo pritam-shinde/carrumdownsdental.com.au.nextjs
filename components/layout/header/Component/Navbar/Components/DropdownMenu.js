@@ -76,7 +76,7 @@ const DropdownMenu = ({ menu, closeMobileMenu }) => {
                         <Link href={item.path}>
                             <a className='nav-link text-dark'>{item.title}</a>
                         </Link>
-                    </li>): menu ==="blogDropdown" ? [{ id: "blogDropdown-1", title: "VIDEO GALLERY", path: "/blog/video-gallery" },].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
+                    </li>): menu ==="blogDropdown" ? [{ id: "blogDropdown-1", title: "VIDEO GALLERY", path: "/video-gallery" },].map(item => <li className="nav-item mb-2" key={item.id} onClick={() => { setClick(false); closeMobileMenu() }}>
                         <Link href={item.path}>
                             <a className='nav-link text-dark p-0'>{item.title}</a>
                         </Link>
