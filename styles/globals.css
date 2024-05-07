@@ -370,6 +370,12 @@ footer a:hover {
     display: none !important;
 }
 
+@media(min-width: 540px){
+    p.video-embed {
+        height: 366px;
+    }
+}
+
 @media only screen and (max-width: 390px) and (min-width :200px) {
     section.teeth-missing-section1 {
         padding-bottom: 140px;
