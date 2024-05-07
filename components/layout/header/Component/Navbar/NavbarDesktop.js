@@ -250,10 +250,22 @@ const NavbarDesktop = () => {
                                     </ul>
                                 </ul>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link href="/blog/">
                                     <a className="nav-link">BLOG</a>
                                 </Link>
+                            </li> */}
+                             <li className="nav-item dropdown">
+                                <Link href="/blog/">
+                                    <a className="nav-link dropdown-toggle" id="navbardropdown1" aria-labelledby="navbarDropdown" aria-haspopup="true" role="button" aria-pressed="true">BLOG</a>
+                                </Link>
+                                <ul className="dropdown-menu p-2 border-0 shadow" aria-labelledby="navbarDropdown">
+                                    <li className="nav-item">
+                                        <Link href="/blog/video-gallery/">
+                                            <a className="nav-link dropdown-item">VIDEO GALLERY</a>
+                                        </Link>
+                                    </li>
+                                </ul>
                             </li>
                             <li className="nav-item">
                                 <Link href="/contact-us/">

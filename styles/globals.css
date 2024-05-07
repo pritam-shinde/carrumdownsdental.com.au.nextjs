@@ -733,3 +733,7 @@ span.arrow-right {
 .font-banner{
     text-shadow: 1px 1px 12px rgb(0 0 0 / 76%);
   }
+  /*  */
+  .dear_doctor_video_widget_addthis_toolbox.addthis_default_style a:nth-child(1) {
+    margin-right: 5px;
+}

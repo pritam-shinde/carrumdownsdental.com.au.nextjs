@@ -101,12 +101,12 @@ const NavbarMobile = () => {
                             </Box>
                         </li>
                         {dentalProblems ? <DropdownMenu menu="dentalProblems" closeMobileMenu={closeMobileMenu} /> : null}
-                        <li onClick={closeMobileMenu}>
+                        {/* <li onClick={closeMobileMenu}>
                             <Link href="/blog/">
                                 <a className="text-white nav-link">BLOG</a>
                             </Link>
-                        </li>
-                        {/* <li className="nav-item dropdownListItem">
+                        </li> */}
+                        <li className="nav-item dropdownListItem">
                             <Box className="d-flex align-items-center">
                                 <Link href="/blog/" aria-label="about">
                                     <a className="nav-link text-white" onClick={closeMobileMenu} aria-label="about">
@@ -122,8 +122,8 @@ const NavbarMobile = () => {
                                     <ArrowDropDown className="text-white" />
                                 </IconButton>
                             </Box>
-                        </li> */}
-                        {/* {blogDropdown ? <DropdownMenu menu="blogDropdown" closeMobileMenu={closeMobileMenu} /> : null} */}
+                        </li>
+                        {blogDropdown ? <DropdownMenu menu="blogDropdown" closeMobileMenu={closeMobileMenu} /> : null}
                         <li onClick={closeMobileMenu}>
                             <Link href="/contact-us/">
                                 <a className="text-white nav-link">CONTACT US</a>
