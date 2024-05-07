@@ -1,8 +1,25 @@
 import { Box, CircularProgress, Container, Grid, Stack } from "@mui/material";
 import Head from "next/head";
 import { useEffect, useState, useRef } from "react";
+import { CommonHero } from "../../components/components";
+import GalleryBanner from '../../public/video-gallery/carrum-video-gallery-banner1.jpg'
 
 const VideoGallery = () => {
+    const [show, setShow] = useState(false)
+    const [width, setWidth] = useState()
+
+    useEffect(() => {
+        setWidth(window.innerWidth)
+    }, [width])
+
+    useEffect(() => {
+        if (typeof window !== undefined) {
+            setShow(true)
+        } else {
+            setShow(false)
+        }
+    }, [])
+
     const [scriptLoaded, setScriptLoaded] = useState(false);
     const [isLoading, setIsLoading] = useState(true)
     const observedDivRef = useRef(null);
@@ -72,7 +89,9 @@ const VideoGallery = () => {
             }
         });
     }
-
+  const breadcrumb = [
+    { id: "patient_referral_program_breadcrumb_1", link: null, title: "Video Gallery" }
+  ]
     return (
         <>
             <Head>
@@ -81,8 +100,9 @@ const VideoGallery = () => {
                 <meta name="robots" content="noindex" />
                 {/* <script src="https://www.deardoctor.com/widgets/video-gallery/js/dear_doctor_video_widget.js" async /> */}
             </Head>
+            <CommonHero bg={GalleryBanner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Video Gallery" />
 
-            <section style={{ marginTop: "12rem" }}>
+            <section>
                 <Container maxWidth="xxl">
                     <Grid container>
                         <Grid item xs={12} md={10} className="mx-auto">
