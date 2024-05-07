@@ -310,6 +310,12 @@ footer a:hover {
     }
 }
 
+@media(min-width: 540px){
+    p.video-embed {
+        height: 366px;
+    }
+}
+
 /* upper clippath */
 .upper_clipPath {
     background-color: #1ebdb6;
