@@ -95,8 +95,8 @@ const VideoGallery = () => {
     return (
         <>
             <Head>
-                <title>Video gallery</title>
-                <meta name="description" content="" />
+                <title>Check Out Video Gallery | Carrum Downs Dental Clinic</title>
+                <meta name="description" content="Explore our comprehensive video gallery at Carrum Downs Dental Clinic, showcasing informative videos on dental treatments tips, patient testimonials." />
                 <meta name="robots" content="index" />
                 {/* <script src="https://www.deardoctor.com/widgets/video-gallery/js/dear_doctor_video_widget.js" async /> */}
             </Head>

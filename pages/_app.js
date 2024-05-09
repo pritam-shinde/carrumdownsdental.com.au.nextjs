@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   const canonicalUrl = (`https://carrumdownsdental.com.au` + (router.asPath === "/" ? "" : router.asPath)).split("?")[0];
+ 
   return (
     <>
       <Head>
