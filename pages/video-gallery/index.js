@@ -97,7 +97,7 @@ const VideoGallery = () => {
             <Head>
                 <title>Video gallery</title>
                 <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <meta name="robots" content="index" />
                 {/* <script src="https://www.deardoctor.com/widgets/video-gallery/js/dear_doctor_video_widget.js" async /> */}
             </Head>
             <CommonHero bg={GalleryBanner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Video Gallery" />

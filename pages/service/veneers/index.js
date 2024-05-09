@@ -38,9 +38,9 @@ const Veneers = ({ data }) => {
   return (
     <>
       <Head>
-        <title>Porcelain Veneers Dentist | Best Dentist Carrum Downs</title>
+        <title>Porcelain Veneers Dentist | Carrum Downs Family Dental Clinic</title>
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
-        <meta name="robots" content="index" />
+        <meta name="robots" content="index,follow" /> 
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} desc={desc} title="Transforming Smiles with Veneers" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
