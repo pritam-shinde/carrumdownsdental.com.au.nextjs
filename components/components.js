@@ -15,6 +15,7 @@ export {default as BookAndCall} from './BookAndCall/BookAndCall';
 export {default as PPCHeader} from './layout/PPCHeader/PPCHeader';
 export {default as PPCBanner} from './PPCBanner/PPCBanner';
 export {default as PPCFooter} from './layout/PPCFooter/PPCFooter'
+export { default as SleepDentistryCard } from './SleepDentistryCard/SleepDentistryCard';
 
 // 
 export { default as BeforeAfterData } from './VeneersData/beforeAfterData'
@@ -23,3 +24,4 @@ export { default as VeneerData } from './VeneersData/veneerData'
 // export { default as CompareSlider } from './CompareSlider/CompareSlider'
 export { default as CompareSlider1 } from './CompareSlider/CompareSlider1'
 export { default as VeneersProcessDataComponent } from './VeneersData/VeneersProcessDataComponent'
+export { default as SleepDentistrySlider } from './SleepDentistrySlider/SleepDentistrySlider'
