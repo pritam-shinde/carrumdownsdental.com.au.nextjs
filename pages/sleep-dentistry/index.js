@@ -5,7 +5,6 @@ import { Box, Container, Grid, Typography, Card, CardMedia, CardContent } from '
 import Image from 'next/image'
 // import teethMissing1 from "../../public/teeth-missing/teeth-missing1.png"
 import SleepDentistryWhat from "../../public/sleep-denstistry/smile-dentistry-what.jpg"
-import SleepImg from "../../public/sleep-denstistry/sleep-dentisry.jpg"
 import Image1 from "../../public/sleep-denstistry/dental-anxiety.jpg"
 import Image2 from "../../public/sleep-denstistry/Patients-who-cannot-bear-pain.jpg"
 import Image3 from "../../public/sleep-denstistry/bad-dental-experiences.jpg"
@@ -14,6 +13,7 @@ import Sedation from "../../public/sleep-denstistry/sedation.jpg"
 import HappyGas from "../../public/sleep-denstistry/happy-gas.jpg"
 import Special from "../../public/sleep-denstistry/special-healthcare-needs.jpg"
 import Banner from '../../public/sleep-denstistry/sleep-den-banner1.jpg'
+import SleepImg from "../../public/sleep-denstistry/sleep-dentisry-new.jpg"
 import SleepDentistrySlider from '../../components/SleepDentistrySlider/SleepDentistrySlider'
 
 const SleepDentistry = () => {
