@@ -32,7 +32,7 @@ const SleepDentistry = () => {
         }
     }, []);
     const breadcrumb = [
-        { id: "patient_referral_program_breadcrumb_1", link: null, title: "Referral Program" }
+        { id: "patient_referral_program_breadcrumb_1", link: null, title: "Sleep Dentistry" }
     ]
 
     return (
@@ -42,7 +42,7 @@ const SleepDentistry = () => {
                 <meta name="description" content="" />
                 <meta name="robots" content="noindex" />
             </Head>
-            <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Referral Program" />
+            <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Sleep Dentistry" />
             {/* <section className="my-4 py-4">
                 <Container maxWidth="xxl">
                     <Grid container>
@@ -64,7 +64,7 @@ const SleepDentistry = () => {
                                     Sleep Dentistry
                                 </Typography> */}
                                 <SectionalHeading variant="h2" title="Sleep Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                                <Typography className="para mt-2">
+                                <Typography className="para mt-2" >
                                     Are you one of the many who feel anxious about dental appointments? Our clinic in Bayswater understands these concerns and offers Sleep Dentistry to make your visit as comfortable as possible. With this approach, you can undergo treatment without experiencing pain or anxiety, ensuring a smoother dental experience.
                                 </Typography>
 
@@ -148,7 +148,7 @@ const SleepDentistry = () => {
                                         <CardMedia component="img" src={Image2.src} alt="scale and clean" className={styles.cardImage} />
 
                                         <CardContent className={styles.cardContent}>
-                                            <Typography variant="h5" component="h3" className=" maintainance-title-font veneer-font-color fs-4">
+                                            <Typography variant="h5" component="h3" className="maintainance-title-font veneer-font-color fs-4">
                                                 Those who’ve had bad dental experiences
                                             </Typography>
                                             <Typography variant="body2" style={{ lineHeight: 1.8 }}>
@@ -180,12 +180,12 @@ const SleepDentistry = () => {
                 <Container maxWidth="xxl">
                     <Grid container>
                         <Grid item xs={12} md={9} className="mx-auto">
-                            <SectionalHeading variant="h2" title="What are the alternatives to sleep dentistry?" align={width > 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                            <SectionalHeading variant="h2" title="What are the alternatives to sleep dentistry?" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                             <Typography className="para mt-2">Our clinic works with patients to understand their source of anxiety to help them through the dental procedure in the best way possible. While sleep dentistry is used in many cases, other alternatives are also discussed with patients according to their comfort and ability to tolerate pain.</Typography>
                         </Grid>
-                        <Grid item xs={12} md={10} className="mx-auto pb-4">
+                        <Grid item xs={12} md={9} className="mx-auto pb-4">
                             <Grid container justifyContent="center" spacing={4}>
-                                <Grid item xs={12} md={5} sm={6}>
+                                <Grid item xs={12} md={6} sm={6}>
                                     <Card className={styles.card}>
                                         <CardMedia component="img" src={Sedation.src} alt="scale and clean" className={styles.ChoosecardImage} />
 
@@ -199,7 +199,7 @@ const SleepDentistry = () => {
                                         </CardContent>
                                     </Card>
                                 </Grid>
-                                <Grid item xs={12} md={5} sm={6}>
+                                <Grid item xs={12} md={6} sm={6}>
                                     <Card className={styles.card}>
                                         {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
                                         <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} />
