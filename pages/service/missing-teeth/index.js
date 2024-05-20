@@ -18,7 +18,7 @@ const index = () => {
         <>
             <Head>
                 <title>Missing Teeth In Carrum Downs | Carrum Downs Dental</title>
-                <meta name="description" content="" />
+                <meta name="description" content="Explore Solutions for Missing Teeth. Don't let missing teeth affect your confidence and oral health. Contact Carrum Downs Dental Group for Dental Problems." />
                 <meta name="robots" content="noindex" />
             </Head>
             <section className='teeth-missing-section1' style={{
