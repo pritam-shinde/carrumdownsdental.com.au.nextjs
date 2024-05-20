@@ -43,26 +43,14 @@ const SleepDentistry = () => {
                 <meta name="robots" content="noindex" />
             </Head>
             <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Sleep Dentistry" />
-            {/* <section className="my-4 py-4">
-                <Container maxWidth="xxl">
-                    <Grid container>
-                        <Grid item xs={12} md={10} className="mx-auto">
-                        
-                        </Grid>
-                    </Grid>
-                </Container>
-            </section> */}
             <section className='py-4 my-4'>
                 <Container>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
-                            <Image src={SleepDentistryWhat} alt="teethMissing2" width={550} height={400} />
+                            <Image src={SleepDentistryWhat} alt="sleep-dentistry" width={550} height={400} />
                         </Grid>
                         <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                             <Box>
-                                {/* <Typography variant="h5" component="h2" gutterBottom>
-                                    Sleep Dentistry
-                                </Typography> */}
                                 <SectionalHeading variant="h2" title="Sleep Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                                 <Typography className="para mt-2" >
                                     Are you one of the many who feel anxious about dental appointments? Our clinic in Bayswater understands these concerns and offers Sleep Dentistry to make your visit as comfortable as possible. With this approach, you can undergo treatment without experiencing pain or anxiety, ensuring a smoother dental experience.
@@ -96,28 +84,15 @@ const SleepDentistry = () => {
                             </Box>
                         </Grid>
                         <Grid item xs={12} md={6} className='d-flex justify-content-center align-items-center'>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/chwepyTgH5Q?si=NxpspEOMH3fErnEi" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                            {/* <iframe width="500" height="315" src="/sleep-denstistry/sleep-dentistry-video.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen autoplay></iframe> */}
+                            <video width="500" height="315" controls autoPlay muted>
+                                <source src="/sleep-denstistry/sleep-dentistry-video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
                         </Grid>
                     </Grid>
                 </Container>
             </section>
-            <section className="py-4 my-4">
-                <Container maxWidth="xxl">
-                    <Grid container>
-                        <Grid item xs={12} md={9} className="mx-auto">
-                            <Box py={2}>
-                                <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Severe Dental Anxiety" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                                <Typography className="para mt-2">Sleep dentistry is a valuable solution for adults and children who suffer from severe dental anxiety or phobia. It involves using general anesthesia to put patients into full sleep during dental procedures.</Typography>
-                                <Typography className="para">This approach is especially beneficial for those who cannot tolerate dental treatment in a traditional setting due to extreme fear or anxiety. While asleep, patients are completely unaware of the procedure, thus eliminating any fear or discomfort associated with dental treatments.</Typography>
-                                <Box mt={2}>
-                                    <Image src={SleepImg} alt="teethMissing2" height={650} width={1200} className="img-fluid" />
-                                </Box>
-                            </Box>
-                        </Grid>
-                    </Grid>
-                </Container>
-            </section>
-
             <section className="py-4 my-4">
                 <Container maxWidth="xxl">
                     <Grid container>
@@ -176,6 +151,22 @@ const SleepDentistry = () => {
                     </Grid>
                 </Container>
             </section>
+            <section className="py-4 my-4">
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <Box py={2}>
+                                <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Severe Dental Anxiety" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                                <Typography className="para mt-2">Sleep dentistry is a valuable solution for adults and children who suffer from severe dental anxiety or phobia. It involves using general anesthesia to put patients into full sleep during dental procedures.</Typography>
+                                <Typography className="para">This approach is especially beneficial for those who cannot tolerate dental treatment in a traditional setting due to extreme fear or anxiety. While asleep, patients are completely unaware of the procedure, thus eliminating any fear or discomfort associated with dental treatments.</Typography>
+                                <Box mt={2}>
+                                    <Image src={SleepImg} alt="teethMissing2" height={650} width={1200} className="img-fluid" />
+                                </Box>
+                            </Box>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>  
             <section className="my-4 py-4" style={{ background: "#d1cbcb52" }}>
                 <Container maxWidth="xxl">
                     <Grid container>
@@ -205,7 +196,7 @@ const SleepDentistry = () => {
                                         <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} />
 
                                         <CardContent className={styles.cardContent}>
-                                            <Typography variant="h5" component="h3"  className=" maintainance-title-font veneer-font-color fs-4">
+                                            <Typography variant="h5" component="h3" className=" maintainance-title-font veneer-font-color fs-4">
                                                 Inhaling happy gas
                                             </Typography>
                                             <Typography variant="body2" style={{ lineHeight: 1.8 }}>
