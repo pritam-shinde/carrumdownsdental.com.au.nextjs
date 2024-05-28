@@ -1,27 +1,15 @@
-import WisdomTeeth from '../../../public/sleep-denstistry/ServiceSlider/wisdom teeth.jpg';
 // import WisdomTeeth from '../../../../public/Home/ServiceSlider/wisdom teeth.jpg';
-import DentalImplants from '../../../public/sleep-denstistry/ServiceSlider/Dental Implant.jpg';
-import Dentures from '../../../public/sleep-denstistry/ServiceSlider/Dentures.jpg';
-import TeethWhitening from '../../../public/sleep-denstistry/ServiceSlider/Teeth Whitening.jpg';
-import RootCanal from '../../../public/sleep-denstistry/ServiceSlider/Root Canal.jpg';
-import ScaleNClean from '../../../public/sleep-denstistry/ServiceSlider/Scale and Clean.jpg';
-import Venners from '../../../public/sleep-denstistry/ServiceSlider/Dental Veneers.jpg';
-import CrownNBridges from '../../../public/sleep-denstistry/ServiceSlider/Dental Crown & Bridge.jpg';
-import DentalEmergency from '../../../public/sleep-denstistry/ServiceSlider/Dental Emergency.jpg'
-import Invisalign from '../../../public/sleep-denstistry/ServiceSlider/Invisalign.jpg';
-import DentalFillings from '../../../public/sleep-denstistry/ServiceSlider/Dental Fillings.jpg';
-import BeforeAfter1 from "../../../public/sleep-denstistry/ServiceSlider/before-after1.jpg"
-import BeforeAfter2 from "../../../public/sleep-denstistry/ServiceSlider/before-after2.jpg"
-import BeforeAfter3 from "../../../public/sleep-denstistry/ServiceSlider/before-after3.jpg"
-import BeforeAfter4 from "../../../public/sleep-denstistry/ServiceSlider/before-after4.jpg"
-import BeforeAfter5 from "../../../public/sleep-denstistry/ServiceSlider/before-after5.jpg"
-import BeforeAfter6 from "../../../public/sleep-denstistry/ServiceSlider/before-after6.jpg"
+import BeforeAfter1 from "../../../public/sleep-denstistry/ServiceSlider/before-after1.jpg";
+import BeforeAfter2 from "../../../public/sleep-denstistry/ServiceSlider/before-after2.jpg";
+import BeforeAfter3 from "../../../public/sleep-denstistry/ServiceSlider/before-after3.jpg";
+import BeforeAfter4 from "../../../public/sleep-denstistry/ServiceSlider/before-after4.jpg";
+import BeforeAfter5 from "../../../public/sleep-denstistry/ServiceSlider/before-after5.jpg";
+import BeforeAfter6 from "../../../public/sleep-denstistry/ServiceSlider/before-after6.jpg";
 // import BeforeAfter7 from "../../../public/sleep-denstistry/ServiceSlider/before-after7.jpg"
-import BeforeAfter8 from "../../../public/sleep-denstistry/ServiceSlider/before-after8.jpg"
-import BeforeAfter9 from "../../../public/sleep-denstistry/ServiceSlider/before-after9.jpg"
-import BeforeAfter10 from "../../../public/sleep-denstistry/ServiceSlider/before-after10.jpg" 
-import BeforeAfter11 from "../../../public/sleep-denstistry/ServiceSlider/before-after11.jpg" 
-import BeforeAfter12 from "../../../public/sleep-denstistry/ServiceSlider/before-after12.jpg" 
+import BeforeAfter10 from "../../../public/sleep-denstistry/ServiceSlider/after10.jpg";
+import BeforeAfter11 from "../../../public/sleep-denstistry/ServiceSlider/before-after11.jpg";
+import BeforeAfter12 from "../../../public/sleep-denstistry/ServiceSlider/before-after12.jpg";
+import BeforeAfter8 from "../../../public/sleep-denstistry/ServiceSlider/before-after8.jpg";
 
 const SleepDentistryImg = [
     {id:"home_service_slider1", title:"WISDOM TEETH", link:"/wisdom-teeth/", image: BeforeAfter1, alt:"wisdom teeth", para:"Abnormal growth of Wisdom teeth can be a pain and, in most cases, needs to be removed."},

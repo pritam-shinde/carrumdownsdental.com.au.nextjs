@@ -314,7 +314,7 @@ const SleepDentistry = () => {
                         <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
                             <Box style={{ padding: "0 !important" }}>
 
-                                <Typography variant="body1" paragraph>
+                                <Typography variant="body1" paragraph className="para text-center">
                                     Although sleep dentistry can be more expensive than traditional dental treatments, there are several payment options available to help make this approach more affordable and accessible for patients in Carrum Downs:
                                 </Typography>
                                 <List>
@@ -331,7 +331,7 @@ const SleepDentistry = () => {
                                         />
                                     </ListItem>
                                 </List>
-                                <Typography variant="body1" paragraph>
+                                <Typography variant="body1" paragraph className="para text-center">
                                     By exploring these payment options, patients in Carrum Downs can make sleep dentistry a more financially feasible solution for their dental needs, ensuring they receive the care they require for optimal oral health.
                                 </Typography>
                             </Box>
@@ -351,11 +351,11 @@ const SleepDentistry = () => {
                             />
                         </Grid>
                         <Grid item xs={12} className='d-flex justify-content-center p-0'>
-                            <Box sx={{ padding: { xs: 0, md: 2 }, width: '100%' }}>
-                                <Typography variant="body1" paragraph>
+                            <Box sx={{ padding: { xs: 2, md: 2 }, width: '100%' }}>
+                                <Typography variant="body1" paragraph   >
                                     A wide range of dental procedures can be performed under general anaesthesia, making sleep dentistry a versatile solution for various patient needs. Some common treatments that may benefit from sleep dentistry include:
                                 </Typography>
-                               Dental Procedures Suitable for Sleep Dentistry <List>
+                                 <List>
                                 {
                                     ["Paediatric dental care for toddlers or very young children with extensive tooth decay",
                                         "Extraction of multiple teeth, particularly wisdom teeth removals",
