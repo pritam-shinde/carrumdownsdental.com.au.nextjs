@@ -182,8 +182,7 @@ const SleepDentistry = () => {
                                     <Card className={styles.card}>
                                         <CardMedia component="img" src={Image1.src} alt="scale and clean" className={styles.cardImage} style={{aspectRatio:"6/4"}}/>
 
-                                        <CardContent className={styles.cardContent}>
-                                            {/* <Typography variant="h5" component="h3" className="maintainance-title-font"> */}
+                                        <CardContent className={styles.cardContent}> 
                                             <Typography gutterBottom variant="h3" className=" maintainance-title-font veneer-font-color fs-4">
                                                 Elimination of fear and discomfort
                                             </Typography>
@@ -411,8 +410,6 @@ const SleepDentistry = () => {
                             <Box style={{ padding: "0 !important" }}>
                                 <Typography variant="h5" component="h3" gutterBottom className="text-center" style={{ color: "#115278", fontSize: "1rem !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
                                 </Typography>
-
-                                {/* <SectionalHeading variant="p" title="Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:" align="left" color="var(--dark-blue)" /> */}
                                 <List>
                                     {
                                         ["Worsening of existing dental problems, such as cavities progressing into infections that spread to the root of the tooth",
