@@ -28,7 +28,8 @@ const SleepDentistrySlider = () => {
                                     slidesPerView={width > 992 ? 3 : width > 0 && width < 600 ? 1 : 2}
                                     spaceBetween={60}
                                     modules={[Navigation, Autoplay]}
-                                    className="mySwiper py-4 px-md-5"
+                                    className="mySwiper py-4"
+                                    // className="mySwiper py-4 px-md-5"
                                     autoplay={{
                                         delay: 2500,
                                         disableOnInteraction: false,

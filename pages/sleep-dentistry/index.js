@@ -56,8 +56,8 @@ const SleepDentistry = () => {
                         <Box className='mb-2 mx-auto'>
                             <SectionalHeading variant="h2" title="Sleep Dentistry using General Anaesthesia" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" sx={{ alignItems: 'center' }} />
                         </Box>
-                        <Grid item xs={12} md={6}>
-                            <Image src={SleepDentistryWhat} alt="Sleep Dentistry Carrum Downs" width={550} height={400} />
+                        <Grid item xs={12} md={6} className="mt-2">
+                            <Image src={SleepDentistryWhat} alt="Sleep Dentistry Carrum Downs" width={550} height={500} />
                         </Grid>
                         <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                             <Box>
@@ -75,7 +75,7 @@ const SleepDentistry = () => {
                                     {
                                         ["Dental anxiety and phobia", "Complex dental procedures", "Strong gag reflex", "	Patients with special healthcare needs", "Pain management and amnesia", "Efficiency in treatment for multiple procedures", "Dental treatment for babies and toddlers"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
                                             <ListItemIcon>
-                                                <CheckCircleOutline style={{ color: 'var(--dark-blue)' }} />
+                                            <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
                                             </ListItemIcon>
                                             <ListItemText primary={item} />
                                         </ListItem>)
@@ -90,13 +90,10 @@ const SleepDentistry = () => {
                 <Container>
                     <Grid container spacing={2} style={{ margin: 0 }}>
                         <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Severe Dental Anxiety in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                        <Grid item xs={12} md={6}>
-                            <Box >
-                                {/* <Typography variant="h5" component="h2" gutterBottom>
-                                What is sleep dentistry?
-                                </Typography> */}
+                        <Grid item xs={12} md={6} style={{padding:0}}>
+                            <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}> 
                                 <Typography className="para mt-2" gutterBottom>
-                                    For adults and children who experience extreme fear or anxiety related to dental visits, sleep dentistry using general anaesthesia can provide a transformative solution. When a patient is asleep during the procedure, they are completely unaware of the dental work being performed, eliminating any potential for fear, pain, or discomfort. This approach allows necessary dental treatments to be completed without causing psychological distress or trauma, which is particularly important for those with severe dental phobia
+                                    For adults and children who experience extreme fear or anxiety related to dental visits, sleep dentistry using general anaesthesia can provide a transformative solution. When a patient is asleep during the procedure, they are completely unaware of the dental work being performed, eliminating any potential for fear, pain, or discomfort. This approach allows necessary dental treatments to be completed without causing psychological distress or trauma, which is particularly important for those with severe dental phobia.
                                 </Typography>
 
                                 <Typography className="para" gutterBottom>
@@ -151,7 +148,7 @@ const SleepDentistry = () => {
                 <Container>
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6} >
-                        <Image src={Complex} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} />
+                            <Image src={Complex} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} />
                         </Grid>
                         <Grid item xs={12} md={6} className='d-flex justify-content-center py-4'>
                             <Box>
@@ -180,9 +177,9 @@ const SleepDentistry = () => {
                             <Grid container justifyContent="center" spacing={4} mb={2}>
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
-                                        <CardMedia component="img" src={Image1.src} alt="scale and clean" className={styles.cardImage} style={{aspectRatio:"6/4"}}/>
+                                        <CardMedia component="img" src={Image1.src} alt="scale and clean" className={styles.cardImage} style={{ aspectRatio: "6/4" }} />
 
-                                        <CardContent className={styles.cardContent}> 
+                                        <CardContent className={styles.cardContent}>
                                             <Typography gutterBottom variant="h3" className=" maintainance-title-font veneer-font-color fs-4">
                                                 Elimination of fear and discomfort
                                             </Typography>
@@ -253,7 +250,7 @@ const SleepDentistry = () => {
                             <Grid container justifyContent="center" spacing={4}>
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
-                                        <CardMedia component="img" src={Sedation.src} alt="scale and clean" className={styles.ChoosecardImage} style={{aspectRatio:"5/4"}}/>
+                                        <CardMedia component="img" src={Sedation.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
                                             <Typography variant="h5" component="h3" className="mb-4 maintainance-title-font veneer-font-color fs-4">
@@ -268,7 +265,7 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
                                         {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
-                                        <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} style={{aspectRatio:"5/4"}}/>
+                                        <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
                                             <Typography variant="h5" component="h3" className="maintainance-title-font veneer-font-color fs-4">
@@ -283,13 +280,13 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
                                         {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
-                                        <CardMedia component="img" src={Twilight.src} alt="scale and clean" className={styles.ChoosecardImage} style={{aspectRatio:"5/4"}} />
+                                        <CardMedia component="img" src={Twilight.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
                                             <Typography variant="h5" component="h3" className="mb-4 maintainance-title-font veneer-font-color fs-4">
                                                 Twilight Sedation
                                             </Typography>
-                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
+                                            <Typography variant="body2"  style={{ lineHeight: 1.8, textAlign: "justify" }}>
                                                 Twilight sedation is a type of IV sedation that puts patients in a deeply relaxed, dream-like state. While under twilight sedation, patients are still able to respond to verbal cues and instructions but may have little to no memory of the procedure afterwards. This approach is highly effective for adults with significant dental anxiety, as it allows them to receive necessary dental care without the emotional distress often associated with being fully aware during the treatment.
                                             </Typography>
                                         </CardContent>
@@ -305,33 +302,36 @@ const SleepDentistry = () => {
                 <SleepDentistrySlider />
             </section>
 
-            <section className='py-4 my-4'>
+            <section className='py-4 my-4' style={{ background: "#d1cbcb52" }}>
                 <Container>
-                    <Grid container spacing={2}>
+                    <Grid container>
 
                         <SectionalHeading variant="h2" title="Payment Options to Make Sleep Dentistry Affordable in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
 
                         <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
-                            <Box style={{ padding: "0 !important" }}>
-
-                                <Typography variant="body1" paragraph className="para text-center">
+                            <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
+                                <Typography variant="body1" paragraph className="para">
                                     Although sleep dentistry can be more expensive than traditional dental treatments, there are several payment options available to help make this approach more affordable and accessible for patients in Carrum Downs:
                                 </Typography>
                                 <List>
-                                    <ListItem>
+                                    <ListItem style={{ padding: "0px" }}>
                                         <ListItemText
                                             primary="1. Humm and AfterPay"
-                                            secondary="These payment plans allow patients to spread the cost of their dental treatment over time rather than paying the full amount upfront. By breaking the cost into more manageable instalments, patients can access the benefits of sleep dentistry without the immediate financial burden."
+                                            secondary={
+                                                <Typography className='para' variant="body2" style={{ color: 'grey' }}>
+                                                    These payment plans allow patients to spread the cost of their dental treatment over time rather than paying the full amount upfront. By breaking the cost into more manageable instalments, patients can access the benefits of sleep dentistry without the immediate financial burden.
+                                                </Typography>
+                                            }
                                         />
                                     </ListItem>
-                                    <ListItem>
+                                    <ListItem style={{ padding: "0px" }}>
                                         <ListItemText
                                             primary="2. Applying for early release of superannuation funds on compassionate grounds through the Australian Taxation Office (ATO)"
-                                            secondary="In some cases, individuals may be eligible to access their superannuation funds early to cover the cost of necessary dental treatments. A dental coordinator can assist patients in navigating the application process and understanding the requirements for early release of funds on compassionate grounds."
+                                            secondary={<Typography className='para' variant="body2" style={{ color: 'grey' }}>In some cases, individuals may be eligible to access their superannuation funds early to cover the cost of necessary dental treatments. A dental coordinator can assist patients in navigating the application process and understanding the requirements for early release of funds on compassionate grounds.</Typography>}
                                         />
                                     </ListItem>
                                 </List>
-                                <Typography variant="body1" paragraph className="para text-center">
+                                <Typography variant="body1" paragraph className="para">
                                     By exploring these payment options, patients in Carrum Downs can make sleep dentistry a more financially feasible solution for their dental needs, ensuring they receive the care they require for optimal oral health.
                                 </Typography>
                             </Box>
@@ -341,56 +341,58 @@ const SleepDentistry = () => {
             </section>
             <section className='py-4 my-4'>
                 <Container>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12}>
+                    <Grid container  >
+                        <Grid item xs={12} style={{padding:0}}>
                             <SectionalHeading
                                 variant="h2"
                                 title="Dental Procedures Suitable for Sleep Dentistry"
-                                align={isMobile ? 'center' : 'left'}
+                                align={width < 600 ? 'center' : 'left'}
                                 color="var(--dark-blue)"
                             />
                         </Grid>
                         <Grid item xs={12} className='d-flex justify-content-center p-0'>
-                            <Box sx={{ padding: { xs: 2, md: 2 }, width: '100%' }}>
+                            <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
                                 <Typography variant="body1" paragraph   >
                                     A wide range of dental procedures can be performed under general anaesthesia, making sleep dentistry a versatile solution for various patient needs. Some common treatments that may benefit from sleep dentistry include:
                                 </Typography>
-                                 <List>
-                                {
-                                    ["Paediatric dental care for toddlers or very young children with extensive tooth decay",
-                                        "Extraction of multiple teeth, particularly wisdom teeth removals",
-                                        "Placement of dental implants, which can be a complex and time-consuming procedure",
-                                        "Major reconstructive or restorative work, such as placing several crowns or bridges in one appointment",
-                                        "Extensive root canal treatments that may require multiple visits or lengthy appointments"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
-                                            <ListItemIcon>
-                                                <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
-                                            </ListItemIcon>
-                                            <ListItemText primary={item} />
-                                        </ListItem>)
-                                }
-                            </List>
+                                <List>
+                                    {
+                                        ["Paediatric dental care for toddlers or very young children with extensive tooth decay",
+                                            "Extraction of multiple teeth, particularly wisdom teeth removals",
+                                            "Placement of dental implants, which can be a complex and time-consuming procedure",
+                                            "Major reconstructive or restorative work, such as placing several crowns or bridges in one appointment",
+                                            "Extensive root canal treatments that may require multiple visits or lengthy appointments"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
+                                                <ListItemIcon>
+                                                    <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                </ListItemIcon>
+                                                <ListItemText primary={item} />
+                                            </ListItem>)
+                                    }
+                                </List>
                             </Box>
                         </Grid>
                     </Grid>
                 </Container>
             </section>
-            <section className='py-4 my-4'>
+            <section className='py-4 my-4' style={{ background: "#d1cbcb52" }}>
                 <Container>
-                    <Grid container spacing={2}>
+                    <Grid container  >
 
                         <SectionalHeading variant="h2" title="Advantages of Dental Sedation: Experience Relaxing, Pain-free Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
 
                         <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
-                            <Box style={{ padding: "0 !important" }}>
-                                <Typography variant="h5" component="h3" gutterBottom className="text-center" style={{ color: "#115278", fontSize: "1rem !important" }}>
+                            {/* <Box style={{ padding: "0 !important" }}> */}
+                            <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
+
+                                <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important" }}>
                                     Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:
                                 </Typography>
                                 {/* <SectionalHeading variant="p" title="Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:" align="left" color="var(--dark-blue)" /> */}
                                 <List>
                                     {
-                                        ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ paddingX: "0px", paddingY: "8px" }}>
+                                        ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
                                             <ListItemIcon>
-                                                <CheckCircleOutline style={{ color: 'var(--dark-blue)' }} />
+                                            <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
                                             </ListItemIcon>
                                             <ListItemText primary={item} />
                                         </ListItem>)
@@ -403,12 +405,12 @@ const SleepDentistry = () => {
             </section>
             <section className='py-4 my-4'>
                 <Container>
-                    <Grid container spacing={2}>
-
+                    <Grid container >
                         <SectionalHeading variant="h2" title="Putting off Dental Treatments" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                         <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
-                            <Box style={{ padding: "0 !important" }}>
-                                <Typography variant="h5" component="h3" gutterBottom className="text-center" style={{ color: "#115278", fontSize: "1rem !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
+                            {/* <Box style={{ padding: "0 !important" }}> */}
+                            <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
+                                <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important", lineHeight:"1.4 !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
                                 </Typography>
                                 <List>
                                     {
@@ -418,16 +420,16 @@ const SleepDentistry = () => {
                                             " Elevated risk of infection spreading beyond the mouth and affecting other parts of the body",
                                             "Potential loss of teeth due to untreated gum disease or extensive tooth decay",
                                             "Negative impact on overall health, as poor oral health has been linked to various systemic conditions, such as heart disease and diabetes",
-                                        ].map(item => <ListItem key={item} style={{ paddingX: "0px", paddingY: "8px" }}>
+                                        ].map(item => <ListItem key={item} style={{ padding: "0px",lineHeight:"1.8 !important" }}>
                                             <ListItemIcon>
-                                                <CheckCircleOutline style={{ color: 'var(--dark-blue)' }} />
+                                            <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
                                             </ListItemIcon>
-                                            <ListItemText primary={item} />
+                                            <ListItemText primary={item}/>
                                         </ListItem>)
                                     }
                                 </List>
 
-                                <Typography className="para text-center">
+                                <Typography className="para mt-2">
                                     Seeking prompt dental care is essential for maintaining good oral health and preventing the development of more serious dental and general health issues. For individuals who experience severe dental anxiety or phobia, sleep dentistry can provide a safe and comfortable way to access necessary treatments, enabling them to prioritize their oral health without the emotional distress that may have previously prevented them from seeking care.
                                 </Typography>
                             </Box>
