@@ -16,6 +16,8 @@ import Special from "../../public/sleep-denstistry/special-needs-img.jpg"
 import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
 // import Banner from '../../public/sleep-denstistry/sleep-den-banner1.jpg'
 import SleepImg from "../../public/sleep-denstistry/Image-1.jpeg"
+import Doctor2 from "../../public/sleep-denstistry/Image-2.jpeg"
+import Doctor3 from "../../public/sleep-denstistry/Image.jpeg"
 import Complex from "../../public/sleep-denstistry/complex.jpg"
 import SleepDentistrySlider from '../../components/SleepDentistrySlider/SleepDentistrySlider'
 import { CheckCircleOutline } from '@mui/icons-material'
@@ -50,69 +52,77 @@ const SleepDentistry = () => {
                 <meta name="robots" content="noindex" />
             </Head>
             <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Sleep Dentistry" />
-            <section className='py-4 my-4'>
-                <Container>
-                    <Grid container spacing={2} >
-                        <Box className='mb-2 mx-auto'>
-                            <SectionalHeading variant="h2" title="Sleep Dentistry using General Anaesthesia" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" sx={{ alignItems: 'center' }} />
-                        </Box>
-                        <Grid item xs={12} md={6} className="mt-2">
-                            <Image src={SleepDentistryWhat} alt="Sleep Dentistry Carrum Downs" width={550} height={500} />
-                        </Grid>
-                        <Grid item xs={12} md={6} className='d-flex justify-content-center'>
-                            <Box>
-                                <SectionalHeading variant="h3" title="Pain-free Dental Procedures using Sleep Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                                <Typography className="para mt-2" >
-                                    For many individuals, visiting the dentist can be a daunting and anxiety-inducing experience. The fear of dental procedures can be so intense that some people avoid seeking necessary dental care, even when faced with oral health problems. Over time, this avoidance can lead to a deterioration of dental health and more complex issues. Sleep dentistry offers a solution for those who struggle with severe dental anxiety, providing a way to receive essential dental treatments without the associated pain or emotional distress.
-                                </Typography>
-
-                                <Typography className="para" gutterBottom>
-                                    In Carrum Downs, sleep dentistry is widely recognised as one of the safest and most effective approaches to delivering dental care. By enabling patients to feel relaxed and comfortable during potentially challenging treatments, sleep dentistry ensures a more positive experience compared to traditional dental visits. When patients are placed under general anaesthesia, they are completely unaware of the procedure and do not experience any discomfort, creating a more pleasant and stress-free dental experience.
-                                </Typography>
-
-                                <SectionalHeading variant="p" title="Sleep dentistry can address a wide range of concerns, including:" align="left" color="var(--dark-blue)" />
-                                <List>
-                                    {
-                                        ["Dental anxiety and phobia", "Complex dental procedures", "Strong gag reflex", "	Patients with special healthcare needs", "Pain management and amnesia", "Efficiency in treatment for multiple procedures", "Dental treatment for babies and toddlers"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
-                                            <ListItemIcon>
-                                            <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
-                                            </ListItemIcon>
-                                            <ListItemText primary={item} />
-                                        </ListItem>)
-                                    }
-                                </List>
-                            </Box>
-                        </Grid>
-                    </Grid>
-                </Container>
-            </section>
-            <section className="my-4 py-4" style={{ background: "#d1cbcb52" }}>
-                <Container>
-                    <Grid container spacing={2} style={{ margin: 0 }}>
-                        <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Severe Dental Anxiety in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                        <Grid item xs={12} md={6} style={{padding:0}}>
-                            <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}> 
-                                <Typography className="para mt-2" gutterBottom>
-                                    For adults and children who experience extreme fear or anxiety related to dental visits, sleep dentistry using general anaesthesia can provide a transformative solution. When a patient is asleep during the procedure, they are completely unaware of the dental work being performed, eliminating any potential for fear, pain, or discomfort. This approach allows necessary dental treatments to be completed without causing psychological distress or trauma, which is particularly important for those with severe dental phobia.
-                                </Typography>
-
-                                <Typography className="para" gutterBottom>
-                                    By removing the emotional barrier to seeking dental care, sleep dentistry enables patients with severe anxiety to maintain better oral health and address dental issues before they become more complex and difficult to treat. This proactive approach to dental care can lead to improved overall health and well-being, as poor oral health has been linked to various systemic health issues.
-                                </Typography>
-                            </Box>
-                        </Grid>
-                        <Grid item xs={12} md={6} className='d-flex justify-content-center align-items-center'>
-                            {/* <iframe width="500" height="315" src="/sleep-denstistry/sleep-dentistry-video.mp4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen autoplay></iframe> */}
-                            {/* <video width="500" height="315" controls autoPlay muted> */}
-                            <video width="100%" height="100%" controls autoPlay muted>
-                                <source src="/sleep-denstistry/sleep-dentistry-video.mp4" type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
-                        </Grid>
-                    </Grid>
-                </Container>
-            </section>
             <section className="py-4 my-4">
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <Box className='mb-2 mx-auto'>
+                                <SectionalHeading variant="h2" title="Sleep Dentistry using General Anaesthesia" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" sx={{ alignItems: 'center' }} />
+                            </Box>
+                            <Grid container spacing={4}>
+                                <Grid item xs={12} md={6} className="mt-2">
+                                    <Image src={SleepDentistryWhat} alt="Sleep Dentistry Carrum Downs" width={550} height={500} />
+                                </Grid>
+                                <Grid item xs={12} md={6} className='d-flex justify-content-center'>
+                                    <Box>
+                                        <SectionalHeading variant="h3" title="Pain-free Dental Procedures using Sleep Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                                        <Typography className="para mt-2" >
+                                            For many individuals, visiting the dentist can be a daunting and anxiety-inducing experience. The fear of dental procedures can be so intense that some people avoid seeking necessary dental care, even when faced with oral health problems. Over time, this avoidance can lead to a deterioration of dental health and more complex issues. Sleep dentistry offers a solution for those who struggle with severe dental anxiety, providing a way to receive essential dental treatments without the associated pain or emotional distress.
+                                        </Typography>
+
+                                        <Typography className="para" gutterBottom>
+                                            In Carrum Downs, sleep dentistry is widely recognised as one of the safest and most effective approaches to delivering dental care. By enabling patients to feel relaxed and comfortable during potentially challenging treatments, sleep dentistry ensures a more positive experience compared to traditional dental visits. When patients are placed under general anaesthesia, they are completely unaware of the procedure and do not experience any discomfort, creating a more pleasant and stress-free dental experience.
+                                        </Typography>
+
+                                        <SectionalHeading variant="p" title="Sleep dentistry can address a wide range of concerns, including:" align="left" color="var(--dark-blue)" />
+                                        <List>
+                                            {
+                                                ["Dental anxiety and phobia", "Complex dental procedures", "Strong gag reflex", "	Patients with special healthcare needs", "Pain management and amnesia", "Efficiency in treatment for multiple procedures", "Dental treatment for babies and toddlers"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
+                                                    <ListItemIcon>
+                                                        <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                    </ListItemIcon>
+                                                    <ListItemText primary={item} />
+                                                </ListItem>)
+                                            }
+                                        </List>
+                                    </Box>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+
+            <section className="py-4 my-4" style={{ background: "#d1cbcb52" }}>
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Severe Dental Anxiety in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                            <Grid container spacing={4}>
+                                <Grid item xs={12} md={6} >
+                                    <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
+                                        <Typography className="para mt-2" gutterBottom>
+                                            For adults and children who experience extreme fear or anxiety related to dental visits, sleep dentistry using general anaesthesia can provide a transformative solution. When a patient is asleep during the procedure, they are completely unaware of the dental work being performed, eliminating any potential for fear, pain, or discomfort. This approach allows necessary dental treatments to be completed without causing psychological distress or trauma, which is particularly important for those with severe dental phobia.
+                                        </Typography>
+
+                                        <Typography className="para" gutterBottom>
+                                            By removing the emotional barrier to seeking dental care, sleep dentistry enables patients with severe anxiety to maintain better oral health and address dental issues before they become more complex and difficult to treat. This proactive approach to dental care can lead to improved overall health and well-being, as poor oral health has been linked to various systemic health issues.
+                                        </Typography>
+                                    </Box>
+                                </Grid>
+                                <Grid item xs={12} md={6} className='d-flex justify-content-center align-items-center'> 
+                                    <video width="100%" height="100%" controls autoPlay muted>
+                                        <source src="/sleep-denstistry/sleep-dentistry-video.mp4" type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+
+            <section className="py-4 my-4" >
                 <Container maxWidth="xxl">
                     <Grid container>
                         <Grid item xs={12} md={9} className="mx-auto">
@@ -144,26 +154,42 @@ const SleepDentistry = () => {
                     </Grid>
                 </Container>
             </section>
-            <section className="my-4 py-4" style={{ background: "#d1cbcb52" }}>
-                <Container>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} md={6} >
-                            <Image src={Complex} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} />
-                        </Grid>
-                        <Grid item xs={12} md={6} className='d-flex justify-content-center py-4'>
-                            <Box>
-                                <SectionalHeading variant="h2" title="Sleep Dentistry for Patients Who Need Complex Dental Procedures." align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                                <Typography className="para mt-2" gutterBottom>
-                                    Complex dental procedures, such as multiple dental surgeries, extensive restorative work, or treatments for patients with special needs, can be lengthy, uncomfortable, and emotionally taxing when performed while the patient is awake. Sleep dentistry using general anaesthesia offers a more comfortable and efficient approach to these intricate procedures.
-                                </Typography>
-                                <Typography className="para mt-2" gutterBottom>When a patient is asleep during a complex dental procedure, they are completely unaware of the treatment being performed and do not experience any pain or anxiety. This allows the dental team to work more efficiently and effectively, as they can focus on the task at hand without the need to manage the patient's discomfort or distress. Additionally, performing multiple procedures in one appointment under general anaesthesia can reduce the overall treatment time and the number of dental visits required, making the process more convenient for the patient.
-                                </Typography>
-                            </Box>
+
+            <section className="py-4 my-4" style={{ background: "#d1cbcb52" }}>
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <Grid container spacing={4}>
+                                {/* <Grid item xs={12} md={6} >
+                                    <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
+                                        <Typography className="para mt-2" gutterBottom>
+                                            For adults and children who experience extreme fear or anxiety related to dental visits, sleep dentistry using general anaesthesia can provide a transformative solution. When a patient is asleep during the procedure, they are completely unaware of the dental work being performed, eliminating any potential for fear, pain, or discomfort. This approach allows necessary dental treatments to be completed without causing psychological distress or trauma, which is particularly important for those with severe dental phobia.
+                                        </Typography>
+
+                                        <Typography className="para" gutterBottom>
+                                            By removing the emotional barrier to seeking dental care, sleep dentistry enables patients with severe anxiety to maintain better oral health and address dental issues before they become more complex and difficult to treat. This proactive approach to dental care can lead to improved overall health and well-being, as poor oral health has been linked to various systemic health issues.
+                                        </Typography>
+                                    </Box>
+                                </Grid> */}
+                                <Grid item xs={12} md={6} >
+                                    <Image src={Doctor3} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} />
+                                </Grid>
+                                <Grid item xs={12} md={6} className='d-flex justify-content-center py-4'>
+                                    <Box>
+                                        <SectionalHeading variant="h2" title="Sleep Dentistry for Patients Who Need Complex Dental Procedures." align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                                        <Typography className="para mt-2" gutterBottom>
+                                            Complex dental procedures, such as multiple dental surgeries, extensive restorative work, or treatments for patients with special needs, can be lengthy, uncomfortable, and emotionally taxing when performed while the patient is awake. Sleep dentistry using general anaesthesia offers a more comfortable and efficient approach to these intricate procedures.
+                                        </Typography>
+                                        <Typography className="para mt-2" gutterBottom>When a patient is asleep during a complex dental procedure, they are completely unaware of the treatment being performed and do not experience any pain or anxiety. This allows the dental team to work more efficiently and effectively, as they can focus on the task at hand without the need to manage the patient's discomfort or distress. Additionally, performing multiple procedures in one appointment under general anaesthesia can reduce the overall treatment time and the number of dental visits required, making the process more convenient for the patient.
+                                        </Typography>
+                                    </Box>
+                                </Grid>
+                            </Grid>
                         </Grid>
                     </Grid>
                 </Container>
             </section>
-            <section className="py-4 my-4">
+            <section className="py-4 my-4" >
                 <Container maxWidth="xxl">
                     <Grid container>
                         <Grid item xs={12} md={9} className="mx-auto">
@@ -250,6 +276,22 @@ const SleepDentistry = () => {
                             <Grid container justifyContent="center" spacing={4}>
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
+                                        {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
+                                        <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
+
+                                        <CardContent className={styles.cardContent}>
+                                            <Typography variant="h5" component="h3" className="maintainance-title-font veneer-font-color fs-4">
+                                                Nitrous Oxide (Laughing Gas)
+                                            </Typography>
+                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
+                                                Nitrous oxide, also known as laughing gas, is a mild sedative that is inhaled through a mask during a dental procedure. This technique helps patients feel relaxed and at ease while remaining awake and responsive. Laughing gas is a popular choice for both adults and children with mild to moderate levels of dental anxiety. It is considered safe for children around 3-4 years of age who are able to tolerate wearing the mask and follow instructions. However, for very young or uncooperative children, sleep dentistry may be a more suitable option.
+                                            </Typography>
+                                        </CardContent>
+                                    </Card>
+                                </Grid>
+
+                                <Grid item xs={12} md={4} sm={6}>
+                                    <Card className={styles.card}>
                                         <CardMedia component="img" src={Sedation.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
@@ -265,28 +307,13 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
                                         {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
-                                        <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
-
-                                        <CardContent className={styles.cardContent}>
-                                            <Typography variant="h5" component="h3" className="maintainance-title-font veneer-font-color fs-4">
-                                                Nitrous Oxide (Laughing Gas)
-                                            </Typography>
-                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
-                                                Nitrous oxide, also known as laughing gas, is a mild sedative that is inhaled through a mask during a dental procedure. This technique helps patients feel relaxed and at ease while remaining awake and responsive. Laughing gas is a popular choice for both adults and children with mild to moderate levels of dental anxiety. It is considered safe for children around 3-4 years of age who are able to tolerate wearing the mask and follow instructions. However, for very young or uncooperative children, sleep dentistry may be a more suitable option.
-                                            </Typography>
-                                        </CardContent>
-                                    </Card>
-                                </Grid>
-                                <Grid item xs={12} md={4} sm={6}>
-                                    <Card className={styles.card}>
-                                        {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
                                         <CardMedia component="img" src={Twilight.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
                                             <Typography variant="h5" component="h3" className="mb-4 maintainance-title-font veneer-font-color fs-4">
                                                 Twilight Sedation
                                             </Typography>
-                                            <Typography variant="body2"  style={{ lineHeight: 1.8, textAlign: "justify" }}>
+                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
                                                 Twilight sedation is a type of IV sedation that puts patients in a deeply relaxed, dream-like state. While under twilight sedation, patients are still able to respond to verbal cues and instructions but may have little to no memory of the procedure afterwards. This approach is highly effective for adults with significant dental anxiety, as it allows them to receive necessary dental care without the emotional distress often associated with being fully aware during the treatment.
                                             </Typography>
                                         </CardContent>
@@ -301,14 +328,11 @@ const SleepDentistry = () => {
             <section>
                 <SleepDentistrySlider />
             </section>
-
-            <section className='py-4 my-4' style={{ background: "#d1cbcb52" }}>
-                <Container>
+            <section className="py-4 my-4" style={{ background: "#d1cbcb52" }}>
+                <Container maxWidth="xxl">
                     <Grid container>
-
-                        <SectionalHeading variant="h2" title="Payment Options to Make Sleep Dentistry Affordable in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-
-                        <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <SectionalHeading variant="h2" title="Payment Options to Make Sleep Dentistry Affordable in Carrum Downs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                             <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
                                 <Typography variant="body1" paragraph className="para">
                                     Although sleep dentistry can be more expensive than traditional dental treatments, there are several payment options available to help make this approach more affordable and accessible for patients in Carrum Downs:
@@ -339,18 +363,11 @@ const SleepDentistry = () => {
                     </Grid>
                 </Container>
             </section>
-            <section className='py-4 my-4'>
-                <Container>
-                    <Grid container  >
-                        <Grid item xs={12} style={{padding:0}}>
-                            <SectionalHeading
-                                variant="h2"
-                                title="Dental Procedures Suitable for Sleep Dentistry"
-                                align={width < 600 ? 'center' : 'left'}
-                                color="var(--dark-blue)"
-                            />
-                        </Grid>
-                        <Grid item xs={12} className='d-flex justify-content-center p-0'>
+            <section className="py-4 my-4" >
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <SectionalHeading variant="h2" title="Dental Procedures Suitable for Sleep Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                             <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
                                 <Typography variant="body1" paragraph   >
                                     A wide range of dental procedures can be performed under general anaesthesia, making sleep dentistry a versatile solution for various patient needs. Some common treatments that may benefit from sleep dentistry include:
@@ -374,43 +391,48 @@ const SleepDentistry = () => {
                     </Grid>
                 </Container>
             </section>
-            <section className='py-4 my-4' style={{ background: "#d1cbcb52" }}>
-                <Container>
-                    <Grid container  >
+            <section className="py-4 my-4" style={{ background: "#d1cbcb52" }}>
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <SectionalHeading variant="h2" title="Advantages of Dental Sedation: Experience Relaxing, Pain-free Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                            <Grid container spacing={4}>
+                                <Grid item xs={12} md={6} className="mt-2">
+                                    <Image src={Doctor2} alt="Sleep Dentistry Carrum Downs" width={550} height={500} />
+                                </Grid>
+                                <Grid item xs={12} md={6} className='d-flex justify-content-center'>
+                                    <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
 
-                        <SectionalHeading variant="h2" title="Advantages of Dental Sedation: Experience Relaxing, Pain-free Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                                        <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important" }}>
+                                            Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:
+                                        </Typography>
+                                        <List>
+                                            {
+                                                ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
+                                                    <ListItemIcon>
+                                                        <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                    </ListItemIcon>
+                                                    <ListItemText primary={item} />
+                                                </ListItem>)
+                                            }
+                                        </List>
+                                    </Box>
+                                </Grid>
+                            </Grid>
 
-                        <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
-                            {/* <Box style={{ padding: "0 !important" }}> */}
-                            <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
-
-                                <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important" }}>
-                                    Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:
-                                </Typography>
-                                {/* <SectionalHeading variant="p" title="Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:" align="left" color="var(--dark-blue)" /> */}
-                                <List>
-                                    {
-                                        ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
-                                            <ListItemIcon>
-                                            <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
-                                            </ListItemIcon>
-                                            <ListItemText primary={item} />
-                                        </ListItem>)
-                                    }
-                                </List>
-                            </Box>
                         </Grid>
                     </Grid>
                 </Container>
             </section>
-            <section className='py-4 my-4'>
-                <Container>
-                    <Grid container >
-                        <SectionalHeading variant="h2" title="Putting off Dental Treatments" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                        <Grid item xs={12} md={12} className='d-flex justify-content-center p-0'>
-                            {/* <Box style={{ padding: "0 !important" }}> */}
+
+            <section className="py-4 my-4" >
+                <Container maxWidth="xxl">
+                    <Grid container>
+                        <Grid item xs={12} md={9} className="mx-auto">
+                            <SectionalHeading variant="h2" title="Putting off Dental Treatments" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+
                             <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
-                                <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important", lineHeight:"1.4 !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
+                                <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important", lineHeight: "1.4 !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
                                 </Typography>
                                 <List>
                                     {
@@ -420,11 +442,11 @@ const SleepDentistry = () => {
                                             " Elevated risk of infection spreading beyond the mouth and affecting other parts of the body",
                                             "Potential loss of teeth due to untreated gum disease or extensive tooth decay",
                                             "Negative impact on overall health, as poor oral health has been linked to various systemic conditions, such as heart disease and diabetes",
-                                        ].map(item => <ListItem key={item} style={{ padding: "0px",lineHeight:"1.8 !important" }}>
+                                        ].map(item => <ListItem key={item} style={{ padding: "0px", lineHeight: "1.8 !important" }}>
                                             <ListItemIcon>
-                                            <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
                                             </ListItemIcon>
-                                            <ListItemText primary={item}/>
+                                            <ListItemText primary={item} />
                                         </ListItem>)
                                     }
                                 </List>
