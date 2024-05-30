@@ -61,7 +61,16 @@ const SleepDentistry = () => {
                             </Box>
                             <Grid container spacing={4}>
                                 <Grid item xs={12} md={6} className="mt-2">
-                                    <Image src={SleepDentistryWhat} alt="Sleep Dentistry Carrum Downs" width={550} height={500} />
+                                    <Box sx={{ width: '100%', height: 'auto' }}>
+                                        <Image
+                                            src={SleepDentistryWhat}
+                                            alt="Sleep Dentistry Carrum Downs"
+                                            layout="responsive"
+                                            width={550}
+                                            height={500}
+                                            style={{ maxWidth: '100%', height: 'auto' }}
+                                        />
+                                    </Box>
                                 </Grid>
                                 <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                                     <Box>
@@ -110,7 +119,7 @@ const SleepDentistry = () => {
                                         </Typography>
                                     </Box>
                                 </Grid>
-                                <Grid item xs={12} md={6} className='d-flex justify-content-center align-items-center'> 
+                                <Grid item xs={12} md={6} className='d-flex justify-content-center align-items-center'>
                                     <video width="100%" height="100%" controls autoPlay muted>
                                         <source src="/sleep-denstistry/sleep-dentistry-video.mp4" type="video/mp4" />
                                         Your browser does not support the video tag.
@@ -172,7 +181,9 @@ const SleepDentistry = () => {
                                     </Box>
                                 </Grid> */}
                                 <Grid item xs={12} md={6} >
-                                    <Image src={Doctor3} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} />
+                                    <Box sx={{ width: '100%', height: 'auto' }}>
+                                        <Image src={Doctor3} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} layout="responsive" style={{ maxWidth: '100%', height: 'auto' }} />
+                                    </Box>
                                 </Grid>
                                 <Grid item xs={12} md={6} className='d-flex justify-content-center py-4'>
                                     <Box>
@@ -188,7 +199,7 @@ const SleepDentistry = () => {
                         </Grid>
                     </Grid>
                 </Container>
-            </section>
+            </section >
             <section className="py-4 my-4" >
                 <Container maxWidth="xxl">
                     <Grid container>
@@ -217,7 +228,6 @@ const SleepDentistry = () => {
                                 </Grid>
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
-                                        {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
                                         <CardMedia component="img" src={Image2.src} alt="scale and clean" className={styles.cardImage} />
 
                                         <CardContent className={styles.cardContent}>
@@ -283,7 +293,7 @@ const SleepDentistry = () => {
                                             <Typography variant="h5" component="h3" className="maintainance-title-font veneer-font-color fs-4">
                                                 Nitrous Oxide (Laughing Gas)
                                             </Typography>
-                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
+                                            <Typography variant="body2" style={{ lineHeight: 1.8 }}>
                                                 Nitrous oxide, also known as laughing gas, is a mild sedative that is inhaled through a mask during a dental procedure. This technique helps patients feel relaxed and at ease while remaining awake and responsive. Laughing gas is a popular choice for both adults and children with mild to moderate levels of dental anxiety. It is considered safe for children around 3-4 years of age who are able to tolerate wearing the mask and follow instructions. However, for very young or uncooperative children, sleep dentistry may be a more suitable option.
                                             </Typography>
                                         </CardContent>
@@ -298,7 +308,7 @@ const SleepDentistry = () => {
                                             <Typography variant="h5" component="h3" className="mb-4 maintainance-title-font veneer-font-color fs-4">
                                                 IV Sedation
                                             </Typography>
-                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
+                                            <Typography variant="body2" style={{ lineHeight: 1.8 }}>
                                                 Intravenous (IV) sedation involves administering sedative medications directly into the patient's bloodstream through an IV line. This method provides a deeper level of relaxation compared to laughing gas or oral sedatives while still allowing the patient to remain awake and responsive. IV sedation is typically recommended for adults with moderate to severe dental anxiety, as it can help them feel more comfortable and less anxious during the procedure. However, IV sedation is generally not used for young children, who may instead benefit from sleep dentistry if laughing gas is not sufficient.
                                             </Typography>
                                         </CardContent>
@@ -313,7 +323,7 @@ const SleepDentistry = () => {
                                             <Typography variant="h5" component="h3" className="mb-4 maintainance-title-font veneer-font-color fs-4">
                                                 Twilight Sedation
                                             </Typography>
-                                            <Typography variant="body2" style={{ lineHeight: 1.8, textAlign: "justify" }}>
+                                            <Typography variant="body2" style={{ lineHeight: 1.8 }}>
                                                 Twilight sedation is a type of IV sedation that puts patients in a deeply relaxed, dream-like state. While under twilight sedation, patients are still able to respond to verbal cues and instructions but may have little to no memory of the procedure afterwards. This approach is highly effective for adults with significant dental anxiety, as it allows them to receive necessary dental care without the emotional distress often associated with being fully aware during the treatment.
                                             </Typography>
                                         </CardContent>
@@ -340,18 +350,25 @@ const SleepDentistry = () => {
                                 <List>
                                     <ListItem style={{ padding: "0px" }}>
                                         <ListItemText
-                                            primary="1. Humm and AfterPay"
+                                            primary={
+                                                <Typography className='para ms-3 fw-bold' variant="body2">
+                                                    1. Humm and AfterPay
+                                                </Typography>
+                                            }
                                             secondary={
-                                                <Typography className='para' variant="body2" style={{ color: 'grey' }}>
+                                                <Typography className=' ms-3' variant="body2" style={{ color: '#1c1a1a' }}>
                                                     These payment plans allow patients to spread the cost of their dental treatment over time rather than paying the full amount upfront. By breaking the cost into more manageable instalments, patients can access the benefits of sleep dentistry without the immediate financial burden.
                                                 </Typography>
                                             }
                                         />
                                     </ListItem>
                                     <ListItem style={{ padding: "0px" }}>
-                                        <ListItemText
-                                            primary="2. Applying for early release of superannuation funds on compassionate grounds through the Australian Taxation Office (ATO)"
-                                            secondary={<Typography className='para' variant="body2" style={{ color: 'grey' }}>In some cases, individuals may be eligible to access their superannuation funds early to cover the cost of necessary dental treatments. A dental coordinator can assist patients in navigating the application process and understanding the requirements for early release of funds on compassionate grounds.</Typography>}
+                                        <ListItemText primary={
+                                            <Typography className='para ms-3 fw-bold' variant="body2">
+                                                2. Applying for early release of superannuation funds on compassionate grounds through the Australian Taxation Office (ATO)
+                                            </Typography>
+                                        }
+                                            secondary={<Typography className=' ms-3' variant="body2" style={{ color: '#1c1a1a' }}>In some cases, individuals may be eligible to access their superannuation funds early to cover the cost of necessary dental treatments. A dental coordinator can assist patients in navigating the application process and understanding the requirements for early release of funds on compassionate grounds.</Typography>}
                                         />
                                     </ListItem>
                                 </List>
@@ -398,7 +415,11 @@ const SleepDentistry = () => {
                             <SectionalHeading variant="h2" title="Advantages of Dental Sedation: Experience Relaxing, Pain-free Dentistry" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                             <Grid container spacing={4}>
                                 <Grid item xs={12} md={6} className="mt-2">
-                                    <Image src={Doctor2} alt="Sleep Dentistry Carrum Downs" width={550} height={500} />
+                                    <Box sx={{ width: '100%', height: 'auto' }}>
+                                        <Image src={Doctor2} alt="Sleep Dentistry Carrum Downs" width={550} height={500} layout="responsive"
+                                            style={{ maxWidth: '100%', height: 'auto' }}
+                                        />
+                                    </Box>
                                 </Grid>
                                 <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                                     <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
@@ -408,7 +429,7 @@ const SleepDentistry = () => {
                                         </Typography>
                                         <List>
                                             {
-                                                ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
+                                                ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ lineHeight: 1.8 }}>
                                                     <ListItemIcon>
                                                         <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
                                                     </ListItemIcon>
@@ -442,7 +463,7 @@ const SleepDentistry = () => {
                                             " Elevated risk of infection spreading beyond the mouth and affecting other parts of the body",
                                             "Potential loss of teeth due to untreated gum disease or extensive tooth decay",
                                             "Negative impact on overall health, as poor oral health has been linked to various systemic conditions, such as heart disease and diabetes",
-                                        ].map(item => <ListItem key={item} style={{ padding: "0px", lineHeight: "1.8 !important" }}>
+                                        ].map(item => <ListItem key={item} style={{ lineHeight: "1.8 !important" }}>
                                             <ListItemIcon>
                                                 <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
                                             </ListItemIcon>
@@ -464,3 +485,4 @@ const SleepDentistry = () => {
 }
 
 export default SleepDentistry
+ 
