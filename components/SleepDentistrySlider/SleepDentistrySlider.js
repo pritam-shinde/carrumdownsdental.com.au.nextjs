@@ -22,7 +22,7 @@ const SleepDentistrySlider = () => {
             <Container maxWidth="xxl">
                 <Grid container>
                     <Grid item xs={12} md={9} className="mx-auto"> 
-                        <SectionalHeading variant="h2" title="Check out some of our amazing work" align={width > 600 ? 'center' : 'left'} color="var(--dark-blue)" />
+                        <SectionalHeading variant="h2" title="Check out some of the amazing work" align={width > 600 ? 'center' : 'left'} color="var(--dark-blue)" />
                         <Box alignSelf="center">
                         <Swiper
                                     slidesPerView={width > 992 ? 3 : width > 0 && width < 600 ? 1 : 2}

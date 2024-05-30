@@ -10,7 +10,7 @@ import Image2 from "../../public/sleep-denstistry/safe.jpg"
 import Image3 from "../../public/sleep-denstistry/prevention-negative-treatment.jpg"
 import styles from '../../styles/CardLayout.module.css'
 import Sedation from "../../public/sleep-denstistry/female-patient.jpg"
-import HappyGas from "../../public/sleep-denstistry/laughing-gas.jpg"
+import HappyGas from "../../public/sleep-denstistry/happy-gas.jpg"
 import Twilight from "../../public/sleep-denstistry/female-dentist.jpg"
 import Special from "../../public/sleep-denstistry/special-needs-img.jpg"
 import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
