@@ -169,17 +169,6 @@ const SleepDentistry = () => {
                     <Grid container>
                         <Grid item xs={12} md={9} className="mx-auto">
                             <Grid container spacing={4}>
-                                {/* <Grid item xs={12} md={6} >
-                                    <Box sx={{ padding: { xs: 2, md: 0 }, width: '100%' }}>
-                                        <Typography className="para mt-2" gutterBottom>
-                                            For adults and children who experience extreme fear or anxiety related to dental visits, sleep dentistry using general anaesthesia can provide a transformative solution. When a patient is asleep during the procedure, they are completely unaware of the dental work being performed, eliminating any potential for fear, pain, or discomfort. This approach allows necessary dental treatments to be completed without causing psychological distress or trauma, which is particularly important for those with severe dental phobia.
-                                        </Typography>
-
-                                        <Typography className="para" gutterBottom>
-                                            By removing the emotional barrier to seeking dental care, sleep dentistry enables patients with severe anxiety to maintain better oral health and address dental issues before they become more complex and difficult to treat. This proactive approach to dental care can lead to improved overall health and well-being, as poor oral health has been linked to various systemic health issues.
-                                        </Typography>
-                                    </Box>
-                                </Grid> */}
                                 <Grid item xs={12} md={6} >
                                     <Box sx={{ width: '100%', height: 'auto' }}>
                                         <Image src={Doctor3} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} layout="responsive" style={{ maxWidth: '100%', height: 'auto' }} />
