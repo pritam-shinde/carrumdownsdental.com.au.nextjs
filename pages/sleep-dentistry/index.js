@@ -12,7 +12,8 @@ import styles from '../../styles/CardLayout.module.css'
 import Sedation from "../../public/sleep-denstistry/female-patient.jpg"
 import HappyGas from "../../public/sleep-denstistry/happy-gas.jpg"
 import Twilight from "../../public/sleep-denstistry/female-dentist.jpg"
-import Special from "../../public/sleep-denstistry/special-needs-img.jpg"
+import Special from "../../public/sleep-denstistry/special-needs-img-opt.jpg"
+// import Special from "../../public/sleep-denstistry/special-needs-img.jpg"
 import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
 // import Banner from '../../public/sleep-denstistry/sleep-den-banner1.jpg'
 import SleepImg from "../../public/sleep-denstistry/Image-1.jpeg"
@@ -140,7 +141,7 @@ const SleepDentistry = () => {
                                 <Typography className="para mt-2">A strong gag reflex can make dental treatments challenging and uncomfortable for both the patient and the dentist. In some cases, a severe gag reflex can render certain dental procedures nearly impossible to complete while the patient is awake. Sleep dentistry using general anaesthesia offers a solution by temporarily suppressing the gag reflex while the patient is unconscious.</Typography>
                                 <Typography className="para">With the gag reflex inactive during the procedure, the dentist can work more efficiently and effectively, ensuring that necessary dental treatments are completed without causing distress or discomfort to the patient. This approach is particularly beneficial for patients who have previously struggled to receive dental care due to their severe gag reflex, as it allows them to access the treatment they need for optimal oral health.</Typography>
                                 <Box mt={2}>
-                                    <Image src={SleepImg} alt="sleepImg" height={650} width={1200} className="img-fluid" />
+                                    <Image src={SleepImg} alt="sleepImg" height={650} width={1200} className="img-fluid" priority />
                                 </Box>
                             </Box>
                         </Grid>
@@ -153,7 +154,7 @@ const SleepDentistry = () => {
                         <Grid item xs={12} md={9} className="mx-auto">
                             <Box py={2}>
                                 <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Special Healthcare Needs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                                <Image src={Special} alt="teethMissing2" height={800} width={1200} className="img-fluid mt-4" />
+                                <Image src={Special} priority  alt="specialHealcareNeeds" height={800} width={1200} className="img-fluid mt-4" />
                             </Box>
                             <Box className="mt-2">
                                 <Typography className="para">For adults and children with special healthcare needs, such as severe anxiety, phobia, or certain medical conditions, receiving dental care in a traditional setting can be challenging or even impossible. Sleep dentistry using general anaesthesia provides a safe and comfortable way for these individuals to receive necessary dental treatments without the emotional or physical distress that may be associated with being awake during the procedure.</Typography>
@@ -171,7 +172,7 @@ const SleepDentistry = () => {
                             <Grid container spacing={4}>
                                 <Grid item xs={12} md={6} >
                                     <Box sx={{ width: '100%', height: 'auto' }}>
-                                        <Image src={Doctor3} alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} layout="responsive" style={{ maxWidth: '100%', height: 'auto' }} />
+                                        <Image src={Doctor3} priority alt="complex Sleep Dentistry Carrum Downs" width={550} height={400} layout="responsive" style={{ maxWidth: '100%', height: 'auto' }} />
                                     </Box>
                                 </Grid>
                                 <Grid item xs={12} md={6} className='d-flex justify-content-center py-4'>
