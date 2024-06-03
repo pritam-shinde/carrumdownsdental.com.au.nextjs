@@ -2,7 +2,7 @@ import { Box, Card, CardContent, CardMedia, Container, Grid, List, ListItem, Lis
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import { CommonHero, SectionalHeading } from '../../components/components' 
+import { CommonHero, SectionalHeading } from '../../components/components'
 import Image1 from "../../public/sleep-denstistry/fear.jpg"
 import Twilight from "../../public/sleep-denstistry/female-dentist.jpg"
 import Sedation from "../../public/sleep-denstistry/female-patient.jpg"
@@ -65,7 +65,7 @@ const SleepDentistry = () => {
                                             width={550}
                                             height={500}
                                             style={{ maxWidth: '100%', height: 'auto' }}
-                                            priority 
+                                            priority
                                             className='object-cover'
                                         />
                                     </Box>
@@ -86,7 +86,7 @@ const SleepDentistry = () => {
                                             {
                                                 ["Dental anxiety and phobia", "Complex dental procedures", "Strong gag reflex", "	Patients with special healthcare needs", "Pain management and amnesia", "Efficiency in treatment for multiple procedures", "Dental treatment for babies and toddlers"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
                                                     <ListItemIcon>
-                                                        <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                        <CircleIcon style={{ color: "#117295", fontSize: "12px",marginTop: "0.5rem" }} />
                                                     </ListItemIcon>
                                                     <ListItemText primary={item} />
                                                 </ListItem>)
@@ -151,7 +151,7 @@ const SleepDentistry = () => {
                         <Grid item xs={12} md={9} className="mx-auto">
                             <Box py={2}>
                                 <SectionalHeading variant="h2" title="Sleep Dentistry for Patients with Special Healthcare Needs" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
-                                <Image src={Special} priority  alt="specialHealcareNeeds" height={800} width={1200} className="img-fluid mt-4" />
+                                <Image src={Special} priority alt="specialHealcareNeeds" height={800} width={1200} className="img-fluid mt-4" />
                             </Box>
                             <Box className="mt-2">
                                 <Typography className="para">For adults and children with special healthcare needs, such as severe anxiety, phobia, or certain medical conditions, receiving dental care in a traditional setting can be challenging or even impossible. Sleep dentistry using general anaesthesia provides a safe and comfortable way for these individuals to receive necessary dental treatments without the emotional or physical distress that may be associated with being awake during the procedure.</Typography>
@@ -250,7 +250,7 @@ const SleepDentistry = () => {
                                         "Allowing the child to bring a favourite toy or comfort object to the appointment",
                                         "Providing positive reinforcement and rewards after the visit to help build positive associations with dental care"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
                                             <ListItemIcon>
-                                                <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                <CircleIcon style={{ color: "#117295", fontSize: "12px",marginTop: "0.5rem" }} />
                                             </ListItemIcon>
                                             <ListItemText primary={item} />
                                         </ListItem>)
@@ -271,7 +271,7 @@ const SleepDentistry = () => {
                         <Grid item xs={12} md={9} className="mx-auto pb-4">
                             <Grid container justifyContent="center" spacing={4}>
                                 <Grid item xs={12} md={4} sm={6}>
-                                    <Card className={styles.card}> 
+                                    <Card className={styles.card}>
                                         <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
@@ -382,7 +382,7 @@ const SleepDentistry = () => {
                                             "Major reconstructive or restorative work, such as placing several crowns or bridges in one appointment",
                                             "Extensive root canal treatments that may require multiple visits or lengthy appointments"].map(item => <ListItem key={item} style={{ padding: "0px" }}>
                                                 <ListItemIcon>
-                                                    <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                    <CircleIcon style={{ color: "#117295", fontSize: "12px", marginTop: "0.5rem" }} />
                                                 </ListItemIcon>
                                                 <ListItemText primary={item} />
                                             </ListItem>)
@@ -402,7 +402,7 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={6} className="mt-2">
                                     <Box sx={{ width: '100%', height: 'auto' }}>
                                         <Image src={Doctor2} alt="Sleep Dentistry Carrum Downs" width={550} height={500} layout="responsive"
-                                            style={{ maxWidth: '100%', height: 'auto' }} 
+                                            style={{ maxWidth: '100%', height: 'auto' }}
                                             priority
                                             className='object-cover'
                                         />
@@ -418,7 +418,7 @@ const SleepDentistry = () => {
                                             {
                                                 ["Improved access to dental care for even the most anxious or fearful patients", "Effective relief of pain and anxiety during dental procedures", "Assistance for patients with a strong gag reflex that may otherwise impede treatment", "Increased comfort and cooperation for patients requiring extensive dental work", "Enhanced dental experience for individuals with special needs, such as those with general anxiety disorder or autism", "Efficient completion of lengthy, surgical, or invasive dental procedures", "Reduced need for multiple dental visits, as the dentist can work more efficiently while the patient is sedated"].map(item => <ListItem key={item} style={{ lineHeight: 1.8 }}>
                                                     <ListItemIcon>
-                                                        <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                        <CircleIcon style={{ color: "#117295", fontSize: "12px", marginTop: "0.5rem" }}  className='circleIcon'/>
                                                     </ListItemIcon>
                                                     <ListItemText primary={item} />
                                                 </ListItem>)
@@ -452,7 +452,7 @@ const SleepDentistry = () => {
                                             "Negative impact on overall health, as poor oral health has been linked to various systemic conditions, such as heart disease and diabetes",
                                         ].map(item => <ListItem key={item} style={{ lineHeight: "1.8 !important" }}>
                                             <ListItemIcon>
-                                                <CircleIcon style={{ color: "#117295", fontSize: "12px", margin: 0 }} />
+                                                <CircleIcon style={{ color: "#117295", fontSize: "12px", marginTop: "0.5rem" }} />
                                             </ListItemIcon>
                                             <ListItemText primary={item} />
                                         </ListItem>)
@@ -471,4 +471,3 @@ const SleepDentistry = () => {
 }
 
 export default SleepDentistry
- 

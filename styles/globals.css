@@ -354,10 +354,11 @@ footer a:hover {
     min-width: 70% !important;
     min-height: 70% !important;
 }
-/* for bullet CircleIcon  */
+ 
+
 .MuiListItem-root {
-    align-items: center !important;
-    /* align-items: flex-start !important; */
+    /* align-items: center !important; */
+    align-items: flex-start !important;
 }
 
 .MuiListItem-root .MuiListItemIcon-root {
