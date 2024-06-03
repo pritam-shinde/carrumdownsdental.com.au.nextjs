@@ -744,3 +744,7 @@ span.arrow-right {
   .dear_doctor_video_widget_addthis_toolbox.addthis_default_style a:nth-child(1) {
     margin-right: 5px;
 }
+
+.object-cover{
+    object-fit: cover !important;
+}

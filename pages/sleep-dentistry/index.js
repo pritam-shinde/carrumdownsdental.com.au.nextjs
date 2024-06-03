@@ -70,6 +70,8 @@ const SleepDentistry = () => {
                                             width={550}
                                             height={500}
                                             style={{ maxWidth: '100%', height: 'auto' }}
+                                            priority
+                                            className='object-cover'
                                         />
                                     </Box>
                                 </Grid>
@@ -408,6 +410,8 @@ const SleepDentistry = () => {
                                     <Box sx={{ width: '100%', height: 'auto' }}>
                                         <Image src={Doctor2} alt="Sleep Dentistry Carrum Downs" width={550} height={500} layout="responsive"
                                             style={{ maxWidth: '100%', height: 'auto' }}
+                                            className='object-cover'
+                                            priority
                                         />
                                     </Box>
                                 </Grid>
