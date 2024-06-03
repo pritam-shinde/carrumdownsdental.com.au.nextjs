@@ -277,8 +277,7 @@ const SleepDentistry = () => {
                         <Grid item xs={12} md={9} className="mx-auto pb-4">
                             <Grid container justifyContent="center" spacing={4}>
                                 <Grid item xs={12} md={4} sm={6}>
-                                    <Card className={styles.card}>
-                                        {/* <img src="/path/to/image2.jpg" alt="Image 2" className={styles.cardImage} /> */}
+                                    <Card className={styles.card}> 
                                         <CardMedia component="img" src={HappyGas.src} alt="scale and clean" className={styles.ChoosecardImage} style={{ aspectRatio: "5/4" }} />
 
                                         <CardContent className={styles.cardContent}>
