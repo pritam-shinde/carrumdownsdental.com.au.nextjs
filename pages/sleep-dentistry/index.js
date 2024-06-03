@@ -1,28 +1,23 @@
-import React, { useEffect, useState } from 'react'
+import { Box, Card, CardContent, CardMedia, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography, useMediaQuery, useTheme } from '@mui/material'
 import Head from 'next/head'
-import { CommonHero, SectionalHeading } from '../../components/components'
-import { Box, Container, Grid, Typography, Card, CardMedia, CardContent, List, ListItemIcon, ListItemText, ListItem, useTheme, useMediaQuery } from '@mui/material'
 import Image from 'next/image'
-// import teethMissing1 from "../../public/teeth-missing/teeth-missing1.png"
-import SleepDentistryWhat from "../../public/sleep-denstistry/sleep-dentistry-section.jpg"
+import React, { useEffect, useState } from 'react'
+import { CommonHero, SectionalHeading } from '../../components/components' 
 import Image1 from "../../public/sleep-denstistry/fear.jpg"
-import Image2 from "../../public/sleep-denstistry/safe.jpg"
-import Image3 from "../../public/sleep-denstistry/prevention-negative-treatment.jpg"
-import styles from '../../styles/CardLayout.module.css'
+import Twilight from "../../public/sleep-denstistry/female-dentist.jpg"
 import Sedation from "../../public/sleep-denstistry/female-patient.jpg"
 import HappyGas from "../../public/sleep-denstistry/happy-gas.jpg"
-import Twilight from "../../public/sleep-denstistry/female-dentist.jpg"
+import Image3 from "../../public/sleep-denstistry/prevention-negative-treatment.jpg"
+import Image2 from "../../public/sleep-denstistry/safe.jpg"
+import SleepDentistryWhat from "../../public/sleep-denstistry/sleep-dentistry-section.jpg"
 import Special from "../../public/sleep-denstistry/special-needs-img-opt.jpg"
-// import Special from "../../public/sleep-denstistry/special-needs-img.jpg"
+import styles from '../../styles/CardLayout.module.css'
 import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
-// import Banner from '../../public/sleep-denstistry/sleep-den-banner1.jpg'
+import CircleIcon from '@mui/icons-material/Circle'
+import SleepDentistrySlider from '../../components/SleepDentistrySlider/SleepDentistrySlider'
 import SleepImg from "../../public/sleep-denstistry/Image-1.jpeg"
 import Doctor2 from "../../public/sleep-denstistry/Image-2.jpeg"
 import Doctor3 from "../../public/sleep-denstistry/Image.jpeg"
-import Complex from "../../public/sleep-denstistry/complex.jpg"
-import SleepDentistrySlider from '../../components/SleepDentistrySlider/SleepDentistrySlider'
-import { CheckCircleOutline } from '@mui/icons-material'
-import CircleIcon from '@mui/icons-material/Circle';
 
 
 const SleepDentistry = () => {
@@ -70,7 +65,7 @@ const SleepDentistry = () => {
                                             width={550}
                                             height={500}
                                             style={{ maxWidth: '100%', height: 'auto' }}
-                                            priority
+                                            priority 
                                             className='object-cover'
                                         />
                                     </Box>
@@ -221,7 +216,6 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={4} sm={6}>
                                     <Card className={styles.card}>
                                         <CardMedia component="img" src={Image2.src} alt="scale and clean" className={styles.cardImage} />
-
                                         <CardContent className={styles.cardContent}>
                                             <Typography variant="h5" component="h3" className="maintainance-title-font veneer-font-color fs-4">
                                                 Safe and accurate treatment
@@ -408,9 +402,9 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={6} className="mt-2">
                                     <Box sx={{ width: '100%', height: 'auto' }}>
                                         <Image src={Doctor2} alt="Sleep Dentistry Carrum Downs" width={550} height={500} layout="responsive"
-                                            style={{ maxWidth: '100%', height: 'auto' }}
-                                            className='object-cover'
+                                            style={{ maxWidth: '100%', height: 'auto' }} 
                                             priority
+                                            className='object-cover'
                                         />
                                     </Box>
                                 </Grid>
@@ -464,7 +458,6 @@ const SleepDentistry = () => {
                                         </ListItem>)
                                     }
                                 </List>
-
                                 <Typography className="para mt-2">
                                     Seeking prompt dental care is essential for maintaining good oral health and preventing the development of more serious dental and general health issues. For individuals who experience severe dental anxiety or phobia, sleep dentistry can provide a safe and comfortable way to access necessary treatments, enabling them to prioritize their oral health without the emotional distress that may have previously prevented them from seeking care.
                                 </Typography>
