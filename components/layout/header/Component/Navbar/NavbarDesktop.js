@@ -164,6 +164,11 @@ const NavbarDesktop = () => {
                                             <a className="nav-link dropdown-item service-menu">DENTURE TECHNOLOGY</a>
                                         </Link>
                                     </li>
+                                    <li className="nav-item">
+                                        <Link href="/service/sleep-dentistry/">
+                                            <a className="nav-link dropdown-item service-menu">SLEEP DENTISTRY</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown dental-problems-section">

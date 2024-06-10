@@ -2,22 +2,24 @@ import { Box, Card, CardContent, CardMedia, Container, Grid, List, ListItem, Lis
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import { CommonHero, SectionalHeading } from '../../components/components'
-import Image1 from "../../public/sleep-denstistry/fear.jpg"
-import Twilight from "../../public/sleep-denstistry/female-dentist.jpg"
-import Sedation from "../../public/sleep-denstistry/female-patient.jpg"
-import HappyGas from "../../public/sleep-denstistry/happy-gas.jpg"
-import Image3 from "../../public/sleep-denstistry/prevention-negative-treatment.jpg"
-import Image2 from "../../public/sleep-denstistry/safe.jpg"
-import SleepDentistryWhat from "../../public/sleep-denstistry/sleep-dentistry-section.jpg"
-import Special from "../../public/sleep-denstistry/special-needs-img-opt.jpg"
-import styles from '../../styles/CardLayout.module.css'
-import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
+import { CommonHero, SectionalHeading } from '../../../components/components'
+import Image1 from "../../../public/sleep-denstistry/fear.jpg"
+// import Image1 from "../../public/sleep-denstistry/fear.jpg"
+import Twilight from "../../../public/sleep-denstistry/female-dentist.jpg"
+import Sedation from "../../../public/sleep-denstistry/female-patient.jpg"
+import HappyGas from "../../../public/sleep-denstistry/happy-gas.jpg"
+import Image3 from "../../../public/sleep-denstistry/prevention-negative-treatment.jpg"
+import Image2 from "../../../public/sleep-denstistry/safe.jpg"
+import SleepDentistryWhat from "../../../public/sleep-denstistry/sleep-dentistry-section.jpg"
+import Special from "../../../public/sleep-denstistry/special-needs-img-opt.jpg"
+import styles from '../../../styles/CardLayout.module.css'
+import Banner from '../../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
+// import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
 import CircleIcon from '@mui/icons-material/Circle'
-import SleepDentistrySlider from '../../components/SleepDentistrySlider/SleepDentistrySlider'
-import SleepImg from "../../public/sleep-denstistry/Image-1.jpeg"
-import Doctor2 from "../../public/sleep-denstistry/Image-2.jpeg"
-import Doctor3 from "../../public/sleep-denstistry/Image.jpeg"
+import SleepDentistrySlider from '../../../components/SleepDentistrySlider/SleepDentistrySlider' 
+import SleepImg from "../../../public/sleep-denstistry/Image-1.jpeg"
+import Doctor2 from "../../../public/sleep-denstistry/Image-2.jpeg"
+import Doctor3 from "../../../public/sleep-denstistry/Image.jpeg"
 
 
 const SleepDentistry = () => {
@@ -43,9 +45,9 @@ const SleepDentistry = () => {
     return (
         <>
             <Head>
-                <title>Sleep Dentistry Carrum Downs Dental Group</title>
-                <meta name="description" content="" />
-                <meta name="robots" content="noindex" />
+                <title>Sleep Dentistry In Carrum Downs | Carrum Downs Dental</title>
+                <meta name="description" content="Sleep Dentistry at Carrum Downs Dental Group contact us now to learn about our services and how we can improve your dental health." />
+                <meta name="robots" content="index" />
             </Head>
             <CommonHero bg={Banner} breadcrumb={breadcrumb} align={width < 600 ? 'center' : 'left'} color="#fff" title="Sleep Dentistry" />
             <section className="py-4 my-4">
