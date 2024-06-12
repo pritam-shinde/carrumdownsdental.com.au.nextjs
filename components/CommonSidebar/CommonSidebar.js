@@ -108,6 +108,9 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                 <Typography variant="h6" className="mt-3">
                                     <Link href="/service/denture-technology/">Denture Technology</Link>
                                 </Typography>
+                                <Typography variant="h6" className="mt-3">
+                                    <Link href="/service/sleep-dentistry/">Sleep Dentistry</Link>
+                                </Typography>
                             </Box>
                         </Box>
                     ) : null}
