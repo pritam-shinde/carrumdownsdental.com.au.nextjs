@@ -7,7 +7,7 @@ import Logo from "../../../../../public/header/logo_new.png";
 import Styles from "../../../../../styles/components-style/layout-style/header/Header.module.css";
 import { BlueFilledBtn, BlueOulinedBtn } from "../../../../components";
 
-const NavbarDesktop = () => {
+const NavbarDesktop = () => { 
   return ( 
        <nav className="navbar navbar-expand-xl bg-transparent">
                     <Link href="/">
