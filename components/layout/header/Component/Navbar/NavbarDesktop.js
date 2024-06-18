@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button, Box } from "@mui/material";
@@ -8,6 +8,12 @@ import Styles from "../../../../../styles/components-style/layout-style/header/H
 import { BlueFilledBtn, BlueOulinedBtn } from "../../../../components";
 
 const NavbarDesktop = () => { 
+
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleToggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
   return ( 
        <nav className="navbar navbar-expand-xl bg-transparent">
                     <Link href="/">
@@ -114,8 +120,9 @@ const NavbarDesktop = () => {
                                     </li>
                                     <li className="nav-item dropdown dropdown2">
                                         <Link href="/service/teeth-aligners/">
-                                            <a className="nav-link dropdown-item service-menu">INVISALIGN</a>
+                                            <a className="nav-link dropdown-item service-menu">INVISALIGN   <span className={`arrow ${isDropdownOpen ? "open" : ""}`} onClick={handleToggleDropdown}>&#x25BA;</span></a>
                                         </Link>
+                                      
                                         <ul className="dropdown-menu dropdown-menu-2 p-2 border-0" aria-labelledby="dropdownMenuButton1">
                                             <li>
                                                 <Link className="nav-item" href="/invisalign-open-day/">

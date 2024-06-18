@@ -118,7 +118,7 @@ const Footer = () => {
                           <ListItemIcon>
                             <Home style={{ color: 'var(--dark-blue) !important' }} />
                           </ListItemIcon>
-                          <ListItemText className="text-white" primary="Shop T5, 100 Hall Road, Carrum Downs" />
+                          <ListItemText className="text-white" primary="Shop T5, 100 Hall Road, Carrum Downs VIC 3201, Australia" />
                         </ListItem>
                         <ListItem>
                           <ListItemIcon>
