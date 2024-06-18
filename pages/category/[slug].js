@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import WPAPI from 'wpapi';
-import Head from 'next/head'
-import { BlogSidebar, CommonHero, BlueFilledBtn, CustomCard } from '../../components/components';
-import Banner1 from '../../public/CommonHero/single-blog-1.jpg'
-import Banner3 from '../../public/CommonHero/blog-index-1.jpg'
-import Banner4 from '../../public/CommonHero/blog-3-0.jpg'
 import { Box, Container, Grid } from '@mui/material';
-import { XMasonry, XBlock } from 'react-xmasonry'
+import Head from 'next/head';
+import React, { useEffect, useState } from 'react';
+import { XBlock, XMasonry } from 'react-xmasonry';
+import WPAPI from 'wpapi';
+import { BlogSidebar, CommonHero, CustomCard } from '../../components/components';
+import Banner4 from '../../public/CommonHero/blog-3-0.jpg';
+import Banner3 from '../../public/CommonHero/blog-index-1.jpg';
+import Banner1 from '../../public/CommonHero/single-blog-1.jpg';
 
 export const getServerSideProps = async (context) => {
   const { slug } = context.params;

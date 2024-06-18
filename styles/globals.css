@@ -908,18 +908,18 @@ span.arrow-right {
   object-fit: cover !important;
 }
 
-/*  */
+/* arrow infront of the invisalign page in navbar */
 .arrow {
   display: inline-block;
   margin-left: 8rem;
   transition: transform 0.3s;
 }
 
-/* .arrow.open {
-  transform: rotate(90deg);
-} */
-
 /* for blog page h2 , h3 ,h4  */
 .sub-head{
   font-size: 1.5rem !important;
+}
+
+.sub-head-h3{
+  font-size: 1.1rem !important;
 }
