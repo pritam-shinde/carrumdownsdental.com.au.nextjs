@@ -136,7 +136,7 @@ const DigitalDentures = () => {
                         <Box mt={3}>
                         <Grid container spacing={5}>                                                 
                           <Grid item xs={12} md={6}>
-                            <Typography className='para'>Digital dentures are made from high-quality, durable, and long-lasting materials. They are made from a PMMA material and designed using 3-shape camera software. The resulting model is actually three times harder than <Link href='https://carrumdownsdental.com.au/service/dentures/'>traditional dentures</Link>. </Typography>
+                            <Typography className='para'>Digital dentures are made from high-quality, durable, and long-lasting materials. They are made from a PMMA material and designed using 3-shape camera software. The resulting model is actually three times harder than traditional dentures. </Typography>
                           </Grid> 
                           <Grid item xs={12} md={6}>
                            <Image src={image3} alt="girl smiling" />

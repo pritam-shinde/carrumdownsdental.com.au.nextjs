@@ -30,7 +30,7 @@ const index = () => {
                     <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 2 }}>
-                                <Typography variant="h5" component="h2" className='text-white' gutterBottom>
+                                <Typography variant="h5" component="h1" className='text-white' gutterBottom>
                                     Learn More About Missing Teeth
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
@@ -67,7 +67,7 @@ const index = () => {
                                     It's important to address missing teeth as soon as possible for both aesthetic and health reasons. With advancements in modern dentistry, there are various options available for restoring missing teeth that look natural and function like real teeth.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                    At Carrum Downs Dental Group, we offer personalized treatment plans that cater specifically to each patient's needs. Our goal is always to restore our patients' smiles so they feel confident in their appearance while maintaining optimal oral health.
+                                    At Carrum Downs Dental Group, we offer personalized treatment plans that cater specifically to each patient's needs. Our goal is always to restore our patients' smiles so they feel confident in their appearance while maintaining optimal <Link href="https://carrumdownsdental.com.au/7-tips-for-improving-your-oral-health-before-sleep-time/">oral health</Link>. 
                                 </Typography>
                             </Box>
                         </Grid>
@@ -129,7 +129,7 @@ const index = () => {
                                                     <ListItemIcon >
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore missing teeth. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
+                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore <Link href="https://carrumdownsdental.com.au/service/missing-teeth/">missing teeth</Link>. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
                                                 </Box>
 
                                             </Grid>
@@ -185,7 +185,7 @@ const index = () => {
                                         </h3>
                                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                                <p className='para'>Tooth loss can result from a variety of factors, including decay, gum disease, injury, or trauma.</p>
+                                                <p className='para'>Tooth loss can result from a variety of factors, including decay, <Link href="https://carrumdownsdental.com.au/top-five-symptoms-of-gum-disease/">gum disease</Link>, injury, or trauma.</p>
                                             </div>
                                         </div>
                                     </div>
