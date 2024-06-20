@@ -411,7 +411,7 @@ const SleepDentistry = () => {
                                 <Grid item xs={12} md={6} className='d-flex justify-content-center'>
                                     <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
 
-                                        <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important" }}>
+                                        <Typography variant="p" gutterBottom style={{  fontSize: "1rem !important" }}>
                                             Dental sedation, including sleep dentistry, offers numerous benefits for patients seeking a more comfortable and stress-free dental experience:
                                         </Typography>
                                         <List>
@@ -440,7 +440,7 @@ const SleepDentistry = () => {
                             <SectionalHeading variant="h2" title="Putting off Dental Treatments" align={width < 600 ? 'center' : 'left'} color="var(--dark-blue)" />
 
                             <Box sx={{ padding: { xs: 2, md: 0 }, marginTop: { md: 2, xs: 2 }, width: '100%' }}>
-                                <Typography variant="p" component="h3" gutterBottom style={{ color: "#115278", fontSize: "1rem !important", lineHeight: "1.4 !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
+                                <Typography variant="p" gutterBottom style={{ fontSize: "1rem !important", lineHeight: "1.4 !important" }}>Delaying or avoiding necessary dental care due to fear or anxiety can have serious consequences for an individual's oral health. When dental issues are left untreated, they can quickly escalate into more complex and severe problems that may require invasive procedures to resolve. Some potential consequences of postponing dental treatments include:
                                 </Typography>
                                 <List>
                                     {
