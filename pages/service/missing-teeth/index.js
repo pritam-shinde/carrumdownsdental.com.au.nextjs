@@ -129,7 +129,7 @@ const index = () => {
                                                     <ListItemIcon >
                                                         <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                     </ListItemIcon>
-                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore <Link href="https://carrumdownsdental.com.au/service/missing-teeth/">missing teeth</Link>. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
+                                                    <ListItemText className='text-white' ><strong>Dental Bridges </strong>Bridges are one of the most effective ways to restore missing teeth. They consist of one or more artificial teeth anchored between existing natural teeth or dental implants. Bridges are designed to restore the aesthetics of your smile and Bridges help maintain the shape of your face so that cheeks do not sink where teeth are missing. And they can prevent teeth from drifting out of position.</ListItemText>
                                                 </Box>
 
                                             </Grid>

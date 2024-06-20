@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography, Button } from '@mui/material'
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography, Button, Link } from '@mui/material'
 import { CommonSidebar, SectionalHeading, BookAndCall, TermsNCondition, CustomCard, CommonHero, InterestFree } from '../../../components/components'
 import Slider1 from '../../../public/WisdomTeeth/Slider1.jpg'
 import Slider2 from '../../../public/WisdomTeeth/Slider2.jpg'
@@ -46,6 +46,7 @@ const WisdomTeeth = ({ data }) => {
     { id: "WisdomTeeth_breadcrumb_1", link: "/service/", title: "Service" },
     { id: "WisdomTeeth_breadcrumb_2", link: null, title: 'Wisdom Teeth Removal in Carrum Downs' }
   ]
+
   return (
     <>
       <Head>
@@ -116,9 +117,12 @@ const WisdomTeeth = ({ data }) => {
                               </Box>
                               <Box mt={3}>
                                 <SectionalHeading variant="h2" title="What happens during your Wisdom tooth extraction?" align="left" color="var(--dark-blue)" />
-                                {
-                                  ["Prior to the surgery your dentist will discuss with you the procedure and will let you know what to expect during and after the procedure. A local anaesthetic will be given to numb the area around the wisdom tooth so you do not feel any pain. To remove the wisdom tooth, your dentist will remove the gum tissue or bone over your tooth. The wisdom tooth is either extracted or cut in to small pieces to make way for easier removal. Stitches may be required after the extraction. The dentist will advise if all of the wisdom teeth can be removed in a single or multiple sitting.", "If you are Anxious about getting the dental treatment done, we can also provide Laughing Gas or Happy Gas sedation to help reduce your pain and anxiety during the treatment."].map(item => <Typography key={item} className="para" dangerouslySetInnerHTML={{ __html: item }} />)
-                                }
+                                <Typography className="para">
+                                  Prior to the surgery your dentist will discuss with you the procedure and will let you know what to expect during and after the procedure. A local anaesthetic will be given to numb the area around the wisdom tooth so you do not feel any pain. To remove the <Link href="https://carrumdownsdental.com.au/dental-problems/wisdom-tooth-pain/">wisdom tooth</Link>, your dentist will remove the gum tissue or bone over your tooth. The wisdom tooth is either extracted or cut in to small pieces to make way for easier removal. Stitches may be required after the extraction. The dentist will advise if all of the wisdom teeth can be removed in a single or multiple sitting.
+                                </Typography>
+                                <Typography className="para">
+                                  If you are Anxious about getting the <Link href="https://carrumdownsdental.com.au/dental-treatments-for-top-10-mouth-problems/">dental treatment</Link> done, we can also provide Laughing Gas or Happy Gas sedation to help reduce your pain and anxiety during the treatment.
+                                </Typography>
                               </Box>
                             </Box>
                           </Container>
@@ -151,7 +155,7 @@ const WisdomTeeth = ({ data }) => {
                                     </h3>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                       <div className="accordion-body">
-                                        <p className='para'>Yes, wisdom teeth removal is covered under Medicare for eligible Kids under the CDBS Program.</p>
+                                        <p className='para'>Yes, wisdom teeth removal is covered under Medicare for eligible Kids under the <Link href="https://carrumdownsdental.com.au/making-use-of-cdbs-to-keep-your-childs-smiles-their-best/">CDBS Program</Link>.</p>
                                       </div>
                                     </div>
                                   </div>

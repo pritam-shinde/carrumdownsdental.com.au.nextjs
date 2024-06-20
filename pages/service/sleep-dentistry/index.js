@@ -1,25 +1,25 @@
-import { Box, Card, CardContent, CardMedia, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography, useMediaQuery, useTheme } from '@mui/material'
+import CircleIcon from '@mui/icons-material/Circle'
+import { Box, Card, CardContent, CardMedia, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
+import SleepDentistrySlider from '../../../components/SleepDentistrySlider/SleepDentistrySlider'
 import { CommonHero, SectionalHeading } from '../../../components/components'
+import SleepDentistryWhat from "../../../public/sleep-denstistry/sleep-dentistry-section-new.jpg"
+// import SleepDentistryWhat from "../../../public/sleep-denstistry/sleep-dentistry-section.jpg"
+import SleepImg from "../../../public/sleep-denstistry/Image-1-new.jpg"
+// import SleepImg from "../../../public/sleep-denstistry/Image-1.jpeg"
+import Doctor2 from "../../../public/sleep-denstistry/Image-2.jpeg"
+import Doctor3 from "../../../public/sleep-denstistry/Image.jpeg"
 import Image1 from "../../../public/sleep-denstistry/fear.jpg"
-// import Image1 from "../../public/sleep-denstistry/fear.jpg"
 import Twilight from "../../../public/sleep-denstistry/female-dentist.jpg"
 import Sedation from "../../../public/sleep-denstistry/female-patient.jpg"
 import HappyGas from "../../../public/sleep-denstistry/happy-gas.jpg"
 import Image3 from "../../../public/sleep-denstistry/prevention-negative-treatment.jpg"
 import Image2 from "../../../public/sleep-denstistry/safe.jpg"
-import SleepDentistryWhat from "../../../public/sleep-denstistry/sleep-dentistry-section.jpg"
+import Banner from '../../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
 import Special from "../../../public/sleep-denstistry/special-needs-img-opt.jpg"
 import styles from '../../../styles/CardLayout.module.css'
-import Banner from '../../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
-// import Banner from '../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
-import CircleIcon from '@mui/icons-material/Circle'
-import SleepDentistrySlider from '../../../components/SleepDentistrySlider/SleepDentistrySlider' 
-import SleepImg from "../../../public/sleep-denstistry/Image-1.jpeg"
-import Doctor2 from "../../../public/sleep-denstistry/Image-2.jpeg"
-import Doctor3 from "../../../public/sleep-denstistry/Image.jpeg"
 
 
 const SleepDentistry = () => {
@@ -39,9 +39,7 @@ const SleepDentistry = () => {
     }, []);
     const breadcrumb = [
         { id: "patient_referral_program_breadcrumb_1", link: null, title: "Sleep Dentistry" }
-    ]
-    const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    ] 
     return (
         <>
             <Head>
@@ -63,11 +61,11 @@ const SleepDentistry = () => {
                                         <Image
                                             src={SleepDentistryWhat}
                                             alt="Sleep Dentistry Carrum Downs"
+                                            priority
                                             layout="responsive"
                                             width={550}
                                             height={500}
                                             style={{ maxWidth: '100%', height: 'auto' }}
-                                            priority
                                             className='object-cover'
                                         />
                                     </Box>

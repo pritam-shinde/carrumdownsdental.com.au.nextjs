@@ -7,6 +7,7 @@ import Banner from '../../../public/child-benefit/Banner.jpg'
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import ChildBenefitTreatment from '../../../public/child-benefit/child-benefit-compressed.jpg'
 import { CheckCircleOutline, RadioButtonUncheckedOutlined } from '@mui/icons-material'
+import Link from 'next/link'
 
 const ChildBenefit = ({ data }) => {
   const [show, setShow] = useState(false)
@@ -53,7 +54,7 @@ const ChildBenefit = ({ data }) => {
                           </Box>
                           <Typography className="para">Thanks to the Australian Governments CDBS program. Eligible Kids between 2 – 17 years can get up to $1000* worth of dental services. Carrum Downs Dental Group at Shop T5, 100 Hall Road can BULK BILL treatment costs under this program for eligible kids.</Typography>
                           <Typography className="para">If you are not sure if you are eligible just give us a call and provide your medicate number. We will be able to confirm if you are eligible.</Typography>
-                          <Typography className="para">At Carrum Downs Dental Group we have a play area for kids to engage themselves before the treatment. Also, during the treatment we can provide the child with distraction or entertainment with Kids channels or Movies while we gently complete the dental treatment.</Typography>
+                          <Typography className="para">At Carrum Downs Dental Group we have a play area for kids to engage themselves before the treatment. Also, during the treatment we can provide the child with distraction or entertainment with Kids channels or Movies while we gently complete the <Link href="https://carrumdownsdental.com.au/3-dental-treatments-that-can-transform-your-smile/">dental treatment</Link>.</Typography>
                         </Container>
                       </section>
                       <section className='mt-md-5 mt-4 bg-grey rounded-lg'>
