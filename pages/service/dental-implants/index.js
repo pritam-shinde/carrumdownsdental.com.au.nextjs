@@ -9,6 +9,7 @@ import MySmilePlan from '../../../public/Dental-Implant/mysmileplan.png'
 import { CommonHero, CommonSidebar, SectionalHeading, TermsNCondition, InterestFree, BookAndCall, CustomCard } from '../../../components/components'
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import { CheckCircleOutline } from '@mui/icons-material'
+import Link from 'next/link'
 
 const DentalImplants = ({ data }) => {
   const [show, setShow] = useState(false)
@@ -110,7 +111,12 @@ const DentalImplants = ({ data }) => {
                                   <ListItemIcon>
                                     <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                   </ListItemIcon>
-                                  <ListItemText primary="Dental Implants are the best alternative for missing teeth, because they offer permanent solution." />
+                                  <ListItemText primary={
+                                    <>
+                                      Dental Implants are the best alternative for <Link href="https://carrumdownsdental.com.au/service/missing-teeth/">missing teeth</Link>,
+                                      because they offer a permanent solution.
+                                    </>
+                                  } />
                                 </ListItem>
                                 <ListItem className="p-0">
                                   <ListItemIcon>
@@ -217,7 +223,7 @@ const DentalImplants = ({ data }) => {
                                 </h3>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                   <div className="accordion-body">
-                                    <p className='para'>The procedure of dental implants is not painful since it’s performed with anaesthesia to numb the site of the implant. After the procedure, however, some patients may experience a mild, which can be relieved using painkillers.</p>
+                                    <p className='para'>The procedure of <Link href="https://carrumdownsdental.com.au/top-5-common-myths-and-facts-of-dental-implants/">dental implants</Link> is not painful since it’s performed with anaesthesia to numb the site of the implant. After the procedure, however, some patients may experience a mild, which can be relieved using painkillers.</p>
                                   </div>
                                 </div>
                               </div>

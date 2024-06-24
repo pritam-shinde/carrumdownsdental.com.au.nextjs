@@ -192,7 +192,7 @@ const ChildBenefit = ({ data }) => {
                                   </h3>
                                   <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                      <p className='para'>The Child Dental Benefits Schedule provides individual benefits for services such as examinations, x-rays. Fissure sealing, cleaning, root canals and extractions.</p>
+                                      <p className='para'>The Child Dental Benefits Schedule provides individual benefits for services such as examinations, x-rays. Fissure sealing, cleaning, <Link href="https://carrumdownsdental.com.au/service/root-canal/">root canals</Link> and extractions.</p>
                                     </div>
                                   </div>
                                 </div>
