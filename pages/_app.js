@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   const canonicalUrl = (`https://carrumdownsdental.com.au` + (router.asPath === "/" ? "" : router.asPath)).split("?")[0];
- 
+
   return (
     <>
       <Head>
@@ -101,6 +101,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`}} />
 
       <Script strategy="lazyOnload" defer="defer" src="https://connect.podium.com/widget.js#API_TOKEN=b8ee9d3e-a23b-46a1-a5b7-b87931927e1f" id="podium-widget" data-api-token="b8ee9d3e-a23b-46a1-a5b7-b87931927e1f"></Script>
 
+      {/* Google Analytics */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-VXEKMPR9H4"
+        strategy="lazyOnload"
+      ></Script>
+      <Script id="google-analytics" strategy="lazyOnload">
+        {`
+          const gaCode = 'G-VXEKMPR9H4';
+
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', gaCode, {
+            linker: { domains: ["healthengine.com.au"] }
+          });
+
+          function postData(node) {
+            gtag('get', gaCode, 'client_id', client_id => {
+              gtag('get', gaCode, 'session_id', session_id => {
+                node.contentWindow.postMessage(
+                  { 'clientId': client_id, 'sessionId': session_id },
+                  "https://healthengine.com.au/"
+                );
+              });
+            });
+          }
+
+          var observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+              if (mutation.type !== 'childList') return;
+
+              for (var i = 0; i < mutation.addedNodes.length; i++) {
+                var node = mutation.addedNodes[0];
+
+                // exclude non-elements (nodes without className or id)
+                if (node.nodeType !== 1) { return; }
+
+                var className = node.getAttribute('class');
+
+                if ((className !== null && className.includes('he-webplugin-popup-')) || node.id.includes('he-webplugin-')) {
+                  const iframe = node.querySelector('iframe');
+
+                  if (iframe !== undefined && iframe !== null) {
+                    iframe.onload = () => postData(iframe);
+                  }
+                }
+              }
+            });
+          });
+
+          observer.observe(document, { childList: true, subtree: true });
+        `}
+      </Script>
+      {/* End Google Analytics */}
       {router.pathname !== '/dental-emergency' ? <Header /> : <PPCHeader />}
       <Component {...pageProps} />
       {router.pathname !== '/dental-emergency' ? <Footer /> : <PPCFooter />}
