@@ -16,7 +16,7 @@ const CompareSlider1 = () => {
           <div>Error occurred while loading images.</div>
         ) : (
           <>
-            <ReactCompareImage leftImage="/Veneers/slider-images/before.jpg" rightImage="/Veneers/slider-images/after.jpg" alt="slider" />
+            <ReactCompareImage leftImage="/Veneers/slider-images/before-carrum-slider.jpg" rightImage="/Veneers/slider-images/after-carrum-slider.jpg" alt="slider" />
             {/* <ReactCompareImage leftImage="/Veneers/slider-images/before-slider1.jpg" rightImage="/Veneers/slider-images/after-slider1.jpg" alt="slider"/> */}
           </>
         )}
