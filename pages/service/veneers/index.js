@@ -40,7 +40,7 @@ const Veneers = ({ data }) => {
       <Head>
         <title>Porcelain Veneers Dentist | Carrum Downs Family Dental Clinic</title>
         <meta name="description" content="Porcelain veneers are the perfect choice for improving your smiles. Carrum Downs Dental has the best dentists that perform smile makeovers at affordable costs." />
-        <meta name="robots" content="index,follow" /> 
+        <meta name="robots" content="index,follow" />
       </Head>
       <CommonHero bg={Banner} breadcrumb={breadcrumb} desc={desc} title="Transforming Smiles with Veneers" align={width < 600 ? 'center' : 'left'} color="#fff" />
       {
@@ -181,9 +181,6 @@ const Veneers = ({ data }) => {
                     <Typography variant="body1" gutterBottom>
                       Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
                     </Typography>
-                    {/* <Typography variant="body1" gutterBottom>
-                    Emax has been a trusted material in the cosmetic dental industry for decades, and studies have shown that this ceramic porcelain is the highest quality material for producing exceptional results.
-                  </Typography> */}
                     <Typography variant="body1" gutterBottom>
                       We believe in supporting local, reputable Australian dental technicians and do not outsource our veneers or crowns to overseas labs with potentially compromised quality and regulation standards.
                     </Typography>
@@ -244,7 +241,7 @@ const Veneers = ({ data }) => {
                 </Typography>
                 <Grid container spacing={2}>
                   {VeneerProcessData.map((item, index) => (
-                    <Grid item xs={12} sm={6} md={6} key={index} className={index === 6 ? "centered-box" : ""}> 
+                    <Grid item xs={12} sm={6} md={6} key={index} className={index === 6 ? "centered-box" : ""}>
                       <VeneersProcessDataComponent image={item.imageUrl} title={item.title} description={item.description} list1={item.list1} desc1={item.desc1} desc2={item.desc2} list2={item.list2} />
                     </Grid>
                   ))}

@@ -33,7 +33,7 @@
 }
 
 .advSecBox{
-    height: 26rem;
+    height: 27rem;
 }
 
 
@@ -181,12 +181,12 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1366px){
     .advSecBox{
-        height: 27rem;
+        height: 28rem;
     }
 }
 
 @media only screen and (min-width: 1481px){
     .advSecBox{
-        height: 23rem;
+        height: 24rem;
     }
 }
