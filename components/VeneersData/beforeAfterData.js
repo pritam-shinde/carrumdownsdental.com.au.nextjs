@@ -1,6 +1,6 @@
-import One from "../../public/Veneers/before after/before-after-v1.jpg"
+import One from "../../public/Veneers/before after/veneers-before-after.jpg"
 import Two from "../../public/Veneers/before after/before-after-v3.jpg"
-import Three from "../../public/Veneers/before after/before-after-v2.jpg" 
+import Three from "../../public/Veneers/before after/before-after-v2.jpg"
 // import One from "../../public/Veneers/before after/before-after4.jpg"
 // import Two from "../../public/Veneers/before after/before-after5.jpg"
 // import Three from "../../public/Veneers/before after/before-after6.jpg" 
@@ -23,7 +23,7 @@ const beforeAfterData = [
         title: "Sample Title 3",
         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: Three,
-    } 
+    }
 ];
 
 export default beforeAfterData;
